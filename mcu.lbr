@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
@@ -14575,21 +14575,21 @@ shrink quad flat pack, square&lt;br&gt;
 <pin name="CH21_ADC10" x="-81.28" y="-109.22" length="middle" direction="in"/>
 <pin name="CH22_ADC11" x="-81.28" y="-111.76" length="middle" direction="in"/>
 <pin name="CH23_ADC11" x="-81.28" y="-114.3" length="middle" direction="in"/>
-<pin name="USB_DP" x="78.74" y="-38.1" length="middle" rot="R180"/>
-<pin name="USB_ID" x="78.74" y="-43.18" length="middle" rot="R180"/>
-<pin name="RST" x="78.74" y="-48.26" length="middle" rot="R180"/>
-<pin name="CPE" x="78.74" y="-50.8" length="middle" rot="R180"/>
+<pin name="USB_DP" x="78.74" y="-40.64" length="middle" rot="R180"/>
+<pin name="USB_ID" x="78.74" y="-48.26" length="middle" rot="R180"/>
+<pin name="RST" x="78.74" y="-68.58" length="middle" rot="R180"/>
+<pin name="CPE" x="78.74" y="-83.82" length="middle" rot="R180"/>
 <wire x1="-76.2" y1="-53.34" x2="-76.2" y2="-116.84" width="0.254" layer="94"/>
 <wire x1="-76.2" y1="-116.84" x2="-60.96" y2="-116.84" width="0.254" layer="94"/>
-<pin name="XI_OSC" x="78.74" y="-58.42" length="middle" direction="in" function="clk" rot="R180"/>
-<pin name="XO_OSC" x="78.74" y="-60.96" length="middle" direction="out" function="dotclk" rot="R180"/>
-<pin name="XI_RTC" x="78.74" y="-71.12" length="middle" direction="in" function="clk" rot="R180"/>
-<pin name="XO_RTC" x="78.74" y="-73.66" length="middle" direction="out" function="dotclk" rot="R180"/>
-<pin name="VRES" x="78.74" y="-81.28" length="middle" direction="pwr" rot="R180"/>
-<pin name="VBUS" x="78.74" y="-83.82" length="middle" direction="pwr" rot="R180"/>
-<pin name="EXT_RESET" x="78.74" y="-101.6" length="middle" direction="out" function="dot" rot="R180"/>
-<wire x1="73.66" y1="-33.02" x2="73.66" y2="-53.34" width="0.254" layer="94"/>
-<wire x1="73.66" y1="-53.34" x2="73.66" y2="-88.9" width="0.254" layer="94"/>
+<pin name="XI_OSC" x="78.74" y="-106.68" length="middle" direction="in" function="clk" rot="R180"/>
+<pin name="XO_OSC" x="78.74" y="-111.76" length="middle" direction="out" function="dotclk" rot="R180"/>
+<pin name="XI_RTC" x="78.74" y="-93.98" length="middle" direction="in" function="clk" rot="R180"/>
+<pin name="XO_RTC" x="78.74" y="-99.06" length="middle" direction="out" function="dotclk" rot="R180"/>
+<pin name="VRES" x="78.74" y="-55.88" length="middle" direction="pwr" rot="R180"/>
+<pin name="VBUS" x="78.74" y="-60.96" length="middle" direction="pwr" rot="R180"/>
+<pin name="EXT_RESET" x="78.74" y="-76.2" length="middle" direction="out" function="dot" rot="R180"/>
+<wire x1="73.66" y1="-33.02" x2="73.66" y2="-63.5" width="0.254" layer="94"/>
+<wire x1="73.66" y1="-63.5" x2="73.66" y2="-88.9" width="0.254" layer="94"/>
 <wire x1="73.66" y1="-88.9" x2="60.96" y2="-88.9" width="0.254" layer="94"/>
 <pin name="TAVDD_PLL" x="-48.26" y="124.46" length="middle" direction="pwr" rot="R270"/>
 <pin name="TDVDD_PLL" x="-22.86" y="124.46" length="middle" direction="pwr" rot="R270"/>
@@ -14602,7 +14602,7 @@ shrink quad flat pack, square&lt;br&gt;
 <pin name="TAVDD_ADC1@2" x="-35.56" y="124.46" length="middle" direction="pwr" rot="R270"/>
 <pin name="TDVDD_ADC1@2" x="-10.16" y="124.46" length="middle" direction="pwr" rot="R270"/>
 <pin name="TVDDL_USB" x="-2.54" y="124.46" length="middle" direction="pwr" rot="R270"/>
-<pin name="TVDDA_USB" x="-33.02" y="124.46" length="middle" direction="pwr" rot="R270"/>
+<pin name="TVDDA_USB" x="-5.08" y="124.46" length="middle" direction="pwr" rot="R270"/>
 <pin name="TVBAT" x="0" y="124.46" length="middle" direction="pwr" rot="R270"/>
 <pin name="TVCC_POR" x="5.08" y="124.46" length="middle" direction="pwr" rot="R270"/>
 <pin name="VDDPST@1" x="10.16" y="124.46" length="middle" direction="pwr" rot="R270"/>
@@ -14623,8 +14623,8 @@ shrink quad flat pack, square&lt;br&gt;
 <pin name="VDD@7" x="48.26" y="124.46" length="middle" direction="pwr" rot="R270"/>
 <pin name="VDD@8" x="50.8" y="124.46" length="middle" direction="pwr" rot="R270"/>
 <wire x1="60.96" y1="-88.9" x2="53.34" y2="-88.9" width="0.254" layer="94"/>
-<wire x1="53.34" y1="-88.9" x2="53.34" y2="-53.34" width="0.254" layer="94"/>
-<wire x1="53.34" y1="-53.34" x2="53.34" y2="-33.02" width="0.254" layer="94"/>
+<wire x1="53.34" y1="-88.9" x2="53.34" y2="-63.5" width="0.254" layer="94"/>
+<wire x1="53.34" y1="-63.5" x2="53.34" y2="-33.02" width="0.254" layer="94"/>
 <wire x1="-53.34" y1="119.38" x2="-25.4" y2="119.38" width="0.254" layer="94"/>
 <wire x1="-25.4" y1="119.38" x2="7.62" y2="119.38" width="0.254" layer="94"/>
 <wire x1="7.62" y1="119.38" x2="30.48" y2="119.38" width="0.254" layer="94"/>
@@ -14664,8 +14664,8 @@ shrink quad flat pack, square&lt;br&gt;
 <wire x1="-53.34" y1="-96.52" x2="-53.34" y2="-88.9" width="0.254" layer="94"/>
 <wire x1="-53.34" y1="-88.9" x2="-53.34" y2="-53.34" width="0.254" layer="94"/>
 <wire x1="-60.96" y1="-116.84" x2="-60.96" y2="-53.34" width="0.254" layer="94"/>
-<wire x1="60.96" y1="-33.02" x2="60.96" y2="-53.34" width="0.254" layer="94"/>
-<text x="58.42" y="-46.482" size="2.54" layer="94" font="vector" rot="R90">USB</text>
+<wire x1="60.96" y1="-33.02" x2="60.96" y2="-63.5" width="0.254" layer="94"/>
+<text x="58.42" y="-51.562" size="2.54" layer="94" font="vector" rot="R90">USB</text>
 <wire x1="-53.34" y1="91.44" x2="-25.4" y2="91.44" width="0.254" layer="94"/>
 <wire x1="-25.4" y1="91.44" x2="7.62" y2="91.44" width="0.254" layer="94"/>
 <wire x1="7.62" y1="91.44" x2="30.48" y2="91.44" width="0.254" layer="94"/>
@@ -14677,12 +14677,13 @@ shrink quad flat pack, square&lt;br&gt;
 <wire x1="-43.18" y1="-116.84" x2="-17.78" y2="-116.84" width="0.254" layer="94"/>
 <wire x1="-17.78" y1="-116.84" x2="2.54" y2="-116.84" width="0.254" layer="94"/>
 <wire x1="2.54" y1="-116.84" x2="53.34" y2="-116.84" width="0.254" layer="94"/>
-<wire x1="53.34" y1="-116.84" x2="73.66" y2="-116.84" width="0.254" layer="94"/>
+<wire x1="53.34" y1="-116.84" x2="60.96" y2="-116.84" width="0.254" layer="94"/>
+<wire x1="60.96" y1="-116.84" x2="73.66" y2="-116.84" width="0.254" layer="94"/>
 <wire x1="73.66" y1="-116.84" x2="73.66" y2="-88.9" width="0.254" layer="94"/>
 <wire x1="53.34" y1="-88.9" x2="53.34" y2="-96.52" width="0.254" layer="94"/>
 <wire x1="53.34" y1="-96.52" x2="53.34" y2="-116.84" width="0.254" layer="94"/>
-<wire x1="73.66" y1="-53.34" x2="60.96" y2="-53.34" width="0.254" layer="94"/>
-<wire x1="60.96" y1="-53.34" x2="53.34" y2="-53.34" width="0.254" layer="94"/>
+<wire x1="73.66" y1="-63.5" x2="60.96" y2="-63.5" width="0.254" layer="94"/>
+<wire x1="60.96" y1="-63.5" x2="53.34" y2="-63.5" width="0.254" layer="94"/>
 <wire x1="53.34" y1="-96.52" x2="2.54" y2="-96.52" width="0.254" layer="94"/>
 <wire x1="2.54" y1="-96.52" x2="-17.78" y2="-96.52" width="0.254" layer="94"/>
 <wire x1="-17.78" y1="-96.52" x2="-43.18" y2="-96.52" width="0.254" layer="94"/>
@@ -14695,8 +14696,7 @@ shrink quad flat pack, square&lt;br&gt;
 <wire x1="53.34" y1="-88.9" x2="2.54" y2="-88.9" width="0.254" layer="94"/>
 <wire x1="2.54" y1="-88.9" x2="-17.78" y2="-88.9" width="0.254" layer="94"/>
 <wire x1="-17.78" y1="-88.9" x2="-53.34" y2="-88.9" width="0.254" layer="94"/>
-<wire x1="60.96" y1="-88.9" x2="60.96" y2="-53.34" width="0.254" layer="94"/>
-<text x="58.42" y="-74.422" size="2.54" layer="94" font="vector" rot="R90">OSC</text>
+<text x="58.42" y="-107.442" size="2.54" layer="94" font="vector" rot="R90">OSC</text>
 <wire x1="-24.00904375" y1="64.262" x2="-23.452659375" y2="64.54018125" width="0.254" layer="94"/>
 <wire x1="-23.452659375" y1="64.54018125" x2="-22.618090625" y2="65.374775" width="0.254" layer="94"/>
 <wire x1="-22.618090625" y1="65.374775" x2="-22.618090625" y2="59.532775" width="0.254" layer="94"/>
@@ -14880,6 +14880,7 @@ shrink quad flat pack, square&lt;br&gt;
 <wire x1="19.666865625" y1="65.374775" x2="19.666865625" y2="63.7056125" width="0.254" layer="94"/>
 <wire x1="19.666865625" y1="63.7056125" x2="19.388659375" y2="65.374775" width="0.254" layer="94"/>
 <wire x1="16.606775" y1="59.532775" x2="18.554090625" y2="59.532775" width="0.254" layer="94"/>
+<wire x1="60.96" y1="-88.9" x2="60.96" y2="-116.84" width="0.254" layer="94"/>
 </symbol>
 <symbol name="1986ВЕ92У">
 <pin name="A00" x="-40.64" y="40.64" length="middle"/>

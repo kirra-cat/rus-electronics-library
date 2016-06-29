@@ -1959,7 +1959,7 @@
 </symbols>
 <devicesets>
 <deviceset name="1273ПВ13Т" prefix="IC" uservalue="yes">
-<description>1273ПВ13Т - 8-разрядный АЦП, частотой преобразования 500Msps с LVDS-шиной. Производитель: "СКТБ ЭС", г. Воронеж. Технические условия: АЕЯР.431320.874 ТУ</description>
+<description>&lt;b&gt;1273ПВ13Т&lt;/b&gt; - 8-разрядный АЦП, частотой преобразования 500Msps с LVDS-шиной. &lt;br&gt;Производитель: "СКТБ ЭС", г. Воронеж. &lt;br&gt;Технические условия: &lt;b&gt;АЕЯР.431320.874 ТУ&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="1273ПВ13Т" x="0" y="0"/>
 </gates>

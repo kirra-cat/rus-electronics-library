@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
@@ -16759,11 +16759,10 @@ shrink quad flat pack, square&lt;br&gt;
 </symbols>
 <devicesets>
 <deviceset name="1986ВЕ91Т" prefix="IC" uservalue="yes">
-<description>1986ВЕ91Т - это 32-разрядный микроконтроллер на ядре Cortex-M3 с тактовой частотой до 80 МГц от АО "ПКК "Миландр", г. Москва, Зеленоград. 
-Содержит 128 Кбайт Flash памяти программ и 32 Кбайта ОЗУ.
-Технические условия: АЕЯР.431290.711 ТУ
-Подробное описание можно найти на официальном сайте
-http://milandr.ru/index.php?mact=Products,cntnt01,details,0&amp;cntnt01productid=13&amp;cntnt01returnid=68</description>
+<description>&lt;b&gt;1986ВЕ91Т&lt;/b&gt; - это 32-разрядный микроконтроллер на ядре Cortex-M3 с тактовой частотой до 80 МГц.&lt;br&gt;
+Содержит 128 Кбайт Flash памяти программ и 32 Кбайта ОЗУ.&lt;br&gt;
+Производитель:  АО "ПКК "Миландр", г. Москва, Зеленоград. &lt;br&gt;
+Технические условия: &lt;b&gt;АЕЯР.431290.711 ТУ&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="1986ВЕ91Т" x="0" y="0"/>
 </gates>
@@ -16910,10 +16909,10 @@ http://milandr.ru/index.php?mact=Products,cntnt01,details,0&amp;cntnt01productid
 </devices>
 </deviceset>
 <deviceset name="1986ВЕ1Т" prefix="IC" uservalue="yes">
-<description>1986ВЕ1Т - это 32-разрядный микроконтроллер на ядре Cortex-M1 с тактовой частотой до 144 МГц от АО "ПКК "Миландр", г. Москва, Зеленоград. 
-Содержит 128 Кбайт Flash памяти программ и 48 Кбайт ОЗУ. 
-Технические условия: АЕЯР.431280.860 ТУ
-Подробное описание можно найти на официальном сайте http://milandr.ru/index.php?mact=Products,cntnt01,details,0&amp;cntnt01productid=236&amp;cntnt01returnid=68</description>
+<description>&lt;b&gt;1986ВЕ1Т&lt;/b&gt; - это 32-разрядный микроконтроллер на ядре Cortex-M1 для авиаприменений с тактовой частотой до 144 МГц.&lt;br&gt;
+Содержит 128 Кбайт Flash памяти программ и 48 Кбайт ОЗУ.&lt;br&gt;
+Производитель: АО "ПКК "Миландр", г. Москва, Зеленоград.&lt;br&gt;
+Технические условия: &lt;b&gt; АЕЯР.431280.860 ТУ &lt;b/&gt;</description>
 <gates>
 <gate name="G$1" symbol="1986ВЕ1Т" x="0" y="0"/>
 </gates>
@@ -17060,10 +17059,10 @@ http://milandr.ru/index.php?mact=Products,cntnt01,details,0&amp;cntnt01productid
 </devices>
 </deviceset>
 <deviceset name="К1986ВЕ1QI" prefix="IC" uservalue="yes">
-<description>К1986ВЕ1IQ - это 32-разрядный микроконтроллер на ядре Cortex-M1 с тактовой частоте до 144 МГц от АО "ПКК "Миландр", г. Москва, Зеленоград. 
-Содержит 128 Кбайт Flash памяти программ и 48 Кбайт ОЗУ. 
-Технические условия: АЕЯР.431280.860 ТУ
-Подробное описание можно найти на официальном сайте http://milandr.ru/index.php?mact=Products,cntnt01,details,0&amp;cntnt01productid=236&amp;cntnt01returnid=68</description>
+<description>&lt;b&gt;К1986ВЕ1IQ&lt;/b&gt; - это 32-разрядный микроконтроллер на ядре Cortex-M1 с тактовой частотой до 144 МГц в пластиковом корпусе LQFP-144.&lt;br&gt;
+Содержит 128 Кбайт Flash памяти программ и 48 Кбайт ОЗУ.&lt;br&gt;
+Производитель: АО "ПКК "Миландр", г. Москва, Зеленоград.&lt;br&gt;
+Технические условия: &lt;b&gt; АЕЯР.431280.860 ТУ &lt;b/&gt;</description>
 <gates>
 <gate name="G$1" symbol="К1986ВЕ1QI" x="0" y="0"/>
 </gates>
@@ -17211,9 +17210,9 @@ http://milandr.ru/index.php?mact=Products,cntnt01,details,0&amp;cntnt01productid
 </devices>
 </deviceset>
 <deviceset name="1901ВЦ1Т" prefix="IC" uservalue="yes">
-<description>Двухъядерный микроконтроллер: 32-разрядное RISC-ядро с тактовой частотой до 100 МГц, 16-разрядное DSP-ядро с тактовой частотой до 100 МГц.
-Производитель: АО "ПКК Миландр", г. Москва, Зеленоград
-Технические условия: АЕЯР.431280.744 ТУ</description>
+<description>&lt;b&gt;1901ВЦ1Т&lt;/b&gt; - двухъядерный микроконтроллер: 32-разрядное RISC-ядро (Cortex-M3) с тактовой частотой до 100 МГц, 16-разрядное DSP-ядро с тактовой частотой до 100 МГц.&lt;br&gt;
+Производитель: АО "ПКК Миландр", г. Москва, Зеленоград.&lt;br&gt;
+Технические условия: &lt;b&gt;АЕЯР.431280.744 ТУ&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="1901ВЦ1Т" x="0" y="0"/>
 </gates>
@@ -17360,10 +17359,10 @@ http://milandr.ru/index.php?mact=Products,cntnt01,details,0&amp;cntnt01productid
 </devices>
 </deviceset>
 <deviceset name="К1921ВК01Т" prefix="IC" uservalue="yes">
-<description>32-разрядный микроконтроллер на базе ядра ARM Cortex-M4F 
-с периферией, специализированной под задачи управления электроприводом.
-Производитель: ОАО «НИИЭТ», г. Воронеж.
-Технические условия: АДКБ.431290.273 ТУ</description>
+<description>&lt;b&gt;К1921ВК01Т&lt;/b&gt; - 32-разрядный микроконтроллер на базе ядра ARM Cortex-M4F с периферией, специализированной под задачи управления электроприводом. &lt;br&gt;
+Содержит 1024Кб Flash-памяти, 64Кб EEPROM и 192Кб ОЗУ.&lt;br&gt;
+Производитель: ОАО «НИИЭТ», г. Воронеж.&lt;br&gt;
+Технические условия: &lt;b&gt;АДКБ.431290.273 ТУ&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="К1921ВК01Т" x="0" y="0"/>
 </gates>
@@ -17801,7 +17800,10 @@ http://milandr.ru/index.php?mact=Products,cntnt01,details,0&amp;cntnt01productid
 </devices>
 </deviceset>
 <deviceset name="1986ВЕ92У" prefix="IC" uservalue="yes">
-<description>1986ВЕ92У/К1986ВЕ92QI - это 32-разрядный микроконтроллер на ядре Cortex-M3 с тактовой частотой до 80 МГц от АО "ПКК "Миландр", г. Москва, Зеленоград. Содержит 128 Кбайт Flash памяти программ и 32 Кбайта ОЗУ. Технические условия: АЕЯР.431290.711 ТУ</description>
+<description>&lt;b&gt;1986ВЕ92У/К1986ВЕ92QI&lt;/b&gt; - это 32-разрядный микроконтроллер на ядре Cortex-M3 с тактовой частотой до 80 МГц.&lt;br&gt;
+Содержит 128 Кбайт Flash памяти программ и 32 Кбайта ОЗУ.&lt;br&gt;
+Производитель:  АО "ПКК "Миландр", г. Москва, Зеленоград. &lt;br&gt;
+Технические условия: &lt;b&gt;АЕЯР.431290.711 ТУ&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="1986ВЕ92У" x="0" y="0"/>
 </gates>
@@ -17951,7 +17953,10 @@ http://milandr.ru/index.php?mact=Products,cntnt01,details,0&amp;cntnt01productid
 </devices>
 </deviceset>
 <deviceset name="1986ВЕ93У" prefix="IC" uservalue="yes">
-<description>1986ВЕ93У - это 32-разрядный микроконтроллер на ядре Cortex-M3 с тактовой частотой до 80 МГц от АО "ПКК "Миландр", г. Москва, Зеленоград. Содержит 128 Кбайт Flash памяти программ и 32 Кбайта ОЗУ. Технические условия: АЕЯР.431290.711 ТУ</description>
+<description>&lt;b&gt;1986ВЕ93У&lt;/b&gt; - это 32-разрядный микроконтроллер на ядре Cortex-M3 с тактовой частотой до 80 МГц.&lt;br&gt;
+Содержит 128 Кбайт Flash памяти программ и 32 Кбайта ОЗУ.&lt;br&gt;
+Производитель:  АО "ПКК "Миландр", г. Москва, Зеленоград. &lt;br&gt;
+Технические условия: &lt;b&gt;АЕЯР.431290.711 ТУ&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="1986ВЕ93У" x="0" y="0"/>
 </gates>
@@ -18014,11 +18019,12 @@ http://milandr.ru/index.php?mact=Products,cntnt01,details,0&amp;cntnt01productid
 </devices>
 </deviceset>
 <deviceset name="1986ВЕ94Т" prefix="IC" uservalue="yes">
-<description>1986ВЕ94Т - это 32-разрядный микроконтроллер на ядре Cortex-M3 с тактовой частотой до 80 МГц от АО "ПКК "Миландр", г. Москва, Зеленоград. 
-Содержит 128 Кбайт Flash памяти программ и 32 Кбайта ОЗУ.
-Технические условия: АЕЯР.431290.711 ТУ
-Подробное описание можно найти на официальном сайте
-http://milandr.ru/index.php?mact=Products,cntnt01,details,0&amp;cntnt01productid=13&amp;cntnt01returnid=68</description>
+<description>&lt;b&gt;1986ВЕ94Т&lt;/b&gt; - это 32-разрядный микроконтроллер на ядре Cortex-M3 с тактовой частотой до 80 МГц.&lt;br&gt;
+Содержит 128 Кбайт Flash памяти программ и 32 Кбайта ОЗУ.&lt;br&gt;
+Является улучшенной версией &lt;b&gt;1986ВЕ91Т&lt;/b&gt; и имеет полную с ним совместимость по распиновке и по ПО. &lt;br&gt;
+Рекомендуется для замены &lt;b&gt;1986ВЕ91Т&lt;/b&gt;.&lt;br&gt;
+Производитель:  АО "ПКК "Миландр", г. Москва, Зеленоград. &lt;br&gt;
+Технические условия: &lt;b&gt;АЕЯР.431290.711 ТУ&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="1986ВЕ94Т" x="0" y="0"/>
 </gates>
@@ -18031,7 +18037,10 @@ http://milandr.ru/index.php?mact=Products,cntnt01,details,0&amp;cntnt01productid
 </devices>
 </deviceset>
 <deviceset name="1967ВЦ3Т" prefix="IC" uservalue="yes">
-<description>1967ВЦ3Т - 32-разрядный высокопроизводительный процессор цифровой обработки сигналов архитектуры TigerSHARC с системой команд ADSP-TS201. Имеет 12МБит SRAM и работает на частоте 300МГц. Производитель: ЗАО "ПКК Миландр", г. Зеленоград, Москва. Технические условия: АЕНВ.431280.088 ТУ, АЕНВ.431280.089 ТУ</description>
+<description>&lt;b&gt;1967ВЦ3Т&lt;/b&gt; - 32-разрядный высокопроизводительный процессор цифровой обработки сигналов архитектуры TigerSHARC с системой команд ADSP-TS201. &lt;br&gt;
+Имеет 12МБит SRAM и работает на частоте 300МГц. &lt;br&gt;
+Производитель: ЗАО "ПКК Миландр", г. Зеленоград, Москва. &lt;br&gt;
+Технические условия: &lt;b&gt;АЕНВ.431280.088 ТУ, АЕНВ.431280.089 ТУ&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="1967ВЦ3Т" x="0" y="0"/>
 </gates>
@@ -18302,8 +18311,9 @@ http://milandr.ru/index.php?mact=Products,cntnt01,details,0&amp;cntnt01productid
 </devices>
 </deviceset>
 <deviceset name="1986ВЕ4У" prefix="IC" uservalue="yes">
-<description>1986ВЕ4У - 32-разрядный RISC-микроконтроллер с 8-канальным 24-разрядным ∑Δ АЦП с ядром Cortex-M0, работающтй на частоте 36 МГц. Производитель: ЗАО "ПКК Миландр", г. Зеленоград, Москва. 
-Технические условия: АЕЯР.431280.912 ТУ</description>
+<description>&lt;b&gt;1986ВЕ4У &lt;/b&gt; - 32-разрядный RISC-микроконтроллер с 8-канальным 24-разрядным ∑Δ АЦП с ядром Cortex-M0, работающтй на частоте 36 МГц.&lt;br&gt;
+Производитель: ЗАО "ПКК Миландр", г. Зеленоград, Москва.  &lt;br&gt;
+Технические условия:  &lt;b&gt;АЕЯР.431280.912 ТУ &lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="1986ВЕ4У" x="0" y="0"/>
 </gates>

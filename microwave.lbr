@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -48,7 +48,7 @@
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
-<layer number="93" name="Pins" color="2" fill="1" visible="no" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
@@ -457,6 +457,18 @@
 <rectangle x1="-5.11" y1="6.93" x2="-4.89" y2="8.03" layer="51"/>
 <rectangle x1="-5.61" y1="6.93" x2="-5.39" y2="8.03" layer="51"/>
 <rectangle x1="-6.11" y1="6.93" x2="-5.89" y2="8.03" layer="51"/>
+</package>
+<package name="ТПр3">
+<smd name="1" x="-1.35" y="-1.95" dx="0.7" dy="1" layer="1"/>
+<wire x1="-2" y1="-2" x2="2" y2="-2" width="0.127" layer="51"/>
+<wire x1="2" y1="-2" x2="2" y2="2" width="0.127" layer="51"/>
+<wire x1="2" y1="2" x2="-2" y2="2" width="0.127" layer="51"/>
+<wire x1="-2" y1="2" x2="-2" y2="-2" width="0.127" layer="51"/>
+<smd name="2" x="0" y="-1.95" dx="0.7" dy="1" layer="1"/>
+<smd name="3" x="1.35" y="-1.95" dx="0.7" dy="1" layer="1"/>
+<smd name="4" x="1.35" y="1.95" dx="0.7" dy="1" layer="1"/>
+<smd name="5" x="-1.35" y="1.95" dx="0.7" dy="1" layer="1"/>
+<circle x="-1.35" y="-0.8" radius="0.335409375" width="0" layer="51"/>
 </package>
 </packages>
 <symbols>
@@ -932,6 +944,51 @@
 <wire x1="14.877134375" y1="18.687134375" x2="14.695703125" y2="19.775703125" width="0.254" layer="94"/>
 <wire x1="12.88143125" y1="15.965703125" x2="14.15143125" y2="15.965703125" width="0.254" layer="94"/>
 </symbol>
+<symbol name="ТПр3-1х">
+<pin name="H1" x="-5.08" y="5.08" visible="pad" length="short"/>
+<circle x="-1.27" y="4.572" radius="0.567959375" width="0" layer="94"/>
+<wire x1="-2.54" y1="5.08" x2="-2.54" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="2.54" x2="-2.54" y2="0" width="0.1524" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="-5.08" x2="-2.54" y2="-7.62" width="0.1524" layer="94"/>
+<pin name="K1" x="-5.08" y="-7.62" visible="pad" length="short"/>
+<wire x1="0" y1="2.54" x2="0" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="2.54" y1="0" x2="2.54" y2="2.54" width="0.1524" layer="94" curve="-180"/>
+<wire x1="2.54" y1="-5.08" x2="2.54" y2="-7.62" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="5.08" x2="2.54" y2="2.54" width="0.1524" layer="94"/>
+<pin name="H2" x="5.08" y="5.08" visible="pad" length="short" rot="R180"/>
+<pin name="K2" x="5.08" y="-7.62" visible="pad" length="short" rot="R180"/>
+<circle x="1.27" y="4.572" radius="0.567959375" width="0" layer="94"/>
+<text x="-5.08" y="10.16" size="1.778" layer="95">&gt;NAME</text>
+<text x="-5.08" y="7.62" size="1.778" layer="96">&gt;VALUE</text>
+<wire x1="-2.54" y1="0" x2="-2.54" y2="-2.54" width="0.1524" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="-2.54" x2="-2.54" y2="-5.08" width="0.1524" layer="94" curve="-180"/>
+<wire x1="2.54" y1="-2.54" x2="2.54" y2="0" width="0.1524" layer="94" curve="-180"/>
+<wire x1="2.54" y1="-5.08" x2="2.54" y2="-2.54" width="0.1524" layer="94" curve="-180"/>
+</symbol>
+<symbol name="ТПр3-8х">
+<pin name="H1" x="-5.08" y="7.62" visible="pad" length="short"/>
+<circle x="-1.27" y="7.112" radius="0.567959375" width="0" layer="94"/>
+<wire x1="-2.54" y1="7.62" x2="-2.54" y2="5.08" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="5.08" x2="-2.54" y2="2.54" width="0.1524" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="-5.08" x2="-2.54" y2="-7.62" width="0.1524" layer="94"/>
+<pin name="K1" x="-5.08" y="-7.62" visible="pad" length="short"/>
+<wire x1="0" y1="5.08" x2="0" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="2.54" y1="2.54" x2="2.54" y2="5.08" width="0.1524" layer="94" curve="-180"/>
+<wire x1="2.54" y1="-5.08" x2="2.54" y2="-7.62" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="7.62" x2="2.54" y2="5.08" width="0.1524" layer="94"/>
+<pin name="H2" x="5.08" y="7.62" visible="pad" length="short" rot="R180"/>
+<pin name="K3" x="5.08" y="-7.62" visible="pad" length="short" rot="R180"/>
+<circle x="1.27" y="7.112" radius="0.567959375" width="0" layer="94"/>
+<text x="-5.08" y="12.7" size="1.778" layer="95">&gt;NAME</text>
+<text x="-5.08" y="10.16" size="1.778" layer="96">&gt;VALUE</text>
+<wire x1="-2.54" y1="-2.54" x2="-2.54" y2="-5.08" width="0.1524" layer="94" curve="-180"/>
+<wire x1="2.54" y1="-5.08" x2="2.54" y2="-2.54" width="0.1524" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="2.54" x2="-2.54" y2="0" width="0.1524" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="0" x2="-2.54" y2="-2.54" width="0.1524" layer="94" curve="-180"/>
+<wire x1="2.54" y1="0" x2="2.54" y2="2.54" width="0.1524" layer="94" curve="-180"/>
+<wire x1="2.54" y1="-2.54" x2="2.54" y2="0" width="0.1524" layer="94" curve="-180"/>
+<pin name="K2H3" x="5.08" y="0" visible="pad" length="short" rot="R180"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="1324ПС3" prefix="IC" uservalue="yes">
@@ -1043,7 +1100,8 @@
 </devices>
 </deviceset>
 <deviceset name="1508ПЛ8Т" prefix="IC" uservalue="yes">
-<description>Микросхема 1508ПЛ8Т двухканального цифрового вычислительного синтезатора (DDS) предназначена для синтеза прямоугольных и гармонических немодулированных и модулированных сигналов в полосе частот до 350 МГц (квадратурных сигналов в полосе частот до 700 МГц), используемых в системах связи и радиолокации.</description>
+<description>&lt;b&gt;1508ПЛ8Т&lt;/b&gt; - двухканальный цифровой вычислительный синтезатор (DDS)&lt;br&gt;
+Предназначен для синтеза прямоугольных и гармонических немодулированных и модулированных сигналов в полосе частот до 350 МГц (квадратурных сигналов в полосе частот до 700 МГц), используемых в системах связи и радиолокации.</description>
 <gates>
 <gate name="G$1" symbol="1508ПЛ8Т" x="0" y="0"/>
 </gates>
@@ -1150,6 +1208,128 @@
 <connect gate="G$1" pin="SEL2[5]" pad="63"/>
 <connect gate="G$1" pin="SSCCSN" pad="7"/>
 <connect gate="G$1" pin="WRN" pad="77"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="ТПр3-1х" prefix="T" uservalue="yes">
+<description>Параметры трансформаторов серии &lt;b&gt;ТПр3-1&lt;/b&gt;&lt;br&gt;
+&lt;table border="1"&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;b&gt;Наименование &lt;br&gt;трансформатора&lt;/b&gt;&lt;/td&gt;
+&lt;td&gt;&lt;b&gt;Типоразмер, мм&lt;/b&gt;&lt;/td&gt;
+&lt;td&gt;&lt;b&gt;Отношение&lt;br&gt; импедансов&lt;/b&gt;&lt;/td&gt;
+&lt;td&gt;&lt;b&gt;Рабочая полоса&lt;br&gt;частот, МГц&lt;/b&gt;&lt;/td&gt;
+&lt;td&gt;&lt;b&gt;Вносимые потери, дБ&lt;/b&gt;&lt;/td&gt;
+&lt;td&gt;&lt;b&gt;Индуктивность, мкГн&lt;/b&gt;&lt;/td&gt;
+&lt;td&gt;&lt;b&gt;Ток, мА&lt;/b&gt;&lt;/td&gt;
+&lt;td&gt;&lt;b&gt;Мощность, мВт&lt;/b&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;ТПр3-1A&lt;/td&gt;
+&lt;td&gt;4x4x2.6&lt;/td&gt;
+&lt;td&gt;1:1&lt;/td&gt;
+&lt;td&gt;от 0.05 до 0.6&lt;/td&gt;
+&lt;td&gt;не более 1.5&lt;/td&gt;
+&lt;td&gt;55±20%&lt;/td&gt;
+&lt;td&gt;25&lt;/td&gt;
+&lt;td&gt;250&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;ТПр3-1Б&lt;/td&gt;
+&lt;td&gt;4x4x2.6&lt;/td&gt;
+&lt;td&gt;1:1&lt;/td&gt;
+&lt;td&gt;от 0.6 до 8&lt;/td&gt;
+&lt;td&gt;не более 1.5&lt;/td&gt;
+&lt;td&gt;3.7±20%&lt;/td&gt;
+&lt;td&gt;25&lt;/td&gt;
+&lt;td&gt;250&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;ТПр3-1В&lt;/td&gt;
+&lt;td&gt;4x4x2.6&lt;/td&gt;
+&lt;td&gt;1:1&lt;/td&gt;
+&lt;td&gt;от 8 до 16.5&lt;/td&gt;
+&lt;td&gt;не более 1.5&lt;/td&gt;
+&lt;td&gt;1.65±20%&lt;/td&gt;
+&lt;td&gt;25&lt;/td&gt;
+&lt;td&gt;250&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;ТПр3-1Г&lt;/td&gt;
+&lt;td&gt;4x4x2.6&lt;/td&gt;
+&lt;td&gt;1:1&lt;/td&gt;
+&lt;td&gt;от 16.5 до 3000&lt;/td&gt;
+&lt;td&gt;не более 1.5&lt;/td&gt;
+&lt;td&gt;0.33±20%&lt;/td&gt;
+&lt;td&gt;25&lt;/td&gt;
+&lt;td&gt;250&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;</description>
+<gates>
+<gate name="G$1" symbol="ТПр3-1х" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="ТПр3">
+<connects>
+<connect gate="G$1" pin="H1" pad="4"/>
+<connect gate="G$1" pin="H2" pad="5"/>
+<connect gate="G$1" pin="K1" pad="3"/>
+<connect gate="G$1" pin="K2" pad="1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="ТПр3-8х" prefix="T" uservalue="yes">
+<description>Параметры трансформаторов серии &lt;b&gt;ТПр3-8&lt;/b&gt;&lt;br&gt;
+&lt;table border="1"&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;b&gt;Наименование &lt;br&gt;трансформатора&lt;/b&gt;&lt;/td&gt;
+&lt;td&gt;&lt;b&gt;Типоразмер, мм&lt;/b&gt;&lt;/td&gt;
+&lt;td&gt;&lt;b&gt;Отношение&lt;br&gt; импедансов&lt;/b&gt;&lt;/td&gt;
+&lt;td&gt;&lt;b&gt;Рабочая полоса&lt;br&gt;частот, МГц&lt;/b&gt;&lt;/td&gt;
+&lt;td&gt;&lt;b&gt;Вносимые потери, дБ&lt;/b&gt;&lt;/td&gt;
+&lt;td&gt;&lt;b&gt;Индуктивность, мкГн&lt;/b&gt;&lt;/td&gt;
+&lt;td&gt;&lt;b&gt;Ток, мА&lt;/b&gt;&lt;/td&gt;
+&lt;td&gt;&lt;b&gt;Мощность, мВт&lt;/b&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;ТПр3-8A&lt;/td&gt;
+&lt;td&gt;4x4x2.6&lt;/td&gt;
+&lt;td&gt;1:8&lt;/td&gt;
+&lt;td&gt;от 5 до 16.5&lt;/td&gt;
+&lt;td&gt;не более 1.5&lt;/td&gt;
+&lt;td&gt;0.066±20%&lt;/td&gt;
+&lt;td&gt;25&lt;/td&gt;
+&lt;td&gt;250&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;ТПр3-8Б&lt;/td&gt;
+&lt;td&gt;4x4x2.6&lt;/td&gt;
+&lt;td&gt;1:1&lt;/td&gt;
+&lt;td&gt;от 16.5 до 1000&lt;/td&gt;
+&lt;td&gt;не более 1.5&lt;/td&gt;
+&lt;td&gt;0.013±20%&lt;/td&gt;
+&lt;td&gt;25&lt;/td&gt;
+&lt;td&gt;250&lt;/td&gt;
+&lt;/tr&gt;</description>
+<gates>
+<gate name="G$1" symbol="ТПр3-8х" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="ТПр3">
+<connects>
+<connect gate="G$1" pin="H1" pad="4"/>
+<connect gate="G$1" pin="H2" pad="5"/>
+<connect gate="G$1" pin="K1" pad="3"/>
+<connect gate="G$1" pin="K2H3" pad="2"/>
+<connect gate="G$1" pin="K3" pad="1"/>
 </connects>
 <technologies>
 <technology name=""/>

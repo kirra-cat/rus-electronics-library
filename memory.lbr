@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="mm"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -2443,7 +2443,9 @@
 </symbols>
 <devicesets>
 <deviceset name="1636РР52У" prefix="IC" uservalue="yes">
-<description>1636РР52У - ЭППЗУ Flash-типа с последовательным интерфейсом объёмом 1 Мбит (128К х 8). Производитель: ЗАО "ПКК Миландр", г. Зеленоград, Москва. Технические условия АЕHB.431210.158 ТУ.</description>
+<description>&lt;b&gt;1636РР52У&lt;/b&gt; - ЭППЗУ Flash-типа с последовательным интерфейсом объёмом 1 Мбит (128К х 8).&lt;br&gt;
+Производитель: ЗАО "ПКК Миландр", г. Зеленоград, Москва. &lt;br&gt;
+Технические условия: &lt;b&gt;АЕHB.431210.158 ТУ&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="1636РР51У1" x="0" y="0"/>
 </gates>
@@ -2466,7 +2468,9 @@
 </devices>
 </deviceset>
 <deviceset name="1636РР4У" prefix="IC" uservalue="yes">
-<description>1636РР4У - ПЗУ с электрическим перепрограммированием Flash-типа 16Мбит (2Мх8). Производитель: ЗАО "ПКК Миландр", г. Зеленоград, Москва. Технические условия АЕЯР.431210.647 ТУ</description>
+<description>&lt;b&gt;1636РР4У&lt;/b&gt; - ПЗУ с электрическим перепрограммированием Flash-типа 16Мбит (2Мх8). &lt;br&gt;
+Производитель: ЗАО "ПКК Миландр", г. Зеленоград, Москва. &lt;br&gt;
+Технические условия: &lt;b&gt; АЕЯР.431210.647 ТУ&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="1636РР4У" x="0" y="0"/>
 </gates>
@@ -2529,7 +2533,10 @@
 </devices>
 </deviceset>
 <deviceset name="1645РУ6У" prefix="IC" uservalue="yes">
-<description>1645РУ6У - микросхема статического оперативного запоминающего устройства (СОЗУ) емкостью 16М (1М х 16 бит). Время выборки данных по адресу не более 10 нс. Производитель: ЗАО "ПКК Миландр", г. Зеленоград, Москва. Технические условия АЕHB.431220.179 ТУ.</description>
+<description>&lt;b&gt;1645РУ6У&lt;/b&gt; - микросхема статического оперативного запоминающего устройства (СОЗУ) емкостью 16М (1М х 16 бит). &lt;br&gt;
+Время выборки данных по адресу не более 10 нс. &lt;br&gt;
+Производитель: ЗАО "ПКК Миландр", г. Зеленоград, Москва.&lt;br&gt;
+Технические условия: &lt;b&gt;АЕHB.431220.179 ТУ&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="1645РУ6У" x="0" y="0"/>
 </gates>

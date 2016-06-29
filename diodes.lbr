@@ -97,7 +97,7 @@ reflow soldering</description>
 </symbols>
 <devicesets>
 <deviceset name="2ДШ142А9" prefix="VD" uservalue="yes">
-<description>Диод с барьером Шоттки. Iпр.макс = 0.05 А, Uобр. макс = 18 В
+<description>Диод с барьером Шоттки. Iпр.макс = 0.05 А, Uобр. макс = 18 В&lt;br&gt;
 Производитель: АО «Транзистор», г. Минск, р. Беларусь</description>
 <gates>
 <gate name="G$1" symbol="2ДШ142А9" x="0" y="0"/>

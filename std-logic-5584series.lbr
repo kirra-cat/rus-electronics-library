@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -1110,9 +1110,9 @@
 </symbols>
 <devicesets>
 <deviceset name="5584АП5АУ" prefix="IC" uservalue="yes">
-<description>Два четырехканальных формирователя с тремя состояниями на выходе.
-Производитель: ОАО "ИНТЕГРАЛ", г. Минск, р. Беларусь
-Технические условия: АЕЯР.431200.209 ТУ</description>
+<description>&lt;b&gt;5584АП5АУ&lt;/b&gt; - Два четырехканальных формирователя с тремя состояниями на выходе.&lt;br&gt;
+Производитель: ОАО "ИНТЕГРАЛ", г. Минск, р. Беларусь&lt;br&gt;
+Технические условия: &lt;b&gt;АЕЯР.431200.209 ТУ&lt;/b&gt;</description>
 <gates>
 <gate name=".1" symbol="5584АП5" x="0" y="15.24" swaplevel="1"/>
 <gate name=".2" symbol="5584АП5" x="0" y="-7.62"/>
@@ -1149,7 +1149,9 @@
 </devices>
 </deviceset>
 <deviceset name="5584АП6АУ" prefix="IC" uservalue="yes">
-<description>Восьмиканальный двунаправленный приемопередатчик с тремя состояниями на выходе. Производитель: ОАО "ИНТЕГРАЛ", г. Минск, р. Беларусь Технические условия: АЕЯР.431200.209 ТУ</description>
+<description>&lt;b&gt;5584АП6АУ&lt;/b&gt; - восьмиканальный двунаправленный приемопередатчик с тремя состояниями на выходе. &lt;br&gt;
+Производитель: ОАО "ИНТЕГРАЛ", г. Минск, р. Беларусь.&lt;br&gt;
+Технические условия: &lt;b&gt;АЕЯР.431200.209 ТУ&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="5584АП6АУ" x="0" y="0"/>
 </gates>
@@ -1184,8 +1186,9 @@
 </devices>
 </deviceset>
 <deviceset name="5584ЛИ1АУ" prefix="IC" uservalue="yes">
-<description>Четыре логических элемента 2И.
-Производитель: ОАО "ИНТЕГРАЛ", г. Минск, р. Беларусь Технические условия: АЕЯР.431200.209 ТУ</description>
+<description>&lt;b&gt;5584ЛИ1АУ&lt;/b&gt; - четыре логических элемента 2И.&lt;br&gt;
+Производитель: ОАО "ИНТЕГРАЛ", г. Минск, р. Беларусь.&lt;br&gt;
+Технические условия: &lt;b&gt;АЕЯР.431200.209 ТУ&lt;/b&gt;</description>
 <gates>
 <gate name=".1" symbol="5584ЛИ1АУ" x="0" y="22.86"/>
 <gate name=".2" symbol="5584ЛИ1АУ" x="0" y="7.62"/>
@@ -1215,7 +1218,9 @@
 </devices>
 </deviceset>
 <deviceset name="5584ЛН1АУ" prefix="IC" uservalue="yes">
-<description>Шесть логических элементов. Производитель: ОАО "ИНТЕГРАЛ", г. Минск, р. Беларусь Технические условия: АЕЯР.431200.209 ТУ</description>
+<description>&lt;b&gt;5584ЛН1АУ&lt;/b&gt; - шесть логических элементов. &lt;br&gt;
+Производитель: ОАО "ИНТЕГРАЛ", г. Минск, р. Беларусь.&lt;br&gt;
+Технические условия: &lt;b&gt;АЕЯР.431200.209 ТУ&lt;/b&gt;</description>
 <gates>
 <gate name=".1" symbol="5584ЛН1" x="-17.78" y="35.56" swaplevel="1"/>
 <gate name=".2" symbol="5584ЛН1" x="-17.78" y="22.86" swaplevel="1"/>
@@ -1250,7 +1255,9 @@
 </devices>
 </deviceset>
 <deviceset name="5584ТЛ2АУ" prefix="IC" uservalue="yes">
-<description>Шесть триггеров Шмитта-инверторов. Производитель: ОАО "ИНТЕГРАЛ", г. Минск, р. Беларусь Технические условия: АЕЯР.431200.209 ТУ</description>
+<description>&lt;b&gt;5584ТЛ2АУ&lt;/b&gt; - шесть триггеров Шмитта-инверторов.&lt;br&gt;
+ Производитель: ОАО "ИНТЕГРАЛ", г. Минск, р. Беларусь.&lt;br&gt;
+Технические условия: &lt;b&gt;АЕЯР.431200.209 ТУ&lt;/b&gt;</description>
 <gates>
 <gate name=".1" symbol="5584ТЛ2АУ" x="-20.32" y="30.48" swaplevel="1"/>
 <gate name=".2" symbol="5584ТЛ2АУ" x="-20.32" y="20.32" swaplevel="1"/>

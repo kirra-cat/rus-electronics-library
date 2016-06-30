@@ -2443,7 +2443,8 @@
 </symbols>
 <devicesets>
 <deviceset name="1636РР52У" prefix="IC" uservalue="yes">
-<description>&lt;b&gt;1636РР52У&lt;/b&gt; - ЭППЗУ Flash-типа с последовательным интерфейсом объёмом 1 Мбит (128К х 8).&lt;br&gt;
+<description>&lt;b&gt;АЕHB.431210.158 ТУ&lt;/b&gt;&lt;p&gt;
+&lt;b&gt;1636РР52У&lt;/b&gt; - ЭППЗУ Flash-типа с последовательным интерфейсом объёмом 1 Мбит (128К х 8).&lt;br&gt;
 Производитель: ЗАО "ПКК Миландр", г. Зеленоград, Москва. &lt;br&gt;
 Технические условия: &lt;b&gt;АЕHB.431210.158 ТУ&lt;/b&gt;</description>
 <gates>
@@ -2468,7 +2469,7 @@
 </devices>
 </deviceset>
 <deviceset name="1636РР4У" prefix="IC" uservalue="yes">
-<description>&lt;b&gt;1636РР4У&lt;/b&gt; - ПЗУ с электрическим перепрограммированием Flash-типа 16Мбит (2Мх8). &lt;br&gt;
+<description>&lt;b&gt; АЕЯР.431210.647 ТУ&lt;/b&gt;&lt;p&gt;&lt;b&gt;1636РР4У&lt;/b&gt; - ПЗУ с электрическим перепрограммированием Flash-типа 16Мбит (2Мх8). &lt;br&gt;
 Производитель: ЗАО "ПКК Миландр", г. Зеленоград, Москва. &lt;br&gt;
 Технические условия: &lt;b&gt; АЕЯР.431210.647 ТУ&lt;/b&gt;</description>
 <gates>
@@ -2533,7 +2534,7 @@
 </devices>
 </deviceset>
 <deviceset name="1645РУ6У" prefix="IC" uservalue="yes">
-<description>&lt;b&gt;1645РУ6У&lt;/b&gt; - микросхема статического оперативного запоминающего устройства (СОЗУ) емкостью 16М (1М х 16 бит). &lt;br&gt;
+<description>&lt;b&gt;АЕHB.431220.179 ТУ&lt;/b&gt;&lt;p&gt;&lt;b&gt;1645РУ6У&lt;/b&gt; - микросхема статического оперативного запоминающего устройства (СОЗУ) емкостью 16М (1М х 16 бит). &lt;br&gt;
 Время выборки данных по адресу не более 10 нс. &lt;br&gt;
 Производитель: ЗАО "ПКК Миландр", г. Зеленоград, Москва.&lt;br&gt;
 Технические условия: &lt;b&gt;АЕHB.431220.179 ТУ&lt;/b&gt;</description>

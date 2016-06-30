@@ -16759,7 +16759,8 @@ shrink quad flat pack, square&lt;br&gt;
 </symbols>
 <devicesets>
 <deviceset name="1986ВЕ91Т" prefix="IC" uservalue="yes">
-<description>&lt;b&gt;1986ВЕ91Т&lt;/b&gt; - это 32-разрядный микроконтроллер на ядре Cortex-M3 с тактовой частотой до 80 МГц.&lt;br&gt;
+<description>&lt;b&gt;АЕЯР.431290.711 ТУ&lt;/b&gt;&lt;p&gt;
+&lt;b&gt;1986ВЕ91Т&lt;/b&gt; - это 32-разрядный микроконтроллер на ядре Cortex-M3 с тактовой частотой до 80 МГц.&lt;br&gt;
 Содержит 128 Кбайт Flash памяти программ и 32 Кбайта ОЗУ.&lt;br&gt;
 Производитель:  АО "ПКК "Миландр", г. Москва, Зеленоград. &lt;br&gt;
 Технические условия: &lt;b&gt;АЕЯР.431290.711 ТУ&lt;/b&gt;</description>
@@ -16909,10 +16910,11 @@ shrink quad flat pack, square&lt;br&gt;
 </devices>
 </deviceset>
 <deviceset name="1986ВЕ1Т" prefix="IC" uservalue="yes">
-<description>&lt;b&gt;1986ВЕ1Т&lt;/b&gt; - это 32-разрядный микроконтроллер на ядре Cortex-M1 для авиаприменений с тактовой частотой до 144 МГц.&lt;br&gt;
+<description>&lt;b&gt;АЕЯР.431280.860 ТУ&lt;/b&gt;&lt;p&gt;
+&lt;b&gt;1986ВЕ1Т&lt;/b&gt; - это 32-разрядный микроконтроллер на ядре Cortex-M1 для авиаприменений с тактовой частотой до 144 МГц.&lt;br&gt;
 Содержит 128 Кбайт Flash памяти программ и 48 Кбайт ОЗУ.&lt;br&gt;
 Производитель: АО "ПКК "Миландр", г. Москва, Зеленоград.&lt;br&gt;
-Технические условия: &lt;b&gt; АЕЯР.431280.860 ТУ &lt;b/&gt;</description>
+Технические условия: &lt;b&gt; АЕЯР.431280.860 ТУ &lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="1986ВЕ1Т" x="0" y="0"/>
 </gates>
@@ -17059,10 +17061,11 @@ shrink quad flat pack, square&lt;br&gt;
 </devices>
 </deviceset>
 <deviceset name="К1986ВЕ1QI" prefix="IC" uservalue="yes">
-<description>&lt;b&gt;К1986ВЕ1IQ&lt;/b&gt; - это 32-разрядный микроконтроллер на ядре Cortex-M1 с тактовой частотой до 144 МГц в пластиковом корпусе LQFP-144.&lt;br&gt;
+<description>&lt;b&gt; АЕЯР.431280.860 ТУ &lt;/b&gt;&lt;p&gt;
+&lt;b&gt;К1986ВЕ1IQ&lt;/b&gt; - это 32-разрядный микроконтроллер на ядре Cortex-M1 с тактовой частотой до 144 МГц в пластиковом корпусе LQFP-144.&lt;br&gt;
 Содержит 128 Кбайт Flash памяти программ и 48 Кбайт ОЗУ.&lt;br&gt;
 Производитель: АО "ПКК "Миландр", г. Москва, Зеленоград.&lt;br&gt;
-Технические условия: &lt;b&gt; АЕЯР.431280.860 ТУ &lt;b/&gt;</description>
+Технические условия: &lt;b&gt; АЕЯР.431280.860 ТУ &lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="К1986ВЕ1QI" x="0" y="0"/>
 </gates>
@@ -17210,7 +17213,8 @@ shrink quad flat pack, square&lt;br&gt;
 </devices>
 </deviceset>
 <deviceset name="1901ВЦ1Т" prefix="IC" uservalue="yes">
-<description>&lt;b&gt;1901ВЦ1Т&lt;/b&gt; - двухъядерный микроконтроллер: 32-разрядное RISC-ядро (Cortex-M3) с тактовой частотой до 100 МГц, 16-разрядное DSP-ядро с тактовой частотой до 100 МГц.&lt;br&gt;
+<description>&lt;b&gt;АЕЯР.431280.744 ТУ&lt;/b&gt;&lt;p&gt;
+&lt;b&gt;1901ВЦ1Т&lt;/b&gt; - двухъядерный микроконтроллер: 32-разрядное RISC-ядро (Cortex-M3) с тактовой частотой до 100 МГц, 16-разрядное DSP-ядро с тактовой частотой до 100 МГц.&lt;br&gt;
 Производитель: АО "ПКК Миландр", г. Москва, Зеленоград.&lt;br&gt;
 Технические условия: &lt;b&gt;АЕЯР.431280.744 ТУ&lt;/b&gt;</description>
 <gates>
@@ -17359,7 +17363,8 @@ shrink quad flat pack, square&lt;br&gt;
 </devices>
 </deviceset>
 <deviceset name="К1921ВК01Т" prefix="IC" uservalue="yes">
-<description>&lt;b&gt;К1921ВК01Т&lt;/b&gt; - 32-разрядный микроконтроллер на базе ядра ARM Cortex-M4F с периферией, специализированной под задачи управления электроприводом. &lt;br&gt;
+<description>&lt;b&gt;АДКБ.431290.273 ТУ&lt;/b&gt;&lt;p&gt;
+&lt;b&gt;К1921ВК01Т&lt;/b&gt; - 32-разрядный микроконтроллер на базе ядра ARM Cortex-M4F с периферией, специализированной под задачи управления электроприводом. &lt;br&gt;
 Содержит 1024Кб Flash-памяти, 64Кб EEPROM и 192Кб ОЗУ.&lt;br&gt;
 Производитель: ОАО «НИИЭТ», г. Воронеж.&lt;br&gt;
 Технические условия: &lt;b&gt;АДКБ.431290.273 ТУ&lt;/b&gt;</description>
@@ -17800,7 +17805,7 @@ shrink quad flat pack, square&lt;br&gt;
 </devices>
 </deviceset>
 <deviceset name="1986ВЕ92У" prefix="IC" uservalue="yes">
-<description>&lt;b&gt;1986ВЕ92У/К1986ВЕ92QI&lt;/b&gt; - это 32-разрядный микроконтроллер на ядре Cortex-M3 с тактовой частотой до 80 МГц.&lt;br&gt;
+<description>&lt;b&gt;АЕЯР.431290.711 ТУ&lt;/b&gt;&lt;p&gt;&lt;b&gt;1986ВЕ92У/К1986ВЕ92QI&lt;/b&gt; - это 32-разрядный микроконтроллер на ядре Cortex-M3 с тактовой частотой до 80 МГц.&lt;br&gt;
 Содержит 128 Кбайт Flash памяти программ и 32 Кбайта ОЗУ.&lt;br&gt;
 Производитель:  АО "ПКК "Миландр", г. Москва, Зеленоград. &lt;br&gt;
 Технические условия: &lt;b&gt;АЕЯР.431290.711 ТУ&lt;/b&gt;</description>
@@ -17953,7 +17958,8 @@ shrink quad flat pack, square&lt;br&gt;
 </devices>
 </deviceset>
 <deviceset name="1986ВЕ93У" prefix="IC" uservalue="yes">
-<description>&lt;b&gt;1986ВЕ93У&lt;/b&gt; - это 32-разрядный микроконтроллер на ядре Cortex-M3 с тактовой частотой до 80 МГц.&lt;br&gt;
+<description>&lt;b&gt;АЕЯР.431290.711 ТУ&lt;/b&gt;&lt;p&gt;
+&lt;b&gt;1986ВЕ93У&lt;/b&gt; - это 32-разрядный микроконтроллер на ядре Cortex-M3 с тактовой частотой до 80 МГц.&lt;br&gt;
 Содержит 128 Кбайт Flash памяти программ и 32 Кбайта ОЗУ.&lt;br&gt;
 Производитель:  АО "ПКК "Миландр", г. Москва, Зеленоград. &lt;br&gt;
 Технические условия: &lt;b&gt;АЕЯР.431290.711 ТУ&lt;/b&gt;</description>
@@ -18019,7 +18025,8 @@ shrink quad flat pack, square&lt;br&gt;
 </devices>
 </deviceset>
 <deviceset name="1986ВЕ94Т" prefix="IC" uservalue="yes">
-<description>&lt;b&gt;1986ВЕ94Т&lt;/b&gt; - это 32-разрядный микроконтроллер на ядре Cortex-M3 с тактовой частотой до 80 МГц.&lt;br&gt;
+<description>&lt;b&gt;АЕЯР.431290.711 ТУ&lt;/b&gt;&lt;p&gt;
+&lt;b&gt;1986ВЕ94Т&lt;/b&gt; - это 32-разрядный микроконтроллер на ядре Cortex-M3 с тактовой частотой до 80 МГц.&lt;br&gt;
 Содержит 128 Кбайт Flash памяти программ и 32 Кбайта ОЗУ.&lt;br&gt;
 Является улучшенной версией &lt;b&gt;1986ВЕ91Т&lt;/b&gt; и имеет полную с ним совместимость по распиновке и по ПО. &lt;br&gt;
 Рекомендуется для замены &lt;b&gt;1986ВЕ91Т&lt;/b&gt;.&lt;br&gt;
@@ -18037,7 +18044,8 @@ shrink quad flat pack, square&lt;br&gt;
 </devices>
 </deviceset>
 <deviceset name="1967ВЦ3Т" prefix="IC" uservalue="yes">
-<description>&lt;b&gt;1967ВЦ3Т&lt;/b&gt; - 32-разрядный высокопроизводительный процессор цифровой обработки сигналов архитектуры TigerSHARC с системой команд ADSP-TS201. &lt;br&gt;
+<description>&lt;b&gt;АЕНВ.431280.088 ТУ, АЕНВ.431280.089 ТУ&lt;/b&gt;&lt;p&gt;
+&lt;b&gt;1967ВЦ3Т&lt;/b&gt; - 32-разрядный высокопроизводительный процессор цифровой обработки сигналов архитектуры TigerSHARC с системой команд ADSP-TS201. &lt;br&gt;
 Имеет 12МБит SRAM и работает на частоте 300МГц. &lt;br&gt;
 Производитель: ЗАО "ПКК Миландр", г. Зеленоград, Москва. &lt;br&gt;
 Технические условия: &lt;b&gt;АЕНВ.431280.088 ТУ, АЕНВ.431280.089 ТУ&lt;/b&gt;</description>
@@ -18311,7 +18319,7 @@ shrink quad flat pack, square&lt;br&gt;
 </devices>
 </deviceset>
 <deviceset name="1986ВЕ4У" prefix="IC" uservalue="yes">
-<description>&lt;b&gt;1986ВЕ4У &lt;/b&gt; - 32-разрядный RISC-микроконтроллер с 8-канальным 24-разрядным ∑Δ АЦП с ядром Cortex-M0, работающтй на частоте 36 МГц.&lt;br&gt;
+<description>&lt;b&gt;АЕЯР.431280.912 ТУ &lt;/b&gt;&lt;p&gt;&lt;b&gt;1986ВЕ4У &lt;/b&gt; - 32-разрядный RISC-микроконтроллер с 8-канальным 24-разрядным ∑Δ АЦП с ядром Cortex-M0, работающтй на частоте 36 МГц.&lt;br&gt;
 Производитель: ЗАО "ПКК Миландр", г. Зеленоград, Москва.  &lt;br&gt;
 Технические условия:  &lt;b&gt;АЕЯР.431280.912 ТУ &lt;/b&gt;</description>
 <gates>

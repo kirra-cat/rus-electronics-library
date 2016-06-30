@@ -22,7 +22,7 @@
 <layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
 <layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
@@ -469,6 +469,105 @@
 <smd name="4" x="1.35" y="1.95" dx="0.7" dy="1" layer="1"/>
 <smd name="5" x="-1.35" y="1.95" dx="0.7" dy="1" layer="1"/>
 <circle x="-1.35" y="-0.8" radius="0.335409375" width="0" layer="51"/>
+</package>
+<package name="НО2.8-1В">
+<wire x1="-3.25" y1="3.25" x2="-3.25" y2="-3.25" width="0.127" layer="51"/>
+<wire x1="-3.25" y1="-3.25" x2="3.25" y2="-3.25" width="0.127" layer="51"/>
+<wire x1="3.25" y1="-3.25" x2="3.25" y2="3.25" width="0.127" layer="51"/>
+<wire x1="3.25" y1="3.25" x2="-3.25" y2="3.25" width="0.127" layer="51"/>
+<smd name="TP@2" x="5" y="0" dx="0.5" dy="2" layer="1" rot="R270"/>
+<smd name="7" x="5" y="1" dx="0.5" dy="2" layer="1" rot="R270"/>
+<smd name="8" x="5" y="2" dx="0.5" dy="2" layer="1" rot="R270"/>
+<smd name="6" x="5" y="-1" dx="0.5" dy="2" layer="1" rot="R270"/>
+<smd name="5" x="5" y="-2" dx="0.5" dy="2" layer="1" rot="R270"/>
+<smd name="TP@1" x="-5" y="0" dx="0.5" dy="2" layer="1" rot="R90"/>
+<smd name="3" x="-5" y="-1" dx="0.5" dy="2" layer="1" rot="R90"/>
+<smd name="4" x="-5" y="-2" dx="0.5" dy="2" layer="1" rot="R90"/>
+<smd name="2" x="-5" y="1" dx="0.5" dy="2" layer="1" rot="R90"/>
+<smd name="1" x="-5" y="2" dx="0.5" dy="2" layer="1" rot="R90"/>
+<wire x1="1.75" y1="2.25" x2="2.25" y2="1.75" width="0.127" layer="51" curve="-90"/>
+<wire x1="2.25" y1="-1.75" x2="1.75" y2="-2.25" width="0.127" layer="51" curve="-90"/>
+<wire x1="-1.75" y1="-2.25" x2="-2.25" y2="-1.75" width="0.127" layer="51" curve="-90"/>
+<wire x1="-2.25" y1="1.75" x2="-1.75" y2="2.25" width="0.127" layer="51" curve="-90"/>
+<wire x1="1.75" y1="2.25" x2="-1.75" y2="2.25" width="0.127" layer="51"/>
+<wire x1="2.25" y1="1.75" x2="2.25" y2="-1.75" width="0.127" layer="51"/>
+<wire x1="-1.75" y1="-2.25" x2="1.75" y2="-2.25" width="0.127" layer="51"/>
+<wire x1="-2.25" y1="-1.75" x2="-2.25" y2="1.75" width="0.127" layer="51"/>
+<wire x1="2" y1="1.75" x2="2" y2="-1.75" width="0.127" layer="51"/>
+<wire x1="-1.75" y1="2" x2="1.75" y2="2" width="0.127" layer="51"/>
+<wire x1="-2" y1="-1.75" x2="-2" y2="1.75" width="0.127" layer="51"/>
+<wire x1="-1.75" y1="-2" x2="1.75" y2="-2" width="0.127" layer="51"/>
+<wire x1="1.75" y1="2" x2="2" y2="1.75" width="0.127" layer="51" curve="-90"/>
+<wire x1="2" y1="-1.75" x2="1.75" y2="-2" width="0.127" layer="51" curve="-90"/>
+<wire x1="-2" y1="1.75" x2="-1.75" y2="2" width="0.127" layer="51" curve="-90"/>
+<wire x1="-1.75" y1="-2" x2="-2" y2="-1.75" width="0.127" layer="51" curve="-90"/>
+<polygon width="0.127" layer="51">
+<vertex x="-3" y="2"/>
+<vertex x="-2.5" y="1.75"/>
+<vertex x="-2.5" y="2.25"/>
+</polygon>
+<polygon width="0.127" layer="51">
+<vertex x="3.25" y="2.125"/>
+<vertex x="4" y="2.125"/>
+<vertex x="4" y="1.875"/>
+<vertex x="3.25" y="1.875"/>
+</polygon>
+<polygon width="0.127" layer="51">
+<vertex x="3.25" y="1.125"/>
+<vertex x="4" y="1.125"/>
+<vertex x="4" y="0.875"/>
+<vertex x="3.25" y="0.875"/>
+</polygon>
+<polygon width="0.127" layer="51">
+<vertex x="3.25" y="0.125"/>
+<vertex x="4" y="0.125"/>
+<vertex x="4" y="-0.125"/>
+<vertex x="3.25" y="-0.125"/>
+</polygon>
+<polygon width="0.127" layer="51">
+<vertex x="3.25" y="-0.875"/>
+<vertex x="4" y="-0.875"/>
+<vertex x="4" y="-1.125"/>
+<vertex x="3.25" y="-1.125"/>
+</polygon>
+<polygon width="0.127" layer="51">
+<vertex x="3.25" y="-1.875"/>
+<vertex x="4" y="-1.875"/>
+<vertex x="4" y="-2.125"/>
+<vertex x="3.25" y="-2.125"/>
+</polygon>
+<polygon width="0.127" layer="51">
+<vertex x="-3.25" y="2.125"/>
+<vertex x="-4" y="2.125"/>
+<vertex x="-4" y="1.875"/>
+<vertex x="-3.25" y="1.875"/>
+</polygon>
+<polygon width="0.127" layer="51">
+<vertex x="-3.25" y="1.125"/>
+<vertex x="-4" y="1.125"/>
+<vertex x="-4" y="0.875"/>
+<vertex x="-3.25" y="0.875"/>
+</polygon>
+<polygon width="0.127" layer="51">
+<vertex x="-3.25" y="0.125"/>
+<vertex x="-4" y="0.125"/>
+<vertex x="-4" y="-0.125"/>
+<vertex x="-3.25" y="-0.125"/>
+</polygon>
+<polygon width="0.127" layer="51">
+<vertex x="-3.25" y="-0.875"/>
+<vertex x="-4" y="-0.875"/>
+<vertex x="-4" y="-1.125"/>
+<vertex x="-3.25" y="-1.125"/>
+</polygon>
+<polygon width="0.127" layer="51">
+<vertex x="-3.25" y="-1.875"/>
+<vertex x="-4" y="-1.875"/>
+<vertex x="-4" y="-2.125"/>
+<vertex x="-3.25" y="-2.125"/>
+</polygon>
+<text x="-3.125" y="5.25" size="1.27" layer="25">&gt;NAME</text>
+<text x="-3.125" y="3.625" size="1.27" layer="27">&gt;VALUE</text>
 </package>
 </packages>
 <symbols>
@@ -989,6 +1088,20 @@
 <wire x1="2.54" y1="-2.54" x2="2.54" y2="0" width="0.1524" layer="94" curve="-180"/>
 <pin name="K2H3" x="5.08" y="0" visible="pad" length="short" rot="R180"/>
 </symbol>
+<symbol name="1432УС1">
+<pin name="IN-" x="-12.7" y="5.08" visible="pad" length="middle" direction="in" function="dot"/>
+<pin name="Uсдв" x="-12.7" y="0" length="middle" direction="in"/>
+<pin name="IN+" x="-12.7" y="-5.08" visible="pad" length="middle" direction="in"/>
+<wire x1="-7.62" y1="10.16" x2="-7.62" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-10.16" x2="12.7" y2="0" width="0.254" layer="94"/>
+<wire x1="12.7" y1="0" x2="-7.62" y2="10.16" width="0.254" layer="94"/>
+<pin name="OUT-" x="7.62" y="-5.08" visible="pad" length="middle" direction="in" function="dot" rot="R180"/>
+<pin name="OUT+" x="7.62" y="5.08" visible="pad" length="middle" direction="in" rot="R180"/>
+<pin name="+VCC" x="-2.54" y="12.7" visible="pad" length="middle" direction="pwr" rot="R270"/>
+<pin name="-VCC" x="-2.54" y="-12.7" visible="pad" length="middle" direction="pwr" rot="R90"/>
+<text x="7.62" y="-7.62" size="1.27" layer="95">&gt;NAME</text>
+<text x="7.62" y="-10.16" size="1.27" layer="96">&gt;VALUE</text>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="1324ПС3" prefix="IC" uservalue="yes">
@@ -1014,6 +1127,10 @@
 </devices>
 </deviceset>
 <deviceset name="1324УВ3" prefix="IC" uservalue="yes">
+<description>&lt;b&gt;АЕЯР.431000.760-02 ТУ&lt;/b&gt;&lt;p&gt;
+&lt;b&gt;1324УВ3&lt;/b&gt; - СВЧ МИС широкополосного малопотребляющего усилителя с диапозоном рабочих частот 0.01-3.5ГГц и выходной мощностью 10 мВт, согласованная по входу и выходу с линией с волновым сопротивлением 50 Ом.&lt;p&gt;
+Производитель: ОАО «НПП «Пульсар», г. Москва.&lt;br&gt;
+Технические условия: &lt;b&gt;АЕЯР.431000.760-02 ТУ&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="1324УВ3" x="0" y="0"/>
 </gates>
@@ -1100,8 +1217,11 @@
 </devices>
 </deviceset>
 <deviceset name="1508ПЛ8Т" prefix="IC" uservalue="yes">
-<description>&lt;b&gt;1508ПЛ8Т&lt;/b&gt; - двухканальный цифровой вычислительный синтезатор (DDS)&lt;br&gt;
-Предназначен для синтеза прямоугольных и гармонических немодулированных и модулированных сигналов в полосе частот до 350 МГц (квадратурных сигналов в полосе частот до 700 МГц), используемых в системах связи и радиолокации.</description>
+<description>&lt;b&gt;АЕЯР.431320.596 ТУ&lt;/b&gt;&lt;p&gt;
+&lt;b&gt;1508ПЛ8Т&lt;/b&gt; - двухканальный цифровой вычислительный синтезатор (DDS)&lt;br&gt;
+Предназначен для синтеза прямоугольных и гармонических немодулированных и модулированных сигналов в полосе частот до 350 МГц (квадратурных сигналов в полосе частот до 700 МГц), используемых в системах связи и радиолокации.&lt;p&gt;
+Производитель: ОАО НПЦ «ЭЛВИС», г. Москва.&lt;br&gt; 
+Технические условия: &lt;b&gt;АЕЯР.431320.596 ТУ&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="1508ПЛ8Т" x="0" y="0"/>
 </gates>
@@ -1330,6 +1450,314 @@
 <connect gate="G$1" pin="K1" pad="3"/>
 <connect gate="G$1" pin="K2H3" pad="2"/>
 <connect gate="G$1" pin="K3" pad="1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="1432УС1" prefix="IC" uservalue="yes">
+<description>&lt;b&gt;АЕЯР.431100.280-16 ТУ&lt;/b&gt;&lt;p&gt;
+&lt;b&gt;1432УС1АУ, 1432УС1БУ&lt;/b&gt; – широкополосный дифференциальный усилитель с внутренними обратными связями. &lt;br&gt;
+Параметры:&lt;br&gt;
+
+&lt;table border="1"&gt;
+&lt;tr&gt;
+&lt;td rowspan="3" width="316" style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0.1cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+&lt;p align="center"&gt;&lt;font face="Consolas, monospace"&gt;Параметры, единица измерения&lt;/font&gt;&lt;/p&gt;
+&lt;/td&gt;
+
+&lt;td rowspan="3" width="79" style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0.1cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+&lt;p align="center"&gt;&lt;font face="Consolas, monospace"&gt;Условия &lt;/font&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td colspan="4" width="222" style="border: 1px solid #000000; padding: 0.1cm"&gt;
+&lt;p align="center"&gt;&lt;font face="Consolas, monospace"&gt;Норма параметра&lt;/font&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td colspan="2" width="94" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+&lt;p align="center"&gt;&lt;font face="Consolas, monospace"&gt;1432УС1АУ &lt;/font&gt;&lt;/p&gt;
+&lt;/td&gt;
+
+&lt;td colspan="2" width="120" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0.1cm"&gt;
+&lt;p align="center"&gt;&lt;font face="Consolas, monospace"&gt;1432УС1БУ &lt;/font&gt;
+&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td width="41" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+&lt;p align="center"&gt;&lt;font face="Consolas, monospace"&gt;не менее &lt;/font&gt;&lt;/p&gt;
+&lt;/td&gt;
+
+&lt;td width="45" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+&lt;p align="center"&gt;&lt;font face="Consolas, monospace"&gt;не более &lt;/font&gt;&lt;/p&gt;
+&lt;/td&gt;
+
+&lt;td width="52" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+&lt;p align="center"&gt;&lt;font face="Consolas, monospace"&gt;не менее &lt;/font&gt;&lt;/p&gt;
+&lt;/td&gt;
+
+&lt;td width="60" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0.1cm"&gt;
+&lt;p align="center"&gt;&lt;font face="Consolas, monospace"&gt;не более &lt;/font&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+
+&lt;td width="316" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+&lt;p align="center"&gt;&lt;font face="Consolas, monospace"&gt;Максимальное выходное напряжение, В&lt;/font&gt;&lt;/p&gt;
+&lt;/td&gt;
+
+&lt;td width="79" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+&lt;p align="center"&gt;&lt;font face="Consolas, monospace"&gt;Uвх=Uп &lt;/font&gt;&lt;/p&gt;
+&lt;/td&gt;
+
+&lt;td width="41" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+&lt;p align="center"&gt;&lt;font face="Consolas, monospace"&gt;&amp;plusmn;2,5&lt;/font&gt;&lt;/p&gt;
+&lt;/td&gt;
+
+&lt;td width="45" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+&lt;p align="center"&gt;&lt;font face="Consolas, monospace"&gt;-&lt;/font&gt;&lt;/p&gt;
+&lt;/td&gt;
+
+&lt;td width="52" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+&lt;p align="center"&gt;&lt;font face="Consolas, monospace"&gt;&amp;plusmn;2,5&lt;/font&gt;&lt;/p&gt;
+&lt;/td&gt;
+
+&lt;td width="60" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0.1cm"&gt;
+&lt;p align="center"&gt;&lt;font face="Consolas, monospace"&gt;-&lt;/font&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td width="316" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+&lt;p align="center"&gt;&lt;font face="Consolas, monospace"&gt;Напряжение смещения, мВ&lt;/font&gt;&lt;/p&gt;
+&lt;/td&gt;
+
+&lt;td width="79" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+&lt;p align="center"&gt;&lt;font face="Consolas, monospace"&gt;Uвх=0 &lt;/font&gt;
+&lt;/p&gt;
+&lt;/td&gt;
+
+&lt;td width="41" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+&lt;p align="center"&gt;&lt;font face="Consolas, monospace"&gt;-&lt;/font&gt;&lt;/p&gt;
+&lt;/td&gt;
+
+&lt;td width="45" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+&lt;p align="center"&gt;&lt;font face="Consolas, monospace"&gt;&amp;plusmn;&lt;span lang="en-US"&gt;9&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;
+&lt;/td&gt;
+
+&lt;td width="52" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+&lt;p align="center"&gt;&lt;font face="Consolas, monospace"&gt;-&lt;/font&gt;&lt;/p&gt;
+&lt;/td&gt;
+
+&lt;td width="60" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0.1cm"&gt;
+&lt;p align="center"&gt;&lt;font face="Consolas, monospace"&gt;&amp;plusmn;&lt;span lang="en-US"&gt;9&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td width="316" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+&lt;p align="center"&gt;&lt;font face="Consolas, monospace"&gt;Ток потребления, мА&lt;/font&gt;&lt;/p&gt;
+&lt;/td&gt;
+
+&lt;td width="79" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+&lt;p align="center"&gt;&lt;font face="Consolas, monospace"&gt;Uвх=0&lt;/font&gt;&lt;/p&gt;
+&lt;/td&gt;
+
+&lt;td width="41" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+&lt;p align="center"&gt;&lt;font face="Consolas, monospace"&gt;-&lt;/font&gt;&lt;/p&gt;
+&lt;/td&gt;
+
+&lt;td width="45" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+&lt;p lang="en-US" align="center"&gt;&lt;font face="Consolas, monospace"&gt;13,5&lt;/font&gt;&lt;/p&gt;
+&lt;/td&gt;
+
+&lt;td width="52" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+&lt;p align="center"&gt;&lt;font face="Consolas, monospace"&gt;-&lt;/font&gt;&lt;/p&gt;
+&lt;/td&gt;
+
+&lt;td width="60" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0.1cm"&gt;
+&lt;p lang="en-US" align="center"&gt;&lt;font face="Consolas, monospace"&gt;15&lt;/font&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td width="316" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+&lt;p align="center"&gt;&lt;font face="Consolas, monospace"&gt;Коэффициент усиления напряжения, В/мВ&lt;/font&gt;&lt;/p&gt;
+&lt;/td&gt;
+
+&lt;td width="79" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+&lt;p align="center"&gt;&lt;font face="Consolas, monospace"&gt;Uвых=2В &lt;/font&gt;&lt;/p&gt;
+&lt;/td&gt;
+
+&lt;td width="41" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+&lt;p align="center"&gt;&lt;font face="Consolas, monospace"&gt;1,9&lt;/font&gt;&lt;/p&gt;
+&lt;/td&gt;
+
+&lt;td width="45" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+&lt;p align="center"&gt;&lt;font face="Consolas, monospace"&gt;2,1&lt;/font&gt;&lt;/p&gt;
+&lt;/td&gt;
+
+&lt;td width="52" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+&lt;p align="center"&gt;&lt;font face="Consolas, monospace"&gt;1,9&lt;/font&gt;&lt;/p&gt;
+&lt;/td&gt;
+
+&lt;td width="60" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0.1cm"&gt;
+&lt;p align="center"&gt;&lt;font face="Consolas, monospace"&gt;2,1&lt;/font&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td width="316" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+&lt;p align="center"&gt;&lt;font face="Consolas, monospace"&gt;Верхняя граничная частота полосы пропускания, МГц&lt;/font&gt;&lt;/p&gt;
+&lt;/td&gt;
+
+&lt;td width="79" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+&lt;p align="center"&gt;&lt;font face="Consolas, monospace"&gt;Uвых=2В&lt;/font&gt;&lt;/p&gt;
+&lt;/td&gt;
+
+&lt;td width="41" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+&lt;p align="center"&gt;&lt;font face="Consolas, monospace"&gt;350&lt;/font&gt;&lt;/p&gt;
+&lt;/td&gt;
+
+&lt;td width="45" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+&lt;p align="center"&gt;&lt;font face="Consolas, monospace"&gt;-&lt;/font&gt;&lt;/p&gt;
+&lt;/td&gt;
+
+&lt;td width="52" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+&lt;p lang="en-US" align="center"&gt;&lt;font face="Consolas, monospace"&gt;230&lt;/font&gt;&lt;/p&gt;
+&lt;/td&gt;
+
+&lt;td width="60" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0.1cm"&gt;
+&lt;p align="center"&gt;&lt;font face="Consolas, monospace"&gt;-&lt;/font&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td width="316" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+&lt;p align="center"&gt;&lt;font face="Consolas, monospace"&gt;Максимальная скорость нарастания выходного напряжения, В/мкс&lt;/font&gt;&lt;/p&gt;
+&lt;/td&gt;
+
+&lt;td width="79" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+&lt;p align="center"&gt;&lt;font face="Consolas, monospace"&gt;Uвых=2В&lt;/font&gt;&lt;/p&gt;
+&lt;/td&gt;
+
+&lt;td width="41" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+&lt;p lang="en-US" align="center"&gt;&lt;font face="Consolas, monospace"&gt;1500&lt;/font&gt;&lt;/p&gt;
+&lt;/td&gt;
+
+&lt;td width="45" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+&lt;p align="center"&gt;&lt;font face="Consolas, monospace"&gt;-&lt;/font&gt;&lt;/p&gt;
+&lt;/td&gt;
+
+&lt;td width="52" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+&lt;p lang="en-US" align="center"&gt;&lt;font face="Consolas, monospace"&gt;900&lt;/font&gt;&lt;/p&gt;
+&lt;/td&gt;
+
+&lt;td width="60" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0.1cm"&gt;
+&lt;p align="center"&gt;&lt;font face="Consolas, monospace"&gt;-&lt;/font&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td width="316" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+&lt;p align="center"&gt;&lt;font face="Consolas, monospace"&gt;Время установления выходного напряжения (до уровня 0,1%), нс&lt;/font&gt;&lt;/p&gt;
+&lt;/td&gt;
+
+&lt;td width="79" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+&lt;p align="center"&gt;&lt;font face="Consolas, monospace"&gt;Rн=0,1кОм Uвых=2В Uвх=0 &lt;/font&gt;&lt;/p&gt;
+&lt;/td&gt;
+
+&lt;td width="41" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+&lt;p lang="en-US" align="center"&gt;&lt;font face="Consolas, monospace"&gt;-&lt;/font&gt;&lt;/p&gt;
+&lt;/td&gt;
+
+&lt;td width="45" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+&lt;p lang="en-US" align="center"&gt;&lt;font face="Consolas, monospace"&gt;25&lt;/font&gt;&lt;/p&gt;
+&lt;/td&gt;
+
+&lt;td width="52" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+&lt;p lang="en-US" align="center"&gt;&lt;font face="Consolas, monospace"&gt;-&lt;/font&gt;&lt;/p&gt;
+&lt;/td&gt;
+
+&lt;td width="60" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0.1cm"&gt;
+&lt;p lang="en-US" align="center"&gt;&lt;font face="Consolas, monospace"&gt;50&lt;/font&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td width="316" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+&lt;p align="center"&gt;&lt;font face="Consolas, monospace"&gt;Максимальное входное напряжение, В&lt;/font&gt;&lt;/p&gt;
+&lt;/td&gt;
+
+&lt;td width="79" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+&lt;p align="center"&gt;&lt;font face="Consolas, monospace"&gt;Uвх=Uп Uп=&amp;plusmn;1,4В
+&lt;/font&gt;
+&lt;/p&gt;
+&lt;/td&gt;
+
+&lt;td width="41" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+&lt;p lang="en-US" align="center"&gt;&lt;font face="Consolas, monospace"&gt;&amp;plusmn;0,1&lt;/font&gt;&lt;/p&gt;
+&lt;/td&gt;
+
+&lt;td width="45" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+&lt;p lang="en-US" align="center"&gt;&lt;font face="Consolas, monospace"&gt;-&lt;/font&gt;&lt;/p&gt;
+&lt;/td&gt;
+
+&lt;td width="52" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+&lt;p lang="en-US" align="center"&gt;&lt;font face="Consolas, monospace"&gt;&amp;plusmn;0,1&lt;/font&gt;&lt;/p&gt;
+&lt;/td&gt;
+
+&lt;td width="60" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0.1cm"&gt;
+&lt;p lang="en-US" align="center"&gt;&lt;font face="Consolas, monospace"&gt;-&lt;/font&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td width="316" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+&lt;p align="center"&gt;&lt;font face="Consolas, monospace"&gt;Коэффициент нелинейных искажений, дБ&lt;/font&gt;&lt;/p&gt;
+&lt;/td&gt;
+
+&lt;td width="79" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+&lt;p align="center"&gt;&lt;font face="Consolas, monospace"&gt;Uвых=2В&lt;/font&gt;&lt;/p&gt;
+&lt;/td&gt;
+
+&lt;td width="41" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+&lt;p lang="en-US" align="center"&gt;&lt;font face="Consolas, monospace"&gt;-&lt;/font&gt;&lt;/p&gt;
+&lt;/td&gt;
+
+&lt;td width="45" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+&lt;p lang="en-US" align="center"&gt;&lt;font face="Consolas, monospace"&gt;58&lt;/font&gt;&lt;/p&gt;
+&lt;/td&gt;
+
+&lt;td width="52" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+&lt;p lang="en-US" align="center"&gt;&lt;font face="Consolas, monospace"&gt;-&lt;/font&gt;&lt;/p&gt;
+&lt;/td&gt;
+
+&lt;td width="60" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0.1cm"&gt;
+&lt;p lang="en-US" align="center"&gt;&lt;font face="Consolas, monospace"&gt;58&lt;/font&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;
+&lt;p&gt;
+Производитель: ОАО «НПП «Пульсар», г. Москва.&lt;br&gt;
+Технические условия: &lt;b&gt;АЕЯР.431100.280-16 ТУ&lt;/b&gt;</description>
+<gates>
+<gate name="G$1" symbol="1432УС1" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="НО2.8-1В">
+<connects>
+<connect gate="G$1" pin="+VCC" pad="3"/>
+<connect gate="G$1" pin="-VCC" pad="6"/>
+<connect gate="G$1" pin="IN+" pad="8"/>
+<connect gate="G$1" pin="IN-" pad="1"/>
+<connect gate="G$1" pin="OUT+" pad="4"/>
+<connect gate="G$1" pin="OUT-" pad="5"/>
+<connect gate="G$1" pin="Uсдв" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>

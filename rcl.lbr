@@ -1,0 +1,1225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="7.5.0">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting verticaltext="down"/>
+</settings>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+</layers>
+<library>
+<packages>
+<package name="C0603">
+<description>&lt;b&gt;CAPACITOR&lt;/b&gt;</description>
+<wire x1="-1.473" y1="0.983" x2="1.473" y2="0.983" width="0.0508" layer="39"/>
+<wire x1="1.473" y1="0.983" x2="1.473" y2="-0.983" width="0.0508" layer="39"/>
+<wire x1="1.473" y1="-0.983" x2="-1.473" y2="-0.983" width="0.0508" layer="39"/>
+<wire x1="-1.473" y1="-0.983" x2="-1.473" y2="0.983" width="0.0508" layer="39"/>
+<wire x1="-0.356" y1="0.432" x2="0.356" y2="0.432" width="0.1016" layer="51"/>
+<wire x1="-0.356" y1="-0.419" x2="0.356" y2="-0.419" width="0.1016" layer="51"/>
+<smd name="1" x="-0.85" y="0" dx="1.1" dy="1" layer="1"/>
+<smd name="2" x="0.85" y="0" dx="1.1" dy="1" layer="1"/>
+<text x="-0.635" y="0.635" size="1.27" layer="25">&gt;NAME</text>
+<text x="-0.635" y="-1.905" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-0.8382" y1="-0.4699" x2="-0.3381" y2="0.4801" layer="51"/>
+<rectangle x1="0.3302" y1="-0.4699" x2="0.8303" y2="0.4801" layer="51"/>
+<rectangle x1="-0.1999" y1="-0.3" x2="0.1999" y2="0.3" layer="35"/>
+</package>
+<package name="C0805">
+<description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt;</description>
+<wire x1="-1.973" y1="0.983" x2="1.973" y2="0.983" width="0.0508" layer="39"/>
+<wire x1="1.973" y1="-0.983" x2="-1.973" y2="-0.983" width="0.0508" layer="39"/>
+<wire x1="-1.973" y1="-0.983" x2="-1.973" y2="0.983" width="0.0508" layer="39"/>
+<wire x1="-0.381" y1="0.66" x2="0.381" y2="0.66" width="0.1016" layer="51"/>
+<wire x1="-0.356" y1="-0.66" x2="0.381" y2="-0.66" width="0.1016" layer="51"/>
+<wire x1="1.973" y1="0.983" x2="1.973" y2="-0.983" width="0.0508" layer="39"/>
+<smd name="1" x="-0.95" y="0" dx="1.3" dy="1.5" layer="1"/>
+<smd name="2" x="0.95" y="0" dx="1.3" dy="1.5" layer="1"/>
+<text x="-1.27" y="1.27" size="1.27" layer="25">&gt;NAME</text>
+<text x="-1.27" y="-2.54" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-1.0922" y1="-0.7239" x2="-0.3421" y2="0.7262" layer="51"/>
+<rectangle x1="0.3556" y1="-0.7239" x2="1.1057" y2="0.7262" layer="51"/>
+<rectangle x1="-0.1001" y1="-0.4001" x2="0.1001" y2="0.4001" layer="35"/>
+</package>
+<package name="C1206">
+<description>&lt;b&gt;CAPACITOR&lt;/b&gt;</description>
+<wire x1="-2.473" y1="0.983" x2="2.473" y2="0.983" width="0.0508" layer="39"/>
+<wire x1="2.473" y1="-0.983" x2="-2.473" y2="-0.983" width="0.0508" layer="39"/>
+<wire x1="-2.473" y1="-0.983" x2="-2.473" y2="0.983" width="0.0508" layer="39"/>
+<wire x1="2.473" y1="0.983" x2="2.473" y2="-0.983" width="0.0508" layer="39"/>
+<wire x1="-0.965" y1="0.787" x2="0.965" y2="0.787" width="0.1016" layer="51"/>
+<wire x1="-0.965" y1="-0.787" x2="0.965" y2="-0.787" width="0.1016" layer="51"/>
+<smd name="1" x="-1.4" y="0" dx="1.6" dy="1.8" layer="1"/>
+<smd name="2" x="1.4" y="0" dx="1.6" dy="1.8" layer="1"/>
+<text x="-1.27" y="1.27" size="1.27" layer="25">&gt;NAME</text>
+<text x="-1.27" y="-2.54" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-1.7018" y1="-0.8509" x2="-0.9517" y2="0.8491" layer="51"/>
+<rectangle x1="0.9517" y1="-0.8491" x2="1.7018" y2="0.8509" layer="51"/>
+<rectangle x1="-0.1999" y1="-0.4001" x2="0.1999" y2="0.4001" layer="35"/>
+</package>
+<package name="C1210">
+<description>&lt;b&gt;CAPACITOR&lt;/b&gt;</description>
+<wire x1="-2.473" y1="1.483" x2="2.473" y2="1.483" width="0.0508" layer="39"/>
+<wire x1="2.473" y1="-1.483" x2="-2.473" y2="-1.483" width="0.0508" layer="39"/>
+<wire x1="-2.473" y1="-1.483" x2="-2.473" y2="1.483" width="0.0508" layer="39"/>
+<wire x1="-0.9652" y1="1.2446" x2="0.9652" y2="1.2446" width="0.1016" layer="51"/>
+<wire x1="-0.9652" y1="-1.2446" x2="0.9652" y2="-1.2446" width="0.1016" layer="51"/>
+<wire x1="2.473" y1="1.483" x2="2.473" y2="-1.483" width="0.0508" layer="39"/>
+<smd name="1" x="-1.4" y="0" dx="1.6" dy="2.7" layer="1"/>
+<smd name="2" x="1.4" y="0" dx="1.6" dy="2.7" layer="1"/>
+<text x="-1.905" y="1.905" size="1.27" layer="25">&gt;NAME</text>
+<text x="-1.905" y="-3.175" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-1.7018" y1="-1.2954" x2="-0.9517" y2="1.3045" layer="51"/>
+<rectangle x1="0.9517" y1="-1.3045" x2="1.7018" y2="1.2954" layer="51"/>
+<rectangle x1="-0.1999" y1="-0.4001" x2="0.1999" y2="0.4001" layer="35"/>
+</package>
+<package name="R0402">
+<description>&lt;b&gt;RESISTOR&lt;/b&gt;</description>
+<wire x1="-0.245" y1="0.224" x2="0.245" y2="0.224" width="0.1524" layer="51"/>
+<wire x1="0.245" y1="-0.224" x2="-0.245" y2="-0.224" width="0.1524" layer="51"/>
+<wire x1="-1.473" y1="0.483" x2="1.473" y2="0.483" width="0.0508" layer="39"/>
+<wire x1="1.473" y1="0.483" x2="1.473" y2="-0.483" width="0.0508" layer="39"/>
+<wire x1="1.473" y1="-0.483" x2="-1.473" y2="-0.483" width="0.0508" layer="39"/>
+<wire x1="-1.473" y1="-0.483" x2="-1.473" y2="0.483" width="0.0508" layer="39"/>
+<smd name="1" x="-0.65" y="0" dx="0.7" dy="0.9" layer="1"/>
+<smd name="2" x="0.65" y="0" dx="0.7" dy="0.9" layer="1"/>
+<text x="-0.635" y="0.635" size="1.27" layer="25">&gt;NAME</text>
+<text x="-0.635" y="-1.905" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-0.554" y1="-0.3048" x2="-0.254" y2="0.2951" layer="51"/>
+<rectangle x1="0.2588" y1="-0.3048" x2="0.5588" y2="0.2951" layer="51"/>
+<rectangle x1="-0.1999" y1="-0.4001" x2="0.1999" y2="0.4001" layer="35"/>
+</package>
+<package name="R0805">
+<description>&lt;b&gt;RESISTOR&lt;/b&gt;&lt;p&gt;</description>
+<wire x1="-0.41" y1="0.635" x2="0.41" y2="0.635" width="0.1524" layer="51"/>
+<wire x1="-0.41" y1="-0.635" x2="0.41" y2="-0.635" width="0.1524" layer="51"/>
+<wire x1="-1.973" y1="0.983" x2="1.973" y2="0.983" width="0.0508" layer="39"/>
+<wire x1="1.973" y1="0.983" x2="1.973" y2="-0.983" width="0.0508" layer="39"/>
+<wire x1="1.973" y1="-0.983" x2="-1.973" y2="-0.983" width="0.0508" layer="39"/>
+<wire x1="-1.973" y1="-0.983" x2="-1.973" y2="0.983" width="0.0508" layer="39"/>
+<smd name="1" x="-0.95" y="0" dx="1.3" dy="1.5" layer="1"/>
+<smd name="2" x="0.95" y="0" dx="1.3" dy="1.5" layer="1"/>
+<text x="-0.635" y="1.27" size="1.27" layer="25">&gt;NAME</text>
+<text x="-0.635" y="-2.54" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="0.4064" y1="-0.6985" x2="1.0564" y2="0.7015" layer="51"/>
+<rectangle x1="-1.0668" y1="-0.6985" x2="-0.4168" y2="0.7015" layer="51"/>
+<rectangle x1="-0.1999" y1="-0.5001" x2="0.1999" y2="0.5001" layer="35"/>
+</package>
+<package name="R1206">
+<description>&lt;b&gt;RESISTOR&lt;/b&gt;</description>
+<wire x1="0.9525" y1="-0.8128" x2="-0.9652" y2="-0.8128" width="0.1524" layer="51"/>
+<wire x1="0.9525" y1="0.8128" x2="-0.9652" y2="0.8128" width="0.1524" layer="51"/>
+<wire x1="-2.473" y1="0.983" x2="2.473" y2="0.983" width="0.0508" layer="39"/>
+<wire x1="2.473" y1="0.983" x2="2.473" y2="-0.983" width="0.0508" layer="39"/>
+<wire x1="2.473" y1="-0.983" x2="-2.473" y2="-0.983" width="0.0508" layer="39"/>
+<wire x1="-2.473" y1="-0.983" x2="-2.473" y2="0.983" width="0.0508" layer="39"/>
+<smd name="2" x="1.422" y="0" dx="1.6" dy="1.803" layer="1"/>
+<smd name="1" x="-1.422" y="0" dx="1.6" dy="1.803" layer="1"/>
+<text x="-1.27" y="1.27" size="1.27" layer="25">&gt;NAME</text>
+<text x="-1.27" y="-2.54" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-1.6891" y1="-0.8763" x2="-0.9525" y2="0.8763" layer="51"/>
+<rectangle x1="0.9525" y1="-0.8763" x2="1.6891" y2="0.8763" layer="51"/>
+<rectangle x1="-0.3" y1="-0.7" x2="0.3" y2="0.7" layer="35"/>
+</package>
+<package name="SMC_A">
+<description>&lt;b&gt;Chip Capacitor &lt;/b&gt; Polar tantalum capacitors with solid electrolyte&lt;p&gt;
+Siemens Matsushita Components B 45 194, B 45 197, B 45 198&lt;br&gt;
+Source: www.farnell.com/datasheets/247.pdf</description>
+<wire x1="-1.45" y1="0.75" x2="1.45" y2="0.75" width="0.1016" layer="51"/>
+<wire x1="1.45" y1="0.75" x2="1.45" y2="-0.75" width="0.1016" layer="51"/>
+<wire x1="1.45" y1="-0.75" x2="-1.45" y2="-0.75" width="0.1016" layer="51"/>
+<wire x1="-1.45" y1="-0.75" x2="-1.45" y2="0.75" width="0.1016" layer="51"/>
+<smd name="+" x="-1.5" y="0" dx="1.6" dy="1.4" layer="1"/>
+<smd name="-" x="1.5" y="0" dx="1.6" dy="1.4" layer="1" rot="R180"/>
+<text x="-1.6" y="0.975" size="1.016" layer="25">&gt;NAME</text>
+<text x="-1.6" y="-2" size="1.016" layer="27">&gt;VALUE</text>
+<rectangle x1="-1.6" y1="-0.6" x2="-1.4" y2="0.6" layer="51"/>
+<rectangle x1="1.4" y1="-0.6" x2="1.6" y2="0.6" layer="51" rot="R180"/>
+<rectangle x1="-1.45" y1="-0.75" x2="-0.8" y2="0.75" layer="51"/>
+</package>
+<package name="SMC_B">
+<description>&lt;b&gt;Chip Capacitor &lt;/b&gt; Polar tantalum capacitors with solid electrolyte&lt;p&gt;
+Siemens Matsushita Components B 45 194, B 45 197, B 45 198&lt;br&gt;
+Source: www.farnell.com/datasheets/247.pdf</description>
+<wire x1="-1.6" y1="1.35" x2="1.6" y2="1.35" width="0.1016" layer="51"/>
+<wire x1="1.6" y1="1.35" x2="1.6" y2="-1.35" width="0.1016" layer="51"/>
+<wire x1="1.6" y1="-1.35" x2="-1.6" y2="-1.35" width="0.1016" layer="51"/>
+<wire x1="-1.6" y1="-1.35" x2="-1.6" y2="1.35" width="0.1016" layer="51"/>
+<smd name="+" x="-1.5" y="0" dx="1.6" dy="2.4" layer="1"/>
+<smd name="-" x="1.5" y="0" dx="1.6" dy="2.4" layer="1" rot="R180"/>
+<text x="-1.905" y="1.905" size="1.016" layer="25">&gt;NAME</text>
+<text x="-1.905" y="-2.54" size="1.016" layer="27">&gt;VALUE</text>
+<rectangle x1="-1.75" y1="-1.1" x2="-1.55" y2="1.1" layer="51"/>
+<rectangle x1="1.55" y1="-1.1" x2="1.75" y2="1.1" layer="51" rot="R180"/>
+<rectangle x1="-1.6" y1="-1.35" x2="-0.95" y2="1.35" layer="51"/>
+</package>
+<package name="SMC_C">
+<description>&lt;b&gt;Chip Capacitor &lt;/b&gt; Polar tantalum capacitors with solid electrolyte&lt;p&gt;
+Siemens Matsushita Components B 45 194, B 45 197, B 45 198&lt;br&gt;
+Source: www.farnell.com/datasheets/247.pdf</description>
+<wire x1="-2.85" y1="1.55" x2="2.85" y2="1.55" width="0.1016" layer="51"/>
+<wire x1="2.85" y1="1.55" x2="2.85" y2="-1.55" width="0.1016" layer="51"/>
+<wire x1="2.85" y1="-1.55" x2="-2.85" y2="-1.55" width="0.1016" layer="51"/>
+<wire x1="-2.85" y1="-1.55" x2="-2.85" y2="1.55" width="0.1016" layer="51"/>
+<smd name="+" x="-2.5" y="0" dx="2.4" dy="2.4" layer="1"/>
+<smd name="-" x="2.5" y="0" dx="2.4" dy="2.4" layer="1" rot="R180"/>
+<text x="-1.905" y="1.905" size="1.016" layer="25">&gt;NAME</text>
+<text x="-1.905" y="-2.54" size="1.016" layer="27">&gt;VALUE</text>
+<rectangle x1="-3" y1="-1.1" x2="-2.8" y2="1.1" layer="51"/>
+<rectangle x1="2.8" y1="-1.1" x2="3" y2="1.1" layer="51" rot="R180"/>
+<rectangle x1="-2.85" y1="-1.55" x2="-1.9" y2="1.55" layer="51"/>
+</package>
+<package name="SMC_D">
+<description>&lt;b&gt;Chip Capacitor &lt;/b&gt; Polar tantalum capacitors with solid electrolyte&lt;p&gt;
+Siemens Matsushita Components B 45 194, B 45 197, B 45 198&lt;br&gt;
+Source: www.farnell.com/datasheets/247.pdf</description>
+<wire x1="-3.5" y1="2.1" x2="3.5" y2="2.1" width="0.1016" layer="51"/>
+<wire x1="3.5" y1="2.1" x2="3.5" y2="-2.1" width="0.1016" layer="51"/>
+<wire x1="3.5" y1="-2.1" x2="-3.5" y2="-2.1" width="0.1016" layer="51"/>
+<wire x1="-3.5" y1="-2.1" x2="-3.5" y2="2.1" width="0.1016" layer="51"/>
+<smd name="+" x="-3.15" y="0" dx="2.4" dy="2.8" layer="1"/>
+<smd name="-" x="3.15" y="0" dx="2.4" dy="2.8" layer="1" rot="R180"/>
+<text x="-2.54" y="2.54" size="1.016" layer="25">&gt;NAME</text>
+<text x="-2.54" y="-3.81" size="1.016" layer="27">&gt;VALUE</text>
+<rectangle x1="-3.65" y1="-1.2" x2="-3.45" y2="1.2" layer="51"/>
+<rectangle x1="3.45" y1="-1.2" x2="3.65" y2="1.2" layer="51" rot="R180"/>
+<rectangle x1="-3.5" y1="-2.1" x2="-2.4" y2="2.1" layer="51"/>
+</package>
+<package name="SMC_E">
+<description>&lt;b&gt;Chip Capacitor &lt;/b&gt; Polar tantalum capacitors with solid electrolyte&lt;p&gt;
+Siemens Matsushita Components B 45 194, B 45 197, B 45 198&lt;br&gt;
+Source: www.farnell.com/datasheets/247.pdf</description>
+<wire x1="-3.5" y1="2.1" x2="3.5" y2="2.1" width="0.1016" layer="51"/>
+<wire x1="3.5" y1="2.1" x2="3.5" y2="-2.1" width="0.1016" layer="51"/>
+<wire x1="3.5" y1="-2.1" x2="-3.5" y2="-2.1" width="0.1016" layer="51"/>
+<wire x1="-3.5" y1="-2.1" x2="-3.5" y2="2.1" width="0.1016" layer="51"/>
+<smd name="+" x="-3.15" y="0" dx="2.4" dy="2.8" layer="1"/>
+<smd name="-" x="3.15" y="0" dx="2.4" dy="2.8" layer="1" rot="R180"/>
+<text x="-2.54" y="2.54" size="1.016" layer="25">&gt;NAME</text>
+<text x="-2.54" y="-3.81" size="1.016" layer="27">&gt;VALUE</text>
+<rectangle x1="-3.65" y1="-1.2" x2="-3.45" y2="1.2" layer="51"/>
+<rectangle x1="3.45" y1="-1.2" x2="3.65" y2="1.2" layer="51" rot="R180"/>
+<rectangle x1="-3.5" y1="-2.1" x2="-2.4" y2="2.1" layer="51"/>
+</package>
+<package name="R0603">
+<description>&lt;b&gt;RESISTOR&lt;/b&gt;</description>
+<wire x1="-0.432" y1="-0.356" x2="0.432" y2="-0.356" width="0.1524" layer="51"/>
+<wire x1="0.432" y1="0.356" x2="-0.432" y2="0.356" width="0.1524" layer="51"/>
+<wire x1="-1.473" y1="0.983" x2="1.473" y2="0.983" width="0.0508" layer="39"/>
+<wire x1="1.473" y1="0.983" x2="1.473" y2="-0.983" width="0.0508" layer="39"/>
+<wire x1="1.473" y1="-0.983" x2="-1.473" y2="-0.983" width="0.0508" layer="39"/>
+<wire x1="-1.473" y1="-0.983" x2="-1.473" y2="0.983" width="0.0508" layer="39"/>
+<smd name="1" x="-0.85" y="0" dx="1" dy="1.1" layer="1"/>
+<smd name="2" x="0.85" y="0" dx="1" dy="1.1" layer="1"/>
+<text x="-0.635" y="0.635" size="1.27" layer="25">&gt;NAME</text>
+<text x="-0.635" y="-1.905" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="0.4318" y1="-0.4318" x2="0.8382" y2="0.4318" layer="51"/>
+<rectangle x1="-0.8382" y1="-0.4318" x2="-0.4318" y2="0.4318" layer="51"/>
+<rectangle x1="-0.1999" y1="-0.4001" x2="0.1999" y2="0.4001" layer="35"/>
+</package>
+<package name="СП3-19А">
+<circle x="0" y="0" radius="3.2" width="0.1" layer="51"/>
+<circle x="0" y="0" radius="1.5" width="0.1" layer="51"/>
+<wire x1="0.75" y1="1.25" x2="-1.25" y2="-0.75" width="0.1" layer="51"/>
+<wire x1="1.25" y1="0.75" x2="-0.75" y2="-1.25" width="0.1" layer="51"/>
+<pad name="2" x="0" y="2" drill="0.6" rot="R120"/>
+<pad name="1" x="-1.7259625" y="-0.994875" drill="0.6" rot="R240"/>
+<pad name="3" x="1.72520625" y="-0.995690625" drill="0.6"/>
+</package>
+<package name="СП3-19Г">
+<wire x1="-3.75" y1="-3.75" x2="3.75" y2="-3.75" width="0.1" layer="51"/>
+<wire x1="3.75" y1="-3.75" x2="3.75" y2="3.75" width="0.1" layer="51"/>
+<wire x1="3.75" y1="3.75" x2="-3.75" y2="3.75" width="0.1" layer="51"/>
+<wire x1="-3.75" y1="3.75" x2="-3.75" y2="-3.75" width="0.1" layer="51"/>
+<circle x="0" y="0" radius="3.3" width="0.1" layer="51"/>
+<circle x="0" y="0" radius="1.5" width="0.1" layer="51"/>
+<wire x1="0.7794" y1="1.2794" x2="-1.2794" y2="-0.77305" width="0.1" layer="51"/>
+<wire x1="1.2794" y1="0.78575" x2="-0.7794" y2="-1.2794" width="0.1" layer="51"/>
+<smd name="2" x="-5" y="0" dx="1" dy="2.5" layer="1" rot="R90"/>
+<smd name="3" x="5" y="2.5" dx="1" dy="2.5" layer="1" rot="R90"/>
+<smd name="1" x="5" y="-2.5" dx="1" dy="2.5" layer="1" rot="R90"/>
+</package>
+<package name="L0603">
+<description>&lt;b&gt;CAPACITOR&lt;/b&gt;</description>
+<wire x1="-1.473" y1="0.983" x2="1.473" y2="0.983" width="0.0508" layer="39"/>
+<wire x1="1.473" y1="0.983" x2="1.473" y2="-0.983" width="0.0508" layer="39"/>
+<wire x1="1.473" y1="-0.983" x2="-1.473" y2="-0.983" width="0.0508" layer="39"/>
+<wire x1="-1.473" y1="-0.983" x2="-1.473" y2="0.983" width="0.0508" layer="39"/>
+<wire x1="-0.356" y1="0.432" x2="0.356" y2="0.432" width="0.1016" layer="51"/>
+<wire x1="-0.356" y1="-0.419" x2="0.356" y2="-0.419" width="0.1016" layer="51"/>
+<smd name="1" x="-0.85" y="0" dx="1.1" dy="1" layer="1"/>
+<smd name="2" x="0.85" y="0" dx="1.1" dy="1" layer="1"/>
+<text x="-0.635" y="0.635" size="1.27" layer="25">&gt;NAME</text>
+<text x="-0.635" y="-1.905" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-0.8382" y1="-0.4699" x2="-0.3381" y2="0.4801" layer="51"/>
+<rectangle x1="0.3302" y1="-0.4699" x2="0.8303" y2="0.4801" layer="51"/>
+<rectangle x1="-0.1999" y1="-0.3" x2="0.1999" y2="0.3" layer="35"/>
+</package>
+<package name="L0402">
+<description>&lt;b&gt;RESISTOR&lt;/b&gt;</description>
+<wire x1="-0.245" y1="0.224" x2="0.245" y2="0.224" width="0.1524" layer="51"/>
+<wire x1="0.245" y1="-0.224" x2="-0.245" y2="-0.224" width="0.1524" layer="51"/>
+<wire x1="-1.473" y1="0.483" x2="1.473" y2="0.483" width="0.0508" layer="39"/>
+<wire x1="1.473" y1="0.483" x2="1.473" y2="-0.483" width="0.0508" layer="39"/>
+<wire x1="1.473" y1="-0.483" x2="-1.473" y2="-0.483" width="0.0508" layer="39"/>
+<wire x1="-1.473" y1="-0.483" x2="-1.473" y2="0.483" width="0.0508" layer="39"/>
+<smd name="1" x="-0.65" y="0" dx="0.7" dy="0.9" layer="1"/>
+<smd name="2" x="0.65" y="0" dx="0.7" dy="0.9" layer="1"/>
+<text x="-0.635" y="0.635" size="1.27" layer="25">&gt;NAME</text>
+<text x="-0.635" y="-1.905" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-0.554" y1="-0.3048" x2="-0.254" y2="0.2951" layer="51"/>
+<rectangle x1="0.2588" y1="-0.3048" x2="0.5588" y2="0.2951" layer="51"/>
+<rectangle x1="-0.1999" y1="-0.4001" x2="0.1999" y2="0.4001" layer="35"/>
+</package>
+<package name="L0805">
+<description>&lt;b&gt;RESISTOR&lt;/b&gt;&lt;p&gt;</description>
+<wire x1="-0.41" y1="0.635" x2="0.41" y2="0.635" width="0.1524" layer="51"/>
+<wire x1="-0.41" y1="-0.635" x2="0.41" y2="-0.635" width="0.1524" layer="51"/>
+<wire x1="-1.973" y1="0.983" x2="1.973" y2="0.983" width="0.0508" layer="39"/>
+<wire x1="1.973" y1="0.983" x2="1.973" y2="-0.983" width="0.0508" layer="39"/>
+<wire x1="1.973" y1="-0.983" x2="-1.973" y2="-0.983" width="0.0508" layer="39"/>
+<wire x1="-1.973" y1="-0.983" x2="-1.973" y2="0.983" width="0.0508" layer="39"/>
+<smd name="1" x="-0.95" y="0" dx="1.3" dy="1.5" layer="1"/>
+<smd name="2" x="0.95" y="0" dx="1.3" dy="1.5" layer="1"/>
+<text x="-0.635" y="1.27" size="1.27" layer="25">&gt;NAME</text>
+<text x="-0.635" y="-2.54" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="0.4064" y1="-0.6985" x2="1.0564" y2="0.7015" layer="51"/>
+<rectangle x1="-1.0668" y1="-0.6985" x2="-0.4168" y2="0.7015" layer="51"/>
+<rectangle x1="-0.1999" y1="-0.5001" x2="0.1999" y2="0.5001" layer="35"/>
+</package>
+</packages>
+<symbols>
+<symbol name="CPOL">
+<wire x1="-1.524" y1="-0.889" x2="1.524" y2="-0.889" width="0.254" layer="94"/>
+<wire x1="1.524" y1="-0.889" x2="1.524" y2="0" width="0.254" layer="94"/>
+<wire x1="-1.524" y1="0" x2="-1.524" y2="-0.889" width="0.254" layer="94"/>
+<wire x1="-1.524" y1="0" x2="1.524" y2="0" width="0.254" layer="94"/>
+<text x="1.143" y="0.4826" size="1.778" layer="95">&gt;NAME</text>
+<text x="-0.5842" y="0.4064" size="1.27" layer="94" rot="R90">+</text>
+<text x="1.143" y="-4.5974" size="1.778" layer="96">&gt;VALUE</text>
+<rectangle x1="-1.651" y1="-2.54" x2="1.651" y2="-1.651" layer="94"/>
+<pin name="-" x="0" y="-5.08" visible="off" length="short" direction="pas" rot="R90"/>
+<pin name="+" x="0" y="2.54" visible="off" length="short" direction="pas" rot="R270"/>
+</symbol>
+<symbol name="C">
+<wire x1="0" y1="0" x2="0" y2="-0.508" width="0.1524" layer="94"/>
+<wire x1="0" y1="-2.54" x2="0" y2="-2.032" width="0.1524" layer="94"/>
+<text x="1.524" y="0.381" size="1.778" layer="95">&gt;NAME</text>
+<text x="1.524" y="-4.699" size="1.778" layer="96">&gt;VALUE</text>
+<rectangle x1="-2.032" y1="-2.032" x2="2.032" y2="-1.524" layer="94"/>
+<rectangle x1="-2.032" y1="-1.016" x2="2.032" y2="-0.508" layer="94"/>
+<pin name="1" x="0" y="2.54" visible="off" length="short" direction="pas" swaplevel="1" rot="R270"/>
+<pin name="2" x="0" y="-5.08" visible="off" length="short" direction="pas" swaplevel="1" rot="R90"/>
+</symbol>
+<symbol name="L">
+<wire x1="0" y1="5.08" x2="1.27" y2="3.81" width="0.254" layer="94" curve="-90"/>
+<wire x1="0" y1="2.54" x2="1.27" y2="3.81" width="0.254" layer="94" curve="90"/>
+<wire x1="0" y1="2.54" x2="1.27" y2="1.27" width="0.254" layer="94" curve="-90"/>
+<wire x1="0" y1="0" x2="1.27" y2="1.27" width="0.254" layer="94" curve="90"/>
+<wire x1="0" y1="0" x2="1.27" y2="-1.27" width="0.254" layer="94" curve="-90"/>
+<wire x1="0" y1="-2.54" x2="1.27" y2="-1.27" width="0.254" layer="94" curve="90"/>
+<wire x1="0" y1="-2.54" x2="1.27" y2="-3.81" width="0.254" layer="94" curve="-90"/>
+<wire x1="0" y1="-5.08" x2="1.27" y2="-3.81" width="0.254" layer="94" curve="90"/>
+<text x="-1.27" y="-5.08" size="1.778" layer="95" rot="R90">&gt;NAME</text>
+<text x="3.81" y="-5.08" size="1.778" layer="96" rot="R90">&gt;VALUE</text>
+<pin name="2" x="0" y="-7.62" visible="off" length="short" direction="pas" swaplevel="1" rot="R90"/>
+<pin name="1" x="0" y="7.62" visible="off" length="short" direction="pas" swaplevel="1" rot="R270"/>
+</symbol>
+<symbol name="R">
+<wire x1="-2.54" y1="-0.889" x2="2.54" y2="-0.889" width="0.254" layer="94"/>
+<wire x1="2.54" y1="0.889" x2="-2.54" y2="0.889" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-0.889" x2="2.54" y2="0.889" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-0.889" x2="-2.54" y2="0.889" width="0.254" layer="94"/>
+<text x="-3.81" y="1.4986" size="1.778" layer="95">&gt;NAME</text>
+<text x="-3.81" y="-3.302" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="2" x="5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="1" x="-5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
+</symbol>
+<symbol name="R-POTENTIOMETER">
+<wire x1="-2.54" y1="-0.889" x2="2.54" y2="-0.889" width="0.254" layer="94"/>
+<wire x1="2.54" y1="0.889" x2="-2.54" y2="0.889" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-0.889" x2="2.54" y2="0.889" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-0.889" x2="-2.54" y2="0.889" width="0.254" layer="94"/>
+<text x="-3.81" y="-3.5814" size="1.778" layer="95">&gt;NAME</text>
+<text x="-3.81" y="-5.842" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="3" x="5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="1" x="-5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
+<pin name="2" x="0" y="5.08" visible="off" length="short" direction="pas" rot="R270"/>
+<wire x1="0" y1="2.54" x2="0" y2="1.016" width="0.1524" layer="94"/>
+<wire x1="0" y1="1.016" x2="0.254" y2="2.286" width="0.1524" layer="94"/>
+<wire x1="-0.254" y1="2.286" x2="0" y2="1.016" width="0.1524" layer="94"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="СП3-19" prefix="R" uservalue="yes">
+<description>&lt;b&gt;ОЖО.468.134 ТУ&lt;/b&gt;&lt;p&gt;
+Резисторы переменные непроволочные подстроечные СП3-19 применяются для работы в цепях постоянного и переменного токов в непрерывных и импульсных режимах. &lt;br&gt;
+Резистор СП3-19б предназначен для монтажа на поверхность.&lt;p&gt;
+Технические условия: &lt;b&gt;ОЖО.468.372 ТУ&lt;/b&gt;  (приёмка "ОТК") и &lt;b&gt;ОЖО.468.134 ТУ&lt;/b&gt;  (приёмка "5").&lt;br&gt;
+Производитель: ЗАО "РЕОМ", г. Санкт-Петербург.</description>
+<gates>
+<gate name="G$1" symbol="R-POTENTIOMETER" x="0" y="0"/>
+</gates>
+<devices>
+<device name="A" package="СП3-19А">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="Г" package="СП3-19Г">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="Р1-12" prefix="R" uservalue="yes">
+<description>&lt;b&gt;ШКАБ.434110.005 ТУ&lt;/b&gt;&lt;p&gt;
+Р1-12 - чип-резисторы постоянные непроволочные общего применения защищенного варианта исполнения, предназначены для работы в электрических цепях постоянного и переменного токов и в импульсном режиме для монтажа на поверхность печатных плат и в гибридные интегральные схемы.&lt;p&gt;
+
+Технический условия: &lt;b&gt;ШКАБ.434110.005 ТУ&lt;/b&gt; &lt;br&gt;
+Производитель: ОАО «НПО «ЭРКОН», г. Нижний Новгород.</description>
+<gates>
+<gate name="G$1" symbol="R" x="0" y="0"/>
+</gates>
+<devices>
+<device name="-0.062ум" package="R0402">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-0.062" package="R0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="0.1ум" package="R0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="К10-79" prefix="C" uservalue="yes">
+<description>&lt;b&gt; АЖЯР.673511.004 ТУ&lt;/b&gt;&lt;p&gt;
+К10-79 предназначены для работы в цепях постоянного, переменного и пульсирующего токов и в импульсном режиме (для замены алюминиевых низковольтных низкоемкостных конденсаторов). &lt;p&gt;
+Производители: ООО "Кулон", г. Санкт-Петербург и АО "НИИ "Гириконд", г. Санкт-Петербург.&lt;br&gt;
+Технические условия: &lt;b&gt; АЖЯР.673511.004 ТУ&lt;/b&gt;</description>
+<gates>
+<gate name="G$1" symbol="C" x="0" y="0"/>
+</gates>
+<devices>
+<device name="0603" package="C0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="0805" package="C0805">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="1206" package="C1206">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="КИФ" prefix="L" uservalue="yes">
+<description>&lt;b&gt;РКМУ.671340.001 ТУ&lt;/b&gt;&lt;p&gt;
+КИФ – катушка индуктивности с ферритовым сердечником. Материал финишного покрытия контактных площадок 1005, 1608, 2012 – О (Олово).&lt;p&gt;
+
+Проволочные высокочастотные и сверхвысокочастотные чип-индуктивности (катушки индуктивности) предназначены для работы в электрических цепях постоянного и переменного токов.&lt;p&gt;
+Произвоитель: ОАО «НПО «ЭРКОН», г. Нижний Новгород&lt;br&gt;
+Технические условия: &lt;b&gt;РКМУ.671340.001 ТУ&lt;/b&gt;</description>
+<gates>
+<gate name="G$1" symbol="L" x="0" y="0"/>
+</gates>
+<devices>
+<device name="1005" package="L0402">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="1608" package="L0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="2012" package="L0805">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="К53-68" prefix="C" uservalue="yes">
+<description>&lt;b&gt;АЖЯР.673546.007 ТУ&lt;/b&gt;&lt;p&gt;
+К53-68 предназначены для работы в цепях постоянного, пульсирующего токов и в импульсном режиме. Изготовляются в климатическом исполнении В.&lt;br&gt;
+&lt;table width="500" class="tableborder tdc" border&gt;
+&lt;tbody&gt;&lt;tr class="tdf"&gt;
+&lt;td rowspan="2" width="100" height="35"&gt;Cном, мкФ&lt;/td&gt;
+&lt;td colspan="10"&gt;Uном, В&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class="tdf"&gt;
+&lt;td&gt;2.5&lt;/td&gt;
+&lt;td&gt;4&lt;/td&gt;
+&lt;td&gt;6.3&lt;/td&gt;
+&lt;td&gt;10&lt;/td&gt;
+&lt;td&gt;16&lt;/td&gt;
+&lt;td&gt;20&lt;/td&gt;
+&lt;td&gt;25&lt;/td&gt;
+&lt;td&gt;32&lt;/td&gt;
+&lt;td&gt;40&lt;/td&gt;
+&lt;td&gt;50&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td class="tdf"&gt;0.1&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;A&lt;/td&gt;
+&lt;td&gt;A&lt;/td&gt;
+&lt;td&gt;A&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td class="tdf"&gt;0.15&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;A&lt;/td&gt;
+&lt;td&gt;A&lt;/td&gt;
+&lt;td&gt;A&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td class="tdf"&gt;0.22&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;A&lt;/td&gt;
+&lt;td&gt;A&lt;/td&gt;
+&lt;td&gt;B&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td class="tdf"&gt;0.33&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;A&lt;/td&gt;
+&lt;td&gt;A&lt;/td&gt;
+&lt;td&gt;B&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td class="tdf"&gt;0.47&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;A&lt;/td&gt;
+&lt;td&gt;AB&lt;/td&gt;
+&lt;td&gt;B&lt;/td&gt;
+&lt;td&gt;BC&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td class="tdf"&gt;0.68&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;A&lt;/td&gt;
+&lt;td&gt;A&lt;/td&gt;
+&lt;td&gt;B&lt;/td&gt;
+&lt;td&gt;BC&lt;/td&gt;
+&lt;td&gt;BC&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td class="tdf"&gt;1&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;A&lt;/td&gt;
+&lt;td&gt;A&lt;/td&gt;
+&lt;td&gt;AB&lt;/td&gt;
+&lt;td&gt;B&lt;/td&gt;
+&lt;td&gt;BC&lt;/td&gt;
+&lt;td&gt;CV&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td class="tdf"&gt;1.5&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;A&lt;/td&gt;
+&lt;td&gt;A&lt;/td&gt;
+&lt;td&gt;A&lt;/td&gt;
+&lt;td&gt;B&lt;/td&gt;
+&lt;td&gt;BC&lt;/td&gt;
+&lt;td&gt;CV&lt;/td&gt;
+&lt;td&gt;CDV&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td class="tdf"&gt;2.2&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;A&lt;/td&gt;
+&lt;td&gt;A&lt;/td&gt;
+&lt;td&gt;AS&lt;/td&gt;
+&lt;td&gt;AB&lt;/td&gt;
+&lt;td&gt;BC&lt;/td&gt;
+&lt;td&gt;C&lt;/td&gt;
+&lt;td&gt;CDV&lt;/td&gt;
+&lt;td&gt;CD&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td class="tdf"&gt;3.3&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;A&lt;/td&gt;
+&lt;td&gt;A&lt;/td&gt;
+&lt;td&gt;AS&lt;/td&gt;
+&lt;td&gt;ABS&lt;/td&gt;
+&lt;td&gt;B&lt;/td&gt;
+&lt;td&gt;BC&lt;/td&gt;
+&lt;td&gt;C&lt;/td&gt;
+&lt;td&gt;CD&lt;/td&gt;
+&lt;td&gt;D&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td class="tdf"&gt;4.7&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;A&lt;/td&gt;
+&lt;td&gt;AS&lt;/td&gt;
+&lt;td&gt;ABRS&lt;/td&gt;
+&lt;td&gt;BT&lt;/td&gt;
+&lt;td&gt;BCU&lt;/td&gt;
+&lt;td&gt;C&lt;/td&gt;
+&lt;td&gt;CDV&lt;/td&gt;
+&lt;td&gt;D&lt;/td&gt;
+&lt;td&gt;D&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td class="tdf"&gt;6.8&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;A&lt;/td&gt;
+&lt;td&gt;ABRS&lt;/td&gt;
+&lt;td&gt;BST&lt;/td&gt;
+&lt;td&gt;BCTU&lt;/td&gt;
+&lt;td&gt;BCU&lt;/td&gt;
+&lt;td&gt;C&lt;/td&gt;
+&lt;td&gt;DV&lt;/td&gt;
+&lt;td&gt;E&lt;/td&gt;
+&lt;td&gt;E&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td class="tdf"&gt;10&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;ABRS&lt;/td&gt;
+&lt;td&gt;BST&lt;/td&gt;
+&lt;td&gt;BCT&lt;/td&gt;
+&lt;td&gt;BCU&lt;/td&gt;
+&lt;td&gt;CU&lt;/td&gt;
+&lt;td&gt;CD&lt;/td&gt;
+&lt;td&gt;DV&lt;/td&gt;
+&lt;td&gt;E&lt;/td&gt;
+&lt;td&gt;E&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td class="tdf"&gt;15&lt;/td&gt;
+&lt;td&gt;R&lt;/td&gt;
+&lt;td&gt;BST&lt;/td&gt;
+&lt;td&gt;BCT&lt;/td&gt;
+&lt;td&gt;BCTU&lt;/td&gt;
+&lt;td&gt;CU&lt;/td&gt;
+&lt;td&gt;CDV&lt;/td&gt;
+&lt;td&gt;DV&lt;/td&gt;
+&lt;td&gt;E&lt;/td&gt;
+&lt;td&gt;E&lt;/td&gt;
+&lt;td&gt;E&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td class="tdf"&gt;22&lt;/td&gt;
+&lt;td&gt;S&lt;/td&gt;
+&lt;td&gt;CBT&lt;/td&gt;
+&lt;td&gt;CBTU&lt;/td&gt;
+&lt;td&gt;CU&lt;/td&gt;
+&lt;td&gt;CDU&lt;/td&gt;
+&lt;td&gt;CDV&lt;/td&gt;
+&lt;td&gt;DV&lt;/td&gt;
+&lt;td&gt;E&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td class="tdf"&gt;33&lt;/td&gt;
+&lt;td&gt;T&lt;/td&gt;
+&lt;td&gt;CBTU&lt;/td&gt;
+&lt;td&gt;CU&lt;/td&gt;
+&lt;td&gt;CDUV&lt;/td&gt;
+&lt;td&gt;CDUV&lt;/td&gt;
+&lt;td&gt;DV&lt;/td&gt;
+&lt;td&gt;E&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td class="tdf"&gt;47&lt;/td&gt;
+&lt;td&gt;T&lt;/td&gt;
+&lt;td&gt;CU&lt;/td&gt;
+&lt;td&gt;CDUV&lt;/td&gt;
+&lt;td&gt;CDUV&lt;/td&gt;
+&lt;td&gt;DV&lt;/td&gt;
+&lt;td&gt;D&lt;/td&gt;
+&lt;td&gt;E&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td class="tdf"&gt;68&lt;/td&gt;
+&lt;td&gt;U&lt;/td&gt;
+&lt;td&gt;CDU&lt;/td&gt;
+&lt;td&gt;CDUV&lt;/td&gt;
+&lt;td&gt;CDV&lt;/td&gt;
+&lt;td&gt;DV&lt;/td&gt;
+&lt;td&gt;DE&lt;/td&gt;
+&lt;td&gt;E&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td class="tdf"&gt;100&lt;/td&gt;
+&lt;td&gt;U&lt;/td&gt;
+&lt;td&gt;CDU&lt;/td&gt;
+&lt;td&gt;CDV&lt;/td&gt;
+&lt;td&gt;CDV&lt;/td&gt;
+&lt;td&gt;DEV&lt;/td&gt;
+&lt;td&gt;E&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td class="tdf"&gt;150&lt;/td&gt;
+&lt;td&gt;U&lt;/td&gt;
+&lt;td&gt;CDV&lt;/td&gt;
+&lt;td&gt;CDV&lt;/td&gt;
+&lt;td&gt;DE&lt;/td&gt;
+&lt;td&gt;E&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td class="tdf"&gt;220&lt;/td&gt;
+&lt;td&gt;V&lt;/td&gt;
+&lt;td&gt;DV&lt;/td&gt;
+&lt;td&gt;DEV&lt;/td&gt;
+&lt;td&gt;DE&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td class="tdf"&gt;330&lt;/td&gt;
+&lt;td&gt;V&lt;/td&gt;
+&lt;td&gt;DEV&lt;/td&gt;
+&lt;td&gt;E&lt;/td&gt;
+&lt;td&gt;E&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td class="tdf"&gt;470&lt;/td&gt;
+&lt;td&gt;V&lt;/td&gt;
+&lt;td&gt;E&lt;/td&gt;
+&lt;td&gt;E&lt;/td&gt;
+&lt;td&gt;E&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td class="tdf"&gt;680&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;E&lt;/td&gt;
+&lt;td&gt;E&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;&lt;/table&gt;
+&lt;p&gt;
+Производитель: ОАО "Элеконд",Удмуртская Республика, г. Сарапул&lt;br&gt;
+Технические условия: &lt;b&gt;АЖЯР.673546.007 ТУ&lt;/b&gt;</description>
+<gates>
+<gate name="G$1" symbol="CPOL" x="0" y="0"/>
+</gates>
+<devices>
+<device name="&quot;B&quot;" package="SMC_B">
+<connects>
+<connect gate="G$1" pin="+" pad="+"/>
+<connect gate="G$1" pin="-" pad="-"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="&quot;A&quot;" package="SMC_A">
+<connects>
+<connect gate="G$1" pin="+" pad="+"/>
+<connect gate="G$1" pin="-" pad="-"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="&quot;C&quot;" package="SMC_C">
+<connects>
+<connect gate="G$1" pin="+" pad="+"/>
+<connect gate="G$1" pin="-" pad="-"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="&quot;D&quot;" package="SMC_D">
+<connects>
+<connect gate="G$1" pin="+" pad="+"/>
+<connect gate="G$1" pin="-" pad="-"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="&quot;E&quot;" package="SMC_E">
+<connects>
+<connect gate="G$1" pin="+" pad="+"/>
+<connect gate="G$1" pin="-" pad="-"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="К53-74" prefix="C" uservalue="yes">
+<description>&lt;b&gt;АЖЯР.673546.011 ТУ&lt;/b&gt;&lt;p&gt;
+К53-74 - низковольтные многосекционные конденсаторы постоянной ёмкости, с электропроводящим полимером, с низким эквивалентным последовательным сопротивлением. Конденсаторы предназначены для работы в цепях постоянного и пульсирующего токов и в импульсном режиме в изделиях внутреннего монтажа. Негорючие.
+&lt;table width="500" class="tableborder tdc" border&gt;
+&lt;tbody&gt;&lt;tr class="tdf"&gt;
+&lt;td rowspan="2" width="100" height="35"&gt;Cном, мкФ&lt;/td&gt;
+&lt;td colspan="5"&gt;Uном, В&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class="tdf"&gt;
+&lt;td&gt;2.5&lt;/td&gt;
+&lt;td&gt;4&lt;/td&gt;
+&lt;td&gt;6.3&lt;/td&gt;
+&lt;td&gt;10&lt;/td&gt;
+&lt;td&gt;16&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td class="tdf"&gt;33&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Е&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td class="tdf"&gt;47&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;E&lt;/td&gt;
+&lt;td&gt;E&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td class="tdf"&gt;68&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;E&lt;/td&gt;
+&lt;td&gt;E&lt;/td&gt;
+&lt;td&gt;E&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td class="tdf"&gt;100&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;E&lt;/td&gt;
+&lt;td&gt;E&lt;/td&gt;
+&lt;td&gt;E&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td class="tdf"&gt;150&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;E&lt;/td&gt;
+&lt;td&gt;E&lt;/td&gt;
+&lt;td&gt;E&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td class="tdf"&gt;220&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;E&lt;/td&gt;
+&lt;td&gt;E&lt;/td&gt;
+&lt;td&gt;E&lt;/td&gt;
+&lt;td&gt;E&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td class="tdf"&gt;330&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;E&lt;/td&gt;
+&lt;td&gt;E&lt;/td&gt;
+&lt;td&gt;E&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td class="tdf"&gt;470&lt;/td&gt;
+&lt;td&gt;E&lt;/td&gt;
+&lt;td&gt;E&lt;/td&gt;
+&lt;td&gt;E&lt;/td&gt;
+&lt;td&gt;E&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td class="tdf"&gt;680&lt;/td&gt;
+&lt;td&gt;E&lt;/td&gt;
+&lt;td&gt;E&lt;/td&gt;
+&lt;td&gt;E&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td class="tdf"&gt;1 000&lt;/td&gt;
+&lt;td&gt;E&lt;/td&gt;
+&lt;td&gt;E&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td class="tdf"&gt;1 500&lt;/td&gt;
+&lt;td&gt;E&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td class="tdf"&gt;2 200&lt;/td&gt;
+&lt;td&gt;E&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;&lt;/table&gt;
+Производитель: ОАО "Элеконд",Удмуртская Республика, г. Сарапул&lt;br&gt;
+Технические условия: &lt;b&gt;АЖЯР.673546.011 ТУ&lt;/b&gt;</description>
+<gates>
+<gate name="G$1" symbol="CPOL" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SMC_E">
+<connects>
+<connect gate="G$1" pin="+" pad="+"/>
+<connect gate="G$1" pin="-" pad="-"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="К10-69" prefix="C" uservalue="yes">
+<description>&lt;b&gt;АЖЯР.673511.002 ТУ&lt;/b&gt;&lt;p&gt;
+&lt;table cellspacing="0" cellpadding="2" width="100%" border="1" bordercolorlight="darkblue" align="center"&gt;
+                    &lt;tbody&gt; 
+                    &lt;tr align="center"&gt; 
+                      &lt;td width="10%"&gt;&lt;b&gt;Группа&lt;br&gt;ТКЕ&lt;/b&gt; 
+                      &lt;/td&gt;&lt;td width="8%"&gt;&lt;b&gt;U&lt;sub&gt;ном,&lt;/sub&gt;&lt;br&gt;В&lt;/b&gt;&lt;/td&gt;
+                      &lt;td colspan="5" width="82%"&gt;&lt;b&gt;&amp;nbsp;Номинальная емкость С&lt;sub&gt;ном&lt;/sub&gt;&amp;nbsp;&lt;/b&gt;&lt;/td&gt;
+                      &lt;/tr&gt;
+                    
+&lt;tr valign="center" align="center"&gt;
+&lt;td rowspan="4"&gt;МП0&lt;/td&gt;
+&lt;td&gt;50&lt;/td&gt;
+&lt;td&gt;1,0...&lt;br&gt;1200 пФ&lt;/td&gt;
+&lt;td&gt;1,0...&lt;br&gt;3900 пФ&lt;/td&gt;
+&lt;td&gt;4300...&lt;br&gt;8200 пФ&lt;/td&gt;
+&lt;td&gt;9100 пФ...&lt;br&gt;0,015 мкФ&lt;/td&gt;
+&lt;td&gt;0,016...&lt;br&gt;0,033 мкФ&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr valign="center" align="center"&gt;
+&lt;td&gt;100&lt;/td&gt;
+&lt;td&gt;1,0...&lt;br&gt;470 пФ&lt;/td&gt;
+&lt;td&gt;1,0...&lt;br&gt;1500 пФ&lt;/td&gt;
+&lt;td&gt;1600...&lt;br&gt;3300 пФ&lt;/td&gt;
+&lt;td&gt;3600...&lt;br&gt;8200 пФ&lt;/td&gt;
+&lt;td&gt;9100 пФ...&lt;br&gt;0,012 мкФ&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr valign="center" align="center"&gt;
+&lt;td&gt;250&lt;/td&gt;
+&lt;td&gt;-&lt;/td&gt;
+&lt;td&gt;1,0...&lt;br&gt;1000 пФ&lt;/td&gt;
+&lt;td&gt;1100...&lt;br&gt;2000 пФ&lt;/td&gt;
+&lt;td&gt;2200...&lt;br&gt;3600 пФ&lt;/td&gt;
+&lt;td&gt;3900...&lt;br&gt;6800 пФ&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr valign="center" align="center"&gt;
+&lt;td&gt;500&lt;/td&gt;
+&lt;td&gt;-&lt;/td&gt;
+&lt;td&gt;1,0...&lt;br&gt;270 пФ&lt;/td&gt;
+&lt;td&gt;300...&lt;br&gt;560 пФ&lt;/td&gt;
+&lt;td&gt;620...&lt;br&gt;1000 пФ&lt;/td&gt;
+&lt;td&gt;1100...&lt;br&gt;2000 пФ&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr valign="center" align="center"&gt;
+&lt;td rowspan="5"&gt;Н30&lt;/td&gt;
+&lt;td&gt;25&lt;/td&gt;
+&lt;td&gt;100 пФ...&lt;br&gt;0,068 мкФ&lt;/td&gt;
+&lt;td&gt;100 пФ...&lt;br&gt;0,15 мкФ&lt;/td&gt;
+&lt;td&gt;0,22...&lt;br&gt;0,47 мкФ&lt;/td&gt;
+&lt;td&gt;0,47...&lt;br&gt;1,0 мкФ&lt;/td&gt;
+&lt;td&gt;1,0; &lt;br&gt;1,5 мкФ&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr valign="center" align="center"&gt;
+&lt;td&gt;50&lt;/td&gt;
+&lt;td&gt;100 пФ …&lt;br&gt;0,015 мкФ&lt;/td&gt;
+&lt;td&gt;100 пФ …&lt;br&gt;0,047 мкФ&lt;/td&gt;
+&lt;td&gt;0,068 …&lt;br&gt;0,15 мкФ&lt;/td&gt;
+&lt;td&gt;0,22;  &lt;br&gt;0,33 мкФ&lt;/td&gt;
+&lt;td&gt;0,47; &lt;br&gt;0,68 мкФ&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr valign="center" align="center"&gt;
+&lt;td&gt;100&lt;/td&gt;
+&lt;td&gt;-&lt;/td&gt;
+&lt;td&gt;1000 пФ… &lt;br&gt;0,022 мкФ&lt;/td&gt;
+&lt;td&gt;0,033 …&lt;br&gt;0,068 мкФ&lt;/td&gt;
+&lt;td&gt;0,10; &lt;br&gt;0,15 мкФ&lt;/td&gt;
+&lt;td&gt;0,22; &lt;br&gt;0,33 мкФ&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr valign="center" align="center"&gt;
+&lt;td&gt;250&lt;/td&gt;
+&lt;td&gt;-&lt;/td&gt;
+&lt;td&gt;1000 пФ… &lt;br&gt;0,01 мкФ&lt;/td&gt;
+&lt;td&gt;0,015…&lt;br&gt;0,033 мкФ&lt;/td&gt;
+&lt;td&gt;0,047; &lt;br&gt;0,068 мкФ&lt;/td&gt;
+&lt;td&gt;0,10; &lt;br&gt;0,15 мкФ&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr valign="center" align="center"&gt;
+&lt;td&gt;500&lt;/td&gt;
+&lt;td&gt;-&lt;/td&gt;
+&lt;td&gt;1000 …&lt;br&gt;3300  пФ&lt;/td&gt;
+&lt;td&gt;4700 пФ… &lt;br&gt;0,01 мкФ&lt;/td&gt;
+&lt;td&gt;0,015;  &lt;br&gt;0,022 мкФ&lt;/td&gt;
+&lt;td&gt;0,033; &lt;br&gt;0,047 мкФ&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr valign="center" align="center"&gt;
+&lt;td rowspan="2"&gt;Н90&lt;/td&gt;
+&lt;td&gt;25&lt;/td&gt;
+&lt;td&gt;1000 пФ… &lt;br&gt;0,10 мкФ&lt;/td&gt;
+&lt;td&gt;1000 пФ… &lt;br&gt;0,33 мкФ&lt;/td&gt;
+&lt;td&gt;0,47; &lt;br&gt;0,68 мкФ&lt;/td&gt;
+&lt;td&gt;1,0; &lt;br&gt;1,5 мкФ&lt;/td&gt;
+&lt;td&gt;2,2; &lt;br&gt;3,3 мкФ&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr valign="center" align="center"&gt;
+&lt;td&gt;50&lt;/td&gt;
+&lt;td&gt;1000 пФ… &lt;br&gt;0,047 мкФ&lt;/td&gt;
+&lt;td&gt;1000 пФ… &lt;br&gt;0,15 мкФ&lt;/td&gt;
+&lt;td&gt;0,22; &lt;br&gt;0,33 мкФ&lt;/td&gt;
+&lt;td&gt;0,47; &lt;br&gt;0,68 мкФ&lt;/td&gt;
+&lt;td&gt;1,0; &lt;br&gt;1,5 мкФ&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr valign="center" align="center"&gt;
+&lt;td colspan="2"&gt;&lt;b&gt;Габаритные размеры&lt;br&gt;L x B x H, мм&lt;/b&gt;&lt;/td&gt;
+&lt;td&gt;2,х1,25х1,0&lt;/td&gt;
+&lt;td&gt;3,2х1,6х1,2&lt;/td&gt;
+&lt;td&gt;3,2х2,5х1,2&lt;/td&gt;
+&lt;td&gt;4,5х3,2х1,8&lt;/td&gt;
+&lt;td&gt;5,7х5,0х2,2&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr valign="center" align="center"&gt;
+&lt;td colspan="2"&gt;&lt;b&gt;Международный код&lt;/b&gt;&lt;/td&gt;
+&lt;td&gt;0805 (2012M)&lt;/td&gt;
+&lt;td&gt;1206 (3216M)&lt;/td&gt;
+&lt;td&gt;1210 (3225M)&lt;/td&gt;
+&lt;td&gt;1812 (4532M)&lt;/td&gt;
+&lt;td&gt;2220 (5750М)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt; 
+&lt;/table&gt;
+&lt;p&gt;
+Производитель: АО "НИИ "Гириконд", г. Санкт-Петербург.&lt;br&gt;
+Технические условия: &lt;b&gt;АЖЯР.673511.002 ТУ&lt;/b&gt;</description>
+<gates>
+<gate name="G$1" symbol="C" x="0" y="0"/>
+</gates>
+<devices>
+<device name="&quot;В&quot;-2012M" package="C0805">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="&quot;В&quot;-3216M" package="C1206">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="&quot;В&quot;-3225M" package="C1210">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+</eagle>

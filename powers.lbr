@@ -387,8 +387,9 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="1325ЕНххУ" prefix="IC" uservalue="yes">
-<description>&lt;b&gt;1325ЕНхх&lt;/b&gt; - это стабилизаторы напряжения положительной полярности с низким напряжением насыщения с фиксированным выходным напряжением при выходном токе ≤ 0.8А.&lt;br&gt;
+<deviceset name="1325ЕН" prefix="IC" uservalue="yes">
+<description>&lt;b&gt;АЕЯР.431420.762 ТУ&lt;/b&gt;&lt;p&gt;
+&lt;b&gt;1325ЕНхх&lt;/b&gt; - это стабилизаторы напряжения положительной полярности с низким напряжением насыщения с фиксированным выходным напряжением при выходном токе ≤ 0.8А.&lt;br&gt;
 В серию входят микросхемы 1325ЕН1.8У, 1325ЕН2.5У, 1325ЕН2.85У, 1325ЕН3У, 1325ЕН3.3У, 1325ЕН5У.&lt;br&gt;
 Изготовитель: ОАО "ИНТЕГРАЛ", г. Минск, р. Беларусь.&lt;br&gt;
 Технические условия:&lt;b&gt; АЕЯР.431420.762 ТУ&lt;/b&gt;</description>
@@ -396,7 +397,57 @@
 <gate name="G$1" symbol="VOLTAGE_REGULATOR" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="KT93-1">
+<device name="1.8У" package="KT93-1">
+<connects>
+<connect gate="G$1" pin="GND" pad="1"/>
+<connect gate="G$1" pin="IN" pad="3"/>
+<connect gate="G$1" pin="OUT" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="2.5У" package="KT93-1">
+<connects>
+<connect gate="G$1" pin="GND" pad="1"/>
+<connect gate="G$1" pin="IN" pad="3"/>
+<connect gate="G$1" pin="OUT" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="2.85У" package="KT93-1">
+<connects>
+<connect gate="G$1" pin="GND" pad="1"/>
+<connect gate="G$1" pin="IN" pad="3"/>
+<connect gate="G$1" pin="OUT" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="3У" package="KT93-1">
+<connects>
+<connect gate="G$1" pin="GND" pad="1"/>
+<connect gate="G$1" pin="IN" pad="3"/>
+<connect gate="G$1" pin="OUT" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="3.3У" package="KT93-1">
+<connects>
+<connect gate="G$1" pin="GND" pad="1"/>
+<connect gate="G$1" pin="IN" pad="3"/>
+<connect gate="G$1" pin="OUT" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="5У" package="KT93-1">
 <connects>
 <connect gate="G$1" pin="GND" pad="1"/>
 <connect gate="G$1" pin="IN" pad="3"/>
@@ -408,8 +459,9 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="1343ЕИххУ" prefix="IC" uservalue="yes">
-<description>&lt;b&gt;1343ЕИхх&lt;/b&gt; - это стабилизаторы напряжения отрицательной  полярности с фиксированным выходным напряжением при выходном токе ≤ 1.5А.&lt;br&gt;
+<deviceset name="1343ЕИ" prefix="IC" uservalue="yes">
+<description>&lt;b&gt;АЕЯР.431420.838 ТУ&lt;/b&gt;&lt;p&gt;
+&lt;b&gt;1343ЕИхх&lt;/b&gt; - это стабилизаторы напряжения отрицательной  полярности с фиксированным выходным напряжением при выходном токе ≤ 1.5А.&lt;br&gt;
 В серию входят микросхемы 1343ЕИ5У, 1343ЕИ5.2У, 1343ЕИ6У, 1343ЕИ8У, 1343ЕИ9У, 1343ЕИ12У, 1343ЕИ15У, 1343ЕИ18У, 1343ЕИ24У.&lt;br&gt;
 Изготовитель: ОАО "ИНТЕГРАЛ", г. Минск, р. Беларусь. &lt;br&gt;
 Технические условия: &lt;b&gt;АЕЯР.431420.838 ТУ&lt;/b&gt;</description>
@@ -417,7 +469,87 @@
 <gate name="G$1" symbol="VOLTAGE_REGULATOR" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="KT93-1">
+<device name="5У" package="KT93-1">
+<connects>
+<connect gate="G$1" pin="GND" pad="1"/>
+<connect gate="G$1" pin="IN" pad="3"/>
+<connect gate="G$1" pin="OUT" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="5.2У" package="KT93-1">
+<connects>
+<connect gate="G$1" pin="GND" pad="1"/>
+<connect gate="G$1" pin="IN" pad="3"/>
+<connect gate="G$1" pin="OUT" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="6У" package="KT93-1">
+<connects>
+<connect gate="G$1" pin="GND" pad="1"/>
+<connect gate="G$1" pin="IN" pad="3"/>
+<connect gate="G$1" pin="OUT" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="8У" package="KT93-1">
+<connects>
+<connect gate="G$1" pin="GND" pad="1"/>
+<connect gate="G$1" pin="IN" pad="3"/>
+<connect gate="G$1" pin="OUT" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="9У" package="KT93-1">
+<connects>
+<connect gate="G$1" pin="GND" pad="1"/>
+<connect gate="G$1" pin="IN" pad="3"/>
+<connect gate="G$1" pin="OUT" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="12У" package="KT93-1">
+<connects>
+<connect gate="G$1" pin="GND" pad="1"/>
+<connect gate="G$1" pin="IN" pad="3"/>
+<connect gate="G$1" pin="OUT" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="15У" package="KT93-1">
+<connects>
+<connect gate="G$1" pin="GND" pad="1"/>
+<connect gate="G$1" pin="IN" pad="3"/>
+<connect gate="G$1" pin="OUT" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="18У" package="KT93-1">
+<connects>
+<connect gate="G$1" pin="GND" pad="1"/>
+<connect gate="G$1" pin="IN" pad="3"/>
+<connect gate="G$1" pin="OUT" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="24У" package="KT93-1">
 <connects>
 <connect gate="G$1" pin="GND" pad="1"/>
 <connect gate="G$1" pin="IN" pad="3"/>
@@ -430,7 +562,8 @@
 </devices>
 </deviceset>
 <deviceset name="1345АПхТ" prefix="IC" uservalue="yes">
-<description>&lt;b&gt;1345АПххТ&lt;/b&gt; - это супервизоры питания с напряжением порога срабатывания от 2,48 В до 4,48 В.&lt;br&gt;
+<description>&lt;b&gt;АЕЯР.431310.843 ТУ&lt;/b&gt;&lt;p&gt;
+&lt;b&gt;1345АПххТ&lt;/b&gt; - это супервизоры питания с напряжением порога срабатывания от 2,48 В до 4,48 В.&lt;br&gt;
 В серию входят микросхемы 1345АП1Т, 1345АП2Т, 1345АП3Т, 1345АП4Т, 1345АП5Т, 1345АП6Т, 1345АП7Т, 1345АП8Т, 1345АП9Т, 1345АП10Т, 1345АП11Т, 1345АП12Т.&lt;br&gt;
 Изготовитель: ОАО "ИНТЕГРАЛ", г. Минск, р. Беларусь.&lt;br&gt;
 Технические условия: &lt;b&gt;АЕЯР.431310.843 ТУ&lt;/b&gt;</description>

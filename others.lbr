@@ -22,7 +22,7 @@
 <layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
 <layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
@@ -38,8 +38,8 @@
 <layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
-<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
@@ -487,6 +487,286 @@
 <wire x1="2.05" y1="-0.2" x2="2.05" y2="0.2" width="0.1" layer="21" curve="-180"/>
 <text x="-1.2" y="-0.25" size="0.5" layer="21">HP1-4P</text>
 </package>
+<package name="ТрС-ЛС1(2)">
+<smd name="1" x="-9.45" y="5.2" dx="4.5" dy="1.2" layer="1"/>
+<smd name="2" x="-9.45" y="3.2" dx="4.5" dy="1.2" layer="1"/>
+<smd name="3" x="-9.45" y="1.2" dx="4.5" dy="1.2" layer="1"/>
+<smd name="4" x="-9.45" y="-1.2" dx="4.5" dy="1.2" layer="1"/>
+<smd name="5" x="-9.45" y="-3.2" dx="4.5" dy="1.2" layer="1"/>
+<smd name="6" x="-9.45" y="-5.2" dx="4.5" dy="1.2" layer="1"/>
+<smd name="9" x="10.05" y="-1.2" dx="4.5" dy="1.2" layer="1" rot="R180"/>
+<smd name="8" x="10.05" y="-3.2" dx="4.5" dy="1.2" layer="1" rot="R180"/>
+<smd name="7" x="10.05" y="-5.2" dx="4.5" dy="1.2" layer="1" rot="R180"/>
+<smd name="10" x="10.05" y="1.2" dx="4.5" dy="1.2" layer="1" rot="R180"/>
+<smd name="11" x="10.05" y="3.2" dx="4.5" dy="1.2" layer="1" rot="R180"/>
+<smd name="12" x="10.05" y="5.2" dx="4.5" dy="1.2" layer="1" rot="R180"/>
+<wire x1="-9.7" y1="5.7" x2="-9.7" y2="4.7" width="0.127" layer="51" curve="-180"/>
+<wire x1="-7.95" y1="-7.175" x2="-7.95" y2="7.075" width="0.127" layer="51"/>
+<wire x1="-7.95" y1="7.075" x2="-9.7" y2="7.075" width="0.127" layer="51"/>
+<wire x1="-9.7" y1="7.075" x2="-9.7" y2="5.7" width="0.127" layer="51"/>
+<wire x1="-9.7" y1="3.7" x2="-9.7" y2="2.7" width="0.127" layer="51" curve="-180"/>
+<wire x1="-9.7" y1="1.7" x2="-9.7" y2="0.7" width="0.127" layer="51" curve="-180"/>
+<wire x1="-9.7" y1="4.7" x2="-9.7" y2="3.7" width="0.127" layer="51"/>
+<wire x1="-9.7" y1="2.7" x2="-9.7" y2="1.7" width="0.127" layer="51"/>
+<wire x1="-7.95" y1="7.075" x2="8.55" y2="7.075" width="0.127" layer="51"/>
+<wire x1="8.55" y1="7.075" x2="10.3" y2="7.075" width="0.127" layer="51"/>
+<wire x1="10.3" y1="7.075" x2="10.3" y2="5.7" width="0.127" layer="51"/>
+<wire x1="10.3" y1="4.7" x2="10.3" y2="5.7" width="0.127" layer="51" curve="-180"/>
+<wire x1="10.3" y1="2.7" x2="10.3" y2="3.7" width="0.127" layer="51" curve="-180"/>
+<wire x1="10.3" y1="4.7" x2="10.3" y2="3.7" width="0.127" layer="51"/>
+<wire x1="8.55" y1="-7.175" x2="8.55" y2="7.075" width="0.127" layer="51"/>
+<wire x1="10.3" y1="2.7" x2="10.3" y2="1.7" width="0.127" layer="51"/>
+<wire x1="10.3" y1="0.7" x2="10.3" y2="1.7" width="0.127" layer="51" curve="-180"/>
+<wire x1="10.3" y1="0.7" x2="10.295" y2="-0.701" width="0.127" layer="51"/>
+<polygon width="0.127" layer="51">
+<vertex x="-9.7" y="4.45"/>
+<vertex x="-7.95" y="4.45"/>
+<vertex x="-7.95" y="3.95"/>
+<vertex x="-9.7" y="3.95"/>
+</polygon>
+<polygon width="0.127" layer="51">
+<vertex x="-9.7" y="2.45"/>
+<vertex x="-7.95" y="2.45"/>
+<vertex x="-7.95" y="1.95"/>
+<vertex x="-9.7" y="1.95"/>
+</polygon>
+<polygon width="0.127" layer="51">
+<vertex x="-9.7" y="5.95"/>
+<vertex x="-7.95" y="5.95"/>
+<vertex x="-7.95" y="6.95"/>
+<vertex x="-9.7" y="6.95"/>
+</polygon>
+<polygon width="0.127" layer="51">
+<vertex x="8.55" y="4.45"/>
+<vertex x="10.3" y="4.45"/>
+<vertex x="10.3" y="3.95"/>
+<vertex x="8.55" y="3.95"/>
+</polygon>
+<polygon width="0.127" layer="51">
+<vertex x="8.55" y="2.45"/>
+<vertex x="10.3" y="2.45"/>
+<vertex x="10.3" y="1.95"/>
+<vertex x="8.55" y="1.95"/>
+</polygon>
+<polygon width="0.127" layer="51">
+<vertex x="10.3" y="5.95"/>
+<vertex x="8.55" y="5.95"/>
+<vertex x="8.55" y="6.95"/>
+<vertex x="10.3" y="6.95"/>
+</polygon>
+<circle x="-5.7" y="5.2" radius="0.75" width="0" layer="51"/>
+<wire x1="-9.7" y1="-0.7" x2="-9.7" y2="-1.7" width="0.127" layer="51" curve="-180"/>
+<wire x1="-9.7" y1="-2.7" x2="-9.7" y2="-3.7" width="0.127" layer="51" curve="-180"/>
+<wire x1="-9.7" y1="-4.7" x2="-9.7" y2="-5.7" width="0.127" layer="51" curve="-180"/>
+<wire x1="-9.7" y1="-1.7" x2="-9.7" y2="-2.7" width="0.127" layer="51"/>
+<wire x1="-9.7" y1="-3.7" x2="-9.7" y2="-4.7" width="0.127" layer="51"/>
+<wire x1="-9.7" y1="-5.7" x2="-9.7" y2="-7.2" width="0.127" layer="51"/>
+<polygon width="0.127" layer="51">
+<vertex x="-9.7" y="-1.95"/>
+<vertex x="-9.7" y="-2.45"/>
+<vertex x="-7.95" y="-2.45"/>
+<vertex x="-7.95" y="-1.95"/>
+</polygon>
+<polygon width="0.127" layer="51">
+<vertex x="-9.7" y="-3.95"/>
+<vertex x="-9.7" y="-4.45"/>
+<vertex x="-7.95" y="-4.45"/>
+<vertex x="-7.95" y="-3.95"/>
+</polygon>
+<polygon width="0.127" layer="51">
+<vertex x="-9.7" y="-5.95"/>
+<vertex x="-9.7" y="-7.2"/>
+<vertex x="-7.95" y="-7.2"/>
+<vertex x="-7.95" y="-5.95"/>
+</polygon>
+<wire x1="-9.7" y1="-7.2" x2="10.3" y2="-7.2" width="0.127" layer="51"/>
+<wire x1="10.3" y1="-1.7" x2="10.3" y2="-0.7" width="0.127" layer="51" curve="-180"/>
+<wire x1="10.3" y1="-3.7" x2="10.3" y2="-2.7" width="0.127" layer="51" curve="-180"/>
+<wire x1="10.3" y1="-5.7" x2="10.3" y2="-4.7" width="0.127" layer="51" curve="-180"/>
+<wire x1="10.3" y1="-5.7" x2="10.3" y2="-7.2" width="0.127" layer="51"/>
+<wire x1="10.3" y1="-4.7" x2="10.3" y2="-3.7" width="0.127" layer="51"/>
+<wire x1="10.3" y1="-2.7" x2="10.3" y2="-1.7" width="0.127" layer="51"/>
+<polygon width="0.127" layer="51">
+<vertex x="10.3" y="-5.95"/>
+<vertex x="10.3" y="-7.2"/>
+<vertex x="8.55" y="-7.2"/>
+<vertex x="8.55" y="-5.95"/>
+</polygon>
+<polygon width="0.127" layer="51">
+<vertex x="10.3" y="-3.95"/>
+<vertex x="10.3" y="-4.45"/>
+<vertex x="8.55" y="-4.45"/>
+<vertex x="8.55" y="-3.95"/>
+</polygon>
+<polygon width="0.127" layer="51">
+<vertex x="10.3" y="-2.45"/>
+<vertex x="10.3" y="-1.95"/>
+<vertex x="8.55" y="-1.95"/>
+<vertex x="8.55" y="-2.45"/>
+</polygon>
+<wire x1="-9.7" y1="-0.7" x2="-9.7" y2="0.708" width="0.127" layer="51"/>
+<polygon width="0.127" layer="51">
+<vertex x="-9.696" y="-0.384"/>
+<vertex x="-9.696" y="0.384"/>
+<vertex x="-7.944" y="0.384"/>
+<vertex x="-7.944" y="-0.384"/>
+</polygon>
+<polygon width="0.127" layer="51">
+<vertex x="8.544" y="-0.384"/>
+<vertex x="8.544" y="0.384"/>
+<vertex x="10.296" y="0.384"/>
+<vertex x="10.296" y="-0.384"/>
+</polygon>
+</package>
+<package name="ТрС-ЛС5(6)">
+<smd name="3" x="-10.75" y="1.25" dx="5.5" dy="1.2" layer="1"/>
+<smd name="4" x="-10.75" y="-1.25" dx="5.5" dy="1.2" layer="1"/>
+<smd name="2" x="-10.75" y="3.25" dx="5.5" dy="1.2" layer="1"/>
+<smd name="1" x="-10.75" y="5.25" dx="5.5" dy="1.2" layer="1"/>
+<smd name="5" x="-10.75" y="-3.25" dx="5.5" dy="1.2" layer="1"/>
+<smd name="6" x="-10.75" y="-5.25" dx="5.5" dy="1.2" layer="1"/>
+<smd name="9" x="10.75" y="-1.25" dx="5.5" dy="1.2" layer="1" rot="R180"/>
+<smd name="8" x="10.75" y="-3.25" dx="5.5" dy="1.2" layer="1" rot="R180"/>
+<smd name="7" x="10.75" y="-5.25" dx="5.5" dy="1.2" layer="1" rot="R180"/>
+<smd name="10" x="10.75" y="1.25" dx="5.5" dy="1.2" layer="1" rot="R180"/>
+<smd name="11" x="10.75" y="3.25" dx="5.5" dy="1.2" layer="1" rot="R180"/>
+<smd name="12" x="10.75" y="5.25" dx="5.5" dy="1.2" layer="1" rot="R180"/>
+<wire x1="-10.875" y1="7.25" x2="-10.875" y2="5.75" width="0.127" layer="51"/>
+<wire x1="-10.875" y1="4.75" x2="-10.875" y2="3.75" width="0.127" layer="51"/>
+<wire x1="-10.875" y1="2.75" x2="-10.875" y2="1.75" width="0.127" layer="51"/>
+<wire x1="-10.875" y1="0.75" x2="-10.875" y2="-0.75" width="0.127" layer="51"/>
+<wire x1="-10.875" y1="-1.75" x2="-10.875" y2="-2.75" width="0.127" layer="51"/>
+<wire x1="-10.875" y1="-3.75" x2="-10.875" y2="-4.75" width="0.127" layer="51"/>
+<wire x1="-10.875" y1="-5.75" x2="-10.875" y2="-7.25" width="0.127" layer="51"/>
+<wire x1="-10.875" y1="-7.25" x2="-9.5" y2="-7.25" width="0.127" layer="51"/>
+<wire x1="-9.5" y1="-7.25" x2="9.5" y2="-7.25" width="0.127" layer="51"/>
+<wire x1="9.5" y1="-7.25" x2="10.875" y2="-7.25" width="0.127" layer="51"/>
+<wire x1="10.875" y1="-7.25" x2="10.875" y2="-5.75" width="0.127" layer="51"/>
+<wire x1="10.875" y1="-4.75" x2="10.875" y2="-3.75" width="0.127" layer="51"/>
+<wire x1="10.875" y1="-2.75" x2="10.875" y2="-1.75" width="0.127" layer="51"/>
+<wire x1="10.875" y1="-0.75" x2="10.875" y2="0.75" width="0.127" layer="51"/>
+<wire x1="10.875" y1="1.75" x2="10.875" y2="2.75" width="0.127" layer="51"/>
+<wire x1="10.875" y1="3.75" x2="10.875" y2="4.75" width="0.127" layer="51"/>
+<wire x1="10.875" y1="5.75" x2="10.875" y2="7.25" width="0.127" layer="51"/>
+<wire x1="10.875" y1="7.25" x2="9.5" y2="7.25" width="0.127" layer="51"/>
+<wire x1="9.5" y1="7.25" x2="-9.5" y2="7.25" width="0.127" layer="51"/>
+<wire x1="-9.5" y1="7.25" x2="-10.875" y2="7.25" width="0.127" layer="51"/>
+<wire x1="-10.875" y1="1.75" x2="-10.875" y2="0.75" width="0.127" layer="51" curve="-180"/>
+<wire x1="-10.875" y1="3.75" x2="-10.875" y2="2.75" width="0.127" layer="51" curve="-180"/>
+<wire x1="-10.875" y1="5.75" x2="-10.875" y2="4.75" width="0.127" layer="51" curve="-180"/>
+<wire x1="-10.875" y1="-0.75" x2="-10.875" y2="-1.75" width="0.127" layer="51" curve="-180"/>
+<wire x1="-10.875" y1="-2.75" x2="-10.875" y2="-3.75" width="0.127" layer="51" curve="-180"/>
+<wire x1="-10.875" y1="-4.75" x2="-10.875" y2="-5.75" width="0.127" layer="51" curve="-180"/>
+<wire x1="10.875" y1="-5.75" x2="10.875" y2="-4.75" width="0.127" layer="51" curve="-180"/>
+<wire x1="10.875" y1="-3.75" x2="10.875" y2="-2.75" width="0.127" layer="51" curve="-180"/>
+<wire x1="10.875" y1="-1.75" x2="10.875" y2="-0.75" width="0.127" layer="51" curve="-180"/>
+<wire x1="10.875" y1="0.75" x2="10.875" y2="1.75" width="0.127" layer="51" curve="-180"/>
+<wire x1="10.875" y1="2.75" x2="10.875" y2="3.75" width="0.127" layer="51" curve="-180"/>
+<wire x1="10.875" y1="4.75" x2="10.875" y2="5.75" width="0.127" layer="51" curve="-180"/>
+<wire x1="-9.5" y1="7.25" x2="-9.5" y2="-7.25" width="0.127" layer="51"/>
+<wire x1="9.5" y1="7.25" x2="9.5" y2="-7.25" width="0.127" layer="51"/>
+<polygon width="0.127" layer="51">
+<vertex x="-9.5" y="4.5"/>
+<vertex x="-9.5" y="4"/>
+<vertex x="-10.875" y="4"/>
+<vertex x="-10.875" y="4.5"/>
+</polygon>
+<polygon width="0.127" layer="51">
+<vertex x="-9.5" y="2.5"/>
+<vertex x="-9.5" y="2"/>
+<vertex x="-10.875" y="2"/>
+<vertex x="-10.875" y="2.5"/>
+</polygon>
+<polygon width="0.127" layer="51">
+<vertex x="-9.5" y="-2"/>
+<vertex x="-9.5" y="-2.5"/>
+<vertex x="-10.875" y="-2.5"/>
+<vertex x="-10.875" y="-2"/>
+</polygon>
+<polygon width="0.127" layer="51">
+<vertex x="-9.5" y="-4"/>
+<vertex x="-9.5" y="-4.5"/>
+<vertex x="-10.875" y="-4.5"/>
+<vertex x="-10.875" y="-4"/>
+</polygon>
+<polygon width="0.127" layer="51">
+<vertex x="-9.5" y="-6"/>
+<vertex x="-9.5" y="-7.25"/>
+<vertex x="-10.875" y="-7.25"/>
+<vertex x="-10.875" y="-6"/>
+</polygon>
+<polygon width="0.127" layer="51">
+<vertex x="-9.5" y="7.25"/>
+<vertex x="-9.5" y="6"/>
+<vertex x="-10.875" y="6"/>
+<vertex x="-10.875" y="7.25"/>
+</polygon>
+<polygon width="0.127" layer="51">
+<vertex x="10.875" y="7.25"/>
+<vertex x="10.875" y="6"/>
+<vertex x="9.5" y="6"/>
+<vertex x="9.5" y="7.25"/>
+</polygon>
+<polygon width="0.127" layer="51">
+<vertex x="10.875" y="-6"/>
+<vertex x="10.875" y="-7.25"/>
+<vertex x="9.5" y="-7.25"/>
+<vertex x="9.5" y="-6"/>
+</polygon>
+<polygon width="0.127" layer="51">
+<vertex x="10.875" y="-4"/>
+<vertex x="10.875" y="-4.5"/>
+<vertex x="9.5" y="-4.5"/>
+<vertex x="9.5" y="-4"/>
+</polygon>
+<polygon width="0.127" layer="51">
+<vertex x="10.875" y="-2"/>
+<vertex x="10.875" y="-2.5"/>
+<vertex x="9.5" y="-2.5"/>
+<vertex x="9.5" y="-2"/>
+</polygon>
+<polygon width="0.127" layer="51">
+<vertex x="10.875" y="2.5"/>
+<vertex x="10.875" y="2"/>
+<vertex x="9.5" y="2"/>
+<vertex x="9.5" y="2.5"/>
+</polygon>
+<polygon width="0.127" layer="51">
+<vertex x="10.875" y="4.5"/>
+<vertex x="10.875" y="4"/>
+<vertex x="9.5" y="4"/>
+<vertex x="9.5" y="4.5"/>
+</polygon>
+<polygon width="0.127" layer="51">
+<vertex x="-10.875" y="0.5"/>
+<vertex x="-10.875" y="-0.5"/>
+<vertex x="-9.5" y="-0.5"/>
+<vertex x="-9.5" y="0.5"/>
+</polygon>
+<polygon width="0.127" layer="51">
+<vertex x="9.5" y="0.5"/>
+<vertex x="9.5" y="-0.5"/>
+<vertex x="10.875" y="-0.5"/>
+<vertex x="10.875" y="0.5"/>
+</polygon>
+<wire x1="8.25" y1="7" x2="-8.25" y2="7" width="0.127" layer="51"/>
+<wire x1="8.25" y1="7" x2="9.25" y2="6" width="0.127" layer="51" curve="-90"/>
+<wire x1="-9.25" y1="-6" x2="-9.25" y2="6" width="0.127" layer="51"/>
+<wire x1="-8.25" y1="-7" x2="-9.25" y2="-6" width="0.127" layer="51" curve="-90"/>
+<wire x1="8.25" y1="-7" x2="-8.25" y2="-7" width="0.127" layer="51"/>
+<wire x1="9.25" y1="-6" x2="8.25" y2="-7" width="0.127" layer="51" curve="-90"/>
+<wire x1="9.25" y1="-6" x2="9.25" y2="6" width="0.127" layer="51"/>
+<wire x1="-8.125" y1="5.375" x2="-7.625" y2="5.875" width="0.127" layer="51" curve="-90"/>
+<wire x1="-9.25" y1="6" x2="-8.25" y2="7" width="0.127" layer="51" curve="-90"/>
+<wire x1="7.625" y1="5.875" x2="-7.625" y2="5.875" width="0.127" layer="51"/>
+<wire x1="-8.125" y1="-5.375" x2="-8.125" y2="5.375" width="0.127" layer="51"/>
+<wire x1="7.625" y1="5.875" x2="8.125" y2="5.375" width="0.127" layer="51" curve="-90"/>
+<wire x1="8.125" y1="-5.375" x2="8.125" y2="5.375" width="0.127" layer="51"/>
+<wire x1="-7.625" y1="-5.875" x2="-8.125" y2="-5.375" width="0.127" layer="51" curve="-90"/>
+<wire x1="7.625" y1="-5.875" x2="-7.625" y2="-5.875" width="0.127" layer="51"/>
+<wire x1="8.125" y1="-5.375" x2="7.625" y2="-5.875" width="0.127" layer="51" curve="-90"/>
+<circle x="-6.5" y="4.625" radius="0.75" width="0" layer="51"/>
+</package>
 </packages>
 <symbols>
 <symbol name="249ЛП8">
@@ -636,6 +916,230 @@
 <text x="-5.08" y="20.32" size="1.778" layer="95">&gt;NAME</text>
 <text x="-5.08" y="17.78" size="1.778" layer="96">&gt;VALUE</text>
 </symbol>
+<symbol name="ТрС-ЛС1(6)">
+<pin name="1" x="-12.7" y="12.7" visible="pad" length="short"/>
+<pin name="2" x="-12.7" y="7.62" visible="pad" length="short"/>
+<pin name="12" x="12.7" y="12.7" visible="pad" length="short" rot="R180"/>
+<pin name="11" x="12.7" y="7.62" visible="pad" length="short" rot="R180"/>
+<pin name="10" x="12.7" y="2.54" visible="pad" length="short" rot="R180"/>
+<wire x1="-2.54" y1="12.7" x2="-3.81" y2="12.7" width="0.1524" layer="94" curve="-180"/>
+<wire x1="-3.81" y1="12.7" x2="-5.08" y2="12.7" width="0.1524" layer="94" curve="-180"/>
+<wire x1="-1.27" y1="12.7" x2="-2.54" y2="12.7" width="0.1524" layer="94" curve="-180"/>
+<wire x1="-5.08" y1="10.16" x2="-3.81" y2="10.16" width="0.1524" layer="94" curve="-180"/>
+<wire x1="-3.81" y1="10.16" x2="-2.54" y2="10.16" width="0.1524" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="10.16" x2="-1.27" y2="10.16" width="0.1524" layer="94" curve="-180"/>
+<circle x="-4.6736" y="12.9032" radius="0.198378125" width="0" layer="94"/>
+<circle x="-4.699" y="9.9568" radius="0.198378125" width="0" layer="94"/>
+<pin name="3" x="-12.7" y="2.54" visible="pad" length="short"/>
+<wire x1="-10.16" y1="12.7" x2="-5.08" y2="12.7" width="0.1524" layer="94"/>
+<wire x1="-5.08" y1="10.16" x2="-5.08" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="-5.08" y1="2.54" x2="-10.16" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="-5.08" y1="11.43" x2="-1.27" y2="11.43" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="11.43" x2="2.54" y2="10.16" width="0.1524" layer="94" curve="-180"/>
+<wire x1="2.54" y1="12.7" x2="2.54" y2="11.43" width="0.1524" layer="94" curve="-180"/>
+<wire x1="2.54" y1="10.16" x2="2.54" y2="8.89" width="0.1524" layer="94" curve="-180"/>
+<wire x1="2.54" y1="6.35" x2="2.54" y2="5.08" width="0.1524" layer="94" curve="-180"/>
+<wire x1="2.54" y1="3.81" x2="2.54" y2="2.54" width="0.1524" layer="94" curve="-180"/>
+<wire x1="2.54" y1="5.08" x2="2.54" y2="3.81" width="0.1524" layer="94" curve="-180"/>
+<wire x1="2.54" y1="8.89" x2="0" y2="8.89" width="0.1524" layer="94"/>
+<wire x1="0" y1="8.89" x2="0" y2="7.62" width="0.1524" layer="94"/>
+<wire x1="0" y1="7.62" x2="0" y2="6.35" width="0.1524" layer="94"/>
+<wire x1="0" y1="6.35" x2="2.54" y2="6.35" width="0.1524" layer="94"/>
+<wire x1="0" y1="7.62" x2="-10.16" y2="7.62" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="12.7" x2="-1.27" y2="12.7" width="0.1524" layer="94"/>
+<wire x1="-1.27" y1="10.16" x2="-1.27" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="-1.27" y1="2.54" x2="2.54" y2="2.54" width="0.1524" layer="94"/>
+<circle x="2.3368" y="12.2936" radius="0.198378125" width="0" layer="94"/>
+<circle x="2.3368" y="5.9182" radius="0.198378125" width="0" layer="94"/>
+<wire x1="3.81" y1="12.7" x2="3.81" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="5.08" y1="10.16" x2="5.08" y2="11.43" width="0.1524" layer="94" curve="-180"/>
+<wire x1="5.08" y1="11.43" x2="5.08" y2="12.7" width="0.1524" layer="94" curve="-180"/>
+<wire x1="5.08" y1="8.89" x2="5.08" y2="10.16" width="0.1524" layer="94" curve="-180"/>
+<wire x1="5.08" y1="3.81" x2="5.08" y2="5.08" width="0.1524" layer="94" curve="-180"/>
+<wire x1="5.08" y1="5.08" x2="5.08" y2="6.35" width="0.1524" layer="94" curve="-180"/>
+<wire x1="5.08" y1="2.54" x2="5.08" y2="3.81" width="0.1524" layer="94" curve="-180"/>
+<circle x="5.2832" y="5.9182" radius="0.198378125" width="0" layer="94"/>
+<circle x="5.2832" y="12.2936" radius="0.198378125" width="0" layer="94"/>
+<wire x1="5.08" y1="8.89" x2="7.62" y2="8.89" width="0.1524" layer="94"/>
+<wire x1="7.62" y1="8.89" x2="7.62" y2="7.62" width="0.1524" layer="94"/>
+<wire x1="7.62" y1="7.62" x2="7.62" y2="6.35" width="0.1524" layer="94"/>
+<wire x1="7.62" y1="6.35" x2="5.08" y2="6.35" width="0.1524" layer="94"/>
+<wire x1="5.08" y1="2.54" x2="10.16" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="5.08" y1="12.7" x2="10.16" y2="12.7" width="0.1524" layer="94"/>
+<circle x="0" y="7.62" radius="0.198378125" width="0" layer="94"/>
+<circle x="7.62" y="7.62" radius="0.198378125" width="0" layer="94"/>
+<pin name="4" x="-12.7" y="-2.54" visible="pad" length="short"/>
+<pin name="5" x="-12.7" y="-7.62" visible="pad" length="short"/>
+<pin name="6" x="-12.7" y="-12.7" visible="pad" length="short"/>
+<wire x1="-2.54" y1="-3.81" x2="-2.54" y2="-5.08" width="0.1524" layer="94" curve="180"/>
+<wire x1="-2.54" y1="-2.54" x2="-2.54" y2="-3.81" width="0.1524" layer="94" curve="180"/>
+<wire x1="-2.54" y1="-5.08" x2="-2.54" y2="-6.35" width="0.1524" layer="94" curve="180"/>
+<wire x1="-2.54" y1="-8.89" x2="-2.54" y2="-10.16" width="0.1524" layer="94" curve="180"/>
+<wire x1="-2.54" y1="-11.43" x2="-2.54" y2="-12.7" width="0.1524" layer="94" curve="180"/>
+<wire x1="-2.54" y1="-10.16" x2="-2.54" y2="-11.43" width="0.1524" layer="94" curve="180"/>
+<wire x1="-2.54" y1="-6.35" x2="0" y2="-6.35" width="0.1524" layer="94"/>
+<wire x1="0" y1="-6.35" x2="0" y2="-7.62" width="0.1524" layer="94"/>
+<wire x1="0" y1="-7.62" x2="0" y2="-8.89" width="0.1524" layer="94"/>
+<wire x1="0" y1="-8.89" x2="-2.54" y2="-8.89" width="0.1524" layer="94"/>
+<wire x1="0" y1="-7.62" x2="10.16" y2="-7.62" width="0.1524" layer="94"/>
+<wire x1="1.27" y1="-12.7" x2="-2.54" y2="-12.7" width="0.1524" layer="94"/>
+<circle x="-2.3368" y="-2.9464" radius="0.198378125" width="0" layer="94"/>
+<circle x="-2.3368" y="-9.3218" radius="0.198378125" width="0" layer="94"/>
+<wire x1="-3.81" y1="-2.54" x2="-3.81" y2="-12.7" width="0.1524" layer="94"/>
+<wire x1="-5.08" y1="-5.08" x2="-5.08" y2="-3.81" width="0.1524" layer="94" curve="180"/>
+<wire x1="-5.08" y1="-3.81" x2="-5.08" y2="-2.54" width="0.1524" layer="94" curve="180"/>
+<wire x1="-5.08" y1="-6.35" x2="-5.08" y2="-5.08" width="0.1524" layer="94" curve="180"/>
+<wire x1="-5.08" y1="-11.43" x2="-5.08" y2="-10.16" width="0.1524" layer="94" curve="180"/>
+<wire x1="-5.08" y1="-10.16" x2="-5.08" y2="-8.89" width="0.1524" layer="94" curve="180"/>
+<wire x1="-5.08" y1="-12.7" x2="-5.08" y2="-11.43" width="0.1524" layer="94" curve="180"/>
+<circle x="-5.2832" y="-9.3218" radius="0.198378125" width="0" layer="94"/>
+<circle x="-5.2832" y="-2.9464" radius="0.198378125" width="0" layer="94"/>
+<wire x1="-5.08" y1="-6.35" x2="-7.62" y2="-6.35" width="0.1524" layer="94"/>
+<wire x1="-7.62" y1="-6.35" x2="-7.62" y2="-7.62" width="0.1524" layer="94"/>
+<wire x1="-7.62" y1="-7.62" x2="-7.62" y2="-8.89" width="0.1524" layer="94"/>
+<wire x1="-7.62" y1="-8.89" x2="-5.08" y2="-8.89" width="0.1524" layer="94"/>
+<wire x1="-5.08" y1="-12.7" x2="-10.16" y2="-12.7" width="0.1524" layer="94"/>
+<wire x1="-5.08" y1="-2.54" x2="-10.16" y2="-2.54" width="0.1524" layer="94"/>
+<circle x="0" y="-7.62" radius="0.198378125" width="0" layer="94"/>
+<circle x="-7.62" y="-7.62" radius="0.198378125" width="0" layer="94"/>
+<wire x1="3.81" y1="-2.54" x2="2.54" y2="-2.54" width="0.1524" layer="94" curve="-180"/>
+<wire x1="2.54" y1="-2.54" x2="1.27" y2="-2.54" width="0.1524" layer="94" curve="-180"/>
+<wire x1="5.08" y1="-2.54" x2="3.81" y2="-2.54" width="0.1524" layer="94" curve="-180"/>
+<wire x1="1.27" y1="-5.08" x2="2.54" y2="-5.08" width="0.1524" layer="94" curve="-180"/>
+<wire x1="2.54" y1="-5.08" x2="3.81" y2="-5.08" width="0.1524" layer="94" curve="-180"/>
+<wire x1="3.81" y1="-5.08" x2="5.08" y2="-5.08" width="0.1524" layer="94" curve="-180"/>
+<circle x="1.6764" y="-2.3368" radius="0.198378125" width="0" layer="94"/>
+<circle x="1.651" y="-5.2832" radius="0.198378125" width="0" layer="94"/>
+<wire x1="1.27" y1="-5.08" x2="1.27" y2="-12.7" width="0.1524" layer="94"/>
+<wire x1="1.27" y1="-3.81" x2="5.08" y2="-3.81" width="0.1524" layer="94"/>
+<wire x1="10.16" y1="-2.54" x2="5.08" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="5.08" y1="-5.08" x2="5.08" y2="-12.7" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="-2.54" x2="1.27" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="5.08" y1="-12.7" x2="10.16" y2="-12.7" width="0.1524" layer="94"/>
+<pin name="9" x="12.7" y="-2.54" visible="pad" length="short" rot="R180"/>
+<pin name="8" x="12.7" y="-7.62" visible="pad" length="short" rot="R180"/>
+<pin name="7" x="12.7" y="-12.7" visible="pad" length="short" rot="R180"/>
+<wire x1="7.62" y1="7.62" x2="10.16" y2="7.62" width="0.1524" layer="94"/>
+<wire x1="-10.16" y1="-7.62" x2="-7.62" y2="-7.62" width="0.1524" layer="94"/>
+<wire x1="-10.16" y1="15.24" x2="10.16" y2="15.24" width="0.1524" layer="94"/>
+<wire x1="10.16" y1="15.24" x2="10.16" y2="-15.24" width="0.1524" layer="94"/>
+<wire x1="10.16" y1="-15.24" x2="-10.16" y2="-15.24" width="0.1524" layer="94"/>
+<wire x1="-10.16" y1="-15.24" x2="-10.16" y2="15.24" width="0.1524" layer="94"/>
+<text x="-5.08" y="19.05" size="1.778" layer="95">&gt;NAME</text>
+<text x="-5.08" y="16.51" size="1.778" layer="96">&gt;VALUE</text>
+</symbol>
+<symbol name="ТрС-ЛС2(5)">
+<pin name="1" x="-12.7" y="12.7" visible="pad" length="short"/>
+<pin name="2" x="-12.7" y="7.62" visible="pad" length="short"/>
+<pin name="12" x="12.7" y="12.7" visible="pad" length="short" rot="R180"/>
+<pin name="11" x="12.7" y="7.62" visible="pad" length="short" rot="R180"/>
+<pin name="10" x="12.7" y="2.54" visible="pad" length="short" rot="R180"/>
+<pin name="3" x="-12.7" y="2.54" visible="pad" length="short"/>
+<pin name="4" x="-12.7" y="-2.54" visible="pad" length="short"/>
+<pin name="5" x="-12.7" y="-7.62" visible="pad" length="short"/>
+<pin name="6" x="-12.7" y="-12.7" visible="pad" length="short"/>
+<wire x1="-2.54" y1="-3.81" x2="-2.54" y2="-5.08" width="0.1524" layer="94" curve="180"/>
+<wire x1="-2.54" y1="-2.54" x2="-2.54" y2="-3.81" width="0.1524" layer="94" curve="180"/>
+<wire x1="-2.54" y1="-5.08" x2="-2.54" y2="-6.35" width="0.1524" layer="94" curve="180"/>
+<wire x1="-2.54" y1="-8.89" x2="-2.54" y2="-10.16" width="0.1524" layer="94" curve="180"/>
+<wire x1="-2.54" y1="-11.43" x2="-2.54" y2="-12.7" width="0.1524" layer="94" curve="180"/>
+<wire x1="-2.54" y1="-10.16" x2="-2.54" y2="-11.43" width="0.1524" layer="94" curve="180"/>
+<wire x1="-2.54" y1="-6.35" x2="0" y2="-6.35" width="0.1524" layer="94"/>
+<wire x1="0" y1="-6.35" x2="0" y2="-7.62" width="0.1524" layer="94"/>
+<wire x1="0" y1="-7.62" x2="0" y2="-8.89" width="0.1524" layer="94"/>
+<wire x1="0" y1="-8.89" x2="-2.54" y2="-8.89" width="0.1524" layer="94"/>
+<wire x1="0" y1="-7.62" x2="10.16" y2="-7.62" width="0.1524" layer="94"/>
+<wire x1="1.27" y1="-12.7" x2="-2.54" y2="-12.7" width="0.1524" layer="94"/>
+<circle x="-2.3368" y="-2.9464" radius="0.198378125" width="0" layer="94"/>
+<circle x="-2.3368" y="-9.3218" radius="0.198378125" width="0" layer="94"/>
+<wire x1="-3.81" y1="-2.54" x2="-3.81" y2="-12.7" width="0.1524" layer="94"/>
+<wire x1="-5.08" y1="-5.08" x2="-5.08" y2="-3.81" width="0.1524" layer="94" curve="180"/>
+<wire x1="-5.08" y1="-3.81" x2="-5.08" y2="-2.54" width="0.1524" layer="94" curve="180"/>
+<wire x1="-5.08" y1="-6.35" x2="-5.08" y2="-5.08" width="0.1524" layer="94" curve="180"/>
+<wire x1="-5.08" y1="-11.43" x2="-5.08" y2="-10.16" width="0.1524" layer="94" curve="180"/>
+<wire x1="-5.08" y1="-10.16" x2="-5.08" y2="-8.89" width="0.1524" layer="94" curve="180"/>
+<wire x1="-5.08" y1="-12.7" x2="-5.08" y2="-11.43" width="0.1524" layer="94" curve="180"/>
+<circle x="-5.2832" y="-9.3218" radius="0.198378125" width="0" layer="94"/>
+<circle x="-5.2832" y="-2.9464" radius="0.198378125" width="0" layer="94"/>
+<wire x1="-5.08" y1="-6.35" x2="-7.62" y2="-6.35" width="0.1524" layer="94"/>
+<wire x1="-7.62" y1="-6.35" x2="-7.62" y2="-7.62" width="0.1524" layer="94"/>
+<wire x1="-7.62" y1="-7.62" x2="-7.62" y2="-8.89" width="0.1524" layer="94"/>
+<wire x1="-7.62" y1="-8.89" x2="-5.08" y2="-8.89" width="0.1524" layer="94"/>
+<wire x1="-5.08" y1="-12.7" x2="-10.16" y2="-12.7" width="0.1524" layer="94"/>
+<wire x1="-5.08" y1="-2.54" x2="-10.16" y2="-2.54" width="0.1524" layer="94"/>
+<circle x="0" y="-7.62" radius="0.198378125" width="0" layer="94"/>
+<circle x="-7.62" y="-7.62" radius="0.198378125" width="0" layer="94"/>
+<wire x1="3.81" y1="-2.54" x2="2.54" y2="-2.54" width="0.1524" layer="94" curve="-180"/>
+<wire x1="2.54" y1="-2.54" x2="1.27" y2="-2.54" width="0.1524" layer="94" curve="-180"/>
+<wire x1="5.08" y1="-2.54" x2="3.81" y2="-2.54" width="0.1524" layer="94" curve="-180"/>
+<wire x1="1.27" y1="-5.08" x2="2.54" y2="-5.08" width="0.1524" layer="94" curve="-180"/>
+<wire x1="2.54" y1="-5.08" x2="3.81" y2="-5.08" width="0.1524" layer="94" curve="-180"/>
+<wire x1="3.81" y1="-5.08" x2="5.08" y2="-5.08" width="0.1524" layer="94" curve="-180"/>
+<circle x="1.6764" y="-2.3368" radius="0.198378125" width="0" layer="94"/>
+<circle x="1.651" y="-5.2832" radius="0.198378125" width="0" layer="94"/>
+<wire x1="1.27" y1="-5.08" x2="1.27" y2="-12.7" width="0.1524" layer="94"/>
+<wire x1="1.27" y1="-3.81" x2="5.08" y2="-3.81" width="0.1524" layer="94"/>
+<wire x1="10.16" y1="-2.54" x2="5.08" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="5.08" y1="-5.08" x2="5.08" y2="-12.7" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="-2.54" x2="1.27" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="5.08" y1="-12.7" x2="10.16" y2="-12.7" width="0.1524" layer="94"/>
+<pin name="9" x="12.7" y="-2.54" visible="pad" length="short" rot="R180"/>
+<pin name="8" x="12.7" y="-7.62" visible="pad" length="short" rot="R180"/>
+<pin name="7" x="12.7" y="-12.7" visible="pad" length="short" rot="R180"/>
+<wire x1="-10.16" y1="-7.62" x2="-7.62" y2="-7.62" width="0.1524" layer="94"/>
+<wire x1="-10.16" y1="15.24" x2="10.16" y2="15.24" width="0.1524" layer="94"/>
+<wire x1="10.16" y1="15.24" x2="10.16" y2="-15.24" width="0.1524" layer="94"/>
+<wire x1="10.16" y1="-15.24" x2="-10.16" y2="-15.24" width="0.1524" layer="94"/>
+<wire x1="-10.16" y1="-15.24" x2="-10.16" y2="15.24" width="0.1524" layer="94"/>
+<text x="-5.08" y="19.05" size="1.778" layer="95">&gt;NAME</text>
+<text x="-5.08" y="16.51" size="1.778" layer="96">&gt;VALUE</text>
+<wire x1="-2.54" y1="11.43" x2="-2.54" y2="10.16" width="0.1524" layer="94" curve="180"/>
+<wire x1="-2.54" y1="12.7" x2="-2.54" y2="11.43" width="0.1524" layer="94" curve="180"/>
+<wire x1="-2.54" y1="10.16" x2="-2.54" y2="8.89" width="0.1524" layer="94" curve="180"/>
+<wire x1="-2.54" y1="6.35" x2="-2.54" y2="5.08" width="0.1524" layer="94" curve="180"/>
+<wire x1="-2.54" y1="3.81" x2="-2.54" y2="2.54" width="0.1524" layer="94" curve="180"/>
+<wire x1="-2.54" y1="5.08" x2="-2.54" y2="3.81" width="0.1524" layer="94" curve="180"/>
+<wire x1="-2.54" y1="8.89" x2="0" y2="8.89" width="0.1524" layer="94"/>
+<wire x1="0" y1="8.89" x2="0" y2="7.62" width="0.1524" layer="94"/>
+<wire x1="0" y1="7.62" x2="0" y2="6.35" width="0.1524" layer="94"/>
+<wire x1="0" y1="6.35" x2="-2.54" y2="6.35" width="0.1524" layer="94"/>
+<wire x1="0" y1="7.62" x2="10.16" y2="7.62" width="0.1524" layer="94"/>
+<wire x1="1.27" y1="2.54" x2="-2.54" y2="2.54" width="0.1524" layer="94"/>
+<circle x="-2.3368" y="12.2936" radius="0.198378125" width="0" layer="94"/>
+<circle x="-2.3368" y="5.9182" radius="0.198378125" width="0" layer="94"/>
+<wire x1="-3.81" y1="12.7" x2="-3.81" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="-5.08" y1="10.16" x2="-5.08" y2="11.43" width="0.1524" layer="94" curve="180"/>
+<wire x1="-5.08" y1="11.43" x2="-5.08" y2="12.7" width="0.1524" layer="94" curve="180"/>
+<wire x1="-5.08" y1="8.89" x2="-5.08" y2="10.16" width="0.1524" layer="94" curve="180"/>
+<wire x1="-5.08" y1="3.81" x2="-5.08" y2="5.08" width="0.1524" layer="94" curve="180"/>
+<wire x1="-5.08" y1="5.08" x2="-5.08" y2="6.35" width="0.1524" layer="94" curve="180"/>
+<wire x1="-5.08" y1="2.54" x2="-5.08" y2="3.81" width="0.1524" layer="94" curve="180"/>
+<circle x="-5.2832" y="5.9182" radius="0.198378125" width="0" layer="94"/>
+<circle x="-5.2832" y="12.2936" radius="0.198378125" width="0" layer="94"/>
+<wire x1="-5.08" y1="8.89" x2="-7.62" y2="8.89" width="0.1524" layer="94"/>
+<wire x1="-7.62" y1="8.89" x2="-7.62" y2="7.62" width="0.1524" layer="94"/>
+<wire x1="-7.62" y1="7.62" x2="-7.62" y2="6.35" width="0.1524" layer="94"/>
+<wire x1="-7.62" y1="6.35" x2="-5.08" y2="6.35" width="0.1524" layer="94"/>
+<wire x1="-5.08" y1="2.54" x2="-10.16" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="-5.08" y1="12.7" x2="-10.16" y2="12.7" width="0.1524" layer="94"/>
+<circle x="0" y="7.62" radius="0.198378125" width="0" layer="94"/>
+<circle x="-7.62" y="7.62" radius="0.198378125" width="0" layer="94"/>
+<wire x1="3.81" y1="12.7" x2="2.54" y2="12.7" width="0.1524" layer="94" curve="-180"/>
+<wire x1="2.54" y1="12.7" x2="1.27" y2="12.7" width="0.1524" layer="94" curve="-180"/>
+<wire x1="5.08" y1="12.7" x2="3.81" y2="12.7" width="0.1524" layer="94" curve="-180"/>
+<wire x1="1.27" y1="10.16" x2="2.54" y2="10.16" width="0.1524" layer="94" curve="-180"/>
+<wire x1="2.54" y1="10.16" x2="3.81" y2="10.16" width="0.1524" layer="94" curve="-180"/>
+<wire x1="3.81" y1="10.16" x2="5.08" y2="10.16" width="0.1524" layer="94" curve="-180"/>
+<circle x="1.6764" y="12.9032" radius="0.198378125" width="0" layer="94"/>
+<circle x="1.651" y="9.9568" radius="0.198378125" width="0" layer="94"/>
+<wire x1="1.27" y1="10.16" x2="1.27" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="1.27" y1="11.43" x2="5.08" y2="11.43" width="0.1524" layer="94"/>
+<wire x1="10.16" y1="12.7" x2="5.08" y2="12.7" width="0.1524" layer="94"/>
+<wire x1="5.08" y1="10.16" x2="5.08" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="12.7" x2="1.27" y2="12.7" width="0.1524" layer="94"/>
+<wire x1="5.08" y1="2.54" x2="10.16" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="-10.16" y1="7.62" x2="-7.62" y2="7.62" width="0.1524" layer="94"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="249ЛП8" prefix="IC" uservalue="yes">
@@ -691,32 +1195,6 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="КМН2Вхх" prefix="IC" uservalue="yes">
-<description>&lt;b&gt;КМН2&lt;/b&gt; – это серия изолированных DC/DC преобразователей мощностью 2Вт с широким (2:1) диапазоном входного
-напряжения. &lt;br&gt;
-Преобразователи изготавливаются в компактных (21,8 х 11,1 х 9,2 мм) корпусах&lt;br&gt;
- или в бескорпусном исполнении, имеющем превосходные массогабаритные показатели.&lt;br&gt;
-Производитель: ООО «АЕДОН», г. Воронеж.</description>
-<gates>
-<gate name="G$1" symbol="КМН2ВXX" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="SIP-8">
-<connects>
-<connect gate="G$1" pin="EN" pad="3"/>
-<connect gate="G$1" pin="IN+" pad="2"/>
-<connect gate="G$1" pin="IN-" pad="1"/>
-<connect gate="G$1" pin="NC@1" pad="5"/>
-<connect gate="G$1" pin="NC@2" pad="8"/>
-<connect gate="G$1" pin="OUT+" pad="6"/>
-<connect gate="G$1" pin="OUT-" pad="7"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="ТИЛ6В" prefix="T" uservalue="yes">
 <description>&lt;b&gt; АГ0.472.105 ТУ,  АГ0.472.101 ТУ&lt;/b&gt;&lt;p&gt;
 &lt;b&gt;ТИЛ6В&lt;/b&gt; - это импульсные линейные титрансформаторы с высоким значением импеданса линейной обмотки.&lt;br&gt;
@@ -760,6 +1238,390 @@
 <connect gate="G$1" pin="R6" pad="8"/>
 <connect gate="G$1" pin="R7" pad="9"/>
 <connect gate="G$1" pin="R8" pad="10"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="ТрС-ЛС1" prefix="T" uservalue="yes">
+<description>&lt;b&gt;ЕСКФ.671152.001 ТУ&lt;/b&gt;&lt;p&gt;
+
+Трансформаторная сборка для гальванической развязки в локальных сетях Ethernet 10BASE-T.&lt;br&gt;
+Интервал рабочих температур – минус 40..+65°С.
+
+&lt;table border="1" cellspacing="0" cellpadding="0" width="69%"&gt;
+    &lt;tbody&gt;&lt;tr&gt;
+      &lt;td width="32%" rowspan="2" align="center"&gt;&lt;br&gt;
+        Наименование параметра, единица измерения &lt;/td&gt;
+      &lt;td width="67%" colspan="3" valign="top"&gt;&lt;p align="center"&gt;Норма параметра&lt;/p&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td width="22%" valign="top"&gt;&lt;p align="center"&gt;Не менее&lt;/p&gt;&lt;/td&gt;
+      &lt;td width="22%" valign="top"&gt;&lt;p align="center"&gt;Типовое&lt;/p&gt;&lt;/td&gt;
+      &lt;td width="22%" valign="top"&gt;&lt;p align="center"&gt;Не более&lt;/p&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td width="32%"&gt;&lt;p align="center"&gt;Индуктивность обмоток трансформаторов &lt;br&gt;
+        на частоте 1 МГц, мкГн&lt;/p&gt;&lt;/td&gt;
+      &lt;td width="22%"&gt;&lt;p align="center"&gt;100&lt;/p&gt;&lt;/td&gt;
+      &lt;td width="22%"&gt;&lt;p align="center"&gt;Не нормируется &lt;/p&gt;&lt;/td&gt;
+      &lt;td width="22%"&gt;&lt;p align="center"&gt;Не&lt;br&gt;
+        нормируется&lt;/p&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td width="32%"&gt;&lt;p align="center"&gt;Сопротивление обмоток постоянному току, Ом&lt;/p&gt;&lt;/td&gt;
+      &lt;td width="22%"&gt;&lt;p align="center"&gt;Не нормируется&lt;/p&gt;&lt;/td&gt;
+      &lt;td width="22%"&gt;&lt;p align="center"&gt;Не нормируется&lt;/p&gt;&lt;/td&gt;
+      &lt;td width="22%"&gt;&lt;p align="center"&gt;1 &lt;/p&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td width="32%"&gt;&lt;p align="center"&gt;Межобмоточная емкость на частоте 1 МГц, пФ&lt;/p&gt;&lt;/td&gt;
+      &lt;td width="22%"&gt;&lt;p align="center"&gt;Не нормируется&lt;/p&gt;&lt;/td&gt;
+      &lt;td width="22%"&gt;&lt;p align="center"&gt;Не нормируется&lt;/p&gt;&lt;/td&gt;
+      &lt;td width="22%"&gt;&lt;p align="center"&gt;50&lt;/p&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td width="32%"&gt;&lt;p align="center"&gt;Коэффициент трансформации на частоте 1 МГц&lt;/p&gt;&lt;/td&gt;
+      &lt;td width="22%"&gt;&lt;p align="center"&gt;0,9&lt;/p&gt;&lt;/td&gt;
+      &lt;td width="22%"&gt;&lt;p align="center"&gt;1&lt;/p&gt;&lt;/td&gt;
+      &lt;td width="22%"&gt;&lt;p align="center"&gt;1,1&lt;/p&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td width="32%"&gt;&lt;p align="center"&gt;Сопротивление изоляции трансформаторных сборок при    испытательном напряжении 500 В, МОм&lt;/p&gt;&lt;/td&gt;
+      &lt;td width="22%"&gt;&lt;p align="center"&gt;50&lt;/p&gt;&lt;/td&gt;
+      &lt;td width="22%"&gt;&lt;p align="center"&gt;Не нормируется&lt;/p&gt;&lt;/td&gt;
+      &lt;td width="22%"&gt;&lt;p align="center"&gt;Не нормируется&lt;/p&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;&lt;/table&gt;
+&lt;p&gt;
+Пример обозначения при заказе и в конструкторской документации:&lt;br&gt;
+Трансформаторная сборка ТрС-ЛС1 ЕСКФ.671152.004 СБ&lt;p&gt;
+Производитель:  «Завод Магнетон», г. Санкт-Петербург.&lt;br&gt;
+Технические условия: &lt;b&gt;ЕСКФ.671152.001 ТУ&lt;/b&gt;</description>
+<gates>
+<gate name="G$1" symbol="ТрС-ЛС1(6)" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="ТрС-ЛС1(2)">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="10" pad="10"/>
+<connect gate="G$1" pin="11" pad="11"/>
+<connect gate="G$1" pin="12" pad="12"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="8" pad="8"/>
+<connect gate="G$1" pin="9" pad="9"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="ТрС-ЛС2" prefix="T" uservalue="yes">
+<description>&lt;b&gt;ЕСКФ.671152.001 ТУ&lt;/b&gt;&lt;p&gt;
+
+Трансформаторная сборка для гальванической развязки в локальных сетях Ethernet 10BASE-T.&lt;br&gt;
+Интервал рабочих температур – минус 40..+65°С.
+
+&lt;table border="1" cellspacing="0" cellpadding="0" width="69%"&gt;
+    &lt;tbody&gt;&lt;tr&gt;
+      &lt;td width="32%" rowspan="2" align="center"&gt;&lt;br&gt;
+        Наименование параметра, единица измерения &lt;/td&gt;
+      &lt;td width="67%" colspan="3" valign="top"&gt;&lt;p align="center"&gt;Норма параметра&lt;/p&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td width="22%" valign="top"&gt;&lt;p align="center"&gt;Не менее&lt;/p&gt;&lt;/td&gt;
+      &lt;td width="22%" valign="top"&gt;&lt;p align="center"&gt;Типовое&lt;/p&gt;&lt;/td&gt;
+      &lt;td width="22%" valign="top"&gt;&lt;p align="center"&gt;Не более&lt;/p&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td width="32%"&gt;&lt;p align="center"&gt;Индуктивность обмоток трансформаторов &lt;br&gt;
+        на частоте 1 МГц, мкГн&lt;/p&gt;&lt;/td&gt;
+      &lt;td width="22%"&gt;&lt;p align="center"&gt;100&lt;/p&gt;&lt;/td&gt;
+      &lt;td width="22%"&gt;&lt;p align="center"&gt;Не нормируется &lt;/p&gt;&lt;/td&gt;
+      &lt;td width="22%"&gt;&lt;p align="center"&gt;Не&lt;br&gt;
+        нормируется&lt;/p&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td width="32%"&gt;&lt;p align="center"&gt;Сопротивление обмоток постоянному току, Ом&lt;/p&gt;&lt;/td&gt;
+      &lt;td width="22%"&gt;&lt;p align="center"&gt;Не нормируется&lt;/p&gt;&lt;/td&gt;
+      &lt;td width="22%"&gt;&lt;p align="center"&gt;Не нормируется&lt;/p&gt;&lt;/td&gt;
+      &lt;td width="22%"&gt;&lt;p align="center"&gt;1 &lt;/p&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td width="32%"&gt;&lt;p align="center"&gt;Межобмоточная емкость на частоте 1 МГц, пФ&lt;/p&gt;&lt;/td&gt;
+      &lt;td width="22%"&gt;&lt;p align="center"&gt;Не нормируется&lt;/p&gt;&lt;/td&gt;
+      &lt;td width="22%"&gt;&lt;p align="center"&gt;Не нормируется&lt;/p&gt;&lt;/td&gt;
+      &lt;td width="22%"&gt;&lt;p align="center"&gt;50&lt;/p&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td width="32%"&gt;&lt;p align="center"&gt;Коэффициент трансформации на частоте 1 МГц&lt;/p&gt;&lt;/td&gt;
+      &lt;td width="22%"&gt;&lt;p align="center"&gt;0,9&lt;/p&gt;&lt;/td&gt;
+      &lt;td width="22%"&gt;&lt;p align="center"&gt;1&lt;/p&gt;&lt;/td&gt;
+      &lt;td width="22%"&gt;&lt;p align="center"&gt;1,1&lt;/p&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td width="32%"&gt;&lt;p align="center"&gt;Сопротивление изоляции трансформаторных сборок при    испытательном напряжении 500 В, МОм&lt;/p&gt;&lt;/td&gt;
+      &lt;td width="22%"&gt;&lt;p align="center"&gt;50&lt;/p&gt;&lt;/td&gt;
+      &lt;td width="22%"&gt;&lt;p align="center"&gt;Не нормируется&lt;/p&gt;&lt;/td&gt;
+      &lt;td width="22%"&gt;&lt;p align="center"&gt;Не нормируется&lt;/p&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;&lt;/table&gt;
+&lt;p&gt;
+Пример обозначения при заказе и в конструкторской документации:&lt;br&gt;
+Трансформаторная сборка ТрС-ЛС2 ЕСКФ.671152.005 СБ&lt;p&gt;
+Производитель:  «Завод Магнетон», г. Санкт-Петербург.&lt;br&gt;
+Технические условия: &lt;b&gt;ЕСКФ.671152.001 ТУ&lt;/b&gt;</description>
+<gates>
+<gate name="G$1" symbol="ТрС-ЛС2(5)" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="ТрС-ЛС1(2)">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="10" pad="10"/>
+<connect gate="G$1" pin="11" pad="11"/>
+<connect gate="G$1" pin="12" pad="12"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="8" pad="8"/>
+<connect gate="G$1" pin="9" pad="9"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="ТрС-ЛС5" prefix="T" uservalue="yes">
+<description>&lt;b&gt;ЕСКФ.671152.002 ТУ&lt;/b&gt;&lt;p&gt;
+Трансформаторная сборка для гальванической развязки в локальных сетях Ethernet 100BASE-T.&lt;br&gt;
+Интервал рабочих температур – минус 60 ¸ +85°С.&lt;br&gt;
+&lt;table border="1" cellspacing="0" cellpadding="0" width="684"&gt;
+    &lt;tbody&gt;&lt;tr&gt;
+      &lt;td width="408" rowspan="2"&gt;&lt;br&gt;
+        Наименование параметра, единица измерения &lt;/td&gt;
+      &lt;td width="276" colspan="3" valign="top"&gt;&lt;p align="center"&gt;Норма параметра&lt;/p&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td width="84" valign="top"&gt;&lt;p align="center"&gt;Не менее&lt;/p&gt;&lt;/td&gt;
+      &lt;td width="96" valign="top"&gt;&lt;p align="center"&gt;Типовое&lt;/p&gt;&lt;/td&gt;
+      &lt;td width="96" valign="top"&gt;&lt;p align="center"&gt;Не более&lt;/p&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td width="408"&gt;&lt;p&gt;Индуктивность обмоток    трансформаторов на частоте 100 кГц при токе подмагничивания 8 мА, мкГн&lt;/p&gt;&lt;/td&gt;
+      &lt;td width="84"&gt;&lt;p align="center"&gt;300&lt;/p&gt;&lt;/td&gt;
+      &lt;td width="96"&gt;&lt;p align="center"&gt;350&lt;/p&gt;&lt;/td&gt;
+      &lt;td width="96"&gt;&lt;p align="center"&gt;500&lt;/p&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td width="408"&gt;&lt;p&gt;Сопротивление обмоток    постоянному току, Ом&lt;/p&gt;&lt;/td&gt;
+      &lt;td width="84"&gt;&lt;p align="center"&gt;Не нормируется&lt;/p&gt;&lt;/td&gt;
+      &lt;td width="96"&gt;&lt;p align="center"&gt;1,0&lt;/p&gt;&lt;/td&gt;
+      &lt;td width="96"&gt;&lt;p align="center"&gt;1,5&lt;/p&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td width="408"&gt;&lt;p&gt;Межобмоточная    емкость на частоте 100 кГц, пФ&lt;/p&gt;&lt;/td&gt;
+      &lt;td width="84"&gt;&lt;p align="center"&gt;Не нормируется&lt;/p&gt;&lt;/td&gt;
+      &lt;td width="96"&gt;&lt;p align="center"&gt;Не нормируется&lt;/p&gt;&lt;/td&gt;
+      &lt;td width="96"&gt;&lt;p align="center"&gt;50&lt;/p&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td width="408"&gt;&lt;p&gt;Коэффициент трансформации на    частоте 1 МГц&lt;/p&gt;&lt;/td&gt;
+      &lt;td width="84"&gt;&lt;p align="center"&gt;0,9&lt;/p&gt;&lt;/td&gt;
+      &lt;td width="96"&gt;&lt;p align="center"&gt;1&lt;/p&gt;&lt;/td&gt;
+      &lt;td width="96"&gt;&lt;p align="center"&gt;1,1&lt;/p&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td width="408"&gt;&lt;p&gt;Вносимые потери на частоте    30 МГц, дБ&lt;/p&gt;&lt;/td&gt;
+      &lt;td width="84"&gt;&lt;p align="center"&gt;-&lt;/p&gt;&lt;/td&gt;
+      &lt;td width="96"&gt;&lt;p align="center"&gt;-&lt;/p&gt;&lt;/td&gt;
+      &lt;td width="96"&gt;&lt;p align="center"&gt;Минус 1,1&lt;/p&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td width="408"&gt;&lt;p&gt;Вносимые потери на частоте    60 МГц, дБ&lt;/p&gt;&lt;/td&gt;
+      &lt;td width="84"&gt;&lt;p align="center"&gt;-&lt;/p&gt;&lt;/td&gt;
+      &lt;td width="96"&gt;&lt;p align="center"&gt;-&lt;/p&gt;&lt;/td&gt;
+      &lt;td width="96"&gt;&lt;p align="center"&gt;Минус 1,1&lt;/p&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td width="408"&gt;&lt;p&gt;Вносимые потери на частоте    100 МГц, дБ&lt;/p&gt;&lt;/td&gt;
+      &lt;td width="84"&gt;&lt;p align="center"&gt;-&lt;/p&gt;&lt;/td&gt;
+      &lt;td width="96"&gt;&lt;p align="center"&gt;-&lt;/p&gt;&lt;/td&gt;
+      &lt;td width="96"&gt;&lt;p align="center"&gt;Минус 5,0&lt;/p&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td width="408"&gt;&lt;p&gt;Ослабление связи между    каналами на частоте&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; 30 МГц, дБ&lt;/p&gt;&lt;/td&gt;
+      &lt;td width="84"&gt;&lt;p align="center"&gt;Минус 45&lt;/p&gt;&lt;/td&gt;
+      &lt;td width="96"&gt;&lt;p align="center"&gt;-&lt;/p&gt;&lt;/td&gt;
+      &lt;td width="96"&gt;&lt;p align="center"&gt;-&lt;/p&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td width="408"&gt;&lt;p&gt;Ослабление связи между    каналами на частоте&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; 60 МГц, дБ&lt;/p&gt;&lt;/td&gt;
+      &lt;td width="84"&gt;&lt;p align="center"&gt;Минус 40&lt;/p&gt;&lt;/td&gt;
+      &lt;td width="96"&gt;&lt;p align="center"&gt;-&lt;/p&gt;&lt;/td&gt;
+      &lt;td width="96"&gt;&lt;p align="center"&gt;-&lt;/p&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td width="408"&gt;&lt;p&gt;Ослабление связи между    каналами на частоте&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; 100 МГц, дБ&lt;/p&gt;&lt;/td&gt;
+      &lt;td width="84"&gt;&lt;p align="center"&gt;Минус 35&lt;/p&gt;&lt;/td&gt;
+      &lt;td width="96"&gt;&lt;p align="center"&gt;-&lt;/p&gt;&lt;/td&gt;
+      &lt;td width="96"&gt;&lt;p align="center"&gt;-&lt;/p&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td width="408"&gt;&lt;p&gt;Сопротивление изоляции    трансформаторных сборок при испытательном напряжении 250 В, МОм&lt;/p&gt;&lt;/td&gt;
+      &lt;td width="84"&gt;&lt;p align="center"&gt;100&lt;/p&gt;&lt;/td&gt;
+      &lt;td width="96"&gt;&lt;p align="center"&gt;-&lt;/p&gt;&lt;/td&gt;
+      &lt;td width="96"&gt;&lt;p align="center"&gt;-&lt;/p&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;&lt;/table&gt;
+&lt;p&gt;
+Пример обозначения при заказе и в конструкторской документации:&lt;br&gt;
+Трансформаторная сборка ТрС-ЛС5 ЕСКФ.671152.002 ТУ&lt;p&gt;
+Производитель:  «Завод Магнетон», г. Санкт-Петербург.&lt;br&gt;
+Технические условия: &lt;b&gt;ЕСКФ.671152.002 ТУ&lt;/b&gt;</description>
+<gates>
+<gate name="G$1" symbol="ТрС-ЛС2(5)" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="ТрС-ЛС5(6)">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="10" pad="10"/>
+<connect gate="G$1" pin="11" pad="11"/>
+<connect gate="G$1" pin="12" pad="12"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="8" pad="8"/>
+<connect gate="G$1" pin="9" pad="9"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="ТрС-ЛС6" prefix="T" uservalue="yes">
+<description>&lt;b&gt;ЕСКФ.671152.002 ТУ&lt;/b&gt;&lt;p&gt;
+Трансформаторная сборка для гальванической развязки в локальных сетях Ethernet 100BASE-T.&lt;br&gt;
+Интервал рабочих температур – минус 60 ¸ +85°С.&lt;br&gt;
+&lt;table border="1" cellspacing="0" cellpadding="0" width="684"&gt;
+    &lt;tbody&gt;&lt;tr&gt;
+      &lt;td width="408" rowspan="2"&gt;&lt;br&gt;
+        Наименование параметра, единица измерения &lt;/td&gt;
+      &lt;td width="276" colspan="3" valign="top"&gt;&lt;p align="center"&gt;Норма параметра&lt;/p&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td width="84" valign="top"&gt;&lt;p align="center"&gt;Не менее&lt;/p&gt;&lt;/td&gt;
+      &lt;td width="96" valign="top"&gt;&lt;p align="center"&gt;Типовое&lt;/p&gt;&lt;/td&gt;
+      &lt;td width="96" valign="top"&gt;&lt;p align="center"&gt;Не более&lt;/p&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td width="408"&gt;&lt;p&gt;Индуктивность обмоток    трансформаторов на частоте 100 кГц при токе подмагничивания 8 мА, мкГн&lt;/p&gt;&lt;/td&gt;
+      &lt;td width="84"&gt;&lt;p align="center"&gt;300&lt;/p&gt;&lt;/td&gt;
+      &lt;td width="96"&gt;&lt;p align="center"&gt;350&lt;/p&gt;&lt;/td&gt;
+      &lt;td width="96"&gt;&lt;p align="center"&gt;500&lt;/p&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td width="408"&gt;&lt;p&gt;Сопротивление обмоток    постоянному току, Ом&lt;/p&gt;&lt;/td&gt;
+      &lt;td width="84"&gt;&lt;p align="center"&gt;Не нормируется&lt;/p&gt;&lt;/td&gt;
+      &lt;td width="96"&gt;&lt;p align="center"&gt;1,0&lt;/p&gt;&lt;/td&gt;
+      &lt;td width="96"&gt;&lt;p align="center"&gt;1,5&lt;/p&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td width="408"&gt;&lt;p&gt;Межобмоточная    емкость на частоте 100 кГц, пФ&lt;/p&gt;&lt;/td&gt;
+      &lt;td width="84"&gt;&lt;p align="center"&gt;Не нормируется&lt;/p&gt;&lt;/td&gt;
+      &lt;td width="96"&gt;&lt;p align="center"&gt;Не нормируется&lt;/p&gt;&lt;/td&gt;
+      &lt;td width="96"&gt;&lt;p align="center"&gt;50&lt;/p&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td width="408"&gt;&lt;p&gt;Коэффициент трансформации на    частоте 1 МГц&lt;/p&gt;&lt;/td&gt;
+      &lt;td width="84"&gt;&lt;p align="center"&gt;0,9&lt;/p&gt;&lt;/td&gt;
+      &lt;td width="96"&gt;&lt;p align="center"&gt;1&lt;/p&gt;&lt;/td&gt;
+      &lt;td width="96"&gt;&lt;p align="center"&gt;1,1&lt;/p&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td width="408"&gt;&lt;p&gt;Вносимые потери на частоте    30 МГц, дБ&lt;/p&gt;&lt;/td&gt;
+      &lt;td width="84"&gt;&lt;p align="center"&gt;-&lt;/p&gt;&lt;/td&gt;
+      &lt;td width="96"&gt;&lt;p align="center"&gt;-&lt;/p&gt;&lt;/td&gt;
+      &lt;td width="96"&gt;&lt;p align="center"&gt;Минус 1,1&lt;/p&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td width="408"&gt;&lt;p&gt;Вносимые потери на частоте    60 МГц, дБ&lt;/p&gt;&lt;/td&gt;
+      &lt;td width="84"&gt;&lt;p align="center"&gt;-&lt;/p&gt;&lt;/td&gt;
+      &lt;td width="96"&gt;&lt;p align="center"&gt;-&lt;/p&gt;&lt;/td&gt;
+      &lt;td width="96"&gt;&lt;p align="center"&gt;Минус 1,1&lt;/p&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td width="408"&gt;&lt;p&gt;Вносимые потери на частоте    100 МГц, дБ&lt;/p&gt;&lt;/td&gt;
+      &lt;td width="84"&gt;&lt;p align="center"&gt;-&lt;/p&gt;&lt;/td&gt;
+      &lt;td width="96"&gt;&lt;p align="center"&gt;-&lt;/p&gt;&lt;/td&gt;
+      &lt;td width="96"&gt;&lt;p align="center"&gt;Минус 5,0&lt;/p&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td width="408"&gt;&lt;p&gt;Ослабление связи между    каналами на частоте&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; 30 МГц, дБ&lt;/p&gt;&lt;/td&gt;
+      &lt;td width="84"&gt;&lt;p align="center"&gt;Минус 45&lt;/p&gt;&lt;/td&gt;
+      &lt;td width="96"&gt;&lt;p align="center"&gt;-&lt;/p&gt;&lt;/td&gt;
+      &lt;td width="96"&gt;&lt;p align="center"&gt;-&lt;/p&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td width="408"&gt;&lt;p&gt;Ослабление связи между    каналами на частоте&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; 60 МГц, дБ&lt;/p&gt;&lt;/td&gt;
+      &lt;td width="84"&gt;&lt;p align="center"&gt;Минус 40&lt;/p&gt;&lt;/td&gt;
+      &lt;td width="96"&gt;&lt;p align="center"&gt;-&lt;/p&gt;&lt;/td&gt;
+      &lt;td width="96"&gt;&lt;p align="center"&gt;-&lt;/p&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td width="408"&gt;&lt;p&gt;Ослабление связи между    каналами на частоте&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; 100 МГц, дБ&lt;/p&gt;&lt;/td&gt;
+      &lt;td width="84"&gt;&lt;p align="center"&gt;Минус 35&lt;/p&gt;&lt;/td&gt;
+      &lt;td width="96"&gt;&lt;p align="center"&gt;-&lt;/p&gt;&lt;/td&gt;
+      &lt;td width="96"&gt;&lt;p align="center"&gt;-&lt;/p&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td width="408"&gt;&lt;p&gt;Сопротивление изоляции    трансформаторных сборок при испытательном напряжении 250 В, МОм&lt;/p&gt;&lt;/td&gt;
+      &lt;td width="84"&gt;&lt;p align="center"&gt;100&lt;/p&gt;&lt;/td&gt;
+      &lt;td width="96"&gt;&lt;p align="center"&gt;-&lt;/p&gt;&lt;/td&gt;
+      &lt;td width="96"&gt;&lt;p align="center"&gt;-&lt;/p&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;&lt;/table&gt;
+&lt;p&gt;
+Пример обозначения при заказе и в конструкторской документации:&lt;br&gt;
+Трансформаторная сборка ТрС-ЛС6 ЕСКФ.671152.002 ТУ&lt;p&gt;
+Производитель:  «Завод Магнетон», г. Санкт-Петербург.&lt;br&gt;
+Технические условия: &lt;b&gt;ЕСКФ.671152.002 ТУ&lt;/b&gt;</description>
+<gates>
+<gate name="G$1" symbol="ТрС-ЛС1(6)" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="ТрС-ЛС5(6)">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="10" pad="10"/>
+<connect gate="G$1" pin="11" pad="11"/>
+<connect gate="G$1" pin="12" pad="12"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="8" pad="8"/>
+<connect gate="G$1" pin="9" pad="9"/>
 </connects>
 <technologies>
 <technology name=""/>

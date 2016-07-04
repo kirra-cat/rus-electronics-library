@@ -459,7 +459,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 <technology name=""/>
 </technologies>
 </device>
-<device name="0.1ум" package="R0603">
+<device name="-0.1ум" package="R0603">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -479,7 +479,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 <gate name="G$1" symbol="C" x="0" y="0"/>
 </gates>
 <devices>
-<device name="0603" package="C0603">
+<device name="-1608М" package="C0603">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -488,7 +488,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 <technology name=""/>
 </technologies>
 </device>
-<device name="0805" package="C0805">
+<device name="-2012М" package="C0805">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -497,7 +497,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 <technology name=""/>
 </technologies>
 </device>
-<device name="1206" package="C1206">
+<device name="-3225М" package="C1206">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -1209,6 +1209,90 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </technologies>
 </device>
 <device name="&quot;В&quot;-3225M" package="C1210">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="КИК" prefix="L" uservalue="yes">
+<description>&lt;b&gt;РКМУ.671340.001 ТУ&lt;/b&gt;&lt;p&gt;
+Проволочные высокочастотные и сверхвысокочастотные чип-индуктивности.&lt;br&gt;
+КИК – катушка индуктивности с керамическим сердечником (Al2O3). &lt;br&gt;
+Материал финишного покрытия контактных площадок для типоразмеров 1005, 1608, 2012 − Зл (Золото) и 1608, 2012 – О (олово).&lt;p&gt;
+Произвоитель: ОАО «НПО «ЭРКОН», г. Нижний Новгород&lt;br&gt;
+Технические условия: &lt;b&gt;РКМУ.671340.001 ТУ&lt;/b&gt;</description>
+<gates>
+<gate name="G$1" symbol="L" x="0" y="0"/>
+</gates>
+<devices>
+<device name="1005" package="L0402">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="1608" package="L0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="2012" package="L0805">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="К10-84">
+<description>&lt;b&gt;ФЦТА.673516.016 ТУ&lt;/b&gt;&lt;p&gt;
+К10-84 предназначены для работы в цепях постоянного, переменного токов и в импульсных режимах.&lt;br&gt;
+К10-84в незащищенные керамические конденсаторы.&lt;br&gt;
+Конденсаторы изготавливают с контактными поверхностями:&lt;br&gt;
+1) для кодов размеров 10050М, 140100М – серебро-палладий (код Р);&lt;br&gt;
+2) для кодов размеров 1608М, 2012М, 3216М, 3225М, 4025М, 4532М, 5750М, 8060М: - серебро-палладий (код Р), серебро/никель-барьер/олово-свинец (код N) &lt;br&gt;
+3) для кодов размеров 10080М, 120100М:-серебро (код Р),-серебро/никель-барьер/олово-свинец (код N)&lt;br&gt;
+4) для всех кодов размеров: серебро (код Р),-серебро/олово-свинец-серебро (код О);&lt;br&gt;
+Производитель: ОАО "ВЗРД "Монолит", г. Витебск, р. Беларусь.&lt;br&gt;
+Технические условия: &lt;b&gt;ФЦТА.673516.016 ТУ&lt;/b&gt;</description>
+<gates>
+<gate name="G$1" symbol="C" x="0" y="0"/>
+</gates>
+<devices>
+<device name="&quot;В&quot;-1608М" package="C0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="&quot;В&quot;-2012М" package="C0805">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="&quot;В&quot;-3225М" package="C1206">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>

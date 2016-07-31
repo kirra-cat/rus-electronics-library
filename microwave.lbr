@@ -1576,7 +1576,8 @@ www.fma.fujitsu.com/pdf/e713717.pdf</description>
 </devices>
 </deviceset>
 <deviceset name="ТПр3-1х" prefix="T" uservalue="yes">
-<description>Параметры трансформаторов серии &lt;b&gt;ТПр3-1&lt;/b&gt;&lt;br&gt;
+<description>&lt;b&gt;КЖГП.671159.003 ТУ&lt;/b&gt;&lt;p&gt;
+Параметры трансформаторов серии &lt;b&gt;ТПр3-1&lt;/b&gt;&lt;br&gt;
 &lt;table border="1"&gt;
 &lt;tr&gt;
 &lt;td&gt;&lt;b&gt;Наименование &lt;br&gt;трансформатора&lt;/b&gt;&lt;/td&gt;
@@ -1647,7 +1648,8 @@ www.fma.fujitsu.com/pdf/e713717.pdf</description>
 </devices>
 </deviceset>
 <deviceset name="ТПр3-8х" prefix="T" uservalue="yes">
-<description>Параметры трансформаторов серии &lt;b&gt;ТПр3-8&lt;/b&gt;&lt;br&gt;
+<description>&lt;b&gt;КЖГП.671159.003 ТУ&lt;/b&gt;&lt;p&gt;
+Параметры трансформаторов серии &lt;b&gt;ТПр3-8&lt;/b&gt;&lt;br&gt;
 &lt;table border="1"&gt;
 &lt;tr&gt;
 &lt;td&gt;&lt;b&gt;Наименование &lt;br&gt;трансформатора&lt;/b&gt;&lt;/td&gt;

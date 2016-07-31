@@ -370,12 +370,128 @@
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="1158ЕНхх" prefix="IC" uservalue="yes">
+<deviceset name="1158ЕН" prefix="IC" uservalue="yes">
+<description>&lt;b&gt;АЕЯР.431420.773 ТУ&lt;/b&gt;&lt;p&gt;
+&lt;b&gt;1158ЕНхх&lt;/b&gt; – микросхема, предназначенная для использования в качестве линейных стабилизаторов напряжения.&lt;br&gt;
+Типономиналы для корпуса КТ93-1:&lt;br&gt;
+1158ЕНххЖУ, К1158ЕНххИУ (где хх – номинал выходного напряжения: 3,0В, 3,3В, 5,0В, 6,0В, 9,0В, 12,0В, 15,0В)&lt;br&gt;
+Производитель: ЗАО "НТЦ Схемотехники и Интегральных Технологий", г. Брянск&lt;br&gt;
+Технические условия: &lt;b&gt;АЕЯР.431420.773 ТУ&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="VOLTAGE_REGULATOR" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="KT93-1">
+<device name="3ЖУ" package="KT93-1">
+<connects>
+<connect gate="G$1" pin="GND" pad="1"/>
+<connect gate="G$1" pin="IN" pad="3"/>
+<connect gate="G$1" pin="OUT" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="3ИУ" package="KT93-1">
+<connects>
+<connect gate="G$1" pin="GND" pad="1"/>
+<connect gate="G$1" pin="IN" pad="3"/>
+<connect gate="G$1" pin="OUT" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="3.3ЖУ" package="KT93-1">
+<connects>
+<connect gate="G$1" pin="GND" pad="1"/>
+<connect gate="G$1" pin="IN" pad="3"/>
+<connect gate="G$1" pin="OUT" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="3.3ИУ" package="KT93-1">
+<connects>
+<connect gate="G$1" pin="GND" pad="1"/>
+<connect gate="G$1" pin="IN" pad="3"/>
+<connect gate="G$1" pin="OUT" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="5ЖУ" package="KT93-1">
+<connects>
+<connect gate="G$1" pin="GND" pad="1"/>
+<connect gate="G$1" pin="IN" pad="3"/>
+<connect gate="G$1" pin="OUT" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="5ИУ" package="KT93-1">
+<connects>
+<connect gate="G$1" pin="GND" pad="1"/>
+<connect gate="G$1" pin="IN" pad="3"/>
+<connect gate="G$1" pin="OUT" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="9ЖУ" package="KT93-1">
+<connects>
+<connect gate="G$1" pin="GND" pad="1"/>
+<connect gate="G$1" pin="IN" pad="3"/>
+<connect gate="G$1" pin="OUT" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="9ИУ" package="KT93-1">
+<connects>
+<connect gate="G$1" pin="GND" pad="1"/>
+<connect gate="G$1" pin="IN" pad="3"/>
+<connect gate="G$1" pin="OUT" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="12ЖУ" package="KT93-1">
+<connects>
+<connect gate="G$1" pin="GND" pad="1"/>
+<connect gate="G$1" pin="IN" pad="3"/>
+<connect gate="G$1" pin="OUT" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="12ИУ" package="KT93-1">
+<connects>
+<connect gate="G$1" pin="GND" pad="1"/>
+<connect gate="G$1" pin="IN" pad="3"/>
+<connect gate="G$1" pin="OUT" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="15ЖУ" package="KT93-1">
+<connects>
+<connect gate="G$1" pin="GND" pad="1"/>
+<connect gate="G$1" pin="IN" pad="3"/>
+<connect gate="G$1" pin="OUT" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="15ИУ" package="KT93-1">
 <connects>
 <connect gate="G$1" pin="GND" pad="1"/>
 <connect gate="G$1" pin="IN" pad="3"/>

@@ -221,7 +221,8 @@
 </symbols>
 <devicesets>
 <deviceset name="МПШН10ххВОВ" prefix="IC" uservalue="yes">
-<description>&lt;b&gt;ЖБКП.436634.009 ТУ&lt;/b&gt;&lt;p&gt;&lt;b&gt;МПШВ1005ВОВ&lt;/b&gt; - DC/DC преобразователи мощностью 10Вт. &lt;br&gt;
+<description>&lt;b&gt;ЖБКП.436634.009 ТУ&lt;/b&gt;&lt;p&gt;
+&lt;b&gt;МПШВ1005ВОВ&lt;/b&gt; - DC/DC преобразователи мощностью 10Вт. &lt;br&gt;
 Производитель АО "НПП "ЭлТом", Московская область, Люберецкий район, пос. Томилино. &lt;br&gt;
 Технические условия: &lt;b&gt;ЖБКП.436634.009 ТУ&lt;/b&gt;</description>
 <gates>

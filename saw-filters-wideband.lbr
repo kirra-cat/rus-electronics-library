@@ -1,0 +1,939 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="7.5.0">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting verticaltext="down"/>
+</settings>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="no" active="yes"/>
+<layer number="4" name="Route4" color="1" fill="4" visible="no" active="yes"/>
+<layer number="5" name="Route5" color="4" fill="4" visible="no" active="yes"/>
+<layer number="6" name="Route6" color="1" fill="8" visible="no" active="yes"/>
+<layer number="7" name="Route7" color="4" fill="8" visible="no" active="yes"/>
+<layer number="8" name="Route8" color="1" fill="2" visible="no" active="yes"/>
+<layer number="9" name="Route9" color="4" fill="2" visible="no" active="yes"/>
+<layer number="10" name="Route10" color="1" fill="7" visible="no" active="yes"/>
+<layer number="11" name="Route11" color="4" fill="7" visible="no" active="yes"/>
+<layer number="12" name="Route12" color="1" fill="5" visible="no" active="yes"/>
+<layer number="13" name="Route13" color="4" fill="5" visible="no" active="yes"/>
+<layer number="14" name="Route14" color="1" fill="6" visible="no" active="yes"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="no" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="no" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+</layers>
+<library>
+<packages>
+<package name="DCC6">
+<wire x1="-1.5" y1="-1.25" x2="-1.5" y2="-0.25" width="0.1" layer="51"/>
+<wire x1="-1.5" y1="0.25" x2="-1.5" y2="1.25" width="0.1" layer="51"/>
+<wire x1="-1.25" y1="1.5" x2="-0.25" y2="1.5" width="0.1" layer="51"/>
+<wire x1="0.25" y1="1.5" x2="1.25" y2="1.5" width="0.1" layer="51"/>
+<wire x1="1.5" y1="1.25" x2="1.5" y2="0.25" width="0.1" layer="51"/>
+<smd name="6" x="1.4" y="1.1" dx="1.5" dy="0.6" layer="1"/>
+<smd name="4" x="1.4" y="-1.1" dx="1.5" dy="0.6" layer="1"/>
+<smd name="5" x="1.4" y="0" dx="1.5" dy="0.6" layer="1"/>
+<smd name="3" x="-1.4" y="-1.1" dx="1.5" dy="0.6" layer="1"/>
+<smd name="2" x="-1.4" y="0" dx="1.5" dy="0.6" layer="1"/>
+<smd name="1" x="-1.075" y="1.1" dx="2.15" dy="0.6" layer="1"/>
+<wire x1="1.5" y1="-0.25" x2="1.5" y2="-1.25" width="0.1" layer="51"/>
+<wire x1="1.25" y1="-1.5" x2="0.25" y2="-1.5" width="0.1" layer="51"/>
+<wire x1="-0.25" y1="-1.5" x2="-1.25" y2="-1.5" width="0.1" layer="51"/>
+<wire x1="-1.25" y1="1.5" x2="-1.5" y2="1.25" width="0.1" layer="51" curve="-90"/>
+<wire x1="1.5" y1="1.25" x2="1.25" y2="1.5" width="0.1" layer="51" curve="-90"/>
+<wire x1="-1.5" y1="-1.25" x2="-1.25" y2="-1.5" width="0.1" layer="51" curve="-90"/>
+<wire x1="1.25" y1="-1.5" x2="1.5" y2="-1.25" width="0.1" layer="51" curve="-90"/>
+<wire x1="1.5" y1="-0.25" x2="1.5" y2="0.25" width="0.1" layer="51" curve="-180"/>
+<wire x1="-1.5" y1="0.25" x2="-1.5" y2="-0.25" width="0.1" layer="51" curve="-180"/>
+<wire x1="0.25" y1="1.5" x2="-0.25" y2="1.5" width="0.1" layer="51" curve="-180"/>
+<wire x1="-0.25" y1="-1.5" x2="0.25" y2="-1.5" width="0.1" layer="51" curve="-180"/>
+<wire x1="-1" y1="0.75" x2="-0.75" y2="1" width="0.1" layer="51" curve="-90"/>
+<wire x1="0.75" y1="1" x2="1" y2="0.75" width="0.1" layer="51" curve="-90"/>
+<wire x1="-0.75" y1="1" x2="0.75" y2="1" width="0.1" layer="51"/>
+<wire x1="1" y1="-0.75" x2="1" y2="0.75" width="0.1" layer="51"/>
+<wire x1="1" y1="-0.75" x2="0.75" y2="-1" width="0.1" layer="51" curve="-90"/>
+<wire x1="0.75" y1="-1" x2="-0.75" y2="-1" width="0.1" layer="51"/>
+<wire x1="-0.75" y1="-1" x2="-1" y2="-0.75" width="0.1" layer="51" curve="-90"/>
+<wire x1="-1" y1="-0.75" x2="-1" y2="0.75" width="0.1" layer="51"/>
+<wire x1="-1.125" y1="0.75" x2="-0.75" y2="1.125" width="0.1" layer="51" curve="-90"/>
+<wire x1="0.75" y1="1.125" x2="1.125" y2="0.75" width="0.1" layer="51" curve="-90"/>
+<wire x1="-0.75" y1="1.125" x2="0.75" y2="1.125" width="0.1" layer="51"/>
+<wire x1="1.125" y1="-0.75" x2="1.125" y2="0.75" width="0.1" layer="51"/>
+<wire x1="1.125" y1="-0.75" x2="0.75" y2="-1.125" width="0.1" layer="51" curve="-90"/>
+<wire x1="0.75" y1="-1.125" x2="-0.75" y2="-1.125" width="0.1" layer="51"/>
+<wire x1="-0.75" y1="-1.125" x2="-1.125" y2="-0.75" width="0.1" layer="51" curve="-90"/>
+<wire x1="-1.125" y1="-0.75" x2="-1.125" y2="0.75" width="0.1" layer="51"/>
+<circle x="-0.625" y="0.625" radius="0.176775" width="0" layer="51"/>
+<wire x1="-1.75" y1="1.45" x2="-1.75" y2="1.75" width="0.1" layer="21"/>
+<wire x1="-1.75" y1="1.75" x2="1.75" y2="1.75" width="0.1" layer="21"/>
+<wire x1="1.75" y1="1.75" x2="1.75" y2="1.45" width="0.1" layer="21"/>
+<wire x1="1.75" y1="0.75" x2="1.75" y2="0.35" width="0.1" layer="21"/>
+<wire x1="-1.75" y1="0.75" x2="-1.75" y2="0.35" width="0.1" layer="21"/>
+<wire x1="-1.75" y1="-0.35" x2="-1.75" y2="-0.75" width="0.1" layer="21"/>
+<wire x1="1.75" y1="-0.35" x2="1.75" y2="-0.75" width="0.1" layer="21"/>
+<wire x1="-1.75" y1="-1.45" x2="-1.75" y2="-1.75" width="0.1" layer="21"/>
+<wire x1="-1.75" y1="-1.75" x2="1.75" y2="-1.75" width="0.1" layer="21"/>
+<wire x1="1.75" y1="-1.45" x2="1.75" y2="-1.75" width="0.1" layer="21"/>
+<circle x="-2.175" y="1.925" radius="0.25" width="0" layer="21"/>
+</package>
+</packages>
+<symbols>
+<symbol name="SAW_4GND">
+<pin name="GND@1" x="-15.24" y="-2.54" length="short" direction="pwr"/>
+<pin name="GND@2" x="-15.24" y="-5.08" length="short" direction="pwr"/>
+<pin name="GND@3" x="15.24" y="-2.54" length="short" direction="pwr" rot="R180"/>
+<pin name="GND@4" x="15.24" y="-5.08" length="short" direction="pwr" rot="R180"/>
+<wire x1="-12.7" y1="-7.62" x2="-12.7" y2="0" width="0.254" layer="94"/>
+<wire x1="-12.7" y1="0" x2="-5.08" y2="0" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="0" x2="-5.08" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-7.62" x2="-12.7" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-7.62" x2="12.7" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="12.7" y1="-7.62" x2="12.7" y2="0" width="0.254" layer="94"/>
+<wire x1="12.7" y1="0" x2="5.08" y2="0" width="0.254" layer="94"/>
+<wire x1="5.08" y1="0" x2="5.08" y2="-7.62" width="0.254" layer="94"/>
+<pin name="IN" x="-15.24" y="5.08" length="short" direction="in"/>
+<pin name="OUT" x="15.24" y="5.08" length="short" direction="out" rot="R180"/>
+<wire x1="-12.7" y1="0" x2="-12.7" y2="7.62" width="0.254" layer="94"/>
+<wire x1="-12.7" y1="7.62" x2="-5.08" y2="7.62" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="7.62" x2="5.08" y2="7.62" width="0.254" layer="94"/>
+<wire x1="5.08" y1="7.62" x2="12.7" y2="7.62" width="0.254" layer="94"/>
+<wire x1="12.7" y1="7.62" x2="12.7" y2="0" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-7.62" x2="-5.08" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="7.62" x2="-5.08" y2="0" width="0.254" layer="94"/>
+<wire x1="5.08" y1="7.62" x2="5.08" y2="0" width="0.254" layer="94"/>
+<wire x1="-3.81" y1="0" x2="0" y2="0" width="0.254" layer="94" curve="-90"/>
+<wire x1="3.81" y1="0" x2="0" y2="0" width="0.254" layer="94" curve="-90"/>
+<wire x1="-3.81" y1="2.54" x2="0" y2="2.54" width="0.254" layer="94" curve="-90"/>
+<wire x1="3.81" y1="2.54" x2="0" y2="2.54" width="0.254" layer="94" curve="-90"/>
+<wire x1="-3.81" y1="-2.54" x2="0" y2="-2.54" width="0.254" layer="94" curve="-90"/>
+<wire x1="3.81" y1="-2.54" x2="0" y2="-2.54" width="0.254" layer="94" curve="-90"/>
+<wire x1="0" y1="1.27" x2="0.889" y2="3.175" width="0.254" layer="94"/>
+<wire x1="-0.635" y1="-3.175" x2="0.254" y2="-1.27" width="0.254" layer="94"/>
+<text x="0" y="12.7" size="1.778" layer="95" align="center">&gt;NAME</text>
+<text x="0" y="10.16" size="1.778" layer="96" align="center">&gt;VALUE</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="A153-1710M1" prefix="Z" uservalue="yes">
+<description>&lt;b&gt;A153-1710M1&lt;/b&gt;&lt;p&gt;
+&lt;table width="680" cellpadding="0" cellspacing="0" border="1"&gt;
+	&lt;tr valign="top"&gt;
+		&lt;td width="208" style="border: 1.00pt solid #000000; padding: 0.05cm"&gt;
+			&lt;p align="center"&gt;Параметр&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="76" style="border-top: 1.00pt solid #000000; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0.05cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;Ед. изм.&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="132" style="border-top: 1.00pt solid #000000; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0.05cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;Мин. значение&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="132" style="border-top: 1.00pt solid #000000; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0.05cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;Тип. значение&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="132" style="border-top: 1.00pt solid #000000; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0.05cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;Макс. значение&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr valign="top"&gt;
+		&lt;td width="208" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: 1.00pt solid #000000; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0.05cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;Центральная частота&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="76" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;МГц&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="132" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;1707&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="132" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;1710&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="132" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;1713&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr valign="top"&gt;
+		&lt;td width="208" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: 1.00pt solid #000000; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0.05cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;Минимальное вносимое затухание&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="76" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;дБ&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="132" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;2.2&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="132" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;2.5&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="132" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;3&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr valign="top"&gt;
+		&lt;td width="208" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: 1.00pt solid #000000; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0.05cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;Полоса среза по уровню -3 дБ&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="76" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;МГц&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="132" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;87&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="132" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;90&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="132" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;-&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr valign="top"&gt;
+		&lt;td width="208" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: 1.00pt solid #000000; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0.05cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;Полоса среза по уровню -30 дБ&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="76" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;МГц&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="132" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;135&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="132" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;137&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="132" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;140&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr valign="top"&gt;
+		&lt;td width="208" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: 1.00pt solid #000000; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0.05cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;Неравномерность АЧХ&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="76" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;дБ&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="132" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;1&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="132" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;1.5&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="132" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;2&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr valign="top"&gt;
+		&lt;td width="208" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: 1.00pt solid #000000; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0.05cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;Групповое время задержки&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="76" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;нс&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="132" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;9&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="132" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;11&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="132" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;-&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr valign="top"&gt;
+		&lt;td width="208" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: 1.00pt solid #000000; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0.05cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;Гарантированное затухание&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="76" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;дБ&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="132" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;-&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="132" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;30&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="132" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;-&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr valign="top"&gt;
+		&lt;td width="208" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: 1.00pt solid #000000; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0.05cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;Температурный диапазон&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="76" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;&amp;deg;C&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="132" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;-55&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="132" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;22&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="132" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;+85&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr valign="top"&gt;
+		&lt;td width="208" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: 1.00pt solid #000000; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0.05cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;Материал подложки&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="76" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;-&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="132" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;-&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="132" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;Ниобат лития 49&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="132" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;-&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;</description>
+<gates>
+<gate name="G$1" symbol="SAW_4GND" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="DCC6">
+<connects>
+<connect gate="G$1" pin="GND@1" pad="1"/>
+<connect gate="G$1" pin="GND@2" pad="3"/>
+<connect gate="G$1" pin="GND@3" pad="4"/>
+<connect gate="G$1" pin="GND@4" pad="6"/>
+<connect gate="G$1" pin="IN" pad="2"/>
+<connect gate="G$1" pin="OUT" pad="5"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="A153-1650M1" prefix="Z" uservalue="yes">
+<description>&lt;b&gt;A153-1650M1&lt;/b&gt;&lt;p&gt;
+&lt;table width="680" cellpadding="0" cellspacing="0" border="1"&gt;
+	&lt;tr valign="top"&gt;
+		&lt;td width="208" style="border: 1.00pt solid #000000; padding: 0.05cm"&gt;
+			&lt;p align="center"&gt;Параметр&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="76" style="border-top: 1.00pt solid #000000; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0.05cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;Ед. изм.&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="132" style="border-top: 1.00pt solid #000000; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0.05cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;Мин. значение&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="132" style="border-top: 1.00pt solid #000000; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0.05cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;Тип. значение&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="132" style="border-top: 1.00pt solid #000000; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0.05cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;Макс. значение&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr valign="top"&gt;
+		&lt;td width="208" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: 1.00pt solid #000000; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0.05cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;Центральная частота&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="76" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;МГц&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="132" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;1647&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="132" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;1650&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="132" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;1653&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr valign="top"&gt;
+		&lt;td width="208" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: 1.00pt solid #000000; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0.05cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;Минимальное вносимое затухание&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="76" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;дБ&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="132" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;2.1&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="132" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;2.3&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="132" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;2.6&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr valign="top"&gt;
+		&lt;td width="208" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: 1.00pt solid #000000; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0.05cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;Полоса среза по уровню -3 дБ&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="76" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;МГц&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="132" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;85&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="132" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;88&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="132" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;91&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr valign="top"&gt;
+		&lt;td width="208" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: 1.00pt solid #000000; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0.05cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;Полоса среза по уровню -30 дБ&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="76" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;МГц&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="132" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;132&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="132" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;135&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="132" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;140&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr valign="top"&gt;
+		&lt;td width="208" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: 1.00pt solid #000000; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0.05cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;Неравномерность АЧХ&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="76" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;дБ&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="132" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;0.7&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="132" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;1&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="132" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;1.5&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr valign="top"&gt;
+		&lt;td width="208" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: 1.00pt solid #000000; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0.05cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;Групповое время задержки&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="76" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;нс&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="132" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;11&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="132" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;12&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="132" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;-&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr valign="top"&gt;
+		&lt;td width="208" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: 1.00pt solid #000000; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0.05cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;Гарантированное затухание&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="76" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;дБ&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="132" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;-&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="132" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;30&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="132" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;-&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr valign="top"&gt;
+		&lt;td width="208" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: 1.00pt solid #000000; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0.05cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;Температурный диапазон&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="76" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;&amp;deg;C&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="132" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;-55&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="132" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;22&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="132" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;+85&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr valign="top"&gt;
+		&lt;td width="208" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: 1.00pt solid #000000; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0.05cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;Материал подложки&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="76" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;-&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="132" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;-&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="132" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;Ниобат лития 49&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="132" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;-&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;</description>
+<gates>
+<gate name="G$1" symbol="SAW_4GND" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="DCC6">
+<connects>
+<connect gate="G$1" pin="GND@1" pad="1"/>
+<connect gate="G$1" pin="GND@2" pad="3"/>
+<connect gate="G$1" pin="GND@3" pad="4"/>
+<connect gate="G$1" pin="GND@4" pad="6"/>
+<connect gate="G$1" pin="IN" pad="2"/>
+<connect gate="G$1" pin="OUT" pad="5"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="A153-1191.25M1" prefix="Z" uservalue="yes">
+<description>&lt;b&gt;СКТН.433561.153-01&lt;/b&gt;&lt;p&gt;
+&lt;table width="680" cellpadding="0" cellspacing="0" border="1"&gt;
+	&lt;tr valign="top"&gt;
+		&lt;td width="208" style="border: 1.00pt solid #000000; padding: 0.05cm"&gt;
+			&lt;p align="center"&gt;Параметр&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="76" style="border-top: 1.00pt solid #000000; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0.05cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;Ед. изм.&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="132" style="border-top: 1.00pt solid #000000; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0.05cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;Нижняя частота&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="132" style="border-top: 1.00pt solid #000000; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0.05cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;Тип. значение&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="132" style="border-top: 1.00pt solid #000000; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0.05cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;Верхняя частота&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr valign="top"&gt;
+		&lt;td width="208" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: 1.00pt solid #000000; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0.05cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;Центральная частота&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="76" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;МГц&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="132" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;-&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="132" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;1191.25&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="132" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;-&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr valign="top"&gt;
+		&lt;td width="208" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: 1.00pt solid #000000; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0.05cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;Минимальное вносимое затухание&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="76" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;дБ&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="132" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;-&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="132" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;Не более 2.2&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="132" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;-&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr valign="top"&gt;
+		&lt;td width="208" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: 1.00pt solid #000000; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0.05cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;Частота среза по уровню -2 дБ&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="76" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;МГц&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="132" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;Не более 1161&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="132" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;-&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="132" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;Не менее 1222.6&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr valign="top"&gt;
+		&lt;td width="208" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: 1.00pt solid #000000; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0.05cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;Частота среза по уровню -28 дБ&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="76" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;МГц&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="132" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;Не менее 1138&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="132" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;-&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="132" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;Не более 1244&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr valign="top"&gt;
+		&lt;td width="208" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: 1.00pt solid #000000; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0.05cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;Неравномерность АЧХ&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="76" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;дБ&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="132" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;-&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="132" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;Не более 2&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="132" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;-&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr valign="top"&gt;
+		&lt;td width="208" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: 1.00pt solid #000000; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0.05cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;Групповое время задержки&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="76" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;нс&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="132" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;-&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="132" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;Не более 15&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="132" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;-&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr valign="top"&gt;
+		&lt;td width="208" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: 1.00pt solid #000000; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0.05cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;Гарантированное затухание&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="76" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;дБ&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="132" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;-&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="132" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;35&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="132" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;-&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr valign="top"&gt;
+		&lt;td width="208" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: 1.00pt solid #000000; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0.05cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;Температурный диапазон&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="76" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;&amp;deg;C&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="132" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;-55&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="132" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;22&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="132" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;+85&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr valign="top"&gt;
+		&lt;td width="208" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: 1.00pt solid #000000; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0.05cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;Материал подложки&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="76" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;-&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="132" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;-&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="132" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;Ниобат лития 49&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="132" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;-&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;</description>
+<gates>
+<gate name="G$1" symbol="SAW_4GND" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="DCC6">
+<connects>
+<connect gate="G$1" pin="GND@1" pad="1"/>
+<connect gate="G$1" pin="GND@2" pad="3"/>
+<connect gate="G$1" pin="GND@3" pad="4"/>
+<connect gate="G$1" pin="GND@4" pad="6"/>
+<connect gate="G$1" pin="IN" pad="2"/>
+<connect gate="G$1" pin="OUT" pad="5"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="A044-1030M1" prefix="Z" uservalue="yes">
+<description>&lt;b&gt;A044-1030M1&lt;/b&gt;&lt;p&gt;
+&lt;table width="680" cellpadding="0" cellspacing="0" border="1"&gt;
+	&lt;tr valign="top"&gt;
+		&lt;td width="208" style="border: 1.00pt solid #000000; padding: 0.05cm"&gt;
+			&lt;p align="center"&gt;Параметр&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="76" style="border-top: 1.00pt solid #000000; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0.05cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;Ед. изм.&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="132" style="border-top: 1.00pt solid #000000; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0.05cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;Мин. значение&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="132" style="border-top: 1.00pt solid #000000; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0.05cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;Тип. значение&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="132" style="border-top: 1.00pt solid #000000; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0.05cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;Макс. значение&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr valign="top"&gt;
+		&lt;td width="208" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: 1.00pt solid #000000; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0.05cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;Центральная частота&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="76" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;МГц&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="132" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;1028&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="132" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;1030&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="132" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;1032&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr valign="top"&gt;
+		&lt;td width="208" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: 1.00pt solid #000000; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0.05cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;Минимальное вносимое затухание&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="76" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;дБ&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="132" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;1.6&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="132" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;1.8&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="132" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;2.1&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr valign="top"&gt;
+		&lt;td width="208" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: 1.00pt solid #000000; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0.05cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;Полоса среза по уровню -3 дБ&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="76" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;МГц&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="132" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;51&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="132" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;53&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="132" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;55&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr valign="top"&gt;
+		&lt;td width="208" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: 1.00pt solid #000000; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0.05cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;Полоса среза по уровню -30 дБ&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="76" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;МГц&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="132" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;74&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="132" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;75&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="132" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;78&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr valign="top"&gt;
+		&lt;td width="208" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: 1.00pt solid #000000; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0.05cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;Неравномерность АЧХ&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="76" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;дБ&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="132" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;0.8&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="132" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;1&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="132" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;1.5&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr valign="top"&gt;
+		&lt;td width="208" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: 1.00pt solid #000000; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0.05cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;Групповое время задержки&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="76" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;нс&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="132" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;-&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="132" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;20&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="132" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;-&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr valign="top"&gt;
+		&lt;td width="208" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: 1.00pt solid #000000; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0.05cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;Гарантированное затухание&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="76" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;дБ&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="132" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;-&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="132" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;40&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="132" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;-&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr valign="top"&gt;
+		&lt;td width="208" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: 1.00pt solid #000000; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0.05cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;Температурный диапазон&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="76" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;&amp;deg;C&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="132" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;-55&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="132" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;22&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="132" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;+85&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr valign="top"&gt;
+		&lt;td width="208" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: 1.00pt solid #000000; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0.05cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;Материал подложки&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="76" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;-&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="132" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;-&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="132" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;Ниобат лития 64&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="132" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;-&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;</description>
+<gates>
+<gate name="G$1" symbol="SAW_4GND" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="DCC6">
+<connects>
+<connect gate="G$1" pin="GND@1" pad="1"/>
+<connect gate="G$1" pin="GND@2" pad="3"/>
+<connect gate="G$1" pin="GND@3" pad="4"/>
+<connect gate="G$1" pin="GND@4" pad="6"/>
+<connect gate="G$1" pin="IN" pad="2"/>
+<connect gate="G$1" pin="OUT" pad="5"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+</eagle>

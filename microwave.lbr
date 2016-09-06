@@ -6,9 +6,23 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
+<layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
+<layer number="5" name="Route5" color="4" fill="4" visible="no" active="no"/>
+<layer number="6" name="Route6" color="1" fill="8" visible="no" active="no"/>
+<layer number="7" name="Route7" color="4" fill="8" visible="no" active="no"/>
+<layer number="8" name="Route8" color="1" fill="2" visible="no" active="no"/>
+<layer number="9" name="Route9" color="4" fill="2" visible="no" active="no"/>
+<layer number="10" name="Route10" color="1" fill="7" visible="no" active="no"/>
+<layer number="11" name="Route11" color="4" fill="7" visible="no" active="no"/>
+<layer number="12" name="Route12" color="1" fill="5" visible="no" active="no"/>
+<layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
+<layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
@@ -58,96 +72,67 @@
 <library>
 <packages>
 <package name="QLCC_6/8-1">
-<wire x1="-2.5" y1="-2.15" x2="-2.5" y2="-1.475" width="0.1" layer="51"/>
-<wire x1="-2.5" y1="-1.075" x2="-2.5" y2="-0.2" width="0.1" layer="51"/>
-<wire x1="-2.5" y1="0.2" x2="-2.5" y2="1.075" width="0.1" layer="51"/>
-<wire x1="-2.5" y1="1.475" x2="-2.5" y2="2.3" width="0.1" layer="51"/>
-<wire x1="-2.25" y1="2.55" x2="-2.5" y2="2.3" width="0.1" layer="51" curve="-91.060912"/>
-<wire x1="-2.5" y1="-2.15" x2="-2.25" y2="-2.4" width="0.1" layer="51" curve="-91.060912"/>
-<wire x1="2.25" y1="2.55" x2="0.2" y2="2.55" width="0.1" layer="51"/>
-<wire x1="-0.2" y1="2.55" x2="-2.25" y2="2.55" width="0.1" layer="51"/>
-<wire x1="2.25" y1="-2.4" x2="0.2" y2="-2.4" width="0.1" layer="51"/>
-<wire x1="-0.2" y1="-2.4" x2="-2.25" y2="-2.4" width="0.1" layer="51"/>
-<wire x1="2.5" y1="2.3" x2="2.25" y2="2.55" width="0.1" layer="51" curve="-91.060912"/>
-<wire x1="2.5" y1="-2.15" x2="2.5" y2="-1.475" width="0.1" layer="51"/>
-<wire x1="2.5" y1="-1.075" x2="2.5" y2="-0.2" width="0.1" layer="51"/>
-<wire x1="2.5" y1="0.2" x2="2.5" y2="1.075" width="0.1" layer="51"/>
-<wire x1="2.5" y1="1.475" x2="2.5" y2="2.3" width="0.1" layer="51"/>
-<wire x1="2.25" y1="-2.4" x2="2.5" y2="-2.15" width="0.1" layer="51" curve="-91.060912"/>
-<smd name="2" x="-1.91" y="0" dx="1.27" dy="0.6" layer="1"/>
-<smd name="3" x="-1.91" y="1.27" dx="1.27" dy="0.6" layer="1"/>
-<smd name="1" x="-1.91" y="-1.27" dx="1.27" dy="0.6" layer="1"/>
-<smd name="5" x="1.9" y="1.27" dx="1.27" dy="0.6" layer="1"/>
-<smd name="6" x="1.9" y="0" dx="1.27" dy="0.6" layer="1"/>
-<smd name="7" x="1.9" y="-1.27" dx="1.27" dy="0.6" layer="1"/>
-<smd name="4" x="0" y="1.96" dx="1.27" dy="0.6" layer="1" rot="R90"/>
-<smd name="8" x="0" y="-1.36" dx="2.18" dy="0.6" layer="1" rot="R90"/>
-<wire x1="0.2" y1="2.55" x2="-0.2" y2="2.55" width="0.1" layer="51" curve="-180"/>
-<wire x1="2.5" y1="1.075" x2="2.5" y2="1.475" width="0.1" layer="51" curve="-180"/>
-<wire x1="2.5" y1="-0.2" x2="2.5" y2="0.2" width="0.1" layer="51" curve="-180"/>
-<wire x1="2.5" y1="-1.475" x2="2.5" y2="-1.075" width="0.1" layer="51" curve="-180"/>
-<wire x1="-0.2" y1="-2.4" x2="0.2" y2="-2.4" width="0.1" layer="51" curve="-180"/>
-<wire x1="-2.5" y1="-1.075" x2="-2.5" y2="-1.475" width="0.1" layer="51" curve="-180"/>
-<wire x1="-2.5" y1="0.2" x2="-2.5" y2="-0.2" width="0.1" layer="51" curve="-180"/>
-<wire x1="-2.5" y1="1.475" x2="-2.5" y2="1.075" width="0.1" layer="51" curve="-180"/>
-<wire x1="-1.725" y1="2.05" x2="-2" y2="1.775" width="0.1" layer="51" curve="90"/>
-<wire x1="2" y1="1.775" x2="1.725" y2="2.05" width="0.1" layer="51" curve="90"/>
-<wire x1="1.725" y1="-1.95" x2="2" y2="-1.675" width="0.1" layer="51" curve="90"/>
-<wire x1="-1.725" y1="2.05" x2="1.725" y2="2.05" width="0.1" layer="51"/>
-<wire x1="2" y1="-1.675" x2="2" y2="1.775" width="0.1" layer="51"/>
-<wire x1="1.725" y1="-1.95" x2="-1.725" y2="-1.95" width="0.1" layer="51"/>
-<wire x1="-2" y1="-1.675" x2="-1.725" y2="-1.95" width="0.1" layer="51" curve="90"/>
-<wire x1="-2" y1="1.775" x2="-2" y2="-1.675" width="0.1" layer="51"/>
-</package>
-<package name="5140.8-АН3">
-<wire x1="-2.5" y1="-2.25" x2="-2.5" y2="-1.75" width="0.127" layer="21"/>
-<wire x1="-2.5" y1="-1.25" x2="-2.5" y2="-0.25" width="0.127" layer="21"/>
-<wire x1="-2.5" y1="0.25" x2="-2.5" y2="1.25" width="0.127" layer="21"/>
-<wire x1="-2.5" y1="1.75" x2="-2.5" y2="2.25" width="0.127" layer="21"/>
-<wire x1="-2.25" y1="2.5" x2="-0.25" y2="2.5" width="0.127" layer="21"/>
-<wire x1="0.25" y1="2.5" x2="2.25" y2="2.5" width="0.127" layer="21"/>
-<wire x1="2.5" y1="2.25" x2="2.5" y2="1.75" width="0.127" layer="21"/>
-<wire x1="2.5" y1="1.25" x2="2.5" y2="0.25" width="0.127" layer="21"/>
-<wire x1="2.5" y1="-0.25" x2="2.5" y2="-1.25" width="0.127" layer="21"/>
-<wire x1="2.5" y1="-1.75" x2="2.5" y2="-2.25" width="0.127" layer="21"/>
-<wire x1="2.25" y1="-2.5" x2="0.25" y2="-2.5" width="0.127" layer="21"/>
-<wire x1="-0.25" y1="-2.5" x2="-2.25" y2="-2.5" width="0.127" layer="21"/>
-<wire x1="-1.75" y1="1.5" x2="-1.5" y2="1.75" width="0.127" layer="21" curve="-90"/>
-<wire x1="1.5" y1="1.75" x2="1.75" y2="1.5" width="0.127" layer="21" curve="-90"/>
-<wire x1="-1.5" y1="1.75" x2="1.5" y2="1.75" width="0.127" layer="21"/>
-<wire x1="-1.75" y1="-1.5" x2="-1.75" y2="1.5" width="0.127" layer="21"/>
-<wire x1="1.75" y1="-1.5" x2="1.75" y2="1.5" width="0.127" layer="21"/>
-<wire x1="-1.5" y1="-1.75" x2="-1.75" y2="-1.5" width="0.127" layer="21" curve="-90"/>
-<wire x1="1.75" y1="-1.5" x2="1.5" y2="-1.75" width="0.127" layer="21" curve="-90"/>
-<wire x1="1.5" y1="-1.75" x2="-1.5" y2="-1.75" width="0.127" layer="21"/>
-<wire x1="-1.5" y1="1.375" x2="-1.375" y2="1.5" width="0.127" layer="21" curve="-90"/>
-<wire x1="1.375" y1="1.5" x2="1.5" y2="1.375" width="0.127" layer="21" curve="-90"/>
-<wire x1="-1.375" y1="-1.5" x2="-1.5" y2="-1.375" width="0.127" layer="21" curve="-90"/>
-<wire x1="1.5" y1="-1.375" x2="1.375" y2="-1.5" width="0.127" layer="21" curve="-90"/>
-<wire x1="-1.5" y1="1.375" x2="-1.5" y2="-1.375" width="0.127" layer="21"/>
-<wire x1="-1.375" y1="-1.5" x2="1.375" y2="-1.5" width="0.127" layer="21"/>
-<wire x1="1.5" y1="-1.375" x2="1.5" y2="1.375" width="0.127" layer="21"/>
-<wire x1="1.375" y1="1.5" x2="-1.375" y2="1.5" width="0.127" layer="21"/>
-<smd name="4" x="0" y="1.9375" dx="1.27" dy="0.635" layer="1" rot="R90"/>
-<smd name="6" x="1.9375" y="0" dx="1.27" dy="0.635" layer="1" rot="R180"/>
-<smd name="2" x="-1.9375" y="0" dx="1.27" dy="0.635" layer="1" rot="R180"/>
-<smd name="8" x="0" y="-1.5625" dx="2" dy="0.635" layer="1" rot="R270"/>
-<smd name="7" x="1.9375" y="-1.5" dx="1.27" dy="0.635" layer="1" rot="R180"/>
-<smd name="5" x="1.9375" y="1.5" dx="1.27" dy="0.635" layer="1" rot="R180"/>
-<smd name="3" x="-1.9375" y="1.5" dx="1.27" dy="0.635" layer="1" rot="R180"/>
-<smd name="1" x="-1.9375" y="-1.5" dx="1.27" dy="0.635" layer="1" rot="R180"/>
-<wire x1="0.25" y1="2.5" x2="-0.25" y2="2.5" width="0.127" layer="21" curve="-180"/>
-<wire x1="-2.5" y1="1.75" x2="-2.5" y2="1.25" width="0.127" layer="21" curve="-180"/>
-<wire x1="-2.5" y1="0.25" x2="-2.5" y2="-0.25" width="0.127" layer="21" curve="-180"/>
-<wire x1="-2.5" y1="-1.25" x2="-2.5" y2="-1.75" width="0.127" layer="21" curve="-180"/>
-<wire x1="2.5" y1="-1.75" x2="2.5" y2="-1.25" width="0.127" layer="21" curve="-180"/>
-<wire x1="2.5" y1="-0.25" x2="2.5" y2="0.25" width="0.127" layer="21" curve="-180"/>
-<wire x1="2.5" y1="1.25" x2="2.5" y2="1.75" width="0.127" layer="21" curve="-180"/>
-<wire x1="-0.25" y1="-2.5" x2="0.25" y2="-2.5" width="0.127" layer="21" curve="-180"/>
-<wire x1="-2.25" y1="2.5" x2="-2.5" y2="2.25" width="0.127" layer="21"/>
-<wire x1="2.25" y1="2.5" x2="2.5" y2="2.25" width="0.127" layer="21"/>
-<wire x1="2.5" y1="-2.25" x2="2.25" y2="-2.5" width="0.127" layer="21"/>
-<wire x1="-2.5" y1="-2.25" x2="-2.25" y2="-2.5" width="0.127" layer="21"/>
+<wire x1="-2.5" y1="-2.1" x2="-2.5" y2="-0.3" width="0.1" layer="51"/>
+<wire x1="-2.5" y1="0.3" x2="-2.5" y2="2.1" width="0.1" layer="51"/>
+<wire x1="-2.1" y1="2.5" x2="-1.575" y2="2.5" width="0.1" layer="51"/>
+<wire x1="-0.975" y1="2.5" x2="-0.3" y2="2.5" width="0.1" layer="51"/>
+<wire x1="0.3" y1="2.5" x2="0.975" y2="2.5" width="0.1" layer="51"/>
+<wire x1="1.575" y1="2.5" x2="2.1" y2="2.5" width="0.1" layer="51"/>
+<wire x1="2.5" y1="2.1" x2="2.5" y2="0.3" width="0.1" layer="51"/>
+<wire x1="2.5" y1="-0.3" x2="2.5" y2="-2.1" width="0.1" layer="51"/>
+<smd name="6" x="0" y="2.215" dx="1.97" dy="0.75" layer="1" rot="R90"/>
+<smd name="5" x="1.27" y="2.215" dx="1.97" dy="0.75" layer="1" rot="R90"/>
+<smd name="7" x="-1.27" y="2.215" dx="1.97" dy="0.75" layer="1" rot="R90"/>
+<smd name="1" x="-1.27" y="-2.215" dx="1.97" dy="0.75" layer="1" rot="R270"/>
+<smd name="2" x="0" y="-2.215" dx="1.97" dy="0.75" layer="1" rot="R270"/>
+<smd name="3" x="1.27" y="-2.215" dx="1.97" dy="0.75" layer="1" rot="R270"/>
+<smd name="4" x="2.215" y="0" dx="1.97" dy="0.75" layer="1"/>
+<smd name="8" x="-1.81" y="0" dx="2.78" dy="0.75" layer="1" rot="R180"/>
+<wire x1="2.1" y1="-2.5" x2="1.575" y2="-2.5" width="0.1" layer="51"/>
+<wire x1="0.975" y1="-2.5" x2="0.3" y2="-2.5" width="0.1" layer="51"/>
+<wire x1="-0.3" y1="-2.5" x2="-0.975" y2="-2.5" width="0.1" layer="51"/>
+<wire x1="-1.575" y1="-2.5" x2="-2.1" y2="-2.5" width="0.1" layer="51"/>
+<wire x1="0.3" y1="2.5" x2="-0.3" y2="2.5" width="0.1" layer="51" curve="-180"/>
+<wire x1="1.575" y1="2.5" x2="0.975" y2="2.5" width="0.1" layer="51" curve="-180"/>
+<wire x1="-0.975" y1="2.5" x2="-1.575" y2="2.5" width="0.1" layer="51" curve="-180"/>
+<wire x1="-1.575" y1="-2.5" x2="-0.975" y2="-2.5" width="0.1" layer="51" curve="-180"/>
+<wire x1="-0.3" y1="-2.5" x2="0.3" y2="-2.5" width="0.1" layer="51" curve="-180"/>
+<wire x1="0.975" y1="-2.5" x2="1.575" y2="-2.5" width="0.1" layer="51" curve="-180"/>
+<wire x1="2.5" y1="-0.3" x2="2.5" y2="0.3" width="0.1" layer="51" curve="-180"/>
+<wire x1="-2.5" y1="0.3" x2="-2.5" y2="-0.3" width="0.1" layer="51" curve="-180"/>
+<wire x1="2.5" y1="2.1" x2="2.1" y2="2.5" width="0.1" layer="51" curve="-90"/>
+<wire x1="-2.1" y1="2.5" x2="-2.5" y2="2.1" width="0.1" layer="51" curve="-90"/>
+<wire x1="-2.5" y1="-2.1" x2="-2.1" y2="-2.5" width="0.1" layer="51" curve="-90"/>
+<wire x1="2.1" y1="-2.5" x2="2.5" y2="-2.1" width="0.1" layer="51" curve="-90"/>
+<wire x1="-1.6" y1="1.35" x2="-1.6" y2="-1.35" width="0.1" layer="51"/>
+<wire x1="-1.35" y1="1.6" x2="1.35" y2="1.6" width="0.1" layer="51"/>
+<wire x1="1.35" y1="-1.6" x2="-1.35" y2="-1.6" width="0.1" layer="51"/>
+<wire x1="1.6" y1="-1.35" x2="1.6" y2="1.35" width="0.1" layer="51"/>
+<wire x1="-1.6" y1="1.35" x2="-1.35" y2="1.6" width="0.1" layer="51" curve="-90"/>
+<wire x1="-1.35" y1="-1.6" x2="-1.6" y2="-1.35" width="0.1" layer="51" curve="-90"/>
+<wire x1="1.6" y1="-1.35" x2="1.35" y2="-1.6" width="0.1" layer="51" curve="-90"/>
+<wire x1="1.35" y1="1.6" x2="1.6" y2="1.35" width="0.1" layer="51" curve="-90"/>
+<wire x1="-1.75" y1="1.35" x2="-1.35" y2="1.75" width="0.1" layer="51" curve="-90"/>
+<wire x1="-1.35" y1="1.75" x2="1.35" y2="1.75" width="0.1" layer="51"/>
+<wire x1="1.35" y1="1.75" x2="1.75" y2="1.35" width="0.1" layer="51" curve="-90"/>
+<wire x1="1.75" y1="-1.35" x2="1.75" y2="1.35" width="0.1" layer="51"/>
+<wire x1="1.75" y1="-1.35" x2="1.35" y2="-1.75" width="0.1" layer="51" curve="-90"/>
+<wire x1="1.35" y1="-1.75" x2="-1.35" y2="-1.75" width="0.1" layer="51"/>
+<wire x1="-1.35" y1="-1.75" x2="-1.75" y2="-1.35" width="0.1" layer="51" curve="-90"/>
+<wire x1="-1.75" y1="-1.35" x2="-1.75" y2="1.35" width="0.1" layer="51"/>
+<wire x1="-1.7" y1="2.85" x2="-2.85" y2="2.85" width="0.1" layer="21"/>
+<wire x1="-2.85" y1="2.85" x2="-2.85" y2="0.425" width="0.1" layer="21"/>
+<wire x1="1.7" y1="2.85" x2="2.85" y2="2.85" width="0.1" layer="21"/>
+<wire x1="2.85" y1="2.85" x2="2.85" y2="0.425" width="0.1" layer="21"/>
+<wire x1="2.85" y1="-2.85" x2="2.85" y2="-0.425" width="0.1" layer="21"/>
+<wire x1="1.7" y1="-2.85" x2="2.85" y2="-2.85" width="0.1" layer="21"/>
+<wire x1="-2.85" y1="-2.85" x2="-2.85" y2="-0.425" width="0.1" layer="21"/>
+<wire x1="-1.7" y1="-2.85" x2="-2.85" y2="-2.85" width="0.1" layer="21"/>
+<wire x1="-0.85" y1="-2.85" x2="-0.425" y2="-2.85" width="0.1" layer="21"/>
+<wire x1="0.425" y1="-2.85" x2="0.85" y2="-2.85" width="0.1" layer="21"/>
+<wire x1="-0.85" y1="2.85" x2="-0.425" y2="2.85" width="0.1" layer="21"/>
+<wire x1="0.425" y1="2.85" x2="0.85" y2="2.85" width="0.1" layer="21"/>
+<text x="2.1" y="1.3" size="0.2" layer="51" rot="R90" align="center">QLCC_6/8-1</text>
 </package>
 <package name="QFP-32">
 <description>&lt;b&gt;Quad Flat Package&lt;/b&gt;</description>
@@ -736,9 +721,211 @@ www.fma.fujitsu.com/pdf/e713717.pdf</description>
 <rectangle x1="-4.5" y1="-2.35" x2="-3.45" y2="-2.15" layer="51"/>
 <rectangle x1="-4.5" y1="-2.85" x2="-3.45" y2="-2.65" layer="51"/>
 </package>
+<package name="КТ-22">
+<circle x="0" y="0" radius="1.5" width="0.1" layer="51"/>
+<smd name="1" x="0" y="3.475" dx="0.8" dy="2.5" layer="1"/>
+<smd name="4" x="-3.475" y="0" dx="0.8" dy="2.5" layer="1" rot="R90"/>
+<smd name="2" x="3.475" y="0" dx="0.8" dy="2.5" layer="1" rot="R270"/>
+<smd name="3" x="0" y="-3.475" dx="0.8" dy="2.5" layer="1" rot="R180"/>
+<circle x="0" y="0" radius="0.25" width="0" layer="51"/>
+<circle x="1" y="0" radius="0.1" width="0" layer="51"/>
+<circle x="0" y="-1" radius="0.1" width="0" layer="51"/>
+<text x="0" y="1" size="0.2" layer="51" align="center">KT-22</text>
+<circle x="0" y="0" radius="1.75" width="0.1" layer="21"/>
+<wire x1="-0.3" y1="1.5" x2="-0.3" y2="3.5" width="0.1" layer="51"/>
+<wire x1="-0.3" y1="3.5" x2="0.3" y2="4.1" width="0.1" layer="51"/>
+<wire x1="0.3" y1="4.1" x2="0.3" y2="1.5" width="0.1" layer="51"/>
+<wire x1="4.1" y1="0.3" x2="1.5" y2="0.3" width="0.1" layer="51"/>
+<wire x1="4.1" y1="-0.3" x2="1.5" y2="-0.3" width="0.1" layer="51"/>
+<wire x1="4.1" y1="0.3" x2="4.1" y2="-0.3" width="0.1" layer="51"/>
+<wire x1="-0.3" y1="-4.1" x2="-0.3" y2="-1.5" width="0.1" layer="51"/>
+<wire x1="0.3" y1="-4.1" x2="0.3" y2="-1.5" width="0.1" layer="51"/>
+<wire x1="-4.1" y1="0.3" x2="-1.5" y2="0.3" width="0.1" layer="51"/>
+<wire x1="-4.1" y1="-0.3" x2="-1.5" y2="-0.3" width="0.1" layer="51"/>
+<wire x1="-4.1" y1="0.3" x2="-4.1" y2="-0.3" width="0.1" layer="51"/>
+<wire x1="-0.3" y1="-4.1" x2="0.3" y2="-4.1" width="0.1" layer="51"/>
+</package>
+<package name="2101.8-7">
+<wire x1="-5" y1="-3.65" x2="5" y2="-3.65" width="0.1" layer="51"/>
+<wire x1="5" y1="-3.65" x2="5" y2="3.65" width="0.1" layer="51"/>
+<wire x1="5" y1="3.65" x2="2" y2="3.65" width="0.1" layer="51"/>
+<wire x1="2" y1="3.65" x2="0.5" y2="3.65" width="0.1" layer="51"/>
+<wire x1="0.5" y1="3.65" x2="-5" y2="3.65" width="0.1" layer="51"/>
+<wire x1="-5" y1="3.65" x2="-5" y2="-3.65" width="0.1" layer="51"/>
+<wire x1="-3.75" y1="2" x2="-3.75" y2="-2" width="0.1" layer="51"/>
+<wire x1="3" y1="2.75" x2="-3" y2="2.75" width="0.1" layer="51"/>
+<wire x1="3.75" y1="2" x2="3.75" y2="-2" width="0.1" layer="51"/>
+<wire x1="3" y1="-2.75" x2="-3" y2="-2.75" width="0.1" layer="51"/>
+<wire x1="-3.75" y1="2" x2="-3" y2="2.75" width="0.1" layer="51" curve="-90"/>
+<wire x1="3" y1="2.75" x2="3.75" y2="2" width="0.1" layer="51" curve="-90"/>
+<wire x1="3.75" y1="-2" x2="3" y2="-2.75" width="0.1" layer="51" curve="-90"/>
+<wire x1="-3" y1="-2.75" x2="-3.75" y2="-2" width="0.1" layer="51" curve="-90"/>
+<wire x1="2.75" y1="2.25" x2="-2.75" y2="2.25" width="0.1" layer="51"/>
+<wire x1="-3.25" y1="1.75" x2="-3.25" y2="-1.75" width="0.1" layer="51"/>
+<wire x1="3.25" y1="1.75" x2="3.25" y2="-1.75" width="0.1" layer="51"/>
+<wire x1="2.75" y1="-2.25" x2="-2.75" y2="-2.25" width="0.1" layer="51"/>
+<wire x1="-2.75" y1="-2.25" x2="-3.25" y2="-1.75" width="0.1" layer="51" curve="-90"/>
+<wire x1="-3.25" y1="1.75" x2="-2.75" y2="2.25" width="0.1" layer="51" curve="-90"/>
+<wire x1="2.75" y1="2.25" x2="3.25" y2="1.75" width="0.1" layer="51" curve="-90"/>
+<wire x1="3.25" y1="-1.75" x2="2.75" y2="-2.25" width="0.1" layer="51" curve="-90"/>
+<wire x1="0.5" y1="3.65" x2="0.5" y2="4.15" width="0.1" layer="51"/>
+<wire x1="2" y1="4.15" x2="0.5" y2="4.15" width="0.1" layer="51"/>
+<wire x1="2" y1="3.65" x2="2" y2="4.15" width="0.1" layer="51"/>
+<wire x1="-2" y1="3.65" x2="-2" y2="4.15" width="0.1" layer="51"/>
+<wire x1="-0.5" y1="4.15" x2="-2" y2="4.15" width="0.1" layer="51"/>
+<wire x1="-0.5" y1="3.65" x2="-0.5" y2="4.15" width="0.1" layer="51"/>
+<wire x1="3" y1="3.65" x2="3" y2="4.15" width="0.1" layer="51"/>
+<wire x1="4.5" y1="4.15" x2="3" y2="4.15" width="0.1" layer="51"/>
+<wire x1="4.5" y1="3.65" x2="4.5" y2="4.15" width="0.1" layer="51"/>
+<wire x1="-4.5" y1="3.65" x2="-4.5" y2="4.15" width="0.1" layer="51"/>
+<wire x1="-3" y1="4.15" x2="-4.5" y2="4.15" width="0.1" layer="51"/>
+<wire x1="-3" y1="3.65" x2="-3" y2="4.15" width="0.1" layer="51"/>
+<wire x1="2" y1="-3.65" x2="2" y2="-4.15" width="0.1" layer="51"/>
+<wire x1="0.5" y1="-4.15" x2="2" y2="-4.15" width="0.1" layer="51"/>
+<wire x1="0.5" y1="-3.65" x2="0.5" y2="-4.15" width="0.1" layer="51"/>
+<wire x1="4.5" y1="-3.65" x2="4.5" y2="-4.15" width="0.1" layer="51"/>
+<wire x1="3" y1="-4.15" x2="4.5" y2="-4.15" width="0.1" layer="51"/>
+<wire x1="3" y1="-3.65" x2="3" y2="-4.15" width="0.1" layer="51"/>
+<wire x1="-0.5" y1="-3.65" x2="-0.5" y2="-4.15" width="0.1" layer="51"/>
+<wire x1="-2" y1="-4.15" x2="-0.5" y2="-4.15" width="0.1" layer="51"/>
+<wire x1="-2" y1="-3.65" x2="-2" y2="-4.15" width="0.1" layer="51"/>
+<wire x1="-3" y1="-3.65" x2="-3" y2="-4.15" width="0.1" layer="51"/>
+<wire x1="-4.5" y1="-4.15" x2="-3" y2="-4.15" width="0.1" layer="51"/>
+<wire x1="-4.5" y1="-3.65" x2="-4.5" y2="-4.15" width="0.1" layer="51"/>
+<wire x1="-4.5" y1="4" x2="-5.15" y2="4" width="0.1" layer="21"/>
+<wire x1="-5.15" y1="4" x2="-5.15" y2="-4" width="0.1" layer="21"/>
+<wire x1="-5.15" y1="-4" x2="-4.5" y2="-4" width="0.1" layer="21"/>
+<wire x1="4.5" y1="4" x2="5.15" y2="4" width="0.1" layer="21"/>
+<wire x1="5.15" y1="4" x2="5.15" y2="-4" width="0.1" layer="21"/>
+<wire x1="5.15" y1="-4" x2="4.5" y2="-4" width="0.1" layer="21"/>
+<circle x="-4.85" y="-4.4" radius="0.25" width="0" layer="21"/>
+<text x="0" y="1" size="0.508" layer="25" align="center">&gt;NAME</text>
+<text x="0" y="-1" size="0.508" layer="27" align="center">&gt;VALUE</text>
+<polygon width="0.1" layer="51">
+<vertex x="1" y="4.15"/>
+<vertex x="1" y="4.35"/>
+<vertex x="1.5" y="4.35"/>
+<vertex x="1.5" y="4.15"/>
+</polygon>
+<polygon width="0.1" layer="51">
+<vertex x="3.5" y="4.15"/>
+<vertex x="3.5" y="4.35"/>
+<vertex x="4" y="4.35"/>
+<vertex x="4" y="4.15"/>
+</polygon>
+<polygon width="0.1" layer="51">
+<vertex x="-1.5" y="4.15"/>
+<vertex x="-1.5" y="4.35"/>
+<vertex x="-1" y="4.35"/>
+<vertex x="-1" y="4.15"/>
+</polygon>
+<polygon width="0.1" layer="51">
+<vertex x="-4" y="4.15"/>
+<vertex x="-4" y="4.35"/>
+<vertex x="-3.5" y="4.35"/>
+<vertex x="-3.5" y="4.15"/>
+</polygon>
+<polygon width="0.1" layer="51">
+<vertex x="-3.5" y="-4.15"/>
+<vertex x="-3.5" y="-4.35"/>
+<vertex x="-4" y="-4.35"/>
+<vertex x="-4" y="-4.15"/>
+</polygon>
+<polygon width="0.1" layer="51">
+<vertex x="-1" y="-4.15"/>
+<vertex x="-1" y="-4.35"/>
+<vertex x="-1.5" y="-4.35"/>
+<vertex x="-1.5" y="-4.15"/>
+</polygon>
+<polygon width="0.1" layer="51">
+<vertex x="1.5" y="-4.15"/>
+<vertex x="1.5" y="-4.35"/>
+<vertex x="1" y="-4.35"/>
+<vertex x="1" y="-4.15"/>
+</polygon>
+<polygon width="0.1" layer="51">
+<vertex x="4" y="-4.15"/>
+<vertex x="4" y="-4.35"/>
+<vertex x="3.5" y="-4.35"/>
+<vertex x="3.5" y="-4.15"/>
+</polygon>
+<pad name="6" x="1.25" y="4.4" drill="0.6"/>
+<pad name="3" x="1.25" y="-4.4" drill="0.6"/>
+<pad name="5" x="3.75" y="4.4" drill="0.6"/>
+<pad name="7" x="-1.25" y="4.4" drill="0.6"/>
+<pad name="8" x="-3.75" y="4.4" drill="0.6"/>
+<pad name="1" x="-3.75" y="-4.4" drill="0.6"/>
+<pad name="2" x="-1.25" y="-4.4" drill="0.6"/>
+<pad name="4" x="3.75" y="-4.4" drill="0.6"/>
+<text x="4" y="-3.2" size="0.2" layer="51" align="center">2101.8-7</text>
+<circle x="-2.625" y="-1.625" radius="0.27950625" width="0" layer="51"/>
+</package>
+<package name="5140.8-АН3">
+<wire x1="-2.5" y1="-2.1" x2="-2.5" y2="-0.3" width="0.1" layer="51"/>
+<wire x1="-2.5" y1="0.3" x2="-2.5" y2="2.1" width="0.1" layer="51"/>
+<wire x1="-2.1" y1="2.5" x2="-1.575" y2="2.5" width="0.1" layer="51"/>
+<wire x1="-0.975" y1="2.5" x2="-0.3" y2="2.5" width="0.1" layer="51"/>
+<wire x1="0.3" y1="2.5" x2="0.975" y2="2.5" width="0.1" layer="51"/>
+<wire x1="1.575" y1="2.5" x2="2.1" y2="2.5" width="0.1" layer="51"/>
+<wire x1="2.5" y1="2.1" x2="2.5" y2="0.3" width="0.1" layer="51"/>
+<wire x1="2.5" y1="-0.3" x2="2.5" y2="-2.1" width="0.1" layer="51"/>
+<smd name="6" x="0" y="2.215" dx="1.97" dy="0.75" layer="1" rot="R90"/>
+<smd name="5" x="1.27" y="2.215" dx="1.97" dy="0.75" layer="1" rot="R90"/>
+<smd name="7" x="-1.27" y="2.215" dx="1.97" dy="0.75" layer="1" rot="R90"/>
+<smd name="1" x="-1.27" y="-2.215" dx="1.97" dy="0.75" layer="1" rot="R270"/>
+<smd name="2" x="0" y="-2.215" dx="1.97" dy="0.75" layer="1" rot="R270"/>
+<smd name="3" x="1.27" y="-2.215" dx="1.97" dy="0.75" layer="1" rot="R270"/>
+<smd name="4" x="2.215" y="0" dx="1.97" dy="0.75" layer="1"/>
+<smd name="8" x="-1.81" y="0" dx="2.78" dy="0.75" layer="1" rot="R180"/>
+<wire x1="2.1" y1="-2.5" x2="1.575" y2="-2.5" width="0.1" layer="51"/>
+<wire x1="0.975" y1="-2.5" x2="0.3" y2="-2.5" width="0.1" layer="51"/>
+<wire x1="-0.3" y1="-2.5" x2="-0.975" y2="-2.5" width="0.1" layer="51"/>
+<wire x1="-1.575" y1="-2.5" x2="-2.1" y2="-2.5" width="0.1" layer="51"/>
+<wire x1="0.3" y1="2.5" x2="-0.3" y2="2.5" width="0.1" layer="51" curve="-180"/>
+<wire x1="1.575" y1="2.5" x2="0.975" y2="2.5" width="0.1" layer="51" curve="-180"/>
+<wire x1="-0.975" y1="2.5" x2="-1.575" y2="2.5" width="0.1" layer="51" curve="-180"/>
+<wire x1="-1.575" y1="-2.5" x2="-0.975" y2="-2.5" width="0.1" layer="51" curve="-180"/>
+<wire x1="-0.3" y1="-2.5" x2="0.3" y2="-2.5" width="0.1" layer="51" curve="-180"/>
+<wire x1="0.975" y1="-2.5" x2="1.575" y2="-2.5" width="0.1" layer="51" curve="-180"/>
+<wire x1="2.5" y1="-0.3" x2="2.5" y2="0.3" width="0.1" layer="51" curve="-180"/>
+<wire x1="-2.5" y1="0.3" x2="-2.5" y2="-0.3" width="0.1" layer="51" curve="-180"/>
+<wire x1="2.5" y1="2.1" x2="2.1" y2="2.5" width="0.1" layer="51" curve="-90"/>
+<wire x1="-2.1" y1="2.5" x2="-2.5" y2="2.1" width="0.1" layer="51" curve="-90"/>
+<wire x1="-2.5" y1="-2.1" x2="-2.1" y2="-2.5" width="0.1" layer="51" curve="-90"/>
+<wire x1="2.1" y1="-2.5" x2="2.5" y2="-2.1" width="0.1" layer="51" curve="-90"/>
+<wire x1="-1.6" y1="1.35" x2="-1.6" y2="-1.35" width="0.1" layer="51"/>
+<wire x1="-1.35" y1="1.6" x2="1.35" y2="1.6" width="0.1" layer="51"/>
+<wire x1="1.35" y1="-1.6" x2="-1.35" y2="-1.6" width="0.1" layer="51"/>
+<wire x1="1.6" y1="-1.35" x2="1.6" y2="1.35" width="0.1" layer="51"/>
+<wire x1="-1.6" y1="1.35" x2="-1.35" y2="1.6" width="0.1" layer="51" curve="-90"/>
+<wire x1="-1.35" y1="-1.6" x2="-1.6" y2="-1.35" width="0.1" layer="51" curve="-90"/>
+<wire x1="1.6" y1="-1.35" x2="1.35" y2="-1.6" width="0.1" layer="51" curve="-90"/>
+<wire x1="1.35" y1="1.6" x2="1.6" y2="1.35" width="0.1" layer="51" curve="-90"/>
+<wire x1="-1.75" y1="1.35" x2="-1.35" y2="1.75" width="0.1" layer="51" curve="-90"/>
+<wire x1="-1.35" y1="1.75" x2="1.35" y2="1.75" width="0.1" layer="51"/>
+<wire x1="1.35" y1="1.75" x2="1.75" y2="1.35" width="0.1" layer="51" curve="-90"/>
+<wire x1="1.75" y1="-1.35" x2="1.75" y2="1.35" width="0.1" layer="51"/>
+<wire x1="1.75" y1="-1.35" x2="1.35" y2="-1.75" width="0.1" layer="51" curve="-90"/>
+<wire x1="1.35" y1="-1.75" x2="-1.35" y2="-1.75" width="0.1" layer="51"/>
+<wire x1="-1.35" y1="-1.75" x2="-1.75" y2="-1.35" width="0.1" layer="51" curve="-90"/>
+<wire x1="-1.75" y1="-1.35" x2="-1.75" y2="1.35" width="0.1" layer="51"/>
+<wire x1="-1.7" y1="2.85" x2="-2.85" y2="2.85" width="0.1" layer="21"/>
+<wire x1="-2.85" y1="2.85" x2="-2.85" y2="0.425" width="0.1" layer="21"/>
+<wire x1="1.7" y1="2.85" x2="2.85" y2="2.85" width="0.1" layer="21"/>
+<wire x1="2.85" y1="2.85" x2="2.85" y2="0.425" width="0.1" layer="21"/>
+<wire x1="2.85" y1="-2.85" x2="2.85" y2="-0.425" width="0.1" layer="21"/>
+<wire x1="1.7" y1="-2.85" x2="2.85" y2="-2.85" width="0.1" layer="21"/>
+<wire x1="-2.85" y1="-2.85" x2="-2.85" y2="-0.425" width="0.1" layer="21"/>
+<wire x1="-1.7" y1="-2.85" x2="-2.85" y2="-2.85" width="0.1" layer="21"/>
+<wire x1="-0.85" y1="-2.85" x2="-0.425" y2="-2.85" width="0.1" layer="21"/>
+<wire x1="0.425" y1="-2.85" x2="0.85" y2="-2.85" width="0.1" layer="21"/>
+<wire x1="-0.85" y1="2.85" x2="-0.425" y2="2.85" width="0.1" layer="21"/>
+<wire x1="0.425" y1="2.85" x2="0.85" y2="2.85" width="0.1" layer="21"/>
+<text x="2.1" y="1.3" size="0.2" layer="51" rot="R90" align="center">5140.8-АН3</text>
+</package>
 </packages>
 <symbols>
-<symbol name="1324ПС3">
+<symbol name="DOUBLE-BALANCED-MIXER-ACTIVE">
 <pin name="RF1" x="-12.7" y="7.62" length="short" direction="in"/>
 <pin name="IF1" x="12.7" y="7.62" length="short" direction="out" rot="R180"/>
 <pin name="IF2" x="12.7" y="2.54" length="short" direction="out" rot="R180"/>
@@ -755,8 +942,8 @@ www.fma.fujitsu.com/pdf/e713717.pdf</description>
 <wire x1="10.16" y1="-10.16" x2="10.16" y2="0" width="0.254" layer="94"/>
 <wire x1="10.16" y1="0" x2="10.16" y2="10.16" width="0.254" layer="94"/>
 <wire x1="10.16" y1="10.16" x2="2.54" y2="10.16" width="0.254" layer="94"/>
-<text x="0" y="12.7" size="1.778" layer="96" align="center">&gt;VALUE</text>
-<text x="0" y="15.24" size="1.778" layer="95" align="center">&gt;NAME</text>
+<text x="0" y="12.7" size="1.27" layer="96" align="center">&gt;VALUE</text>
+<text x="0" y="15.24" size="1.27" layer="95" align="center">&gt;NAME</text>
 <pin name="RF2" x="-12.7" y="2.54" length="short" direction="in"/>
 <wire x1="2.54" y1="10.16" x2="-2.54" y2="10.16" width="0.254" layer="94"/>
 <wire x1="-2.54" y1="10.16" x2="-10.16" y2="10.16" width="0.254" layer="94"/>
@@ -768,17 +955,38 @@ www.fma.fujitsu.com/pdf/e713717.pdf</description>
 <wire x1="-10.16" y1="0" x2="-2.54" y2="0" width="0.254" layer="94"/>
 <wire x1="-10.16" y1="-5.08" x2="-2.54" y2="-5.08" width="0.254" layer="94"/>
 <wire x1="2.54" y1="0" x2="10.16" y2="0" width="0.254" layer="94"/>
+<text x="0" y="2.54" size="1.778" layer="94" align="center">MIX</text>
 </symbol>
-<symbol name="1324УВ3">
-<wire x1="-5.08" y1="5.08" x2="-5.08" y2="-5.08" width="0.254" layer="94"/>
-<wire x1="-5.08" y1="-5.08" x2="5.08" y2="0" width="0.254" layer="94"/>
-<wire x1="5.08" y1="0" x2="-5.08" y2="5.08" width="0.254" layer="94"/>
-<pin name="GND@2" x="0" y="7.62" visible="pad" length="middle" direction="pwr" rot="R270"/>
-<pin name="GND@1" x="0" y="-7.62" visible="pad" length="middle" direction="pwr" rot="R90"/>
-<pin name="IN" x="-10.16" y="0" visible="pad" length="middle" direction="in"/>
-<pin name="OUT" x="10.16" y="0" visible="pad" length="middle" direction="out" rot="R180"/>
-<text x="7.62" y="7.62" size="1.778" layer="95" align="center">&gt;NAME</text>
-<text x="7.62" y="5.08" size="1.778" layer="96" align="center">&gt;VALUE</text>
+<symbol name="AMPLIFER-POWER-IN-OUT">
+<text x="0" y="12.7" size="1.27" layer="95" align="center">&gt;NAME</text>
+<text x="0" y="10.16" size="1.27" layer="96" align="center">&gt;VALUE</text>
+<pin name="IN" x="-12.7" y="5.08" length="short" direction="in"/>
+<wire x1="-10.16" y1="7.62" x2="-10.16" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="2.54" x2="-2.54" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="2.54" x2="-2.54" y2="7.62" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="7.62" x2="2.54" y2="7.62" width="0.254" layer="94"/>
+<wire x1="2.54" y1="7.62" x2="2.54" y2="2.54" width="0.254" layer="94"/>
+<wire x1="2.54" y1="2.54" x2="10.16" y2="2.54" width="0.254" layer="94"/>
+<wire x1="10.16" y1="2.54" x2="10.16" y2="7.62" width="0.254" layer="94"/>
+<wire x1="10.16" y1="7.62" x2="2.54" y2="7.62" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="7.62" x2="-10.16" y2="7.62" width="0.254" layer="94"/>
+<pin name="OUT" x="12.7" y="5.08" length="short" direction="in" rot="R180"/>
+<pin name="GND@1" x="-12.7" y="0" length="short" direction="pwr"/>
+<pin name="GND@2" x="-12.7" y="-2.54" length="short" direction="pwr"/>
+<pin name="GND@3" x="-12.7" y="-5.08" length="short" direction="pwr"/>
+<pin name="GND@4" x="12.7" y="-5.08" length="short" direction="pwr" rot="R180"/>
+<pin name="GND@5" x="12.7" y="-2.54" length="short" direction="pwr" rot="R180"/>
+<pin name="GND@6" x="12.7" y="0" length="short" direction="pwr" rot="R180"/>
+<wire x1="-10.16" y1="2.54" x2="-10.16" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-7.62" x2="-2.54" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-7.62" x2="2.54" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-7.62" x2="10.16" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-7.62" x2="10.16" y2="2.54" width="0.254" layer="94"/>
+<wire x1="2.54" y1="2.54" x2="2.54" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="2.54" x2="-2.54" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="3.175" x2="-1.27" y2="0.635" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="0.635" x2="1.27" y2="1.905" width="0.254" layer="94"/>
+<wire x1="1.27" y1="1.905" x2="-1.27" y2="3.175" width="0.254" layer="94"/>
 </symbol>
 <symbol name="1327МА015">
 <pin name="SW" x="-22.86" y="-10.16" length="middle"/>
@@ -796,8 +1004,8 @@ www.fma.fujitsu.com/pdf/e713717.pdf</description>
 <pin name="I" x="-7.62" y="-27.94" length="middle" direction="in" rot="R90"/>
 <pin name="GND@2" x="22.86" y="-12.7" length="middle" direction="pwr" rot="R180"/>
 <pin name="!I" x="7.62" y="-27.94" length="middle" direction="in" function="dot" rot="R90"/>
-<text x="17.78" y="27.94" size="1.778" layer="95" align="center">&gt;NAME</text>
-<text x="17.78" y="25.4" size="1.778" layer="96" align="center">&gt;VALUE</text>
+<text x="17.78" y="27.94" size="1.27" layer="95" align="center">&gt;NAME</text>
+<text x="17.78" y="25.4" size="1.27" layer="96" align="center">&gt;VALUE</text>
 <wire x1="-17.78" y1="22.86" x2="-10.16" y2="22.86" width="0.254" layer="94"/>
 <wire x1="-10.16" y1="22.86" x2="10.16" y2="22.86" width="0.254" layer="94"/>
 <wire x1="10.16" y1="22.86" x2="17.78" y2="22.86" width="0.254" layer="94"/>
@@ -816,7 +1024,7 @@ www.fma.fujitsu.com/pdf/e713717.pdf</description>
 <wire x1="10.16" y1="-17.78" x2="-10.16" y2="-17.78" width="0.254" layer="94"/>
 <pin name="EXT" x="22.86" y="-20.32" length="middle" direction="pwr" rot="R180"/>
 </symbol>
-<symbol name="6405КП2">
+<symbol name="RF-SWITCH">
 <pin name="RFC" x="-15.24" y="5.08" length="short"/>
 <pin name="RF1" x="15.24" y="7.62" length="short" rot="R180"/>
 <pin name="RF2" x="15.24" y="2.54" length="short" rot="R180"/>
@@ -833,8 +1041,8 @@ www.fma.fujitsu.com/pdf/e713717.pdf</description>
 <wire x1="12.7" y1="-10.16" x2="12.7" y2="0" width="0.254" layer="94"/>
 <wire x1="12.7" y1="0" x2="12.7" y2="10.16" width="0.254" layer="94"/>
 <wire x1="12.7" y1="10.16" x2="5.08" y2="10.16" width="0.254" layer="94"/>
-<text x="0" y="12.7" size="1.778" layer="96" align="center">&gt;VALUE</text>
-<text x="0" y="15.24" size="1.778" layer="95" align="center">&gt;NAME</text>
+<text x="0" y="12.7" size="1.27" layer="96" align="center">&gt;VALUE</text>
+<text x="0" y="15.24" size="1.27" layer="95" align="center">&gt;NAME</text>
 <wire x1="5.08" y1="10.16" x2="-5.08" y2="10.16" width="0.254" layer="94"/>
 <wire x1="-5.08" y1="10.16" x2="-12.7" y2="10.16" width="0.254" layer="94"/>
 <wire x1="-5.08" y1="10.16" x2="-5.08" y2="0" width="0.254" layer="94"/>
@@ -949,8 +1157,8 @@ Switch</text>
 <pin name="AGND@9" x="-25.4" y="-68.58" length="middle" direction="pwr" rot="R90"/>
 <pin name="AGND@10" x="-27.94" y="-68.58" length="middle" direction="pwr" rot="R90"/>
 <pin name="AGND@11" x="-30.48" y="-68.58" length="middle" direction="pwr" rot="R90"/>
-<text x="43.18" y="63.5" size="1.778" layer="95" align="center">&gt;NAME</text>
-<text x="43.18" y="60.96" size="1.778" layer="96" align="center">&gt;VALUE</text>
+<text x="43.18" y="63.5" size="1.27" layer="95" align="center">&gt;NAME</text>
+<text x="43.18" y="60.96" size="1.27" layer="96" align="center">&gt;VALUE</text>
 <wire x1="-43.18" y1="-63.5" x2="45.72" y2="-63.5" width="0.254" layer="94"/>
 <wire x1="45.72" y1="-63.5" x2="45.72" y2="-48.26" width="0.254" layer="94"/>
 <wire x1="45.72" y1="-48.26" x2="45.72" y2="-35.56" width="0.254" layer="94"/>
@@ -1234,8 +1442,8 @@ Switch</text>
 <pin name="H2" x="5.08" y="5.08" visible="pad" length="short" rot="R180"/>
 <pin name="K2" x="5.08" y="-7.62" visible="pad" length="short" rot="R180"/>
 <circle x="1.27" y="4.572" radius="0.567959375" width="0" layer="94"/>
-<text x="0" y="10.16" size="1.778" layer="95" align="center">&gt;NAME</text>
-<text x="0" y="7.62" size="1.778" layer="96" align="center">&gt;VALUE</text>
+<text x="0" y="10.16" size="1.27" layer="95" align="center">&gt;NAME</text>
+<text x="0" y="7.62" size="1.27" layer="96" align="center">&gt;VALUE</text>
 <wire x1="-2.54" y1="0" x2="-2.54" y2="-2.54" width="0.1524" layer="94" curve="-180"/>
 <wire x1="-2.54" y1="-2.54" x2="-2.54" y2="-5.08" width="0.1524" layer="94" curve="-180"/>
 <wire x1="2.54" y1="-2.54" x2="2.54" y2="0" width="0.1524" layer="94" curve="-180"/>
@@ -1255,8 +1463,8 @@ Switch</text>
 <pin name="H2" x="5.08" y="7.62" visible="pad" length="short" rot="R180"/>
 <pin name="K3" x="5.08" y="-7.62" visible="pad" length="short" rot="R180"/>
 <circle x="1.27" y="7.112" radius="0.567959375" width="0" layer="94"/>
-<text x="0" y="12.7" size="1.778" layer="95" align="center">&gt;NAME</text>
-<text x="0" y="10.16" size="1.778" layer="96" align="center">&gt;VALUE</text>
+<text x="0" y="12.7" size="1.27" layer="95" align="center">&gt;NAME</text>
+<text x="0" y="10.16" size="1.27" layer="96" align="center">&gt;VALUE</text>
 <wire x1="-2.54" y1="-2.54" x2="-2.54" y2="-5.08" width="0.1524" layer="94" curve="-180"/>
 <wire x1="2.54" y1="-5.08" x2="2.54" y2="-2.54" width="0.1524" layer="94" curve="-180"/>
 <wire x1="-2.54" y1="2.54" x2="-2.54" y2="0" width="0.1524" layer="94" curve="-180"/>
@@ -1264,20 +1472,6 @@ Switch</text>
 <wire x1="2.54" y1="0" x2="2.54" y2="2.54" width="0.1524" layer="94" curve="-180"/>
 <wire x1="2.54" y1="-2.54" x2="2.54" y2="0" width="0.1524" layer="94" curve="-180"/>
 <pin name="K2H3" x="5.08" y="0" visible="pad" length="short" rot="R180"/>
-</symbol>
-<symbol name="1432УС1">
-<pin name="IN-" x="-12.7" y="-5.08" visible="pad" length="middle" direction="in" function="dot"/>
-<pin name="Uсдв" x="-12.7" y="2.54" length="middle" direction="in"/>
-<pin name="IN+" x="-12.7" y="10.16" visible="pad" length="middle" direction="in"/>
-<wire x1="-7.62" y1="15.24" x2="-7.62" y2="-10.16" width="0.254" layer="94"/>
-<wire x1="-7.62" y1="-10.16" x2="17.78" y2="2.54" width="0.254" layer="94"/>
-<wire x1="17.78" y1="2.54" x2="-7.62" y2="15.24" width="0.254" layer="94"/>
-<pin name="OUT-" x="7.62" y="-5.08" visible="pad" length="middle" direction="out" function="dot" rot="R180"/>
-<pin name="OUT+" x="7.62" y="10.16" visible="pad" length="middle" direction="out" rot="R180"/>
-<pin name="+VCC" x="-2.54" y="17.78" visible="pad" length="middle" direction="pwr" rot="R270"/>
-<pin name="-VCC" x="-2.54" y="-12.7" visible="pad" length="middle" direction="pwr" rot="R90"/>
-<text x="15.24" y="-7.62" size="1.27" layer="95" align="center">&gt;NAME</text>
-<text x="15.24" y="-10.16" size="1.27" layer="96" align="center">&gt;VALUE</text>
 </symbol>
 <symbol name="1508ПЛ9Т">
 <pin name="PREOFF" x="27.94" y="2.54" length="short" direction="in" rot="R180"/>
@@ -1362,16 +1556,70 @@ Switch</text>
 <wire x1="10.16" y1="22.86" x2="10.16" y2="35.56" width="0.254" layer="94"/>
 <wire x1="25.4" y1="10.16" x2="10.16" y2="10.16" width="0.254" layer="94"/>
 <wire x1="10.16" y1="20.32" x2="25.4" y2="20.32" width="0.254" layer="94"/>
-<text x="20.32" y="40.64" size="1.778" layer="95" align="center">&gt;NAME</text>
-<text x="20.32" y="38.1" size="1.778" layer="96" align="center">&gt;VALUE</text>
+<text x="20.32" y="40.64" size="1.27" layer="95" align="center">&gt;NAME</text>
+<text x="20.32" y="38.1" size="1.27" layer="96" align="center">&gt;VALUE</text>
 <wire x1="-10.16" y1="22.86" x2="10.16" y2="22.86" width="0.254" layer="94"/>
 <wire x1="-10.16" y1="-25.4" x2="10.16" y2="-25.4" width="0.254" layer="94"/>
 </symbol>
+<symbol name="AMPLIFER-POWER-UNIPOLAR">
+<wire x1="-5.08" y1="5.08" x2="-5.08" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-5.08" x2="5.08" y2="0" width="0.254" layer="94"/>
+<wire x1="5.08" y1="0" x2="-5.08" y2="5.08" width="0.254" layer="94"/>
+<pin name="VCC" x="0" y="7.62" visible="pad" length="middle" direction="pwr" rot="R270"/>
+<pin name="GND" x="0" y="-7.62" visible="pad" length="middle" direction="pwr" rot="R90"/>
+<pin name="IN" x="-10.16" y="0" visible="pad" length="middle" direction="in"/>
+<pin name="OUT" x="10.16" y="0" visible="pad" length="middle" direction="out" rot="R180"/>
+<text x="7.62" y="7.62" size="1.27" layer="95" align="center">&gt;NAME</text>
+<text x="7.62" y="5.08" size="1.27" layer="96" align="center">&gt;VALUE</text>
+</symbol>
+<symbol name="AMPLIFER-POWER-BIPOLAR">
+<wire x1="-5.08" y1="5.08" x2="-5.08" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-5.08" x2="5.08" y2="0" width="0.254" layer="94"/>
+<wire x1="5.08" y1="0" x2="-5.08" y2="5.08" width="0.254" layer="94"/>
+<pin name="+VCC" x="0" y="7.62" visible="pad" length="middle" direction="pwr" rot="R270"/>
+<pin name="-VCC" x="0" y="-7.62" visible="pad" length="middle" direction="pwr" rot="R90"/>
+<pin name="IN" x="-10.16" y="0" visible="pad" length="middle" direction="in"/>
+<pin name="OUT" x="10.16" y="0" visible="pad" length="middle" direction="out" rot="R180"/>
+<text x="7.62" y="7.62" size="1.27" layer="95" align="center">&gt;NAME</text>
+<text x="7.62" y="5.08" size="1.27" layer="96" align="center">&gt;VALUE</text>
+</symbol>
+<symbol name="DOUBLE-BALANCED-MIXER-PASSIVE">
+<pin name="RF1" x="-12.7" y="7.62" length="short" direction="in"/>
+<pin name="IF1" x="12.7" y="7.62" length="short" direction="out" rot="R180"/>
+<pin name="IF2" x="12.7" y="2.54" length="short" direction="out" rot="R180"/>
+<pin name="LO1" x="-12.7" y="-2.54" length="short" direction="in"/>
+<pin name="VCC" x="-12.7" y="-7.62" length="short" direction="pwr"/>
+<pin name="GND@1" x="12.7" y="-2.54" length="short" direction="pwr" rot="R180"/>
+<pin name="GND@2" x="12.7" y="-7.62" length="short" direction="pwr" rot="R180"/>
+<wire x1="-10.16" y1="10.16" x2="-10.16" y2="0" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="0" x2="-10.16" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-5.08" x2="-10.16" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-10.16" x2="-2.54" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-10.16" x2="2.54" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-10.16" x2="10.16" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-10.16" x2="10.16" y2="0" width="0.254" layer="94"/>
+<wire x1="10.16" y1="0" x2="10.16" y2="10.16" width="0.254" layer="94"/>
+<wire x1="10.16" y1="10.16" x2="2.54" y2="10.16" width="0.254" layer="94"/>
+<text x="0" y="12.7" size="1.27" layer="96" align="center">&gt;VALUE</text>
+<text x="0" y="15.24" size="1.27" layer="95" align="center">&gt;NAME</text>
+<pin name="RF2" x="-12.7" y="2.54" length="short" direction="in"/>
+<wire x1="2.54" y1="10.16" x2="-2.54" y2="10.16" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="10.16" x2="-10.16" y2="10.16" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="10.16" x2="-2.54" y2="0" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="0" x2="-2.54" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-5.08" x2="-2.54" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="2.54" y1="10.16" x2="2.54" y2="0" width="0.254" layer="94"/>
+<wire x1="2.54" y1="0" x2="2.54" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="0" x2="-2.54" y2="0" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-5.08" x2="-2.54" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="2.54" y1="0" x2="10.16" y2="0" width="0.254" layer="94"/>
+<text x="0" y="2.54" size="1.778" layer="94" align="center">MIX</text>
+</symbol>
 </symbols>
 <devicesets>
-<deviceset name="1324ПС3" prefix="IC" uservalue="yes">
+<deviceset name="1324ПС3" prefix="DA">
 <gates>
-<gate name="G$1" symbol="1324ПС3" x="0" y="0"/>
+<gate name="G$1" symbol="DOUBLE-BALANCED-MIXER-ACTIVE" x="0" y="0"/>
 </gates>
 <devices>
 <device name="" package="QLCC_6/8-1">
@@ -1391,29 +1639,7 @@ Switch</text>
 </device>
 </devices>
 </deviceset>
-<deviceset name="1324УВ3" prefix="IC" uservalue="yes">
-<description>&lt;b&gt;АЕЯР.431000.760-02 ТУ&lt;/b&gt;&lt;p&gt;
-&lt;b&gt;1324УВ3&lt;/b&gt; - СВЧ МИС широкополосного малопотребляющего усилителя с диапозоном рабочих частот 0.01-3.5ГГц и выходной мощностью 10 мВт, согласованная по входу и выходу с линией с волновым сопротивлением 50 Ом.&lt;p&gt;
-Производитель: ОАО «НПП «Пульсар», г. Москва.&lt;br&gt;
-Технические условия: &lt;b&gt;АЕЯР.431000.760-02 ТУ&lt;/b&gt;</description>
-<gates>
-<gate name="G$1" symbol="1324УВ3" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="5140.8-АН3">
-<connects>
-<connect gate="G$1" pin="GND@1" pad="1 2 4"/>
-<connect gate="G$1" pin="GND@2" pad="5 6 8"/>
-<connect gate="G$1" pin="IN" pad="3"/>
-<connect gate="G$1" pin="OUT" pad="7"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="1327МА015" prefix="IC" uservalue="yes">
+<deviceset name="1327МА015" prefix="DA">
 <description>&lt;b&gt;АЕНВ.431340.010 ТУ&lt;/b&gt;&lt;p&gt;
 &lt;b&gt;1327МА015&lt;/b&gt; - СВЧ МИС широкополосного квадратурного модулятора прямого преобразования с диапазоном рабочих частот 0.7 – 6.0 ГГц.&lt;br&gt;
 Микросхема выполнена по SiGe БиКМОП технологии с проектными нормами 0.25 мкм с 5-ю слоями металлизации и поликремневыми резисторами.&lt;br&gt;
@@ -1448,9 +1674,9 @@ Switch</text>
 </device>
 </devices>
 </deviceset>
-<deviceset name="6405КП2" prefix="IC" uservalue="yes">
+<deviceset name="6405КП2" prefix="DA">
 <gates>
-<gate name="G$1" symbol="6405КП2" x="-7.62" y="-10.16"/>
+<gate name="G$1" symbol="RF-SWITCH" x="-7.62" y="-10.16"/>
 </gates>
 <devices>
 <device name="" package="QLCC_6/8-1">
@@ -1470,7 +1696,7 @@ Switch</text>
 </device>
 </devices>
 </deviceset>
-<deviceset name="1508ПЛ8Т" prefix="IC" uservalue="yes">
+<deviceset name="1508ПЛ8Т" prefix="DD">
 <description>&lt;b&gt;АЕЯР.431320.596 ТУ&lt;/b&gt;&lt;p&gt;
 &lt;b&gt;1508ПЛ8Т&lt;/b&gt; - двухканальный цифровой вычислительный синтезатор (DDS)&lt;br&gt;
 Предназначен для синтеза прямоугольных и гармонических немодулированных и модулированных сигналов в полосе частот до 350 МГц (квадратурных сигналов в полосе частот до 700 МГц), используемых в системах связи и радиолокации.&lt;p&gt;
@@ -1589,7 +1815,7 @@ Switch</text>
 </device>
 </devices>
 </deviceset>
-<deviceset name="ТПр3-1х" prefix="T" uservalue="yes">
+<deviceset name="ТПр3-1х" prefix="T">
 <description>&lt;b&gt;КЖГП.671159.003 ТУ&lt;/b&gt;&lt;p&gt;
 Параметры трансформаторов серии &lt;b&gt;ТПр3-1&lt;/b&gt;&lt;br&gt;
 &lt;table border="1"&gt;
@@ -1661,7 +1887,7 @@ Switch</text>
 </device>
 </devices>
 </deviceset>
-<deviceset name="ТПр3-8х" prefix="T" uservalue="yes">
+<deviceset name="ТПр3-8х" prefix="T">
 <description>&lt;b&gt;КЖГП.671159.003 ТУ&lt;/b&gt;&lt;p&gt;
 Параметры трансформаторов серии &lt;b&gt;ТПр3-8&lt;/b&gt;&lt;br&gt;
 &lt;table border="1"&gt;
@@ -1713,315 +1939,7 @@ Switch</text>
 </device>
 </devices>
 </deviceset>
-<deviceset name="1432УС1" prefix="IC" uservalue="yes">
-<description>&lt;b&gt;АЕЯР.431100.280-16 ТУ&lt;/b&gt;&lt;p&gt;
-&lt;b&gt;1432УС1АУ, 1432УС1БУ&lt;/b&gt; – широкополосный дифференциальный усилитель с внутренними обратными связями. &lt;br&gt;
-Параметры:&lt;br&gt;
-
-&lt;table border="1"&gt;
-&lt;tr&gt;
-&lt;td rowspan="3" width="316" style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0.1cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
-&lt;p align="center"&gt;&lt;font face="Consolas, monospace"&gt;Параметры, единица измерения&lt;/font&gt;&lt;/p&gt;
-&lt;/td&gt;
-
-&lt;td rowspan="3" width="79" style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0.1cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
-&lt;p align="center"&gt;&lt;font face="Consolas, monospace"&gt;Условия &lt;/font&gt;&lt;/p&gt;
-&lt;/td&gt;
-&lt;td colspan="4" width="222" style="border: 1px solid #000000; padding: 0.1cm"&gt;
-&lt;p align="center"&gt;&lt;font face="Consolas, monospace"&gt;Норма параметра&lt;/font&gt;&lt;/p&gt;
-&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td colspan="2" width="94" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
-&lt;p align="center"&gt;&lt;font face="Consolas, monospace"&gt;1432УС1АУ &lt;/font&gt;&lt;/p&gt;
-&lt;/td&gt;
-
-&lt;td colspan="2" width="120" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0.1cm"&gt;
-&lt;p align="center"&gt;&lt;font face="Consolas, monospace"&gt;1432УС1БУ &lt;/font&gt;
-&lt;/p&gt;
-&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td width="41" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
-&lt;p align="center"&gt;&lt;font face="Consolas, monospace"&gt;не менее &lt;/font&gt;&lt;/p&gt;
-&lt;/td&gt;
-
-&lt;td width="45" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
-&lt;p align="center"&gt;&lt;font face="Consolas, monospace"&gt;не более &lt;/font&gt;&lt;/p&gt;
-&lt;/td&gt;
-
-&lt;td width="52" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
-&lt;p align="center"&gt;&lt;font face="Consolas, monospace"&gt;не менее &lt;/font&gt;&lt;/p&gt;
-&lt;/td&gt;
-
-&lt;td width="60" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0.1cm"&gt;
-&lt;p align="center"&gt;&lt;font face="Consolas, monospace"&gt;не более &lt;/font&gt;&lt;/p&gt;
-&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-
-&lt;td width="316" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
-&lt;p align="center"&gt;&lt;font face="Consolas, monospace"&gt;Максимальное выходное напряжение, В&lt;/font&gt;&lt;/p&gt;
-&lt;/td&gt;
-
-&lt;td width="79" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
-&lt;p align="center"&gt;&lt;font face="Consolas, monospace"&gt;Uвх=Uп &lt;/font&gt;&lt;/p&gt;
-&lt;/td&gt;
-
-&lt;td width="41" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
-&lt;p align="center"&gt;&lt;font face="Consolas, monospace"&gt;&amp;plusmn;2,5&lt;/font&gt;&lt;/p&gt;
-&lt;/td&gt;
-
-&lt;td width="45" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
-&lt;p align="center"&gt;&lt;font face="Consolas, monospace"&gt;-&lt;/font&gt;&lt;/p&gt;
-&lt;/td&gt;
-
-&lt;td width="52" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
-&lt;p align="center"&gt;&lt;font face="Consolas, monospace"&gt;&amp;plusmn;2,5&lt;/font&gt;&lt;/p&gt;
-&lt;/td&gt;
-
-&lt;td width="60" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0.1cm"&gt;
-&lt;p align="center"&gt;&lt;font face="Consolas, monospace"&gt;-&lt;/font&gt;&lt;/p&gt;
-&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td width="316" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
-&lt;p align="center"&gt;&lt;font face="Consolas, monospace"&gt;Напряжение смещения, мВ&lt;/font&gt;&lt;/p&gt;
-&lt;/td&gt;
-
-&lt;td width="79" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
-&lt;p align="center"&gt;&lt;font face="Consolas, monospace"&gt;Uвх=0 &lt;/font&gt;
-&lt;/p&gt;
-&lt;/td&gt;
-
-&lt;td width="41" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
-&lt;p align="center"&gt;&lt;font face="Consolas, monospace"&gt;-&lt;/font&gt;&lt;/p&gt;
-&lt;/td&gt;
-
-&lt;td width="45" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
-&lt;p align="center"&gt;&lt;font face="Consolas, monospace"&gt;&amp;plusmn;&lt;span lang="en-US"&gt;9&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;
-&lt;/td&gt;
-
-&lt;td width="52" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
-&lt;p align="center"&gt;&lt;font face="Consolas, monospace"&gt;-&lt;/font&gt;&lt;/p&gt;
-&lt;/td&gt;
-
-&lt;td width="60" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0.1cm"&gt;
-&lt;p align="center"&gt;&lt;font face="Consolas, monospace"&gt;&amp;plusmn;&lt;span lang="en-US"&gt;9&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;
-&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td width="316" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
-&lt;p align="center"&gt;&lt;font face="Consolas, monospace"&gt;Ток потребления, мА&lt;/font&gt;&lt;/p&gt;
-&lt;/td&gt;
-
-&lt;td width="79" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
-&lt;p align="center"&gt;&lt;font face="Consolas, monospace"&gt;Uвх=0&lt;/font&gt;&lt;/p&gt;
-&lt;/td&gt;
-
-&lt;td width="41" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
-&lt;p align="center"&gt;&lt;font face="Consolas, monospace"&gt;-&lt;/font&gt;&lt;/p&gt;
-&lt;/td&gt;
-
-&lt;td width="45" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
-&lt;p lang="en-US" align="center"&gt;&lt;font face="Consolas, monospace"&gt;13,5&lt;/font&gt;&lt;/p&gt;
-&lt;/td&gt;
-
-&lt;td width="52" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
-&lt;p align="center"&gt;&lt;font face="Consolas, monospace"&gt;-&lt;/font&gt;&lt;/p&gt;
-&lt;/td&gt;
-
-&lt;td width="60" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0.1cm"&gt;
-&lt;p lang="en-US" align="center"&gt;&lt;font face="Consolas, monospace"&gt;15&lt;/font&gt;&lt;/p&gt;
-&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td width="316" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
-&lt;p align="center"&gt;&lt;font face="Consolas, monospace"&gt;Коэффициент усиления напряжения, В/мВ&lt;/font&gt;&lt;/p&gt;
-&lt;/td&gt;
-
-&lt;td width="79" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
-&lt;p align="center"&gt;&lt;font face="Consolas, monospace"&gt;Uвых=2В &lt;/font&gt;&lt;/p&gt;
-&lt;/td&gt;
-
-&lt;td width="41" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
-&lt;p align="center"&gt;&lt;font face="Consolas, monospace"&gt;1,9&lt;/font&gt;&lt;/p&gt;
-&lt;/td&gt;
-
-&lt;td width="45" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
-&lt;p align="center"&gt;&lt;font face="Consolas, monospace"&gt;2,1&lt;/font&gt;&lt;/p&gt;
-&lt;/td&gt;
-
-&lt;td width="52" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
-&lt;p align="center"&gt;&lt;font face="Consolas, monospace"&gt;1,9&lt;/font&gt;&lt;/p&gt;
-&lt;/td&gt;
-
-&lt;td width="60" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0.1cm"&gt;
-&lt;p align="center"&gt;&lt;font face="Consolas, monospace"&gt;2,1&lt;/font&gt;&lt;/p&gt;
-&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td width="316" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
-&lt;p align="center"&gt;&lt;font face="Consolas, monospace"&gt;Верхняя граничная частота полосы пропускания, МГц&lt;/font&gt;&lt;/p&gt;
-&lt;/td&gt;
-
-&lt;td width="79" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
-&lt;p align="center"&gt;&lt;font face="Consolas, monospace"&gt;Uвых=2В&lt;/font&gt;&lt;/p&gt;
-&lt;/td&gt;
-
-&lt;td width="41" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
-&lt;p align="center"&gt;&lt;font face="Consolas, monospace"&gt;350&lt;/font&gt;&lt;/p&gt;
-&lt;/td&gt;
-
-&lt;td width="45" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
-&lt;p align="center"&gt;&lt;font face="Consolas, monospace"&gt;-&lt;/font&gt;&lt;/p&gt;
-&lt;/td&gt;
-
-&lt;td width="52" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
-&lt;p lang="en-US" align="center"&gt;&lt;font face="Consolas, monospace"&gt;230&lt;/font&gt;&lt;/p&gt;
-&lt;/td&gt;
-
-&lt;td width="60" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0.1cm"&gt;
-&lt;p align="center"&gt;&lt;font face="Consolas, monospace"&gt;-&lt;/font&gt;&lt;/p&gt;
-&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td width="316" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
-&lt;p align="center"&gt;&lt;font face="Consolas, monospace"&gt;Максимальная скорость нарастания выходного напряжения, В/мкс&lt;/font&gt;&lt;/p&gt;
-&lt;/td&gt;
-
-&lt;td width="79" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
-&lt;p align="center"&gt;&lt;font face="Consolas, monospace"&gt;Uвых=2В&lt;/font&gt;&lt;/p&gt;
-&lt;/td&gt;
-
-&lt;td width="41" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
-&lt;p lang="en-US" align="center"&gt;&lt;font face="Consolas, monospace"&gt;1500&lt;/font&gt;&lt;/p&gt;
-&lt;/td&gt;
-
-&lt;td width="45" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
-&lt;p align="center"&gt;&lt;font face="Consolas, monospace"&gt;-&lt;/font&gt;&lt;/p&gt;
-&lt;/td&gt;
-
-&lt;td width="52" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
-&lt;p lang="en-US" align="center"&gt;&lt;font face="Consolas, monospace"&gt;900&lt;/font&gt;&lt;/p&gt;
-&lt;/td&gt;
-
-&lt;td width="60" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0.1cm"&gt;
-&lt;p align="center"&gt;&lt;font face="Consolas, monospace"&gt;-&lt;/font&gt;&lt;/p&gt;
-&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td width="316" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
-&lt;p align="center"&gt;&lt;font face="Consolas, monospace"&gt;Время установления выходного напряжения (до уровня 0,1%), нс&lt;/font&gt;&lt;/p&gt;
-&lt;/td&gt;
-
-&lt;td width="79" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
-&lt;p align="center"&gt;&lt;font face="Consolas, monospace"&gt;Rн=0,1кОм Uвых=2В Uвх=0 &lt;/font&gt;&lt;/p&gt;
-&lt;/td&gt;
-
-&lt;td width="41" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
-&lt;p lang="en-US" align="center"&gt;&lt;font face="Consolas, monospace"&gt;-&lt;/font&gt;&lt;/p&gt;
-&lt;/td&gt;
-
-&lt;td width="45" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
-&lt;p lang="en-US" align="center"&gt;&lt;font face="Consolas, monospace"&gt;25&lt;/font&gt;&lt;/p&gt;
-&lt;/td&gt;
-
-&lt;td width="52" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
-&lt;p lang="en-US" align="center"&gt;&lt;font face="Consolas, monospace"&gt;-&lt;/font&gt;&lt;/p&gt;
-&lt;/td&gt;
-
-&lt;td width="60" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0.1cm"&gt;
-&lt;p lang="en-US" align="center"&gt;&lt;font face="Consolas, monospace"&gt;50&lt;/font&gt;&lt;/p&gt;
-&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td width="316" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
-&lt;p align="center"&gt;&lt;font face="Consolas, monospace"&gt;Максимальное входное напряжение, В&lt;/font&gt;&lt;/p&gt;
-&lt;/td&gt;
-
-&lt;td width="79" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
-&lt;p align="center"&gt;&lt;font face="Consolas, monospace"&gt;Uвх=Uп Uп=&amp;plusmn;1,4В
-&lt;/font&gt;
-&lt;/p&gt;
-&lt;/td&gt;
-
-&lt;td width="41" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
-&lt;p lang="en-US" align="center"&gt;&lt;font face="Consolas, monospace"&gt;&amp;plusmn;0,1&lt;/font&gt;&lt;/p&gt;
-&lt;/td&gt;
-
-&lt;td width="45" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
-&lt;p lang="en-US" align="center"&gt;&lt;font face="Consolas, monospace"&gt;-&lt;/font&gt;&lt;/p&gt;
-&lt;/td&gt;
-
-&lt;td width="52" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
-&lt;p lang="en-US" align="center"&gt;&lt;font face="Consolas, monospace"&gt;&amp;plusmn;0,1&lt;/font&gt;&lt;/p&gt;
-&lt;/td&gt;
-
-&lt;td width="60" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0.1cm"&gt;
-&lt;p lang="en-US" align="center"&gt;&lt;font face="Consolas, monospace"&gt;-&lt;/font&gt;&lt;/p&gt;
-&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td width="316" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
-&lt;p align="center"&gt;&lt;font face="Consolas, monospace"&gt;Коэффициент нелинейных искажений, дБ&lt;/font&gt;&lt;/p&gt;
-&lt;/td&gt;
-
-&lt;td width="79" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
-&lt;p align="center"&gt;&lt;font face="Consolas, monospace"&gt;Uвых=2В&lt;/font&gt;&lt;/p&gt;
-&lt;/td&gt;
-
-&lt;td width="41" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
-&lt;p lang="en-US" align="center"&gt;&lt;font face="Consolas, monospace"&gt;-&lt;/font&gt;&lt;/p&gt;
-&lt;/td&gt;
-
-&lt;td width="45" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
-&lt;p lang="en-US" align="center"&gt;&lt;font face="Consolas, monospace"&gt;58&lt;/font&gt;&lt;/p&gt;
-&lt;/td&gt;
-
-&lt;td width="52" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
-&lt;p lang="en-US" align="center"&gt;&lt;font face="Consolas, monospace"&gt;-&lt;/font&gt;&lt;/p&gt;
-&lt;/td&gt;
-
-&lt;td width="60" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0.1cm"&gt;
-&lt;p lang="en-US" align="center"&gt;&lt;font face="Consolas, monospace"&gt;58&lt;/font&gt;&lt;/p&gt;
-&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/table&gt;
-&lt;p&gt;
-Производитель: ОАО «НПП «Пульсар», г. Москва.&lt;br&gt;
-Технические условия: &lt;b&gt;АЕЯР.431100.280-16 ТУ&lt;/b&gt;</description>
-<gates>
-<gate name="G$1" symbol="1432УС1" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="НО2.8-1В">
-<connects>
-<connect gate="G$1" pin="+VCC" pad="3"/>
-<connect gate="G$1" pin="-VCC" pad="6"/>
-<connect gate="G$1" pin="IN+" pad="8"/>
-<connect gate="G$1" pin="IN-" pad="1"/>
-<connect gate="G$1" pin="OUT+" pad="4"/>
-<connect gate="G$1" pin="OUT-" pad="5"/>
-<connect gate="G$1" pin="Uсдв" pad="2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="1508ПЛ9Т" prefix="IC" uservalue="yes">
+<deviceset name="1508ПЛ9Т" prefix="DD">
 <description>&lt;b&gt;АЕЯР.431320.597 ТУ&lt;/b&gt;&lt;p&gt;
 &lt;b&gt;1508ПЛ9Т&lt;/b&gt; - Синтезатор частот на основе ФАПЧ. &lt;br&gt; 
 Предназначена для использования в синтезаторах несущих и гетеродинных частот, &lt;br&gt;
@@ -2082,6 +2000,1843 @@ Switch</text>
 <connect gate="G$1" pin="SDO" pad="25"/>
 <connect gate="G$1" pin="VDD@1" pad="16"/>
 <connect gate="G$1" pin="VDD@2" pad="32"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="1432УЕ1" prefix="DA">
+<description>&lt;b&gt;АЕЯР.431100.099-01 ТУ&lt;/b&gt;&lt;p&gt;
+1432УЕ1 – буферные усилители, обеспечивающие большой выходной ток при высокой скорости нарастания и широкой полосе пропускания.&lt;p&gt;
+Достоинства:&lt;br&gt;
+► Скорость нарастания 2000 В/мкс&lt;br&gt;
+► Ток потребления 25 мА&lt;br&gt;
+► Напряжение смещения 100 мВ&lt;br&gt;
+&lt;table width="95%" cellpadding="2" cellspacing="0" style="page-break-before: auto" border="1"&gt;
+	&lt;col width="61*"&gt;
+	&lt;col width="22*"&gt;
+	&lt;col width="23*"&gt;
+	&lt;col width="23*"&gt;
+	&lt;col width="26*"&gt;
+	&lt;col width="26*"&gt;
+	&lt;col width="23*"&gt;
+	&lt;col width="23*"&gt;
+	&lt;col width="31*"&gt;
+	&lt;tr&gt;
+		&lt;td colspan="8" width="88%" valign="top" style="border: 1.00pt solid #000000; padding-top: 0.05cm; padding-bottom: 0.05cm; padding-left: 0.05cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;Электрические параметры при Uп=&amp;plusmn;14,2
+			В(гр. А), Uп=&amp;plusmn;11,4 В(гр. Б), Uп=&amp;plusmn;4,7 В(гр. В), t= 25
+			0С 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td rowspan="3" width="12%" style="border-top: 1.00pt solid #000000; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0.05cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;Температура,&lt;/p&gt;
+			&lt;p align="center"&gt;&lt;font face="Liberation Serif, serif"&gt;&amp;ordm;&lt;/font&gt;С&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td rowspan="2" width="24%" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: 1.00pt solid #000000; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0.05cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;Параметры, единица измерения 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td rowspan="2" width="9%" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;Условия 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td colspan="2" width="18%" valign="top" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;1432УЕ1А 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td colspan="2" width="20%" valign="top" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;1432УЕ1Б 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td colspan="2" width="18%" valign="top" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;1432УЕ1В 
+			&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td width="9%" valign="top" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;Не менее&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="9%" valign="top" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;Не более&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="10%" valign="top" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;Не менее&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="10%" valign="top" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;Не более 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="9%" valign="top" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;Не менее 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="9%" valign="top" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;Не более&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr valign="top"&gt;
+		&lt;td rowspan="2" width="24%" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: 1.00pt solid #000000; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0.05cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;Максимальное выходное напряжение, В 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td rowspan="2" width="9%" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;Uвх= Uп 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="9%" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;&amp;plusmn;10,0 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="9%" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;&lt;br/&gt;
+
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="10%" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;&amp;plusmn;8,0 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="10%" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;&lt;br/&gt;
+
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="9%" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;&amp;plusmn;3,0 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="9%" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;&lt;br/&gt;
+
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="12%" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;25 
+			&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr valign="top"&gt;
+		&lt;td width="9%" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;&amp;plusmn;9,0 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="9%" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;&lt;br/&gt;
+
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="10%" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;&amp;plusmn;7,0 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="10%" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;&lt;br/&gt;
+
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="9%" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;&amp;plusmn;2,5 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="9%" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;&lt;br/&gt;
+
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="12%" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;-60,+85 
+			&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr valign="top"&gt;
+		&lt;td rowspan="2" width="24%" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: 1.00pt solid #000000; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0.05cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;Напряжение смещения, мВ 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td rowspan="2" width="9%" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;Uвх= 0 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="9%" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;&lt;br/&gt;
+
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="9%" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;100 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="10%" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;&lt;br/&gt;
+
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="10%" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;25 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="9%" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;&lt;br/&gt;
+
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="9%" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;50 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="12%" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;25 
+			&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr valign="top"&gt;
+		&lt;td width="9%" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;&lt;br/&gt;
+
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="9%" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;150 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="10%" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;&lt;br/&gt;
+
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="10%" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;50 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="9%" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;&lt;br/&gt;
+
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="9%" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;100 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="12%" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;-60,+85 
+			&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr valign="top"&gt;
+		&lt;td rowspan="2" width="24%" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: 1.00pt solid #000000; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0.05cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center" style="margin-right: 0.2cm"&gt;Ток потребления, мА 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td rowspan="2" width="9%" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;Uвх= 0 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="9%" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;&lt;br/&gt;
+
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="9%" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;25 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="10%" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;&lt;br/&gt;
+
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="10%" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;20 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="9%" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;&lt;br/&gt;
+
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="9%" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;15 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="12%" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;25 
+			&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr valign="top"&gt;
+		&lt;td width="9%" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;&lt;br/&gt;
+
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="9%" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;30 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="10%" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;&lt;br/&gt;
+
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="10%" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;25 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="9%" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;&lt;br/&gt;
+
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="9%" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;20 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="12%" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;-60,+85 
+			&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr valign="top"&gt;
+		&lt;td rowspan="2" width="24%" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: 1.00pt solid #000000; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0.05cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;Входной ток, мкА 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td rowspan="2" width="9%" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;&lt;br/&gt;
+
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="9%" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;&lt;br/&gt;
+
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="9%" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;100 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="10%" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;&lt;br/&gt;
+
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="10%" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;35 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="9%" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;&lt;br/&gt;
+
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="9%" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;70 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="12%" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;25 
+			&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr valign="top"&gt;
+		&lt;td width="9%" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;&lt;br/&gt;
+
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="9%" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;150 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="10%" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;&lt;br/&gt;
+
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="10%" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;70 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="9%" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;&lt;br/&gt;
+
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="9%" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;140 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="12%" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;-60,+85 
+			&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr valign="top"&gt;
+		&lt;td rowspan="2" width="24%" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: 1.00pt solid #000000; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0.05cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;Коэффициент усиления напряжения, В/В 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td rowspan="2" width="9%" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;Uвх=1 В 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="9%" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;0,95 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="9%" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;&lt;br/&gt;
+
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="10%" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;0,97 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="10%" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;&lt;br/&gt;
+
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="9%" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;0,95 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="9%" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;&lt;br/&gt;
+
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="12%" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;25 
+			&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr valign="top"&gt;
+		&lt;td width="9%" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;0,94 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="9%" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;&lt;br/&gt;
+
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="10%" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;0,95 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="10%" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;&lt;br/&gt;
+
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="9%" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;0,93 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="9%" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;&lt;br/&gt;
+
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="12%" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;-60,+85 
+			&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr valign="top"&gt;
+		&lt;td width="24%" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: 1.00pt solid #000000; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0.05cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;Верхняя граничная частота, МГц 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="9%" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;Uвх=&amp;plusmn;1 В 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="9%" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;250 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="9%" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;&lt;br/&gt;
+
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="10%" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;250 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="10%" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;&lt;br/&gt;
+
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="9%" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;100 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="9%" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;&lt;br/&gt;
+
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="12%" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;25 
+			&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td width="24%" valign="top" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: 1.00pt solid #000000; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0.05cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;Скорость нарастания выходного напряжения, В/мкс 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="9%" valign="top" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;&lt;br/&gt;
+
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="9%" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;2000 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="9%" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;&lt;br/&gt;
+
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="10%" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;1500 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="10%" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;&lt;br/&gt;
+
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="9%" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;1000 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="9%" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;&lt;br/&gt;
+
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="12%" valign="top" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;25 
+			&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;&lt;p&gt;
+Производитель: ОАО «НПП «ПУЛЬСАР», г. Москва.</description>
+<gates>
+<gate name="G$1" symbol="AMPLIFER-POWER-BIPOLAR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="А" package="2101.8-7">
+<connects>
+<connect gate="G$1" pin="+VCC" pad="1"/>
+<connect gate="G$1" pin="-VCC" pad="5"/>
+<connect gate="G$1" pin="IN" pad="4"/>
+<connect gate="G$1" pin="OUT" pad="8"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="Б" package="2101.8-7">
+<connects>
+<connect gate="G$1" pin="+VCC" pad="1"/>
+<connect gate="G$1" pin="-VCC" pad="5"/>
+<connect gate="G$1" pin="IN" pad="4"/>
+<connect gate="G$1" pin="OUT" pad="8"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="В" package="2101.8-7">
+<connects>
+<connect gate="G$1" pin="+VCC" pad="1"/>
+<connect gate="G$1" pin="-VCC" pad="5"/>
+<connect gate="G$1" pin="IN" pad="4"/>
+<connect gate="G$1" pin="OUT" pad="8"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="Б1432УЕ1" prefix="DA">
+<description>&lt;b&gt;АЕЯР.431100.099-01 ТУ&lt;/b&gt;&lt;p&gt;
+Б1432УЕ1 — широкополосные повторители напряжения. Повторители Б1432УЕ1 выполнены на комплементарных транзисторах.&lt;p&gt;
+&lt;table width="100%" cellpadding="4" cellspacing="0" border="1"&gt;
+	&lt;col width="51*"&gt;
+	&lt;col width="51*"&gt;
+	&lt;col width="51*"&gt;
+	&lt;col width="51*"&gt;
+	&lt;col width="51*"&gt;
+	&lt;tr valign="top"&gt;
+		&lt;td width="20%" style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0.1cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;Наименование параметра&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="20%" style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0.1cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;Б1432УЕ1&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="20%" style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0.1cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;Б1432УЕ1А&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="20%" style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0.1cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;Б1432УЕ1В&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="20%" style="border: 1px solid #000000; padding: 0.1cm"&gt;
+			&lt;p align="center"&gt;Единица измерения&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr valign="top"&gt;
+		&lt;td width="20%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;Коэффициент усиления&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="20%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;0,97&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="20%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;0,95&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="20%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;0,95&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="20%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0.1cm"&gt;
+			&lt;p align="center"&gt;В/В&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr valign="top"&gt;
+		&lt;td width="20%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;Напряжение питания&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="20%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;&amp;plusmn;12&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="20%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;&amp;plusmn;15&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="20%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;&amp;plusmn;6&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="20%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0.1cm"&gt;
+			&lt;p align="center"&gt;В&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr valign="top"&gt;
+		&lt;td width="20%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;Потребляемый ток&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="20%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;20&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="20%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;25&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="20%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;16&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="20%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0.1cm"&gt;
+			&lt;p align="center"&gt;мА&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr valign="top"&gt;
+		&lt;td width="20%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;Входное сопротивление&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="20%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;0,05&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="20%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;0,05&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="20%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;0,06&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="20%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0.1cm"&gt;
+			&lt;p align="center"&gt;МОм&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr valign="top"&gt;
+		&lt;td width="20%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;Сопротивление нагрузки&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="20%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;1&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="20%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;1&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="20%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;2&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="20%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0.1cm"&gt;
+			&lt;p align="center"&gt;кОм&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr valign="top"&gt;
+		&lt;td width="20%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;Скорость нарастания&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="20%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;1500&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="20%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;2000&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="20%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;1000&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="20%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0.1cm"&gt;
+			&lt;p align="center"&gt;В/мкс&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr valign="top"&gt;
+		&lt;td width="20%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;Частота среза&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="20%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;250&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="20%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;250&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="20%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;100&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="20%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0.1cm"&gt;
+			&lt;p align="center"&gt;МГц&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;p&gt;
+Производитель: ОАО «НПП «ПУЛЬСАР», г. Москва.</description>
+<gates>
+<gate name="G$1" symbol="AMPLIFER-POWER-BIPOLAR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="КТ-22">
+<connects>
+<connect gate="G$1" pin="+VCC" pad="3"/>
+<connect gate="G$1" pin="-VCC" pad="1"/>
+<connect gate="G$1" pin="IN" pad="2"/>
+<connect gate="G$1" pin="OUT" pad="4"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="А" package="КТ-22">
+<connects>
+<connect gate="G$1" pin="+VCC" pad="3"/>
+<connect gate="G$1" pin="-VCC" pad="1"/>
+<connect gate="G$1" pin="IN" pad="2"/>
+<connect gate="G$1" pin="OUT" pad="4"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="В" package="КТ-22">
+<connects>
+<connect gate="G$1" pin="+VCC" pad="3"/>
+<connect gate="G$1" pin="-VCC" pad="1"/>
+<connect gate="G$1" pin="IN" pad="2"/>
+<connect gate="G$1" pin="OUT" pad="4"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="1324УВ1" prefix="DA">
+<description>&lt;b&gt;АЕЯР.431000.760–02 ТУ&lt;/b&gt;&lt;p&gt;
+1324УВ1 - СВЧ МИС широкополосного усилителя с диапазоном рабочих частот 0,01-1,5 Гц и &lt;br&gt;
+выходной мощностью до 120 мВт, согласованная по входу и выходу с линией с волновым сопротивлением 50 Ом, &lt;br&gt;
+обеспечивает возможность изменения тока потребления в широких пределах для получения заданной выходной мощности.&lt;p&gt;
+Достоинства:&lt;br&gt;
+► Диапазон рабочих частот 0,01-1,5 ГГц&lt;br&gt;
+► Коэффициент усиления 15 дБ&lt;br&gt;
+► Коэффициент шума 3,2 дБ&lt;br&gt;
+► Выходная мощность 120 мВт&lt;br&gt;
+► Диапазон рабочих температур -60…+85 °С&lt;br&gt;
+&lt;table width="689" cellpadding="2" cellspacing="0" border="1"&gt;
+	&lt;col width="352"&gt;
+	&lt;col width="99"&gt;
+	&lt;col width="72"&gt;
+	&lt;col width="72"&gt;
+	&lt;col width="71"&gt;
+	&lt;tr&gt;
+		&lt;td colspan="5" width="683" valign="top" style="border: 1.00pt solid #000000; padding: 0.05cm"&gt;
+			&lt;p align="center"&gt;Электрические параметры при Uп=5 В, Rтз=5 Ом,
+			Iр=100 мА, Т=25 &amp;deg;С, если не указано иного. 
+			&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr valign="top"&gt;
+		&lt;td rowspan="2" width="352" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: 1.00pt solid #000000; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0.05cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;Параметр, единица измерения 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td rowspan="2" width="99" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;Условия 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td colspan="3" width="224" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;1324УВ1У 
+			&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr valign="top"&gt;
+		&lt;td width="72" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;мин. 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="72" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;тип. 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="71" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;макс. 
+			&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr valign="top"&gt;
+		&lt;td width="352" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: 1.00pt solid #000000; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0.05cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;Коэффициент усиления на частоте 100 МГц, дБ 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="99" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;(Pвых =1 мВт) 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="72" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;12,0 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="72" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;15,0 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="71" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;&lt;br/&gt;
+
+			&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr valign="top"&gt;
+		&lt;td width="352" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: 1.00pt solid #000000; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0.05cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;Коэффициент усиления на частоте 0,5 ГГц, дБ 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="99" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;(Pвых =1 мВт) 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="72" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;&lt;br/&gt;
+
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="72" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;13,5 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="71" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;&lt;br/&gt;
+
+			&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr valign="top"&gt;
+		&lt;td width="352" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: 1.00pt solid #000000; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0.05cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;Коэффициент усиления на частоте 1,5 ГГц, дБ 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="99" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;&lt;br/&gt;
+
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="72" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;&lt;br/&gt;
+
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="72" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;7,5 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="71" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;&lt;br/&gt;
+
+			&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr valign="top"&gt;
+		&lt;td width="352" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: 1.00pt solid #000000; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0.05cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;Выходная мощность (P1dB) на частоте 100 МГц, дБм
+						&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="99" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;&lt;br/&gt;
+
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="72" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;&lt;br/&gt;
+
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="72" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;20,0 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="71" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;&lt;br/&gt;
+
+			&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr valign="top"&gt;
+		&lt;td width="352" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: 1.00pt solid #000000; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0.05cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;Выходная мощность (P1dB) на частоте 1 ГГц, дБм 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="99" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;&lt;br/&gt;
+
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="72" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;&lt;br/&gt;
+
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="72" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;12,0 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="71" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;&lt;br/&gt;
+
+			&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr valign="top"&gt;
+		&lt;td width="352" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: 1.00pt solid #000000; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0.05cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;Выходная мощность (Psat) на частоте 100 МГц, дБм
+						&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="99" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;&lt;br/&gt;
+
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="72" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;19,0 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="72" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;20,5 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="71" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;&lt;br/&gt;
+
+			&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr valign="top"&gt;
+		&lt;td width="352" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: 1.00pt solid #000000; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0.05cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;Коэффициент шума, дБ 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="99" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;&lt;br/&gt;
+
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="72" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;&lt;br/&gt;
+
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="72" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;3,2 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="71" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;3,5 
+			&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr valign="top"&gt;
+		&lt;td width="352" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: 1.00pt solid #000000; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0.05cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;КСВ по входу и выходу, В/В 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="99" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;&lt;br/&gt;
+
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="72" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;&lt;br/&gt;
+
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="72" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;1,15 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="71" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;&lt;br/&gt;
+
+			&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr valign="top"&gt;
+		&lt;td width="352" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: 1.00pt solid #000000; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0.05cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;Прохождение сигнала с выхода на вход, дБ 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="99" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;&lt;br/&gt;
+
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="72" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;&lt;br/&gt;
+
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="72" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;-19 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="71" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;&lt;br/&gt;
+
+			&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr valign="top"&gt;
+		&lt;td width="352" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: 1.00pt solid #000000; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0.05cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;Режимный ток, мА 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="99" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;&lt;br/&gt;
+
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="72" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;25 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="72" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;100 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="71" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;120,0 
+			&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr valign="top"&gt;
+		&lt;td width="352" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: 1.00pt solid #000000; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0.05cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;Диапазон рабочих температур, &amp;deg;С 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="99" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;&lt;br/&gt;
+
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="72" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;-60 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="72" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;&lt;br/&gt;
+
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="71" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;+85 
+			&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr valign="top"&gt;
+		&lt;td width="352" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: 1.00pt solid #000000; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0.05cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;Тепловое сопротивление &amp;laquo;переход-среда&amp;raquo;,
+			&amp;deg;С/Вт 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="99" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;Корпус 5140.8-АНЗ 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="72" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;&lt;br/&gt;
+
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="72" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;100 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="71" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;&lt;br/&gt;
+
+			&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;p&gt;
+Производитель: ОАО «НПП «ПУЛЬСАР», г. Москва.</description>
+<gates>
+<gate name="G$1" symbol="AMPLIFER-POWER-IN-OUT" x="0" y="0"/>
+</gates>
+<devices>
+<device name="У" package="5140.8-АН3">
+<connects>
+<connect gate="G$1" pin="GND@1" pad="1"/>
+<connect gate="G$1" pin="GND@2" pad="2"/>
+<connect gate="G$1" pin="GND@3" pad="4"/>
+<connect gate="G$1" pin="GND@4" pad="5"/>
+<connect gate="G$1" pin="GND@5" pad="6"/>
+<connect gate="G$1" pin="GND@6" pad="8"/>
+<connect gate="G$1" pin="IN" pad="3"/>
+<connect gate="G$1" pin="OUT" pad="7"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="1324УВ2" prefix="DA">
+<description>&lt;b&gt;АЕЯР.431000.760–02 ТУ&lt;/b&gt;&lt;p&gt;
+1324УВ2 - СВЧ МИС широкополосного усилителя с диапазоном рабочих частот 0,01-3,1 ГГц и выходной мощностью до 120 мВт,&lt;br&gt;
+согласованная по входу и выходу с линией с волновым сопротивлением 50 Ом,&lt;br&gt;
+обеспечивает возможность изменения тока потребления в широких пределах для получения заданной выходной мощности.&lt;p&gt;
+Достоинства:&lt;br&gt;
+► Диапазон рабочих частот 0,01-3,1 ГГц&lt;br&gt;
+► Коэффициент усиления 20 дБ&lt;br&gt;
+► Коэффициент шума 2,7 дБ&lt;br&gt;
+► Выходная мощность 120 мВт&lt;br&gt;
+► Диапазон рабочих температур -60…+85 °С&lt;br&gt;
+&lt;table width="698" cellpadding="0" cellspacing="0" border="1"&gt;
+	&lt;tr valign="top"&gt;
+		&lt;td rowspan="2" width="356" style="border: 1.00pt solid #000000; padding: 0.05cm"&gt;
+			&lt;p align="center"&gt;Параметр, единица измерения 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td rowspan="2" width="103" style="border-top: 1.00pt solid #000000; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0.05cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;Условия 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td colspan="3" width="239" style="border-top: 1.00pt solid #000000; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0.05cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;1324УВ2У 
+			&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr valign="top"&gt;
+		&lt;td width="83" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;мин. 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="76" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;тип. 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="80" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;макс. 
+			&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr valign="top"&gt;
+		&lt;td width="356" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: 1.00pt solid #000000; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0.05cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;Коэффициент усиления на частоте 100 МГц, дБ 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="103" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;(Pвых =1 мВт) 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="83" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;19 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="76" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;20 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="80" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;&lt;br/&gt;
+
+			&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr valign="top"&gt;
+		&lt;td width="356" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: 1.00pt solid #000000; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0.05cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;Коэффициент усиления на частоте 1 ГГц, дБ 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="103" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;(Pвых =1 мВт) 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="83" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;&lt;br/&gt;
+
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="76" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;17,3 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="80" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;&lt;br/&gt;
+
+			&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr valign="top"&gt;
+		&lt;td width="356" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: 1.00pt solid #000000; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0.05cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;Коэффициент усиления на частоте 3 ГГц, дБ 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="103" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;(Pвых =1 мВт) 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="83" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;&lt;br/&gt;
+
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="76" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;12 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="80" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;&lt;br/&gt;
+
+			&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr valign="top"&gt;
+		&lt;td width="356" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: 1.00pt solid #000000; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0.05cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;Выходная мощность (P1dB) на частоте 100 МГц, дБм
+						&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="103" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;&lt;br/&gt;
+
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="83" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;&lt;br/&gt;
+
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="76" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;20 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="80" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;&lt;br/&gt;
+
+			&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr valign="top"&gt;
+		&lt;td width="356" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: 1.00pt solid #000000; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0.05cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;Выходная мощность (P1dB) на частоте 1 ГГц, дБм 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="103" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;&lt;br/&gt;
+
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="83" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;&lt;br/&gt;
+
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="76" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;12,5 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="80" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;&lt;br/&gt;
+
+			&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr valign="top"&gt;
+		&lt;td width="356" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: 1.00pt solid #000000; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0.05cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;Выходная мощность (Psat) на частоте 100 МГц, дБм
+						&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="103" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;&lt;br/&gt;
+
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="83" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;20 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="76" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;22 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="80" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;&lt;br/&gt;
+
+			&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr valign="top"&gt;
+		&lt;td width="356" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: 1.00pt solid #000000; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0.05cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;Коэффициент шума, дБ 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="103" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;&lt;br/&gt;
+
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="83" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;&lt;br/&gt;
+
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="76" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;2,7 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="80" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;3,5 
+			&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr valign="top"&gt;
+		&lt;td width="356" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: 1.00pt solid #000000; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0.05cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;КСВ по входу и выходу, В/В 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="103" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;&lt;br/&gt;
+
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="83" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;&lt;br/&gt;
+
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="76" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;1,3 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="80" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;2,5 
+			&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr valign="top"&gt;
+		&lt;td width="356" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: 1.00pt solid #000000; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0.05cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;Прохождение сигнала с выхода на вход, дБ 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="103" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;&lt;br/&gt;
+
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="83" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;&lt;br/&gt;
+
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="76" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;-23 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="80" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;&lt;br/&gt;
+
+			&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr valign="top"&gt;
+		&lt;td width="356" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: 1.00pt solid #000000; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0.05cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;Режимный ток, мА 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="103" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;&lt;br/&gt;
+
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="83" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;25 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="76" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;100 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="80" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;120 
+			&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr valign="top"&gt;
+		&lt;td width="356" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: 1.00pt solid #000000; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0.05cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;Диапазон рабочих температур, &amp;deg;С 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="103" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;&lt;br/&gt;
+
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="83" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;-60 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="76" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;&lt;br/&gt;
+
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="80" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;+85 
+			&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr valign="top"&gt;
+		&lt;td width="356" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: 1.00pt solid #000000; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0.05cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;Тепловое сопротивление &amp;laquo;переход-среда&amp;raquo;,
+			&amp;deg;С/Вт 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="103" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;Корпус 5140.8-АНЗ 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="83" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;&lt;br/&gt;
+
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="76" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;100 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="80" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;&lt;br/&gt;
+
+			&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;&lt;p&gt;
+Производитель: ОАО «НПП «ПУЛЬСАР», г. Москва.</description>
+<gates>
+<gate name="G$1" symbol="AMPLIFER-POWER-IN-OUT" x="0" y="0"/>
+</gates>
+<devices>
+<device name="У" package="5140.8-АН3">
+<connects>
+<connect gate="G$1" pin="GND@1" pad="1"/>
+<connect gate="G$1" pin="GND@2" pad="2"/>
+<connect gate="G$1" pin="GND@3" pad="4"/>
+<connect gate="G$1" pin="GND@4" pad="5"/>
+<connect gate="G$1" pin="GND@5" pad="6"/>
+<connect gate="G$1" pin="GND@6" pad="8"/>
+<connect gate="G$1" pin="IN" pad="3"/>
+<connect gate="G$1" pin="OUT" pad="7"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="1324УВ3" prefix="DA">
+<description>&lt;b&gt;АЕЯР.431000.760–02 ТУ&lt;/b&gt;&lt;p&gt;
+1324УВ3 - СВЧ МИС широкополосного малопотребляющего усилителя&lt;br&gt;
+с диапазоном рабочих частот 0,01-3,5 ГГц и выходной мощностью до 10 мВт,&lt;br&gt;
+согласованная по входу и выходу с линией с волновым сопротивлением 50 Ом.&lt;p&gt;
+Достоинства:&lt;br&gt;
+► Диапазон рабочих частот 0,01-3,5 ГГц&lt;br&gt;
+► Коэффициент усиления 19 дБ&lt;br&gt;
+► Коэффициент шума 2,6 дБ&lt;br&gt;
+► Выходная мощность 10 мВт&lt;br&gt;
+► Диапазон рабочих температур -60…+85 °С&lt;br&gt;
+&lt;table width="698" cellpadding="0" cellspacing="0" border="1"&gt;
+	&lt;tr&gt;
+		&lt;td colspan="5" width="698" valign="top" style="border: 1.00pt solid #000000; padding: 0.05cm"&gt;
+			&lt;p align="center"&gt;Электрические параметры при Uп=3,3 В, Rтз=5 Ом,
+			Iр=30 мА, Т=25 &amp;deg;С, если не указано иного. 
+			&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr valign="top"&gt;
+		&lt;td rowspan="2" width="356" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: 1.00pt solid #000000; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0.05cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;Параметр, единица измерения 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td rowspan="2" width="103" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;Условия 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td colspan="3" width="239" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;1324УВ3 
+			&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr valign="top"&gt;
+		&lt;td width="83" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;мин. 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="76" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;тип. 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="80" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;макс. 
+			&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr valign="top"&gt;
+		&lt;td width="356" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: 1.00pt solid #000000; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0.05cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;Коэффициент усиления на частоте 100 МГц, дБ 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="103" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;(Pвых =1 мВт) 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="83" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;15 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="76" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;19 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="80" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;&lt;br/&gt;
+
+			&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr valign="top"&gt;
+		&lt;td width="356" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: 1.00pt solid #000000; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0.05cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;Коэффициент усиления на частоте 1 ГГц, дБ 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="103" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;(Pвых =1 мВт) 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="83" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;&lt;br/&gt;
+
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="76" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;17 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="80" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;&lt;br/&gt;
+
+			&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr valign="top"&gt;
+		&lt;td width="356" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: 1.00pt solid #000000; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0.05cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;Коэффициент усиления на частоте 3 ГГц, дБ 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="103" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;(Pвых =1 мВт) 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="83" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;&lt;br/&gt;
+
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="76" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;12 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="80" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;&lt;br/&gt;
+
+			&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr valign="top"&gt;
+		&lt;td width="356" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: 1.00pt solid #000000; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0.05cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;Выходная мощность (P1dB) на частоте 100 МГц, дБм
+						&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="103" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;&lt;br/&gt;
+
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="83" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;&lt;br/&gt;
+
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="76" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;11 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="80" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;&lt;br/&gt;
+
+			&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr valign="top"&gt;
+		&lt;td width="356" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: 1.00pt solid #000000; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0.05cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;Выходная мощность (P1dB) на частоте 1 ГГц, дБм 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="103" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;&lt;br/&gt;
+
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="83" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;&lt;br/&gt;
+
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="76" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;11 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="80" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;&lt;br/&gt;
+
+			&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr valign="top"&gt;
+		&lt;td width="356" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: 1.00pt solid #000000; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0.05cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;Выходная мощность (Psat) на частоте 100 МГц, дБм
+						&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="103" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;&lt;br/&gt;
+
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="83" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;7,0 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="76" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;10,0 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="80" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;&lt;br/&gt;
+
+			&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr valign="top"&gt;
+		&lt;td width="356" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: 1.00pt solid #000000; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0.05cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;Коэффициент шума, дБ 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="103" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;&lt;br/&gt;
+
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="83" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;&lt;br/&gt;
+
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="76" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;2,6 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="80" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;3,5 
+			&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr valign="top"&gt;
+		&lt;td width="356" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: 1.00pt solid #000000; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0.05cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;КСВ по входу и выходу, В/В 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="103" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;&lt;br/&gt;
+
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="83" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;&lt;br/&gt;
+
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="76" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;1,3 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="80" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;2,0 
+			&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr valign="top"&gt;
+		&lt;td width="356" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: 1.00pt solid #000000; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0.05cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;Прохождение сигнала с выхода на вход, дБ 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="103" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;&lt;br/&gt;
+
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="83" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;&lt;br/&gt;
+
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="76" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;-21 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="80" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;&lt;br/&gt;
+
+			&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr valign="top"&gt;
+		&lt;td width="356" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: 1.00pt solid #000000; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0.05cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;Ток потребления, мА 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="103" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;&lt;br/&gt;
+
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="83" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;20 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="76" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;30 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="80" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;50 
+			&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr valign="top"&gt;
+		&lt;td width="356" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: 1.00pt solid #000000; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0.05cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;Диапазон рабочих температур, &amp;deg;С 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="103" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;&lt;br/&gt;
+
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="83" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;-60 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="76" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;&lt;br/&gt;
+
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="80" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;+85 
+			&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr valign="top"&gt;
+		&lt;td width="356" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: 1.00pt solid #000000; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0.05cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;Тепловое сопротивление &amp;laquo;переход-среда&amp;raquo;,
+			&amp;deg;С/Вт 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="103" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;Корпус 5140.8-АНЗ 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="83" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;&lt;br/&gt;
+
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="76" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;100 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="80" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;&lt;br/&gt;
+
+			&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;p&gt;
+Производитель: ОАО «НПП «ПУЛЬСАР», г. Москва.</description>
+<gates>
+<gate name="G$1" symbol="AMPLIFER-POWER-IN-OUT" x="0" y="0"/>
+</gates>
+<devices>
+<device name="У" package="5140.8-АН3">
+<connects>
+<connect gate="G$1" pin="GND@1" pad="1"/>
+<connect gate="G$1" pin="GND@2" pad="2"/>
+<connect gate="G$1" pin="GND@3" pad="4"/>
+<connect gate="G$1" pin="GND@4" pad="5"/>
+<connect gate="G$1" pin="GND@5" pad="6"/>
+<connect gate="G$1" pin="GND@6" pad="8"/>
+<connect gate="G$1" pin="IN" pad="3"/>
+<connect gate="G$1" pin="OUT" pad="7"/>
 </connects>
 <technologies>
 <technology name=""/>

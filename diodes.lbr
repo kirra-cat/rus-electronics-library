@@ -91,12 +91,12 @@ reflow soldering</description>
 <wire x1="1.27" y1="1.27" x2="1.905" y2="1.27" width="0.254" layer="94"/>
 <pin name="KATOD" x="-2.54" y="0" visible="off" length="point"/>
 <pin name="ANOD" x="2.54" y="0" visible="off" length="point"/>
-<text x="-2.54" y="2.54" size="1.778" layer="95">&gt;NAME</text>
-<text x="-2.54" y="-5.08" size="1.778" layer="96">&gt;VALUE</text>
+<text x="0" y="2.54" size="1.27" layer="95" align="center">&gt;NAME</text>
+<text x="0" y="-2.54" size="1.27" layer="96" align="center">&gt;VALUE</text>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="2ДШ142А9" prefix="VD" uservalue="yes">
+<deviceset name="2ДШ142А9" prefix="VD">
 <description>Диод с барьером Шоттки. Iпр.макс = 0.05 А, Uобр. макс = 18 В&lt;br&gt;
 Производитель: АО «Транзистор», г. Минск, р. Беларусь</description>
 <gates>

@@ -4155,7 +4155,7 @@
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="5559ИН13У" prefix="IC" uservalue="yes">
+<deviceset name="5559ИН13У" prefix="IC">
 <description>&lt;b&gt;5559ИН13У&lt;/b&gt; представляет собой приемопередатчик, предназначенный для построения устройств интерфейса по ГОСТ Р 52070-2003.&lt;br&gt;
 Производитель: ОАО «НПО «Физика».&lt;br&gt;
 Технические условия: &lt;b&gt;АЕЯР.431230.591 ТУ&lt;/b&gt;</description>
@@ -4200,7 +4200,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="5559ИН13У2" prefix="IC" uservalue="yes">
+<deviceset name="5559ИН13У2" prefix="IC">
 <description>&lt;b&gt;5559ИН13У2&lt;/b&gt; представляет собой приемопередатчик, предназначенный для построения устройств интерфейса по ГОСТ Р 52070-2003.&lt;br&gt;
 Производитель: ОАО «НПО «Физика».&lt;br&gt;
 Технические условия: &lt;b&gt;АЕЯР.431230.591 ТУ&lt;/b&gt;</description>
@@ -4229,7 +4229,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="5559ИН14У" prefix="IC" uservalue="yes">
+<deviceset name="5559ИН14У" prefix="IC">
 <description>&lt;b&gt;5559ИН11АУ&lt;/b&gt; - приемопередатчик интерфейса CAN производства АО ПКК "Миландр"&lt;br&gt;
 Технические условия: &lt;b&gt;АЕЯР.431230.652 ТУ&lt;b/&gt;</description>
 <gates>
@@ -4255,7 +4255,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="5559ИН19У" prefix="IC" uservalue="yes">
+<deviceset name="5559ИН19У" prefix="IC">
 <description>&lt;b&gt;5559ИН19У&lt;/b&gt; - двухканальный LVDS-приемопередатчик производства АО ПКК "Миландр".&lt;br&gt;
 Технические условия: &lt;b&gt;АЕЯР.431230.740 ТУ&lt;/b&gt;</description>
 <gates>
@@ -4287,7 +4287,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="5537ВВ015" prefix="IC" uservalue="yes">
+<deviceset name="5537ВВ015" prefix="IC">
 <description>&lt;b&gt;5537ВВ015&lt;/b&gt; - 4-канальный передатчик с LVDS-интерфейсом. Скорость передачи - до 400 Мбит/с. &lt;br&gt;
 Производитель: ОАО «НИИЭТ», г. Воронеж</description>
 <gates>
@@ -4323,7 +4323,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="5537ВВ025" prefix="IC" uservalue="yes">
+<deviceset name="5537ВВ025" prefix="IC">
 <description>&lt;b&gt;5537ВВ025&lt;/b&gt; - 4-канальный приемник с LVDS-интерфейсом. Скорость передачи - до 400 Мбит/с.&lt;br&gt;
  Производитель: ОАО «НИИЭТ», г. Воронеж</description>
 <gates>
@@ -4359,7 +4359,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="1892ХД5Т" prefix="IC" uservalue="yes">
+<deviceset name="1892ХД5Т" prefix="IC">
 <description>&lt;b&gt;1892ХД5Т&lt;/b&gt; - спецстойкий малопотребляющий адаптер удаленных устройств с последовательным каналом SpaceWire с протоколом RMAP.&lt;br&gt;
 Микросхема обеспечивает подключение датчиков, преобразователей информации,&lt;br&gt;
 исполнительных устройств к высокопроизводительной помехоустойчивой сети передачи данных SpaceWire без использования дополнительных элементов.&lt;br&gt;
@@ -4488,7 +4488,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="5600ВВ3Т" prefix="IC" uservalue="yes">
+<deviceset name="5600ВВ3Т" prefix="IC">
 <description>&lt;b&gt;5600ВВ3Т&lt;/b&gt; - четырехпортовый коммутатор/концетратор сетей по протоколу IEEE 802.3/Ethernet 10/100 Мбит/с. &lt;br&gt;
 Производитель: АО ПКК "Миландр", г. Зеленоград, Москва. &lt;br&gt;
 Технические условия: &lt;b&gt;АЕНВ.431290.084 ТУ&lt;/b&gt;</description>
@@ -4637,7 +4637,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="2011ВВ014" prefix="IC" uservalue="yes">
+<deviceset name="2011ВВ014" prefix="IC">
 <description>&lt;b&gt; АЕЯР.431230.880 ТУ&lt;/b&gt;&lt;p&gt;
 2011ВВ014 - Микросборка приемопередатчика с гальванической развязкой со скоростью передачи битов данных не более 25 Мбит/c.&lt;br&gt;
 Производитель: ЗАО "ПКК "Миландр"&lt;br&gt;

@@ -1142,7 +1142,7 @@
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="249ЛП8" prefix="IC" uservalue="yes">
+<deviceset name="249ЛП8" prefix="IC">
 <description>&lt;b&gt;АДБК. 431270.030 ТУ&lt;/b&gt;&lt;p&gt;&lt;b&gt;249ЛП8&lt;/b&gt; - двухканальный сверхбыстродействующий инвертор (более 10Мб/с)&lt;br&gt;
 с открытым коллектором в 16-выводном металлокерамическом корпусе 402.16-23.01&lt;br&gt;
 с напряженим изоляции 1500 В&lt;p&gt;
@@ -1172,7 +1172,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="ГК109С" prefix="Z" uservalue="yes">
+<deviceset name="ГК109С" prefix="Z">
 <description>&lt;b&gt;АФТП.433520.008 ТУ&lt;/b&gt;&lt;p&gt;
 &lt;b&gt;ГК109&lt;/b&gt; - генератор кварцевый однократно программированный ГК109-С&lt;br&gt;
 Диапозон частот: от 1 до 125 МГц.&lt;br&gt;
@@ -1195,7 +1195,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="ТИЛ6В" prefix="T" uservalue="yes">
+<deviceset name="ТИЛ6В" prefix="T">
 <description>&lt;b&gt; АГ0.472.105 ТУ,  АГ0.472.101 ТУ&lt;/b&gt;&lt;p&gt;
 &lt;b&gt;ТИЛ6В&lt;/b&gt; - это импульсные линейные титрансформаторы с высоким значением импеданса линейной обмотки.&lt;br&gt;
 Предназначены для гальванической развязки и согласования абонентов с мультиплексным каналом информационного обмена.&lt;br&gt;
@@ -1221,7 +1221,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="НР1-4Р" prefix="R" uservalue="yes">
+<deviceset name="НР1-4Р" prefix="R">
 <gates>
 <gate name="G$1" symbol="НР1-4Р" x="0" y="0"/>
 </gates>
@@ -1245,7 +1245,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="ТрС-ЛС1" prefix="T" uservalue="yes">
+<deviceset name="ТрС-ЛС1" prefix="T">
 <description>&lt;b&gt;ЕСКФ.671152.001 ТУ&lt;/b&gt;&lt;p&gt;
 
 Трансформаторная сборка для гальванической развязки в локальных сетях Ethernet 10BASE-T.&lt;br&gt;
@@ -1325,7 +1325,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="ТрС-ЛС2" prefix="T" uservalue="yes">
+<deviceset name="ТрС-ЛС2" prefix="T">
 <description>&lt;b&gt;ЕСКФ.671152.001 ТУ&lt;/b&gt;&lt;p&gt;
 
 Трансформаторная сборка для гальванической развязки в локальных сетях Ethernet 10BASE-T.&lt;br&gt;
@@ -1405,7 +1405,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="ТрС-ЛС5" prefix="T" uservalue="yes">
+<deviceset name="ТрС-ЛС5" prefix="T">
 <description>&lt;b&gt;ЕСКФ.671152.002 ТУ&lt;/b&gt;&lt;p&gt;
 Трансформаторная сборка для гальванической развязки в локальных сетях Ethernet 100BASE-T.&lt;br&gt;
 Интервал рабочих температур – минус 60 ¸ +85°С.&lt;br&gt;
@@ -1517,7 +1517,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="ТрС-ЛС6" prefix="T" uservalue="yes">
+<deviceset name="ТрС-ЛС6" prefix="T">
 <description>&lt;b&gt;ЕСКФ.671152.002 ТУ&lt;/b&gt;&lt;p&gt;
 Трансформаторная сборка для гальванической развязки в локальных сетях Ethernet 100BASE-T.&lt;br&gt;
 Интервал рабочих температур – минус 60 ¸ +85°С.&lt;br&gt;

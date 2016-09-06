@@ -634,7 +634,7 @@
 <vertex x="-4.8" y="7.25"/>
 <vertex x="-4.8" y="7.15"/>
 </polygon>
-<polygon width="0.05" layer="51">
+<polygon width="0" layer="51">
 <vertex x="-6.5" y="-0.5"/>
 <vertex x="-6" y="0"/>
 <vertex x="-6" y="-1"/>
@@ -648,8 +648,8 @@
 <vertex x="-7.15" y="-0.95"/>
 <vertex x="-7.4" y="-0.95"/>
 </polygon>
-<text x="-5.08" y="2.54" size="1.778" layer="25">&gt;NAME</text>
-<text x="-5.08" y="-4.445" size="1.778" layer="27">&gt;VALUE</text>
+<text x="0" y="-2.54" size="0.508" layer="25" align="center">&gt;NAME</text>
+<text x="0" y="-3.81" size="0.508" layer="27" align="center">&gt;VALUE</text>
 <wire x1="7.1" y1="7.1" x2="-7.1" y2="7.1" width="0.1" layer="51"/>
 <wire x1="-7.1" y1="7.1" x2="-7.1" y2="-7.1" width="0.1" layer="51"/>
 <wire x1="-7.1" y1="-7.1" x2="7.1" y2="-7.1" width="0.1" layer="51"/>
@@ -1211,6 +1211,7 @@
 <rectangle x1="0.5207" y1="-0.5715" x2="0.5461" y2="-0.5461" layer="51"/>
 <rectangle x1="0.5969" y1="-0.6477" x2="0.6223" y2="-0.6223" layer="51"/>
 <rectangle x1="0.5207" y1="-0.9779" x2="0.5461" y2="-0.9525" layer="51"/>
+<text x="3.81" y="-6.35" size="0.2" layer="51">5133.48-3</text>
 </package>
 <package name="4203.64-1">
 <smd name="1" x="-9.9" y="6" dx="2" dy="0.35" layer="1"/>
@@ -1698,9 +1699,9 @@
 <wire x1="-6.9125" y1="-7.159375" x2="-6.9125" y2="-7.9" width="0.1" layer="51"/>
 <wire x1="-7.40625" y1="-7.9" x2="-6.9125" y2="-7.9" width="0.1" layer="51" curve="-180"/>
 <circle x="-7.1" y="6.1" radius="0.3" width="0" layer="51"/>
-<text x="-4.4048" y="-2.1894" size="1.27" layer="51">&gt;NAME</text>
-<text x="-4.4048" y="-4.2722" size="1.27" layer="51">&gt;VALUE</text>
-<text x="4.5" y="-7.5" size="0.5" layer="51">4203.64-1</text>
+<text x="0" y="0" size="0.508" layer="51" align="center">&gt;NAME</text>
+<text x="0" y="-1.27" size="0.508" layer="51" align="center">&gt;VALUE</text>
+<text x="6.405" y="-7.5" size="0.2" layer="51">4203.64-1</text>
 <rectangle x1="-0.1905" y1="0.8763" x2="-0.1397" y2="0.9017" layer="51"/>
 <rectangle x1="-0.4191" y1="0.9017" x2="0.0635" y2="0.9271" layer="51"/>
 <rectangle x1="0.0889" y1="0.9017" x2="0.1143" y2="0.9271" layer="51"/>
@@ -2343,8 +2344,8 @@
 <wire x1="17.78" y1="2.54" x2="25.4" y2="2.54" width="0.254" layer="94"/>
 <text x="21.59" y="22.86" size="3.81" layer="94" font="vector" rot="R90" align="center">OUT</text>
 <text x="1.27" y="22.86" size="5.08" layer="94" font="vector" rot="R180" align="center">DAC</text>
-<text x="27.94" y="50.8" size="1.778" layer="95">&gt;NAME</text>
-<text x="27.94" y="48.26" size="1.778" layer="96">&gt;VALUE</text>
+<text x="27.94" y="50.8" size="1.27" layer="95" align="center">&gt;NAME</text>
+<text x="27.94" y="48.26" size="1.27" layer="96" align="center">&gt;VALUE</text>
 </symbol>
 <symbol name="1273ПА11Т">
 <pin name="P1B0" x="-30.48" y="71.12" length="short" direction="in"/>
@@ -2470,12 +2471,12 @@
 <wire x1="-10.16" y1="-76.2" x2="10.16" y2="-76.2" width="0.254" layer="94"/>
 <wire x1="10.16" y1="20.32" x2="27.94" y2="20.32" width="0.254" layer="94"/>
 <wire x1="10.16" y1="2.54" x2="27.94" y2="2.54" width="0.254" layer="94"/>
-<text x="-5.08" y="78.74" size="1.778" layer="95">&gt;NAME</text>
-<text x="-5.08" y="76.2" size="1.778" layer="96">&gt;VALUE</text>
+<text x="0" y="78.74" size="1.27" layer="95" align="center">&gt;NAME</text>
+<text x="0" y="76.2" size="1.27" layer="96" align="center">&gt;VALUE</text>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="1273ПА6У" prefix="IC" uservalue="yes">
+<deviceset name="1273ПА6У" prefix="DD">
 <description>&lt;b&gt;АЕЯР.431320.676 ТУ&lt;/b&gt;&lt;p&gt;
 &lt;b&gt;1273ПА6У&lt;/b&gt; - 14-разрядный 2-х канальный ЦАП с токовым выходом, частота обновления выходных данных 300 МГц. &lt;br&gt;
 Производитель: "НИИЭТ", г. Воронеж.&lt;br&gt;
@@ -2541,7 +2542,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="1273ПА11Т" prefix="IC" uservalue="yes">
+<deviceset name="1273ПА11Т" prefix="DD">
 <description>&lt;b&gt;1273ПА11Т&lt;/b&gt; − одноканальный 8-разрядный сверхвысокочастотный радиационно-стойкий ЦАП с двумя входными мультиплицируемыми портами.&lt;br&gt;&lt;br&gt;
 Максимальная входная тактовая частота и частота обновления входных данных составляет 600 МГц.&lt;br&gt;
 Микросхема включает в себя высокоскоростной ЦАП, источник опорного напряжения, &lt;br&gt;

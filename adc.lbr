@@ -1767,6 +1767,21 @@
 <vertex x="-8.15" y="-10.95"/>
 <vertex x="-9.35" y="-10.95"/>
 </polygon>
+<text x="0" y="1.27" size="0.508" layer="25" align="center">&gt;NAME</text>
+<text x="0" y="0" size="0.508" layer="27" align="center">&gt;VALUE</text>
+<text x="10.16" y="-12.7" size="0.2" layer="51" align="center">4233.112-A</text>
+<wire x1="-8.5" y1="14" x2="-12" y2="14" width="0.1" layer="21"/>
+<wire x1="-12" y1="14" x2="-14" y2="12" width="0.1" layer="21"/>
+<wire x1="-14" y1="12" x2="-14" y2="9" width="0.1" layer="21"/>
+<wire x1="9" y1="14" x2="12" y2="14" width="0.1" layer="21"/>
+<wire x1="12" y1="14" x2="14" y2="12" width="0.1" layer="21"/>
+<wire x1="14" y1="12" x2="14" y2="8.5" width="0.1" layer="21"/>
+<wire x1="14" y1="-9" x2="14" y2="-12" width="0.1" layer="21"/>
+<wire x1="14" y1="-12" x2="12" y2="-14" width="0.1" layer="21"/>
+<wire x1="12" y1="-14" x2="8.6" y2="-14" width="0.1" layer="21"/>
+<wire x1="-9" y1="-14" x2="-12" y2="-14" width="0.1" layer="21"/>
+<wire x1="-12" y1="-14" x2="-14" y2="-12" width="0.1" layer="21"/>
+<wire x1="-14" y1="-12" x2="-14" y2="-8.6" width="0.1" layer="21"/>
 </package>
 </packages>
 <symbols>
@@ -1953,12 +1968,12 @@
 <wire x1="-12.7" y1="-86.36" x2="-12.7" y2="-71.12" width="0.254" layer="94"/>
 <wire x1="2.54" y1="-86.36" x2="2.54" y2="-71.12" width="0.254" layer="94"/>
 <text x="-5.08" y="46.99" size="5.842" layer="94" font="vector" align="center">ADC</text>
-<text x="48.26" y="93.98" size="1.778" layer="95">&gt;NAME</text>
-<text x="48.26" y="91.44" size="1.778" layer="96">&gt;VALUE</text>
+<text x="48.26" y="93.98" size="1.27" layer="95" align="center">&gt;NAME</text>
+<text x="48.26" y="91.44" size="1.27" layer="96" align="center">&gt;VALUE</text>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="1273ПВ13Т" prefix="IC" uservalue="yes">
+<deviceset name="1273ПВ13Т" prefix="DD">
 <description>&lt;b&gt;АЕЯР.431320.874 ТУ&lt;/b&gt;&lt;p&gt;
 &lt;b&gt;1273ПВ13Т&lt;/b&gt; - 8-разрядный АЦП, частотой преобразования 500Msps с LVDS-шиной. &lt;br&gt;Производитель: "СКТБ ЭС", г. Воронеж. &lt;br&gt;Технические условия: &lt;b&gt;АЕЯР.431320.874 ТУ&lt;/b&gt;</description>
 <gates>

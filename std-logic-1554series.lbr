@@ -22,7 +22,7 @@
 <layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
 <layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
@@ -113,6 +113,35 @@
 <vertex x="-0.25" y="1.55"/>
 <vertex x="-0.25" y="2.3"/>
 </polygon>
+<polygon width="0" layer="29">
+<vertex x="-0.34" y="2.2"/>
+<vertex x="-0.34" y="1.55" curve="-90"/>
+<vertex x="-0.45" y="1.44"/>
+<vertex x="-1.3" y="1.44" curve="90"/>
+<vertex x="-1.69" y="1.05"/>
+<vertex x="-1.69" y="-0.78" curve="90"/>
+<vertex x="-1.28" y="-1.19"/>
+<vertex x="1.26" y="-1.19" curve="90"/>
+<vertex x="1.69" y="-0.76"/>
+<vertex x="1.69" y="1.04" curve="90"/>
+<vertex x="1.29" y="1.44"/>
+<vertex x="0.47" y="1.44" curve="-90"/>
+<vertex x="0.34" y="1.57"/>
+<vertex x="0.34" y="2.2"/>
+</polygon>
+<wire x1="-1.8" y1="3" x2="-2.625" y2="3" width="0.127" layer="21"/>
+<wire x1="-2.625" y1="3" x2="-2.625" y2="-3" width="0.127" layer="21"/>
+<wire x1="-2.625" y1="-3" x2="-1.8" y2="-3" width="0.127" layer="21"/>
+<wire x1="-1.2" y1="-3" x2="-0.3" y2="-3" width="0.127" layer="21"/>
+<wire x1="0.3" y1="-3" x2="1.2" y2="-3" width="0.127" layer="21"/>
+<wire x1="1.825" y1="-3" x2="2.625" y2="-3" width="0.127" layer="21"/>
+<wire x1="2.625" y1="-3" x2="2.625" y2="3" width="0.127" layer="21"/>
+<wire x1="2.625" y1="3" x2="1.8" y2="3" width="0.127" layer="21"/>
+<wire x1="1.2" y1="3" x2="0.3" y2="3" width="0.127" layer="21"/>
+<wire x1="-1.2" y1="3" x2="-0.3" y2="3" width="0.127" layer="21"/>
+<text x="-1.1" y="-1.7" size="0.2" layer="21" align="center">5221.6-1</text>
+<text x="-3.175" y="0" size="0.508" layer="25" rot="R90" align="center">&gt;NAME</text>
+<text x="3.175" y="0" size="0.508" layer="27" rot="R90" align="center">&gt;VALUE</text>
 </package>
 <package name="401.14-5">
 <wire x1="-4.2" y1="3.35" x2="-4" y2="3.75" width="0.127" layer="51"/>
@@ -238,7 +267,9 @@
 <vertex x="-5.6" y="-4.6"/>
 <vertex x="-4.5" y="-4.6"/>
 </polygon>
-<text x="3.8" y="-2.9" size="0.2" layer="21" align="center">401.14-5</text>
+<text x="3.8" y="-2.9" size="0.2" layer="51" align="center">401.14-5</text>
+<text x="0" y="1.27" size="0.508" layer="25" align="center">&gt;NAME</text>
+<text x="0" y="0" size="0.508" layer="27" align="center">&gt;VALUE</text>
 </package>
 <package name="402.16-32">
 <wire x1="-5.75" y1="-4.75" x2="-5.75" y2="-3.25" width="0.05" layer="51"/>
@@ -355,8 +386,8 @@
 <wire x1="5" y1="4.75" x2="5" y2="-4.75" width="0.05" layer="51"/>
 <polygon width="0.05" layer="51">
 <vertex x="-5.25" y="-4"/>
-<vertex x="-5.75" y="-3.5"/>
-<vertex x="-5.75" y="-4.5"/>
+<vertex x="-5.75" y="-3.7"/>
+<vertex x="-5.75" y="-4.3"/>
 </polygon>
 <wire x1="-3.75" y1="2.75" x2="3.75" y2="2.75" width="0.05" layer="51"/>
 <wire x1="4.5" y1="2" x2="4.5" y2="-2" width="0.05" layer="51"/>
@@ -483,6 +514,8 @@
 <vertex x="-6.5" y="-4"/>
 <vertex x="-6.5" y="-5.5"/>
 </polygon>
+<text x="0" y="1.27" size="0.508" layer="25" align="center">&gt;NAME</text>
+<text x="0" y="0" size="0.508" layer="27" align="center">&gt;VALUE</text>
 </package>
 <package name="4153.20-6">
 <smd name="5" x="-0.625" y="-8.125" dx="0.7" dy="2.5" layer="1"/>
@@ -882,7 +915,9 @@
 <wire x1="6" y1="6.75" x2="7" y2="6.75" width="0.1" layer="21"/>
 <wire x1="7" y1="6.75" x2="7" y2="-6.75" width="0.1" layer="21"/>
 <wire x1="7" y1="-6.75" x2="6" y2="-6.75" width="0.1" layer="21"/>
-<text x="6.25" y="-5.25" size="0.2" layer="21" rot="R90" align="center">4153.20-6</text>
+<text x="6.25" y="-5.25" size="0.2" layer="51" rot="R90" align="center">4153.20-6</text>
+<text x="0" y="1.27" size="0.508" layer="25" align="center">&gt;NAME</text>
+<text x="0" y="0" size="0.508" layer="27" align="center">&gt;VALUE</text>
 </package>
 </packages>
 <symbols>
@@ -908,8 +943,8 @@
 <wire x1="2.54" y1="0" x2="2.54" y2="-5.08" width="0.254" layer="94"/>
 <wire x1="2.54" y1="0" x2="10.16" y2="0" width="0.254" layer="94"/>
 <text x="-0.762" y="1.27" size="1.778" layer="94">!1</text>
-<text x="-2.54" y="7.62" size="1.27" layer="95">&gt;NAME</text>
-<text x="-2.54" y="5.842" size="1.27" layer="96">&gt;VALUE</text>
+<text x="0" y="10.16" size="1.27" layer="95" align="center">&gt;NAME</text>
+<text x="0" y="7.62" size="1.27" layer="96" align="center">&gt;VALUE</text>
 </symbol>
 <symbol name="1554ТМ8">
 <pin name="CL" x="-12.7" y="15.24" length="short" direction="in" function="clk"/>
@@ -1291,11 +1326,11 @@
 <pin name="GND" x="-12.7" y="-17.78" length="short" direction="pwr"/>
 <pin name="VCC" x="12.7" y="-17.78" length="short" direction="pwr" rot="R180"/>
 </symbol>
-<symbol name="1554_PWR2">
+<symbol name="1554_PWR5">
 <pin name="VCC" x="0" y="10.16" visible="pad" length="short" direction="pwr" rot="R270"/>
-<text x="2.032" y="8.636" size="1.27" layer="94" align="center">Vcc</text>
+<text x="-2.54" y="8.89" size="1.27" layer="94" align="center">Vcc</text>
 <pin name="GND" x="0" y="-7.62" visible="pad" length="short" direction="pwr" rot="R90"/>
-<text x="2.286" y="-6.35" size="1.27" layer="94" align="center">GND</text>
+<text x="-2.54" y="-6.35" size="1.27" layer="94" align="center">GND</text>
 </symbol>
 <symbol name="1554ЛА1">
 <pin name="A1" x="-5.08" y="5.08" visible="pad" length="short" direction="in"/>
@@ -1357,14 +1392,14 @@
 </symbol>
 <symbol name="1554_PWR3">
 <pin name="VCC" x="0" y="7.62" visible="pad" length="short" direction="pwr" rot="R270"/>
-<text x="2.032" y="6.096" size="1.27" layer="94" align="center">Vcc</text>
+<text x="-2.54" y="6.35" size="1.27" layer="94" align="center">Vcc</text>
 <pin name="GND" x="0" y="-5.08" visible="pad" length="short" direction="pwr" rot="R90"/>
-<text x="2.286" y="-3.81" size="1.27" layer="94" align="center">GND</text>
+<text x="-2.54" y="-3.81" size="1.27" layer="94" align="center">GND</text>
 </symbol>
 <symbol name="1554ЛА4">
 <pin name="A" x="-5.08" y="2.54" visible="pad" length="short" direction="in"/>
 <pin name="B" x="-5.08" y="0" visible="pad" length="short" direction="in"/>
-<pin name="Y" x="5.08" y="2.54" visible="pad" length="short" direction="in" function="dot" rot="R180"/>
+<pin name="Y" x="5.08" y="2.54" visible="pad" length="short" direction="out" function="dot" rot="R180"/>
 <wire x1="-2.54" y1="5.08" x2="-2.54" y2="-5.08" width="0.254" layer="94"/>
 <wire x1="-2.54" y1="-5.08" x2="2.54" y2="-5.08" width="0.254" layer="94"/>
 <wire x1="2.54" y1="-5.08" x2="2.54" y2="5.08" width="0.254" layer="94"/>
@@ -1376,9 +1411,9 @@
 </symbol>
 <symbol name="1554_PWR4">
 <pin name="VCC" x="0" y="7.62" visible="pad" length="short" direction="pwr" rot="R270"/>
-<text x="2.032" y="6.096" size="1.27" layer="94" align="center">Vcc</text>
+<text x="-2.54" y="6.35" size="1.27" layer="94" align="center">Vcc</text>
 <pin name="GND" x="0" y="-7.62" visible="pad" length="short" direction="pwr" rot="R90"/>
-<text x="2.286" y="-6.35" size="1.27" layer="94" align="center">GND</text>
+<text x="-2.54" y="-6.35" size="1.27" layer="94" align="center">GND</text>
 </symbol>
 <symbol name="1554ЛЕ1">
 <pin name="A" x="-5.08" y="0" visible="pad" length="short" direction="in"/>
@@ -1429,11 +1464,11 @@
 <text x="0" y="7.62" size="1.27" layer="95" align="center">&gt;NAME</text>
 <text x="0" y="5.08" size="1.27" layer="96" align="center">&gt;VALUE</text>
 </symbol>
-<symbol name="1554_PWR5">
+<symbol name="1554_PWR2">
 <pin name="VCC" x="0" y="5.08" visible="pad" length="short" direction="pwr" rot="R270"/>
-<text x="2.032" y="3.556" size="1.27" layer="94" align="center">Vcc</text>
+<text x="-2.54" y="3.556" size="1.27" layer="94" align="center">Vcc</text>
 <pin name="GND" x="0" y="-5.08" visible="pad" length="short" direction="pwr" rot="R90"/>
-<text x="2.286" y="-3.81" size="1.27" layer="94" align="center">GND</text>
+<text x="-2.54" y="-3.556" size="1.27" layer="94" align="center">GND</text>
 </symbol>
 <symbol name="1554ЛЛ1">
 <pin name="A" x="-5.08" y="0" visible="pad" length="short" direction="in"/>
@@ -1676,18 +1711,1032 @@
 <text x="0" y="22.86" size="1.27" layer="95" align="center">&gt;NAME</text>
 <text x="0" y="20.32" size="1.27" layer="96" align="center">&gt;VALUE</text>
 </symbol>
+<symbol name="1554ЛР13">
+<pin name="A1" x="-12.7" y="17.78" length="short" direction="in"/>
+<pin name="B1" x="-12.7" y="15.24" length="short" direction="in"/>
+<pin name="C1" x="-12.7" y="12.7" length="short" direction="in"/>
+<pin name="D1" x="-12.7" y="7.62" length="short" direction="in"/>
+<pin name="E1" x="-12.7" y="5.08" length="short" direction="in"/>
+<pin name="F1" x="-12.7" y="2.54" length="short" direction="in"/>
+<pin name="A2" x="-12.7" y="-2.54" length="short" direction="in"/>
+<pin name="B2" x="-12.7" y="-5.08" length="short" direction="in"/>
+<pin name="C2" x="-12.7" y="-10.16" length="short" direction="in"/>
+<pin name="D2" x="-12.7" y="-12.7" length="short" direction="in"/>
+<wire x1="-10.16" y1="20.32" x2="-10.16" y2="10.16" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="10.16" x2="-10.16" y2="0" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="0" x2="-10.16" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-7.62" x2="-10.16" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-15.24" x2="0" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="0" y1="-15.24" x2="0" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="0" y1="-7.62" x2="0" y2="0" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="0" y2="10.16" width="0.254" layer="94"/>
+<wire x1="0" y1="10.16" x2="0" y2="20.32" width="0.254" layer="94"/>
+<wire x1="0" y1="20.32" x2="-10.16" y2="20.32" width="0.254" layer="94"/>
+<text x="-2.54" y="15.24" size="1.778" layer="94" align="center">&amp;</text>
+<text x="-2.54" y="5.08" size="1.778" layer="94" align="center">&amp;</text>
+<text x="-2.54" y="-3.81" size="1.778" layer="94" align="center">&amp;</text>
+<text x="-2.54" y="-11.43" size="1.778" layer="94" align="center">&amp;</text>
+<wire x1="-10.16" y1="10.16" x2="0" y2="10.16" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="-10.16" y2="0" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-7.62" x2="0" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="0" y1="20.32" x2="10.16" y2="20.32" width="0.254" layer="94"/>
+<wire x1="10.16" y1="20.32" x2="10.16" y2="0" width="0.254" layer="94"/>
+<wire x1="10.16" y1="0" x2="10.16" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-15.24" x2="0" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="10.16" y2="0" width="0.254" layer="94"/>
+<text x="5.08" y="15.24" size="1.778" layer="94" align="center">≥1</text>
+<text x="5.08" y="-5.08" size="1.778" layer="94" align="center">≥1</text>
+<pin name="Y1" x="12.7" y="15.24" visible="pad" length="short" direction="in" function="dot" rot="R180"/>
+<pin name="Y2" x="12.7" y="-5.08" visible="pad" length="short" direction="in" function="dot" rot="R180"/>
+<text x="0" y="25.4" size="1.27" layer="95" align="center">&gt;NAME</text>
+<text x="0" y="22.86" size="1.27" layer="96" align="center">&gt;VALUE</text>
+<pin name="GND" x="-12.7" y="-17.78" length="short" direction="pwr"/>
+<pin name="VCC" x="12.7" y="-17.78" length="short" direction="pwr" rot="R180"/>
+<wire x1="-10.16" y1="-15.24" x2="-10.16" y2="-20.32" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-20.32" x2="0" y2="-20.32" width="0.254" layer="94"/>
+<wire x1="0" y1="-20.32" x2="10.16" y2="-20.32" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-20.32" x2="10.16" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="0" y1="-15.24" x2="0" y2="-20.32" width="0.254" layer="94"/>
+</symbol>
+<symbol name="1554СП1">
+<pin name="A0" x="-12.7" y="17.78" length="short" direction="in"/>
+<pin name="A&gt;B" x="12.7" y="2.54" length="short" direction="out" rot="R180"/>
+<pin name="A=B" x="12.7" y="0" length="short" direction="out" rot="R180"/>
+<pin name="A&lt;B" x="12.7" y="-2.54" length="short" direction="out" rot="R180"/>
+<wire x1="-10.16" y1="20.32" x2="-10.16" y2="7.62" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="7.62" x2="-10.16" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-5.08" x2="-10.16" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-15.24" x2="-2.54" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-15.24" x2="-2.54" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-5.08" x2="-2.54" y2="7.62" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="7.62" x2="-2.54" y2="20.32" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="20.32" x2="-10.16" y2="20.32" width="0.254" layer="94"/>
+<wire x1="10.16" y1="20.32" x2="10.16" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-15.24" x2="2.54" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-15.24" x2="2.54" y2="20.32" width="0.254" layer="94"/>
+<wire x1="2.54" y1="20.32" x2="10.16" y2="20.32" width="0.254" layer="94"/>
+<wire x1="2.54" y1="20.32" x2="-2.54" y2="20.32" width="0.254" layer="94"/>
+<text x="0" y="15.24" size="1.27" layer="94" align="center">COMP</text>
+<pin name="GND" x="-12.7" y="-17.78" length="short" direction="pwr"/>
+<pin name="VCC" x="12.7" y="-17.78" length="short" direction="pwr" rot="R180"/>
+<wire x1="-10.16" y1="-15.24" x2="-10.16" y2="-20.32" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-20.32" x2="-2.54" y2="-20.32" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-20.32" x2="2.54" y2="-20.32" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-20.32" x2="10.16" y2="-20.32" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-20.32" x2="10.16" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-15.24" x2="2.54" y2="-20.32" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-15.24" x2="-2.54" y2="-20.32" width="0.254" layer="94"/>
+<text x="0" y="25.4" size="1.27" layer="95" align="center">&gt;NAME</text>
+<text x="0" y="22.86" size="1.27" layer="96" align="center">&gt;VALUE</text>
+<pin name="A1" x="-12.7" y="15.24" length="short" direction="in"/>
+<pin name="A2" x="-12.7" y="12.7" length="short" direction="in"/>
+<pin name="A3" x="-12.7" y="10.16" length="short" direction="in"/>
+<pin name="B0" x="-12.7" y="5.08" length="short" direction="in"/>
+<pin name="B1" x="-12.7" y="2.54" length="short" direction="in"/>
+<pin name="B2" x="-12.7" y="0" length="short" direction="in"/>
+<pin name="B3" x="-12.7" y="-2.54" length="short" direction="in"/>
+<wire x1="-2.54" y1="7.62" x2="-10.16" y2="7.62" width="0.254" layer="94"/>
+<pin name="&gt;" x="-12.7" y="-7.62" length="short" direction="in"/>
+<pin name="=" x="-12.7" y="-10.16" length="short" direction="in"/>
+<pin name="&lt;" x="-12.7" y="-12.7" length="short" direction="in"/>
+<wire x1="-2.54" y1="-5.08" x2="-10.16" y2="-5.08" width="0.254" layer="94"/>
+</symbol>
+<symbol name="1554ТВ9">
+<pin name="S" x="-12.7" y="7.62" length="short" direction="in" function="dot"/>
+<pin name="J" x="-12.7" y="0" length="short" direction="in"/>
+<pin name="CL" x="-12.7" y="5.08" length="short" direction="in" function="dotclk"/>
+<pin name="K" x="-12.7" y="-2.54" length="short" direction="in"/>
+<pin name="R" x="-12.7" y="-7.62" length="short" direction="in" function="dot"/>
+<wire x1="-10.16" y1="10.16" x2="-10.16" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="2.54" x2="-10.16" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-5.08" x2="-10.16" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-10.16" x2="-2.54" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-10.16" x2="-2.54" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-5.08" x2="-2.54" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="2.54" x2="-2.54" y2="10.16" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="10.16" x2="2.54" y2="10.16" width="0.254" layer="94"/>
+<wire x1="2.54" y1="10.16" x2="2.54" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-10.16" x2="10.16" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-10.16" x2="10.16" y2="10.16" width="0.254" layer="94"/>
+<wire x1="10.16" y1="10.16" x2="2.54" y2="10.16" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="10.16" x2="-2.54" y2="10.16" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="2.54" x2="-2.54" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-5.08" x2="-2.54" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-10.16" x2="2.54" y2="-10.16" width="0.254" layer="94"/>
+<pin name="Q" x="12.7" y="2.54" length="short" direction="in" rot="R180"/>
+<pin name="!Q" x="12.7" y="-2.54" length="short" direction="in" function="dot" rot="R180"/>
+<text x="0" y="2.54" size="2.54" layer="94" align="center">T</text>
+<text x="0" y="15.24" size="1.27" layer="95" align="center">&gt;NAME</text>
+<text x="0" y="12.7" size="1.27" layer="96" align="center">&gt;VALUE</text>
+</symbol>
+<symbol name="1554ТВ15">
+<pin name="S" x="-12.7" y="7.62" length="short" direction="in" function="dot"/>
+<pin name="J" x="-12.7" y="0" length="short" direction="in"/>
+<pin name="CL" x="-12.7" y="5.08" length="short" direction="in" function="clk"/>
+<pin name="K" x="-12.7" y="-2.54" length="short" direction="in" function="dot"/>
+<pin name="R" x="-12.7" y="-7.62" length="short" direction="in" function="dot"/>
+<wire x1="-10.16" y1="10.16" x2="-10.16" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="2.54" x2="-10.16" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-5.08" x2="-10.16" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-10.16" x2="-2.54" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-10.16" x2="-2.54" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-5.08" x2="-2.54" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="2.54" x2="-2.54" y2="10.16" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="10.16" x2="2.54" y2="10.16" width="0.254" layer="94"/>
+<wire x1="2.54" y1="10.16" x2="2.54" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-10.16" x2="10.16" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-10.16" x2="10.16" y2="10.16" width="0.254" layer="94"/>
+<wire x1="10.16" y1="10.16" x2="2.54" y2="10.16" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="10.16" x2="-2.54" y2="10.16" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="2.54" x2="-2.54" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-5.08" x2="-2.54" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-10.16" x2="2.54" y2="-10.16" width="0.254" layer="94"/>
+<pin name="Q" x="12.7" y="2.54" length="short" direction="in" rot="R180"/>
+<pin name="!Q" x="12.7" y="-2.54" length="short" direction="in" function="dot" rot="R180"/>
+<text x="0" y="2.54" size="2.54" layer="94" align="center">T</text>
+<text x="0" y="15.24" size="1.27" layer="95" align="center">&gt;NAME</text>
+<text x="0" y="12.7" size="1.27" layer="96" align="center">&gt;VALUE</text>
+</symbol>
+<symbol name="1554ИД4">
+<pin name="SE1" x="-12.7" y="12.7" length="short" direction="in"/>
+<pin name="SE2" x="-12.7" y="7.62" length="short" direction="in"/>
+<pin name="1CL" x="-12.7" y="2.54" length="short" direction="in" function="dot"/>
+<pin name="1D" x="-12.7" y="0" length="short" direction="in"/>
+<pin name="2CL" x="-12.7" y="-5.08" length="short" direction="in" function="dot"/>
+<pin name="2D" x="-12.7" y="-7.62" length="short" direction="in" function="dot"/>
+<pin name="1Y0" x="12.7" y="12.7" length="short" direction="out" rot="R180"/>
+<pin name="1Y1" x="12.7" y="10.16" length="short" direction="out" rot="R180"/>
+<pin name="1Y2" x="12.7" y="7.62" length="short" direction="out" rot="R180"/>
+<pin name="1Y3" x="12.7" y="5.08" length="short" direction="out" rot="R180"/>
+<pin name="2Y0" x="12.7" y="0" length="short" direction="out" rot="R180"/>
+<pin name="2Y1" x="12.7" y="-2.54" length="short" direction="out" rot="R180"/>
+<pin name="2Y2" x="12.7" y="-5.08" length="short" direction="out" rot="R180"/>
+<pin name="2Y3" x="12.7" y="-7.62" length="short" direction="out" rot="R180"/>
+<wire x1="-10.16" y1="15.24" x2="-10.16" y2="5.08" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="5.08" x2="-10.16" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-2.54" x2="-10.16" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-10.16" x2="-2.54" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-10.16" x2="-2.54" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-2.54" x2="-2.54" y2="5.08" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="5.08" x2="-2.54" y2="15.24" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="15.24" x2="2.54" y2="15.24" width="0.254" layer="94"/>
+<wire x1="2.54" y1="15.24" x2="2.54" y2="2.54" width="0.254" layer="94"/>
+<wire x1="2.54" y1="2.54" x2="2.54" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-10.16" x2="10.16" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-10.16" x2="10.16" y2="2.54" width="0.254" layer="94"/>
+<wire x1="10.16" y1="2.54" x2="10.16" y2="15.24" width="0.254" layer="94"/>
+<wire x1="10.16" y1="15.24" x2="2.54" y2="15.24" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="15.24" x2="-10.16" y2="15.24" width="0.254" layer="94"/>
+<pin name="GND" x="-12.7" y="-12.7" length="short" direction="pwr"/>
+<pin name="VCC" x="12.7" y="-12.7" length="short" direction="pwr" rot="R180"/>
+<wire x1="-10.16" y1="-10.16" x2="-10.16" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-15.24" x2="-2.54" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-15.24" x2="-2.54" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-15.24" x2="2.54" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-15.24" x2="10.16" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-15.24" x2="10.16" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-10.16" x2="2.54" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="2.54" y1="2.54" x2="10.16" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="5.08" x2="-2.54" y2="5.08" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-2.54" x2="-2.54" y2="-2.54" width="0.254" layer="94"/>
+<text x="0" y="7.62" size="2.032" layer="94" align="center">DC</text>
+<text x="0" y="20.32" size="1.27" layer="95" align="center">&gt;NAME</text>
+<text x="0" y="17.78" size="1.27" layer="96" align="center">&gt;VALUE</text>
+</symbol>
+<symbol name="1554ИД7">
+<pin name="Q0" x="12.7" y="10.16" length="short" direction="out" function="dot" rot="R180"/>
+<pin name="Q1" x="12.7" y="7.62" length="short" direction="out" function="dot" rot="R180"/>
+<pin name="Q2" x="12.7" y="5.08" length="short" direction="out" function="dot" rot="R180"/>
+<pin name="Q3" x="12.7" y="2.54" length="short" direction="out" function="dot" rot="R180"/>
+<pin name="Q4" x="12.7" y="0" length="short" direction="out" function="dot" rot="R180"/>
+<pin name="Q5" x="12.7" y="-2.54" length="short" direction="out" function="dot" rot="R180"/>
+<pin name="Q6" x="12.7" y="-5.08" length="short" direction="out" function="dot" rot="R180"/>
+<pin name="D0" x="-12.7" y="10.16" length="short" direction="in"/>
+<pin name="D1" x="-12.7" y="7.62" length="short" direction="in"/>
+<pin name="D2" x="-12.7" y="5.08" length="short" direction="in"/>
+<pin name="ST1" x="-12.7" y="0" length="short" direction="in" function="dot"/>
+<pin name="ST2" x="-12.7" y="-2.54" length="short" direction="in" function="dot"/>
+<pin name="ST3" x="-12.7" y="-7.62" length="short" direction="in"/>
+<wire x1="-10.16" y1="12.7" x2="-10.16" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="2.54" x2="-10.16" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-10.16" x2="-10.16" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-15.24" x2="-2.54" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-15.24" x2="2.54" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-15.24" x2="10.16" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-15.24" x2="10.16" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-10.16" x2="10.16" y2="12.7" width="0.254" layer="94"/>
+<wire x1="10.16" y1="12.7" x2="2.54" y2="12.7" width="0.254" layer="94"/>
+<wire x1="2.54" y1="12.7" x2="-2.54" y2="12.7" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="12.7" x2="-10.16" y2="12.7" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="12.7" x2="-2.54" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="2.54" x2="-2.54" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-10.16" x2="-2.54" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-15.24" x2="2.54" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-10.16" x2="2.54" y2="12.7" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-10.16" x2="-10.16" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-10.16" x2="10.16" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="2.54" x2="-10.16" y2="2.54" width="0.254" layer="94"/>
+<pin name="GND" x="-12.7" y="-12.7" length="short" direction="pwr"/>
+<pin name="VCC" x="12.7" y="-12.7" length="short" direction="pwr" rot="R180"/>
+<text x="0" y="17.78" size="1.27" layer="95" align="center">&gt;NAME</text>
+<text x="0" y="15.24" size="1.27" layer="96" align="center">&gt;VALUE</text>
+<text x="0" y="5.08" size="2.032" layer="94" align="center">DC</text>
+<pin name="Q7" x="12.7" y="-7.62" length="short" direction="out" function="dot" rot="R180"/>
+</symbol>
+<symbol name="1554ИД14">
+<pin name="Q0" x="12.7" y="2.54" length="short" direction="out" function="dot" rot="R180"/>
+<pin name="Q1" x="12.7" y="0" length="short" direction="out" function="dot" rot="R180"/>
+<pin name="Q2" x="12.7" y="-2.54" length="short" direction="out" function="dot" rot="R180"/>
+<pin name="Q3" x="12.7" y="-5.08" length="short" direction="out" function="dot" rot="R180"/>
+<pin name="A0" x="-12.7" y="2.54" length="short" direction="in"/>
+<pin name="A1" x="-12.7" y="0" length="short" direction="in"/>
+<pin name="ST" x="-12.7" y="-5.08" length="short" direction="in" function="dot"/>
+<wire x1="-2.54" y1="5.08" x2="-10.16" y2="5.08" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="5.08" x2="-10.16" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-2.54" x2="-10.16" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-7.62" x2="-2.54" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-7.62" x2="-2.54" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-2.54" x2="-2.54" y2="5.08" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="5.08" x2="2.54" y2="5.08" width="0.254" layer="94"/>
+<wire x1="2.54" y1="5.08" x2="2.54" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-7.62" x2="10.16" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-7.62" x2="10.16" y2="5.08" width="0.254" layer="94"/>
+<wire x1="10.16" y1="5.08" x2="2.54" y2="5.08" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-7.62" x2="2.54" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-2.54" x2="-10.16" y2="-2.54" width="0.254" layer="94"/>
+<text x="0" y="10.16" size="1.27" layer="95" align="center">&gt;NAME</text>
+<text x="0" y="7.62" size="1.27" layer="96" align="center">&gt;VALUE</text>
+</symbol>
+<symbol name="1554ИЕ6">
+<pin name="D0" x="-12.7" y="15.24" length="short" direction="in"/>
+<pin name="D1" x="-12.7" y="12.7" length="short" direction="in"/>
+<pin name="D2" x="-12.7" y="10.16" length="short" direction="in"/>
+<pin name="D3" x="-12.7" y="7.62" length="short" direction="in"/>
+<pin name="Q0" x="12.7" y="15.24" length="short" direction="out" rot="R180"/>
+<pin name="Q1" x="12.7" y="12.7" length="short" direction="out" rot="R180"/>
+<pin name="Q2" x="12.7" y="10.16" length="short" direction="out" rot="R180"/>
+<pin name="Q3" x="12.7" y="7.62" length="short" direction="out" rot="R180"/>
+<pin name="ED" x="-12.7" y="2.54" length="short" direction="in" function="dot"/>
+<wire x1="-10.16" y1="17.78" x2="-10.16" y2="5.08" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="5.08" x2="-10.16" y2="0" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="0" x2="-2.54" y2="0" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="0" x2="-2.54" y2="5.08" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="5.08" x2="-2.54" y2="17.78" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="17.78" x2="-10.16" y2="17.78" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="5.08" x2="-2.54" y2="5.08" width="0.254" layer="94"/>
+<pin name="-1" x="-12.7" y="-2.54" length="short" direction="in" function="clk"/>
+<pin name="+1" x="-12.7" y="-5.08" length="short" direction="in" function="clk"/>
+<pin name="R" x="-12.7" y="-10.16" length="short" direction="in"/>
+<wire x1="-10.16" y1="0" x2="-10.16" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-7.62" x2="-10.16" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-12.7" x2="-2.54" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-12.7" x2="-2.54" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-7.62" x2="-2.54" y2="0" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-7.62" x2="-2.54" y2="-7.62" width="0.254" layer="94"/>
+<pin name="C0" x="12.7" y="0" length="short" direction="out" function="dot" rot="R180"/>
+<pin name="B0" x="12.7" y="-7.62" length="short" direction="out" function="dot" rot="R180"/>
+<wire x1="10.16" y1="17.78" x2="2.54" y2="17.78" width="0.254" layer="94"/>
+<wire x1="2.54" y1="17.78" x2="2.54" y2="5.08" width="0.254" layer="94"/>
+<wire x1="2.54" y1="5.08" x2="2.54" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-12.7" x2="10.16" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-12.7" x2="10.16" y2="5.08" width="0.254" layer="94"/>
+<wire x1="10.16" y1="5.08" x2="10.16" y2="17.78" width="0.254" layer="94"/>
+<wire x1="2.54" y1="5.08" x2="10.16" y2="5.08" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-12.7" x2="-10.16" y2="-17.78" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-17.78" x2="-2.54" y2="-17.78" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-17.78" x2="2.54" y2="-17.78" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-17.78" x2="10.16" y2="-17.78" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-17.78" x2="10.16" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-12.7" x2="2.54" y2="-17.78" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-12.7" x2="-2.54" y2="-17.78" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="17.78" x2="2.54" y2="17.78" width="0.254" layer="94"/>
+<text x="0" y="10.16" size="1.27" layer="94" align="center">CT10</text>
+<pin name="GND" x="-12.7" y="-15.24" length="short" direction="pwr"/>
+<pin name="VCC" x="12.7" y="-15.24" length="short" direction="pwr" rot="R180"/>
+<text x="0" y="22.86" size="1.27" layer="95" align="center">&gt;NAME</text>
+<text x="0" y="20.32" size="1.27" layer="96" align="center">&gt;VALUE</text>
+</symbol>
+<symbol name="1554ИЕ7">
+<pin name="D0" x="-12.7" y="15.24" length="short" direction="in"/>
+<pin name="D1" x="-12.7" y="12.7" length="short" direction="in"/>
+<pin name="D2" x="-12.7" y="10.16" length="short" direction="in"/>
+<pin name="D3" x="-12.7" y="7.62" length="short" direction="in"/>
+<pin name="Q0" x="12.7" y="15.24" length="short" direction="out" rot="R180"/>
+<pin name="Q1" x="12.7" y="12.7" length="short" direction="out" rot="R180"/>
+<pin name="Q2" x="12.7" y="10.16" length="short" direction="out" rot="R180"/>
+<pin name="Q3" x="12.7" y="7.62" length="short" direction="out" rot="R180"/>
+<pin name="ED" x="-12.7" y="2.54" length="short" direction="in" function="dot"/>
+<wire x1="-10.16" y1="17.78" x2="-10.16" y2="5.08" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="5.08" x2="-10.16" y2="0" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="0" x2="-2.54" y2="0" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="0" x2="-2.54" y2="5.08" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="5.08" x2="-2.54" y2="17.78" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="17.78" x2="-10.16" y2="17.78" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="5.08" x2="-2.54" y2="5.08" width="0.254" layer="94"/>
+<pin name="-1" x="-12.7" y="-2.54" length="short" direction="in" function="clk"/>
+<pin name="+1" x="-12.7" y="-5.08" length="short" direction="in" function="clk"/>
+<pin name="R" x="-12.7" y="-10.16" length="short" direction="in"/>
+<wire x1="-10.16" y1="0" x2="-10.16" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-7.62" x2="-10.16" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-12.7" x2="-2.54" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-12.7" x2="-2.54" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-7.62" x2="-2.54" y2="0" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-7.62" x2="-2.54" y2="-7.62" width="0.254" layer="94"/>
+<pin name="C0" x="12.7" y="0" length="short" direction="out" function="dot" rot="R180"/>
+<pin name="B0" x="12.7" y="-7.62" length="short" direction="out" function="dot" rot="R180"/>
+<wire x1="10.16" y1="17.78" x2="2.54" y2="17.78" width="0.254" layer="94"/>
+<wire x1="2.54" y1="17.78" x2="2.54" y2="5.08" width="0.254" layer="94"/>
+<wire x1="2.54" y1="5.08" x2="2.54" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-12.7" x2="10.16" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-12.7" x2="10.16" y2="5.08" width="0.254" layer="94"/>
+<wire x1="10.16" y1="5.08" x2="10.16" y2="17.78" width="0.254" layer="94"/>
+<wire x1="2.54" y1="5.08" x2="10.16" y2="5.08" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-12.7" x2="-10.16" y2="-17.78" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-17.78" x2="-2.54" y2="-17.78" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-17.78" x2="2.54" y2="-17.78" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-17.78" x2="10.16" y2="-17.78" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-17.78" x2="10.16" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-12.7" x2="2.54" y2="-17.78" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-12.7" x2="-2.54" y2="-17.78" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="17.78" x2="2.54" y2="17.78" width="0.254" layer="94"/>
+<text x="0" y="10.16" size="1.27" layer="94" align="center">CT2</text>
+<pin name="GND" x="-12.7" y="-15.24" length="short" direction="pwr"/>
+<pin name="VCC" x="12.7" y="-15.24" length="short" direction="pwr" rot="R180"/>
+<text x="0" y="22.86" size="1.27" layer="95" align="center">&gt;NAME</text>
+<text x="0" y="20.32" size="1.27" layer="96" align="center">&gt;VALUE</text>
+</symbol>
+<symbol name="1554ИЕ10">
+<pin name="D0" x="-12.7" y="17.78" length="short" direction="in"/>
+<pin name="D1" x="-12.7" y="15.24" length="short" direction="in"/>
+<pin name="D2" x="-12.7" y="12.7" length="short" direction="in"/>
+<pin name="D3" x="-12.7" y="10.16" length="short" direction="in"/>
+<pin name="Q0" x="12.7" y="17.78" length="short" direction="out" rot="R180"/>
+<pin name="Q1" x="12.7" y="15.24" length="short" direction="out" rot="R180"/>
+<pin name="Q2" x="12.7" y="12.7" length="short" direction="out" rot="R180"/>
+<pin name="Q3" x="12.7" y="10.16" length="short" direction="out" rot="R180"/>
+<pin name="ED" x="-12.7" y="0" length="short" direction="in" function="dot"/>
+<wire x1="-10.16" y1="20.32" x2="-10.16" y2="7.62" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="7.62" x2="-2.54" y2="20.32" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="20.32" x2="-10.16" y2="20.32" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="7.62" x2="-2.54" y2="7.62" width="0.254" layer="94"/>
+<pin name="R" x="-12.7" y="-10.16" length="short" direction="in" function="dot"/>
+<wire x1="-10.16" y1="7.62" x2="-10.16" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="2.54" x2="-10.16" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-7.62" x2="-10.16" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-12.7" x2="-10.16" y2="-17.78" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-17.78" x2="-2.54" y2="-12.7" width="0.254" layer="94"/>
+<pin name="C0" x="12.7" y="0" length="short" direction="out" function="dot" rot="R180"/>
+<wire x1="-2.54" y1="-12.7" x2="-2.54" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-7.62" x2="-2.54" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="2.54" x2="-2.54" y2="7.62" width="0.254" layer="94"/>
+<wire x1="10.16" y1="20.32" x2="2.54" y2="20.32" width="0.254" layer="94"/>
+<wire x1="2.54" y1="20.32" x2="2.54" y2="7.62" width="0.254" layer="94"/>
+<wire x1="2.54" y1="7.62" x2="2.54" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-12.7" x2="10.16" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-12.7" x2="10.16" y2="7.62" width="0.254" layer="94"/>
+<wire x1="10.16" y1="7.62" x2="10.16" y2="20.32" width="0.254" layer="94"/>
+<wire x1="2.54" y1="7.62" x2="10.16" y2="7.62" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-17.78" x2="-2.54" y2="-17.78" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-17.78" x2="2.54" y2="-17.78" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-17.78" x2="10.16" y2="-17.78" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-17.78" x2="10.16" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-12.7" x2="2.54" y2="-17.78" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="20.32" x2="2.54" y2="20.32" width="0.254" layer="94"/>
+<text x="0" y="12.7" size="1.27" layer="94" align="center">CT2</text>
+<pin name="GND" x="-12.7" y="-15.24" length="short" direction="pwr"/>
+<pin name="VCC" x="12.7" y="-15.24" length="short" direction="pwr" rot="R180"/>
+<text x="0" y="25.4" size="1.27" layer="95" align="center">&gt;NAME</text>
+<text x="0" y="22.86" size="1.27" layer="96" align="center">&gt;VALUE</text>
+<pin name="ECT" x="-12.7" y="-2.54" length="short" direction="in"/>
+<pin name="EC" x="-12.7" y="-5.08" length="short" direction="in"/>
+<pin name="CL" x="-12.7" y="5.08" length="short" direction="in" function="clk"/>
+<wire x1="-10.16" y1="2.54" x2="-2.54" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-12.7" x2="-2.54" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-7.62" x2="-2.54" y2="-7.62" width="0.254" layer="94"/>
+</symbol>
+<symbol name="1554ИЕ19">
+<pin name="CL" x="-12.7" y="5.08" length="short" direction="in" function="dotclk"/>
+<pin name="R" x="-12.7" y="-2.54" length="short" direction="in"/>
+<pin name="Q0" x="12.7" y="5.08" length="short" direction="out" rot="R180"/>
+<pin name="Q1" x="12.7" y="2.54" length="short" direction="out" rot="R180"/>
+<pin name="Q2" x="12.7" y="0" length="short" direction="out" rot="R180"/>
+<pin name="Q3" x="12.7" y="-2.54" length="short" direction="out" rot="R180"/>
+<wire x1="10.16" y1="7.62" x2="10.16" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-5.08" x2="2.54" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-5.08" x2="2.54" y2="7.62" width="0.254" layer="94"/>
+<wire x1="2.54" y1="7.62" x2="-2.54" y2="7.62" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="7.62" x2="-2.54" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-5.08" x2="-10.16" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-5.08" x2="-10.16" y2="7.62" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="7.62" x2="-2.54" y2="7.62" width="0.254" layer="94"/>
+<wire x1="2.54" y1="7.62" x2="10.16" y2="7.62" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-5.08" x2="2.54" y2="-5.08" width="0.254" layer="94"/>
+<text x="0" y="12.7" size="1.27" layer="95" align="center">&gt;NAME</text>
+<text x="0" y="10.16" size="1.27" layer="96" align="center">&gt;VALUE</text>
+<text x="0" y="2.54" size="1.27" layer="94" align="center">CTR2</text>
+</symbol>
+<symbol name="1554ИП5">
+<pin name="A" x="-12.7" y="12.7" length="short" direction="in"/>
+<pin name="B" x="-12.7" y="10.16" length="short" direction="in"/>
+<pin name="C" x="-12.7" y="7.62" length="short" direction="in"/>
+<pin name="D" x="-12.7" y="5.08" length="short" direction="in"/>
+<pin name="E" x="-12.7" y="2.54" length="short" direction="in"/>
+<pin name="F" x="-12.7" y="0" length="short" direction="in"/>
+<pin name="G" x="-12.7" y="-2.54" length="short" direction="in"/>
+<pin name="H" x="-12.7" y="-5.08" length="short" direction="in"/>
+<pin name="I" x="-12.7" y="-7.62" length="short" direction="in"/>
+<wire x1="-10.16" y1="15.24" x2="-10.16" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-10.16" x2="-2.54" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-10.16" x2="-2.54" y2="15.24" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="15.24" x2="2.54" y2="15.24" width="0.254" layer="94"/>
+<wire x1="2.54" y1="15.24" x2="2.54" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-10.16" x2="10.16" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-10.16" x2="10.16" y2="15.24" width="0.254" layer="94"/>
+<wire x1="10.16" y1="15.24" x2="2.54" y2="15.24" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="15.24" x2="-2.54" y2="15.24" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-10.16" x2="-10.16" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-15.24" x2="-2.54" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-15.24" x2="2.54" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-15.24" x2="10.16" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-15.24" x2="10.16" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-10.16" x2="2.54" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-10.16" x2="-2.54" y2="-15.24" width="0.254" layer="94"/>
+<pin name="GND" x="-12.7" y="-12.7" length="short" direction="pwr"/>
+<pin name="VCC" x="12.7" y="-12.7" length="short" direction="pwr" rot="R180"/>
+<pin name="ODD" x="12.7" y="7.62" length="short" direction="in" rot="R180"/>
+<pin name="EVEN" x="12.7" y="-2.54" length="short" direction="in" rot="R180"/>
+<text x="0" y="20.32" size="1.27" layer="95" align="center">&gt;NAME</text>
+<text x="0" y="17.78" size="1.27" layer="96" align="center">&gt;VALUE</text>
+<text x="0" y="7.62" size="2.54" layer="94" align="center">2k</text>
+</symbol>
+<symbol name="1554ИР22">
+<pin name="EZ" x="-12.7" y="15.24" length="short" direction="in" function="dot"/>
+<pin name="ED" x="-12.7" y="12.7" length="short" direction="in"/>
+<pin name="D0" x="-12.7" y="7.62" length="short" direction="in"/>
+<pin name="D1" x="-12.7" y="5.08" length="short" direction="in"/>
+<pin name="D2" x="-12.7" y="2.54" length="short" direction="in"/>
+<pin name="D3" x="-12.7" y="0" length="short" direction="in"/>
+<pin name="D4" x="-12.7" y="-2.54" length="short" direction="in"/>
+<pin name="D5" x="-12.7" y="-5.08" length="short" direction="in"/>
+<pin name="D6" x="-12.7" y="-7.62" length="short" direction="in"/>
+<pin name="D7" x="-12.7" y="-10.16" length="short" direction="in"/>
+<pin name="Q0" x="12.7" y="7.62" length="short" direction="out" rot="R180"/>
+<pin name="Q1" x="12.7" y="5.08" length="short" direction="out" rot="R180"/>
+<pin name="Q2" x="12.7" y="2.54" length="short" direction="out" rot="R180"/>
+<pin name="Q3" x="12.7" y="0" length="short" direction="out" rot="R180"/>
+<pin name="Q4" x="12.7" y="-2.54" length="short" direction="out" rot="R180"/>
+<pin name="Q5" x="12.7" y="-5.08" length="short" direction="out" rot="R180"/>
+<pin name="Q6" x="12.7" y="-7.62" length="short" direction="out" rot="R180"/>
+<pin name="Q7" x="12.7" y="-10.16" length="short" direction="out" rot="R180"/>
+<wire x1="-10.16" y1="17.78" x2="-10.16" y2="10.16" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="10.16" x2="-10.16" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-12.7" x2="-2.54" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-12.7" x2="-2.54" y2="10.16" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="10.16" x2="-2.54" y2="17.78" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="17.78" x2="2.54" y2="17.78" width="0.254" layer="94"/>
+<wire x1="2.54" y1="17.78" x2="2.54" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-12.7" x2="10.16" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-12.7" x2="10.16" y2="17.78" width="0.254" layer="94"/>
+<wire x1="10.16" y1="17.78" x2="2.54" y2="17.78" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="17.78" x2="-10.16" y2="17.78" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="10.16" x2="-2.54" y2="10.16" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-12.7" x2="-10.16" y2="-17.78" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-17.78" x2="-2.54" y2="-17.78" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-17.78" x2="2.54" y2="-17.78" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-17.78" x2="10.16" y2="-17.78" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-17.78" x2="10.16" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-12.7" x2="2.54" y2="-17.78" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-12.7" x2="-2.54" y2="-17.78" width="0.254" layer="94"/>
+<pin name="GND" x="-12.7" y="-15.24" length="short" direction="pwr"/>
+<pin name="VCC" x="12.7" y="-15.24" length="short" direction="pwr" rot="R180"/>
+<text x="0" y="10.16" size="2.032" layer="94" align="center">RG</text>
+<text x="0" y="22.86" size="1.27" layer="95" align="center">&gt;NAME</text>
+<text x="0" y="20.32" size="1.27" layer="96" align="center">&gt;VALUE</text>
+<text x="6.35" y="12.7" size="2.032" layer="94" align="center">Z</text>
+</symbol>
+<symbol name="1554ИР23">
+<pin name="EZ" x="-12.7" y="15.24" length="short" direction="in" function="dot"/>
+<pin name="CL" x="-12.7" y="12.7" length="short" direction="in" function="clk"/>
+<pin name="D0" x="-12.7" y="7.62" length="short" direction="in"/>
+<pin name="D1" x="-12.7" y="5.08" length="short" direction="in"/>
+<pin name="D2" x="-12.7" y="2.54" length="short" direction="in"/>
+<pin name="D3" x="-12.7" y="0" length="short" direction="in"/>
+<pin name="D4" x="-12.7" y="-2.54" length="short" direction="in"/>
+<pin name="D5" x="-12.7" y="-5.08" length="short" direction="in"/>
+<pin name="D6" x="-12.7" y="-7.62" length="short" direction="in"/>
+<pin name="D7" x="-12.7" y="-10.16" length="short" direction="in"/>
+<pin name="Q0" x="12.7" y="7.62" length="short" direction="out" rot="R180"/>
+<pin name="Q1" x="12.7" y="5.08" length="short" direction="out" rot="R180"/>
+<pin name="Q2" x="12.7" y="2.54" length="short" direction="out" rot="R180"/>
+<pin name="Q3" x="12.7" y="0" length="short" direction="out" rot="R180"/>
+<pin name="Q4" x="12.7" y="-2.54" length="short" direction="out" rot="R180"/>
+<pin name="Q5" x="12.7" y="-5.08" length="short" direction="out" rot="R180"/>
+<pin name="Q6" x="12.7" y="-7.62" length="short" direction="out" rot="R180"/>
+<pin name="Q7" x="12.7" y="-10.16" length="short" direction="out" rot="R180"/>
+<wire x1="-10.16" y1="17.78" x2="-10.16" y2="10.16" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="10.16" x2="-10.16" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-12.7" x2="-2.54" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-12.7" x2="-2.54" y2="10.16" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="10.16" x2="-2.54" y2="17.78" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="17.78" x2="2.54" y2="17.78" width="0.254" layer="94"/>
+<wire x1="2.54" y1="17.78" x2="2.54" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-12.7" x2="10.16" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-12.7" x2="10.16" y2="17.78" width="0.254" layer="94"/>
+<wire x1="10.16" y1="17.78" x2="2.54" y2="17.78" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="17.78" x2="-10.16" y2="17.78" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="10.16" x2="-2.54" y2="10.16" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-12.7" x2="-10.16" y2="-17.78" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-17.78" x2="-2.54" y2="-17.78" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-17.78" x2="2.54" y2="-17.78" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-17.78" x2="10.16" y2="-17.78" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-17.78" x2="10.16" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-12.7" x2="2.54" y2="-17.78" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-12.7" x2="-2.54" y2="-17.78" width="0.254" layer="94"/>
+<pin name="GND" x="-12.7" y="-15.24" length="short" direction="pwr"/>
+<pin name="VCC" x="12.7" y="-15.24" length="short" direction="pwr" rot="R180"/>
+<text x="0" y="10.16" size="2.032" layer="94" align="center">RG</text>
+<text x="0" y="22.86" size="1.27" layer="95" align="center">&gt;NAME</text>
+<text x="0" y="20.32" size="1.27" layer="96" align="center">&gt;VALUE</text>
+<text x="6.35" y="12.7" size="2.032" layer="94" align="center">Z</text>
+</symbol>
+<symbol name="1554ИР24">
+<pin name="I/Q0" x="12.7" y="15.24" length="short" rot="R180"/>
+<pin name="I/Q1" x="12.7" y="12.7" length="short" rot="R180"/>
+<pin name="I/Q2" x="12.7" y="10.16" length="short" rot="R180"/>
+<pin name="I/Q3" x="12.7" y="7.62" length="short" rot="R180"/>
+<pin name="I/Q4" x="12.7" y="5.08" length="short" rot="R180"/>
+<pin name="I/Q5" x="12.7" y="2.54" length="short" rot="R180"/>
+<pin name="I/Q6" x="12.7" y="0" length="short" rot="R180"/>
+<pin name="I/Q7" x="12.7" y="-2.54" length="short" rot="R180"/>
+<pin name="Q0" x="12.7" y="-7.62" length="short" direction="out" rot="R180"/>
+<pin name="Q7" x="12.7" y="-10.16" length="short" direction="out" rot="R180"/>
+<pin name="DR" x="-12.7" y="15.24" length="short" direction="in"/>
+<pin name="DL" x="-12.7" y="12.7" length="short" direction="in"/>
+<pin name="CL" x="-12.7" y="7.62" length="short" direction="in" function="clk"/>
+<pin name="R" x="-12.7" y="5.08" length="short" direction="in" function="dot"/>
+<pin name="SE0" x="-12.7" y="0" length="short" direction="in"/>
+<pin name="SE1" x="-12.7" y="-2.54" length="short" direction="in"/>
+<pin name="EZ1" x="-12.7" y="-7.62" length="short" direction="in" function="dot"/>
+<pin name="EZ2" x="-12.7" y="-10.16" length="short" direction="in" function="dot"/>
+<wire x1="-10.16" y1="17.78" x2="-10.16" y2="10.16" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="10.16" x2="-10.16" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="2.54" x2="-10.16" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-5.08" x2="-10.16" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-12.7" x2="-2.54" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-12.7" x2="-2.54" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-5.08" x2="-2.54" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="2.54" x2="-2.54" y2="10.16" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="10.16" x2="-2.54" y2="17.78" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="17.78" x2="-10.16" y2="17.78" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="10.16" x2="-2.54" y2="10.16" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="2.54" x2="-2.54" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-5.08" x2="-2.54" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-12.7" x2="2.54" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-5.08" x2="2.54" y2="17.78" width="0.254" layer="94"/>
+<wire x1="2.54" y1="17.78" x2="10.16" y2="17.78" width="0.254" layer="94"/>
+<wire x1="10.16" y1="17.78" x2="10.16" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-5.08" x2="10.16" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-12.7" x2="2.54" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-5.08" x2="2.54" y2="-5.08" width="0.254" layer="94"/>
+<pin name="GND" x="-12.7" y="-15.24" length="short" direction="pwr"/>
+<pin name="VCC" x="12.7" y="-15.24" length="short" direction="pwr" rot="R180"/>
+<wire x1="-10.16" y1="-12.7" x2="-10.16" y2="-17.78" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-17.78" x2="-2.54" y2="-17.78" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-17.78" x2="-2.54" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-12.7" x2="2.54" y2="-17.78" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-17.78" x2="10.16" y2="-17.78" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-17.78" x2="10.16" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-17.78" x2="2.54" y2="-17.78" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="17.78" x2="2.54" y2="17.78" width="0.254" layer="94"/>
+<text x="0" y="10.16" size="1.27" layer="94" align="center">SRG</text>
+<text x="0" y="22.86" size="1.27" layer="95" align="center">&gt;NAME</text>
+<text x="0" y="20.32" size="1.27" layer="96" align="center">&gt;VALUE</text>
+</symbol>
+<symbol name="1554ИР35">
+<pin name="R" x="-12.7" y="15.24" length="short" direction="in" function="dot"/>
+<pin name="CL" x="-12.7" y="12.7" length="short" direction="in" function="clk"/>
+<pin name="D0" x="-12.7" y="7.62" length="short" direction="in"/>
+<pin name="D1" x="-12.7" y="5.08" length="short" direction="in"/>
+<pin name="D2" x="-12.7" y="2.54" length="short" direction="in"/>
+<pin name="D3" x="-12.7" y="0" length="short" direction="in"/>
+<pin name="D4" x="-12.7" y="-2.54" length="short" direction="in"/>
+<pin name="D5" x="-12.7" y="-5.08" length="short" direction="in"/>
+<pin name="D6" x="-12.7" y="-7.62" length="short" direction="in"/>
+<pin name="D7" x="-12.7" y="-10.16" length="short" direction="in"/>
+<pin name="Q0" x="12.7" y="7.62" length="short" direction="out" rot="R180"/>
+<pin name="Q1" x="12.7" y="5.08" length="short" direction="out" rot="R180"/>
+<pin name="Q2" x="12.7" y="2.54" length="short" direction="out" rot="R180"/>
+<pin name="Q3" x="12.7" y="0" length="short" direction="out" rot="R180"/>
+<pin name="Q4" x="12.7" y="-2.54" length="short" direction="out" rot="R180"/>
+<pin name="Q5" x="12.7" y="-5.08" length="short" direction="out" rot="R180"/>
+<pin name="Q6" x="12.7" y="-7.62" length="short" direction="out" rot="R180"/>
+<pin name="Q7" x="12.7" y="-10.16" length="short" direction="out" rot="R180"/>
+<wire x1="-10.16" y1="17.78" x2="-10.16" y2="10.16" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="10.16" x2="-10.16" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-12.7" x2="-2.54" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-12.7" x2="-2.54" y2="10.16" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="10.16" x2="-2.54" y2="17.78" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="17.78" x2="2.54" y2="17.78" width="0.254" layer="94"/>
+<wire x1="2.54" y1="17.78" x2="2.54" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-12.7" x2="10.16" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-12.7" x2="10.16" y2="17.78" width="0.254" layer="94"/>
+<wire x1="10.16" y1="17.78" x2="2.54" y2="17.78" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="17.78" x2="-10.16" y2="17.78" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="10.16" x2="-2.54" y2="10.16" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-12.7" x2="-10.16" y2="-17.78" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-17.78" x2="-2.54" y2="-17.78" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-17.78" x2="2.54" y2="-17.78" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-17.78" x2="10.16" y2="-17.78" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-17.78" x2="10.16" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-12.7" x2="2.54" y2="-17.78" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-12.7" x2="-2.54" y2="-17.78" width="0.254" layer="94"/>
+<pin name="GND" x="-12.7" y="-15.24" length="short" direction="pwr"/>
+<pin name="VCC" x="12.7" y="-15.24" length="short" direction="pwr" rot="R180"/>
+<text x="0" y="10.16" size="2.032" layer="94" align="center">RS</text>
+<text x="0" y="22.86" size="1.27" layer="95" align="center">&gt;NAME</text>
+<text x="0" y="20.32" size="1.27" layer="96" align="center">&gt;VALUE</text>
+</symbol>
+<symbol name="1554ИР37">
+<pin name="EZ" x="-12.7" y="15.24" length="short" direction="in" function="dot"/>
+<pin name="CL" x="-12.7" y="12.7" length="short" direction="in" function="clk"/>
+<pin name="D0" x="-12.7" y="7.62" length="short" direction="in"/>
+<pin name="D1" x="-12.7" y="5.08" length="short" direction="in"/>
+<pin name="D2" x="-12.7" y="2.54" length="short" direction="in"/>
+<pin name="D3" x="-12.7" y="0" length="short" direction="in"/>
+<pin name="D4" x="-12.7" y="-2.54" length="short" direction="in"/>
+<pin name="D5" x="-12.7" y="-5.08" length="short" direction="in"/>
+<pin name="D6" x="-12.7" y="-7.62" length="short" direction="in"/>
+<pin name="D7" x="-12.7" y="-10.16" length="short" direction="in"/>
+<pin name="Q0" x="12.7" y="7.62" length="short" direction="out" rot="R180"/>
+<pin name="Q1" x="12.7" y="5.08" length="short" direction="out" rot="R180"/>
+<pin name="Q2" x="12.7" y="2.54" length="short" direction="out" rot="R180"/>
+<pin name="Q3" x="12.7" y="0" length="short" direction="out" rot="R180"/>
+<pin name="Q4" x="12.7" y="-2.54" length="short" direction="out" rot="R180"/>
+<pin name="Q5" x="12.7" y="-5.08" length="short" direction="out" rot="R180"/>
+<pin name="Q6" x="12.7" y="-7.62" length="short" direction="out" rot="R180"/>
+<pin name="Q7" x="12.7" y="-10.16" length="short" direction="out" rot="R180"/>
+<wire x1="-10.16" y1="17.78" x2="-10.16" y2="10.16" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="10.16" x2="-10.16" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-12.7" x2="-2.54" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-12.7" x2="-2.54" y2="10.16" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="10.16" x2="-2.54" y2="17.78" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="17.78" x2="2.54" y2="17.78" width="0.254" layer="94"/>
+<wire x1="2.54" y1="17.78" x2="2.54" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-12.7" x2="10.16" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-12.7" x2="10.16" y2="17.78" width="0.254" layer="94"/>
+<wire x1="10.16" y1="17.78" x2="2.54" y2="17.78" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="17.78" x2="-10.16" y2="17.78" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="10.16" x2="-2.54" y2="10.16" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-12.7" x2="-10.16" y2="-17.78" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-17.78" x2="-2.54" y2="-17.78" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-17.78" x2="2.54" y2="-17.78" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-17.78" x2="10.16" y2="-17.78" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-17.78" x2="10.16" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-12.7" x2="2.54" y2="-17.78" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-12.7" x2="-2.54" y2="-17.78" width="0.254" layer="94"/>
+<pin name="GND" x="-12.7" y="-15.24" length="short" direction="pwr"/>
+<pin name="VCC" x="12.7" y="-15.24" length="short" direction="pwr" rot="R180"/>
+<text x="0" y="10.16" size="2.032" layer="94" align="center">RG</text>
+<text x="0" y="22.86" size="1.27" layer="95" align="center">&gt;NAME</text>
+<text x="0" y="20.32" size="1.27" layer="96" align="center">&gt;VALUE</text>
+<text x="6.35" y="12.7" size="2.032" layer="94" align="center">Z</text>
+</symbol>
+<symbol name="1554ИР40">
+<pin name="EZ" x="-12.7" y="15.24" length="short" direction="in" function="dot"/>
+<pin name="ED" x="-12.7" y="12.7" length="short" direction="in"/>
+<pin name="D0" x="-12.7" y="7.62" length="short" direction="in"/>
+<pin name="D1" x="-12.7" y="5.08" length="short" direction="in"/>
+<pin name="D2" x="-12.7" y="2.54" length="short" direction="in"/>
+<pin name="D3" x="-12.7" y="0" length="short" direction="in"/>
+<pin name="D4" x="-12.7" y="-2.54" length="short" direction="in"/>
+<pin name="D5" x="-12.7" y="-5.08" length="short" direction="in"/>
+<pin name="D6" x="-12.7" y="-7.62" length="short" direction="in"/>
+<pin name="D7" x="-12.7" y="-10.16" length="short" direction="in"/>
+<pin name="Q0" x="12.7" y="7.62" length="short" direction="out" function="dot" rot="R180"/>
+<pin name="Q1" x="12.7" y="5.08" length="short" direction="out" function="dot" rot="R180"/>
+<pin name="Q2" x="12.7" y="2.54" length="short" direction="out" function="dot" rot="R180"/>
+<pin name="Q3" x="12.7" y="0" length="short" direction="out" function="dot" rot="R180"/>
+<pin name="Q4" x="12.7" y="-2.54" length="short" direction="out" function="dot" rot="R180"/>
+<pin name="Q5" x="12.7" y="-5.08" length="short" direction="out" function="dot" rot="R180"/>
+<pin name="Q6" x="12.7" y="-7.62" length="short" direction="out" function="dot" rot="R180"/>
+<pin name="Q7" x="12.7" y="-10.16" length="short" direction="out" function="dot" rot="R180"/>
+<wire x1="-10.16" y1="17.78" x2="-10.16" y2="10.16" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="10.16" x2="-10.16" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-12.7" x2="-2.54" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-12.7" x2="-2.54" y2="10.16" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="10.16" x2="-2.54" y2="17.78" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="17.78" x2="2.54" y2="17.78" width="0.254" layer="94"/>
+<wire x1="2.54" y1="17.78" x2="2.54" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-12.7" x2="10.16" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-12.7" x2="10.16" y2="17.78" width="0.254" layer="94"/>
+<wire x1="10.16" y1="17.78" x2="2.54" y2="17.78" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="17.78" x2="-10.16" y2="17.78" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="10.16" x2="-2.54" y2="10.16" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-12.7" x2="-10.16" y2="-17.78" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-17.78" x2="-2.54" y2="-17.78" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-17.78" x2="2.54" y2="-17.78" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-17.78" x2="10.16" y2="-17.78" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-17.78" x2="10.16" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-12.7" x2="2.54" y2="-17.78" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-12.7" x2="-2.54" y2="-17.78" width="0.254" layer="94"/>
+<pin name="GND" x="-12.7" y="-15.24" length="short" direction="pwr"/>
+<pin name="VCC" x="12.7" y="-15.24" length="short" direction="pwr" rot="R180"/>
+<text x="0" y="10.16" size="2.032" layer="94" align="center">RG</text>
+<text x="0" y="22.86" size="1.27" layer="95" align="center">&gt;NAME</text>
+<text x="0" y="20.32" size="1.27" layer="96" align="center">&gt;VALUE</text>
+<text x="6.35" y="12.7" size="2.032" layer="94" align="center">Z</text>
+</symbol>
+<symbol name="1554ИР41">
+<pin name="EZ" x="-12.7" y="15.24" length="short" direction="in" function="dot"/>
+<pin name="CL" x="-12.7" y="12.7" length="short" direction="in" function="clk"/>
+<pin name="D0" x="-12.7" y="7.62" length="short" direction="in"/>
+<pin name="D1" x="-12.7" y="5.08" length="short" direction="in"/>
+<pin name="D2" x="-12.7" y="2.54" length="short" direction="in"/>
+<pin name="D3" x="-12.7" y="0" length="short" direction="in"/>
+<pin name="D4" x="-12.7" y="-2.54" length="short" direction="in"/>
+<pin name="D5" x="-12.7" y="-5.08" length="short" direction="in"/>
+<pin name="D6" x="-12.7" y="-7.62" length="short" direction="in"/>
+<pin name="D7" x="-12.7" y="-10.16" length="short" direction="in"/>
+<pin name="Q0" x="12.7" y="7.62" length="short" direction="out" function="dot" rot="R180"/>
+<pin name="Q1" x="12.7" y="5.08" length="short" direction="out" function="dot" rot="R180"/>
+<pin name="Q2" x="12.7" y="2.54" length="short" direction="out" function="dot" rot="R180"/>
+<pin name="Q3" x="12.7" y="0" length="short" direction="out" function="dot" rot="R180"/>
+<pin name="Q4" x="12.7" y="-2.54" length="short" direction="out" function="dot" rot="R180"/>
+<pin name="Q5" x="12.7" y="-5.08" length="short" direction="out" function="dot" rot="R180"/>
+<pin name="Q6" x="12.7" y="-7.62" length="short" direction="out" function="dot" rot="R180"/>
+<pin name="Q7" x="12.7" y="-10.16" length="short" direction="out" function="dot" rot="R180"/>
+<wire x1="-10.16" y1="17.78" x2="-10.16" y2="10.16" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="10.16" x2="-10.16" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-12.7" x2="-2.54" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-12.7" x2="-2.54" y2="10.16" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="10.16" x2="-2.54" y2="17.78" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="17.78" x2="2.54" y2="17.78" width="0.254" layer="94"/>
+<wire x1="2.54" y1="17.78" x2="2.54" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-12.7" x2="10.16" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-12.7" x2="10.16" y2="17.78" width="0.254" layer="94"/>
+<wire x1="10.16" y1="17.78" x2="2.54" y2="17.78" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="17.78" x2="-10.16" y2="17.78" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="10.16" x2="-2.54" y2="10.16" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-12.7" x2="-10.16" y2="-17.78" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-17.78" x2="-2.54" y2="-17.78" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-17.78" x2="2.54" y2="-17.78" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-17.78" x2="10.16" y2="-17.78" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-17.78" x2="10.16" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-12.7" x2="2.54" y2="-17.78" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-12.7" x2="-2.54" y2="-17.78" width="0.254" layer="94"/>
+<pin name="GND" x="-12.7" y="-15.24" length="short" direction="pwr"/>
+<pin name="VCC" x="12.7" y="-15.24" length="short" direction="pwr" rot="R180"/>
+<text x="0" y="10.16" size="2.032" layer="94" align="center">RG</text>
+<text x="0" y="22.86" size="1.27" layer="95" align="center">&gt;NAME</text>
+<text x="0" y="20.32" size="1.27" layer="96" align="center">&gt;VALUE</text>
+<text x="6.35" y="12.7" size="2.032" layer="94" align="center">Z</text>
+</symbol>
+<symbol name="1554КП2">
+<pin name="SED0" x="-12.7" y="20.32" length="short" direction="in"/>
+<pin name="SED1" x="-12.7" y="17.78" length="short" direction="in"/>
+<pin name="1D0" x="-12.7" y="12.7" length="short" direction="in"/>
+<pin name="1D1" x="-12.7" y="10.16" length="short" direction="in"/>
+<pin name="1D2" x="-12.7" y="7.62" length="short" direction="in"/>
+<pin name="1D3" x="-12.7" y="5.08" length="short" direction="in"/>
+<pin name="2D0" x="-12.7" y="-5.08" length="short" direction="in"/>
+<pin name="1ED" x="-12.7" y="0" length="short" direction="in" function="dot"/>
+<pin name="2D1" x="-12.7" y="-7.62" length="short" direction="in"/>
+<pin name="2D2" x="-12.7" y="-10.16" length="short" direction="in"/>
+<pin name="2D3" x="-12.7" y="-12.7" length="short" direction="in"/>
+<pin name="2ED" x="-12.7" y="-17.78" length="short" direction="in" function="dot"/>
+<wire x1="-10.16" y1="22.86" x2="-10.16" y2="15.24" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="15.24" x2="-10.16" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-2.54" x2="-10.16" y2="-20.32" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-20.32" x2="-2.54" y2="-20.32" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-20.32" x2="-2.54" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-2.54" x2="-2.54" y2="15.24" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="15.24" x2="-2.54" y2="22.86" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="22.86" x2="-10.16" y2="22.86" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="15.24" x2="-2.54" y2="15.24" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-2.54" x2="-2.54" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="2.54" y1="22.86" x2="10.16" y2="22.86" width="0.254" layer="94"/>
+<wire x1="10.16" y1="22.86" x2="10.16" y2="-20.32" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-20.32" x2="2.54" y2="-20.32" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-20.32" x2="2.54" y2="22.86" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-20.32" x2="-10.16" y2="-25.4" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-25.4" x2="-2.54" y2="-25.4" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-25.4" x2="2.54" y2="-25.4" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-25.4" x2="10.16" y2="-25.4" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-25.4" x2="10.16" y2="-20.32" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-20.32" x2="2.54" y2="-25.4" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-20.32" x2="-2.54" y2="-25.4" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="22.86" x2="2.54" y2="22.86" width="0.254" layer="94"/>
+<pin name="1Y" x="12.7" y="12.7" length="short" direction="out" rot="R180"/>
+<pin name="2Y" x="12.7" y="-5.08" length="short" direction="out" rot="R180"/>
+<pin name="GND" x="-12.7" y="-22.86" length="short" direction="pwr"/>
+<pin name="VCC" x="12.7" y="-22.86" length="short" direction="pwr" rot="R180"/>
+<text x="0" y="15.24" size="2.032" layer="94" align="center">MS</text>
+<text x="0" y="27.94" size="1.27" layer="95" align="center">&gt;NAME</text>
+<text x="0" y="25.4" size="1.27" layer="96" align="center">&gt;VALUE</text>
+</symbol>
+<symbol name="1554КП7">
+<pin name="D0" x="-12.7" y="17.78" length="short" direction="in"/>
+<pin name="D1" x="-12.7" y="15.24" length="short" direction="in"/>
+<pin name="D2" x="-12.7" y="12.7" length="short" direction="in"/>
+<pin name="D3" x="-12.7" y="10.16" length="short" direction="in"/>
+<pin name="D4" x="-12.7" y="7.62" length="short" direction="in"/>
+<pin name="D5" x="-12.7" y="5.08" length="short" direction="in"/>
+<pin name="D6" x="-12.7" y="2.54" length="short" direction="in"/>
+<pin name="D7" x="-12.7" y="0" length="short" direction="in"/>
+<pin name="A0" x="-12.7" y="-5.08" length="short" direction="in"/>
+<pin name="A1" x="-12.7" y="-7.62" length="short" direction="in"/>
+<pin name="A2" x="-12.7" y="-10.16" length="short" direction="in"/>
+<pin name="ED" x="-12.7" y="-15.24" length="short" direction="in" function="dot"/>
+<wire x1="-10.16" y1="20.32" x2="-10.16" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-2.54" x2="-10.16" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-12.7" x2="-10.16" y2="-17.78" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-17.78" x2="-10.16" y2="-22.86" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-22.86" x2="-2.54" y2="-22.86" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-22.86" x2="-2.54" y2="-17.78" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-17.78" x2="-2.54" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-12.7" x2="-2.54" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-2.54" x2="-2.54" y2="20.32" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="20.32" x2="-10.16" y2="20.32" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-2.54" x2="-2.54" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-12.7" x2="-2.54" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="20.32" x2="2.54" y2="20.32" width="0.254" layer="94"/>
+<wire x1="2.54" y1="20.32" x2="2.54" y2="-17.78" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-17.78" x2="2.54" y2="-22.86" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-22.86" x2="-2.54" y2="-22.86" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-22.86" x2="10.16" y2="-22.86" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-22.86" x2="10.16" y2="-17.78" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-17.78" x2="10.16" y2="20.32" width="0.254" layer="94"/>
+<wire x1="10.16" y1="20.32" x2="2.54" y2="20.32" width="0.254" layer="94"/>
+<pin name="Y" x="12.7" y="10.16" length="short" direction="out" rot="R180"/>
+<pin name="!Y" x="12.7" y="-2.54" length="short" direction="out" function="dot" rot="R180"/>
+<pin name="GND" x="-12.7" y="-20.32" length="short" direction="pwr"/>
+<pin name="VCC" x="12.7" y="-20.32" length="short" direction="pwr" rot="R180"/>
+<wire x1="-10.16" y1="-17.78" x2="-2.54" y2="-17.78" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-17.78" x2="10.16" y2="-17.78" width="0.254" layer="94"/>
+<text x="0" y="12.7" size="2.032" layer="94" align="center">MS</text>
+<text x="0" y="25.4" size="1.27" layer="95" align="center">&gt;NAME</text>
+<text x="0" y="22.86" size="1.27" layer="96" align="center">&gt;VALUE</text>
+</symbol>
+<symbol name="1554КП11">
+<pin name="SE" x="-12.7" y="17.78" length="short" direction="in"/>
+<pin name="ED" x="-12.7" y="12.7" length="short" direction="in" function="dot"/>
+<pin name="A0" x="-12.7" y="7.62" length="short" direction="in"/>
+<pin name="A1" x="-12.7" y="5.08" length="short" direction="in"/>
+<pin name="A2" x="-12.7" y="2.54" length="short" direction="in"/>
+<pin name="A3" x="-12.7" y="0" length="short" direction="in"/>
+<pin name="B0" x="-12.7" y="-5.08" length="short" direction="in"/>
+<pin name="B1" x="-12.7" y="-7.62" length="short" direction="in"/>
+<pin name="B2" x="-12.7" y="-10.16" length="short" direction="in"/>
+<pin name="B3" x="-12.7" y="-12.7" length="short" direction="in"/>
+<pin name="Y0" x="12.7" y="7.62" length="short" direction="in" rot="R180"/>
+<pin name="Y1" x="12.7" y="2.54" length="short" direction="in" rot="R180"/>
+<pin name="Y2" x="12.7" y="-2.54" length="short" direction="in" rot="R180"/>
+<pin name="Y3" x="12.7" y="-7.62" length="short" direction="in" rot="R180"/>
+<wire x1="-2.54" y1="20.32" x2="-10.16" y2="20.32" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="20.32" x2="-10.16" y2="15.24" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="15.24" x2="-10.16" y2="10.16" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="10.16" x2="-10.16" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-2.54" x2="-10.16" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-15.24" x2="-10.16" y2="-20.32" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-20.32" x2="-2.54" y2="-20.32" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-20.32" x2="-2.54" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-15.24" x2="-2.54" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-2.54" x2="-2.54" y2="10.16" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="10.16" x2="-2.54" y2="15.24" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="15.24" x2="-2.54" y2="20.32" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-15.24" x2="-2.54" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-2.54" x2="-2.54" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="10.16" x2="-2.54" y2="10.16" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="15.24" x2="-2.54" y2="15.24" width="0.254" layer="94"/>
+<wire x1="10.16" y1="20.32" x2="10.16" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-15.24" x2="10.16" y2="-20.32" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-20.32" x2="2.54" y2="-20.32" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-20.32" x2="2.54" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-15.24" x2="2.54" y2="20.32" width="0.254" layer="94"/>
+<wire x1="2.54" y1="20.32" x2="10.16" y2="20.32" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="20.32" x2="2.54" y2="20.32" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-15.24" x2="2.54" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-20.32" x2="2.54" y2="-20.32" width="0.254" layer="94"/>
+<pin name="GND" x="-12.7" y="-17.78" length="short" direction="pwr"/>
+<pin name="VCC" x="12.7" y="-17.78" length="short" direction="pwr" rot="R180"/>
+<text x="0" y="12.7" size="2.032" layer="94" align="center">MS</text>
+<text x="0" y="25.4" size="1.27" layer="95" align="center">&gt;NAME</text>
+<text x="0" y="22.86" size="1.27" layer="96" align="center">&gt;VALUE</text>
+<text x="6.35" y="12.7" size="2.032" layer="94" align="center">Z</text>
+</symbol>
+<symbol name="1554ЛН1">
+<pin name="A" x="-5.08" y="0" visible="pad" length="short" direction="in"/>
+<pin name="Y" x="5.08" y="0" visible="pad" length="short" direction="out" function="dot" rot="R180"/>
+<wire x1="-2.54" y1="2.54" x2="-2.54" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-2.54" x2="2.54" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-2.54" x2="2.54" y2="2.54" width="0.254" layer="94"/>
+<wire x1="2.54" y1="2.54" x2="-2.54" y2="2.54" width="0.254" layer="94"/>
+<text x="0" y="0" size="1.778" layer="94" align="center">!1</text>
+<text x="0" y="7.62" size="1.27" layer="95" align="center">&gt;NAME</text>
+<text x="0" y="5.08" size="1.27" layer="96" align="center">&gt;VALUE</text>
+</symbol>
+<symbol name="1554ЛИ3">
+<pin name="A" x="-5.08" y="2.54" visible="pad" length="short" direction="in"/>
+<pin name="B" x="-5.08" y="0" visible="pad" length="short" direction="in"/>
+<pin name="Y" x="5.08" y="2.54" visible="pad" length="short" direction="out" rot="R180"/>
+<wire x1="-2.54" y1="5.08" x2="-2.54" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-5.08" x2="2.54" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-5.08" x2="2.54" y2="5.08" width="0.254" layer="94"/>
+<wire x1="2.54" y1="5.08" x2="-2.54" y2="5.08" width="0.254" layer="94"/>
+<text x="0" y="2.54" size="1.778" layer="94" align="center">&amp;</text>
+<text x="0" y="10.16" size="1.27" layer="95" align="center">&gt;NAME</text>
+<text x="0" y="7.62" size="1.27" layer="96" align="center">&gt;VALUE</text>
+<pin name="C" x="-5.08" y="-2.54" visible="pad" length="short" direction="in"/>
+</symbol>
+<symbol name="1554ТМ2">
+<pin name="R" x="-12.7" y="7.62" length="short" direction="in" function="dot"/>
+<pin name="D" x="-12.7" y="2.54" length="short" direction="in"/>
+<pin name="CL" x="-12.7" y="-2.54" length="short" direction="in" function="clk"/>
+<pin name="S" x="-12.7" y="-7.62" length="short" direction="in" function="dot"/>
+<wire x1="-10.16" y1="10.16" x2="-10.16" y2="5.08" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="5.08" x2="-10.16" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-5.08" x2="-10.16" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-10.16" x2="-2.54" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-10.16" x2="-2.54" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-5.08" x2="-2.54" y2="5.08" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="5.08" x2="-2.54" y2="10.16" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="10.16" x2="-10.16" y2="10.16" width="0.254" layer="94"/>
+<pin name="Q" x="12.7" y="5.08" length="short" direction="out" rot="R180"/>
+<pin name="!Q" x="12.7" y="-5.08" length="short" direction="out" function="dot" rot="R180"/>
+<wire x1="10.16" y1="10.16" x2="2.54" y2="10.16" width="0.254" layer="94"/>
+<wire x1="2.54" y1="10.16" x2="2.54" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-10.16" x2="10.16" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-10.16" x2="10.16" y2="10.16" width="0.254" layer="94"/>
+<wire x1="2.54" y1="10.16" x2="-2.54" y2="10.16" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-10.16" x2="2.54" y2="-10.16" width="0.254" layer="94"/>
+<text x="0" y="2.54" size="2.032" layer="94" align="center">T</text>
+<wire x1="-10.16" y1="5.08" x2="-2.54" y2="5.08" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-5.08" x2="-10.16" y2="-5.08" width="0.254" layer="94"/>
+<text x="0" y="15.24" size="1.27" layer="95" align="center">&gt;NAME</text>
+<text x="0" y="12.7" size="1.27" layer="96" align="center">&gt;VALUE</text>
+</symbol>
+<symbol name="1554ИЕ18">
+<pin name="D0" x="-12.7" y="17.78" length="short" direction="in"/>
+<pin name="D1" x="-12.7" y="15.24" length="short" direction="in"/>
+<pin name="D2" x="-12.7" y="12.7" length="short" direction="in"/>
+<pin name="D3" x="-12.7" y="10.16" length="short" direction="in"/>
+<pin name="CL" x="-12.7" y="5.08" length="short" direction="in" function="clk"/>
+<pin name="R" x="-12.7" y="0" length="short" direction="in" function="dot"/>
+<pin name="ED" x="-12.7" y="-5.08" length="short" direction="in" function="dot"/>
+<pin name="ECT" x="-12.7" y="-7.62" length="short" direction="in"/>
+<pin name="EC" x="-12.7" y="-10.16" length="short" direction="in"/>
+<pin name="GND" x="-12.7" y="-15.24" length="short" direction="pwr"/>
+<wire x1="-2.54" y1="20.32" x2="-10.16" y2="20.32" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="20.32" x2="-10.16" y2="7.62" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="7.62" x2="-10.16" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="2.54" x2="-10.16" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-2.54" x2="-10.16" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-12.7" x2="-10.16" y2="-17.78" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-17.78" x2="-2.54" y2="-17.78" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-17.78" x2="-2.54" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-12.7" x2="-2.54" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="2.54" x2="-2.54" y2="7.62" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="7.62" x2="-2.54" y2="20.32" width="0.254" layer="94"/>
+<wire x1="2.54" y1="20.32" x2="2.54" y2="7.62" width="0.254" layer="94"/>
+<wire x1="2.54" y1="7.62" x2="2.54" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-12.7" x2="2.54" y2="-17.78" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-17.78" x2="10.16" y2="-17.78" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-17.78" x2="10.16" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-12.7" x2="10.16" y2="7.62" width="0.254" layer="94"/>
+<wire x1="10.16" y1="7.62" x2="10.16" y2="20.32" width="0.254" layer="94"/>
+<wire x1="10.16" y1="20.32" x2="2.54" y2="20.32" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="7.62" x2="-2.54" y2="7.62" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="2.54" x2="-2.54" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="2.54" x2="-2.54" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-2.54" x2="-10.16" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-12.7" x2="-2.54" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-12.7" x2="10.16" y2="-12.7" width="0.254" layer="94"/>
+<pin name="Q0" x="12.7" y="17.78" length="short" direction="in" rot="R180"/>
+<pin name="Q1" x="12.7" y="15.24" length="short" direction="in" rot="R180"/>
+<pin name="Q2" x="12.7" y="12.7" length="short" direction="in" rot="R180"/>
+<pin name="Q3" x="12.7" y="10.16" length="short" direction="in" rot="R180"/>
+<wire x1="2.54" y1="7.62" x2="10.16" y2="7.62" width="0.254" layer="94"/>
+<pin name="C0" x="12.7" y="-2.54" length="short" direction="in" rot="R180"/>
+<pin name="VCC" x="12.7" y="-15.24" length="short" direction="pwr" rot="R180"/>
+<wire x1="2.54" y1="20.32" x2="-2.54" y2="20.32" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-17.78" x2="2.54" y2="-17.78" width="0.254" layer="94"/>
+<text x="0" y="12.7" size="1.778" layer="94" align="center">CT2</text>
+<text x="0" y="25.4" size="1.27" layer="95" align="center">&gt;NAME</text>
+<text x="0" y="22.86" size="1.27" layer="96" align="center">&gt;VALUE</text>
+</symbol>
 </symbols>
 <devicesets>
-<deviceset name="1554ЛН2УБМ" prefix="IC" uservalue="yes">
-<description>&lt;b&gt;1554ЛН2УБМ&lt;/b&gt; - это ИМС единичного инвертора. &lt;br&gt;
-Время задержки при питании 3,3В не более 12 нс, при 5 В - не более 9 нс.&lt;br&gt;
+<deviceset name="1554ЛН2" prefix="IC">
+<description>&lt;b&gt;АЕЯР.431200.182-17 ТУ&lt;/b&gt;&lt;p&gt;
+&lt;b&gt;1554ЛН2УБМ&lt;/b&gt; - это ИМС единичного инвертора. &lt;br&gt;
+Время задержки при питании 3,3В не более 12 нс, при 5 В - не более 9 нс.&lt;br&gt;&lt;p&gt;
 Производитель: ОАО "ИНТЕГРАЛ", г. Минск, р. Беларусь&lt;br&gt;
-Технические условия: &lt;b&gt;АЕЯР.431200.182-17 ТУ&lt;/b&gt;</description>
+Технические условия: АЕЯР.431200.182-17 ТУ</description>
 <gates>
 <gate name="G$1" symbol="1554ЛН2" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="5221.6-1">
+<device name="УБМ" package="5221.6-1">
 <connects>
 <connect gate="G$1" pin="GND" pad="2"/>
 <connect gate="G$1" pin="IN" pad="3"/>
@@ -1700,8 +2749,12 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="1554ТМ8" prefix="IC" uservalue="yes">
-<description>1554ТМ8ТБМ - Четыре D-триггера с общими входами управления и сброса.</description>
+<deviceset name="1554ТМ8" prefix="IC">
+<description>&lt;b&gt;АЕЯР.431200.182-13 ТУ&lt;/b&gt;&lt;p&gt;
+1554ТМ8 - Четыре D-триггера с общими входами управления и сброса.&lt;p&gt;
+Изготовитель: ОАО "ИНТЕГРАЛ", г. Минск, р. Беларусь.&lt;br&gt;
+Технические условия (ТБМ): АЕЯР.431200.182-13 ТУ&lt;br&gt;
+Технические условия (не ТБМ): АЕЯР.431200.093-01 ТУ</description>
 <gates>
 <gate name="G$1" symbol="1554ТМ8" x="0" y="0"/>
 </gates>
@@ -1731,8 +2784,12 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="1554ТМ9" prefix="IC" uservalue="yes">
-<description>1554ТМ9ТБМ - Шесть D-триггеров.</description>
+<deviceset name="1554ТМ9" prefix="IC">
+<description>&lt;b&gt;АЕЯР.431200.182-13 ТУ&lt;/b&gt;&lt;p&gt;
+1554ТМ9 - Шесть D-триггеров.&lt;p&gt;
+Изготовитель: ОАО "ИНТЕГРАЛ", г. Минск, р. Беларусь.&lt;br&gt;
+Технические условия (ТБМ): АЕЯР.431200.182-13 ТУ&lt;br&gt;
+Технические условия (не ТБМ): АЕЯР.431200.093-01 ТУ</description>
 <gates>
 <gate name="G$1" symbol="1554ТМ9" x="0" y="0"/>
 </gates>
@@ -1762,8 +2819,12 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="1554ТР2" prefix="IC" uservalue="yes">
-<description>1554ТР2ТБМ - Четыре R-S триггера.</description>
+<deviceset name="1554ТР2" prefix="IC">
+<description>&lt;b&gt;АЕЯР.431200.182-06 ТУ&lt;/b&gt;&lt;p&gt;
+1554ТР2 - Четыре R-S триггера.&lt;p&gt;
+Изготовитель: ОАО "ИНТЕГРАЛ", г. Минск, р. Беларусь.&lt;br&gt;
+Технические условия (ТБМ): АЕЯР.431200.182-06 ТУ&lt;br&gt;
+Технические условия (не ТБМ): АЕЯР.431200.093-01 ТУ</description>
 <gates>
 <gate name=".1" symbol="1554ТР2_1" x="-15.24" y="10.16" swaplevel="1"/>
 <gate name=".2" symbol="1554ТР2_2" x="-15.24" y="-15.24" swaplevel="2"/>
@@ -1797,8 +2858,12 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="1554КП12" prefix="IC" uservalue="yes">
-<description>1554КП12ТБМ - Два селектора-мультиплексора 4-1 с тремя состояниями на выходе.</description>
+<deviceset name="1554КП12" prefix="IC">
+<description>&lt;b&gt;АЕЯР.431200.182-15 ТУ&lt;/b&gt;&lt;p&gt;
+1554КП12 - Два селектора-мультиплексора 4-1 с тремя состояниями на выходе.&lt;p&gt;
+Изготовитель: ОАО "ИНТЕГРАЛ", г. Минск, р. Беларусь.&lt;br&gt;
+Технические условия (ТБМ): АЕЯР.431200.182-15 ТУ&lt;br&gt;
+Технические условия (не ТБМ): АЕЯР.431200.093-06 ТУ</description>
 <gates>
 <gate name="G$1" symbol="1554КП12" x="0" y="0"/>
 </gates>
@@ -1828,8 +2893,12 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="1554КП14" prefix="IC" uservalue="yes">
-<description>1554КП14ТБМ - Четыре селектора-мультиплексора 2-1 с тремя состояниями и инверсией на выходе.</description>
+<deviceset name="1554КП14" prefix="IC">
+<description>&lt;b&gt;АЕЯР.431200.182-15 ТУ&lt;/b&gt;&lt;p&gt;
+1554КП14 - Четыре селектора-мультиплексора 2-1 с тремя состояниями и инверсией на выходе.&lt;p&gt;
+Изготовитель: ОАО "ИНТЕГРАЛ", г. Минск, р. Беларусь.&lt;br&gt;
+Технические условия (ТБМ): АЕЯР.431200.182-15 ТУ&lt;br&gt;
+Технические условия (не ТБМ): АЕЯР.431200.093-06 ТУ</description>
 <gates>
 <gate name="G$1" symbol="1554КП14" x="0" y="0"/>
 </gates>
@@ -1859,8 +2928,12 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="1554КП15" prefix="IC" uservalue="yes">
-<description>1554КП15ТБМ - Селектор-мультиплексор 8 - 1 с тремя состояниями на выходе.</description>
+<deviceset name="1554КП15" prefix="IC">
+<description>&lt;b&gt;АЕЯР.431200.182-11 ТУ&lt;/b&gt;&lt;p&gt;
+1554КП15 - Селектор-мультиплексор 8 - 1 с тремя состояниями на выходе.&lt;p&gt;
+Изготовитель: ОАО "ИНТЕГРАЛ", г. Минск, р. Беларусь.&lt;br&gt;
+Технические условия (ТБМ): АЕЯР.431200.182-11 ТУ&lt;br&gt;
+Технические условия (не ТБМ): АЕЯР.431200.093-06 ТУ</description>
 <gates>
 <gate name="G$1" symbol="1554КП15" x="0" y="0"/>
 </gates>
@@ -1890,8 +2963,12 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="1554КП16" prefix="IC" uservalue="yes">
-<description>1554КП16ТБМ - Четыре селектора-мультиплексора 2-1.</description>
+<deviceset name="1554КП16" prefix="IC">
+<description>&lt;b&gt;АЕЯР.431200.182-15 ТУ&lt;/b&gt;&lt;p&gt;
+1554КП16 - Четыре селектора-мультиплексора 2-1.&lt;p&gt;
+Изготовитель: ОАО "ИНТЕГРАЛ", г. Минск, р. Беларусь.&lt;br&gt;
+Технические условия (ТБМ): АЕЯР.431200.182-15 ТУ&lt;br&gt;
+Технические условия (не ТБМ): АЕЯР.431200.093-06 ТУ</description>
 <gates>
 <gate name="G$1" symbol="1554КП16" x="0" y="0"/>
 </gates>
@@ -1921,8 +2998,12 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="1554КП18" prefix="IC" uservalue="yes">
-<description>1554КП18ТБМ - Четыре селектора-мультиплексора 2-1 с инверсией на выходе.</description>
+<deviceset name="1554КП18" prefix="IC">
+<description>&lt;b&gt;АЕЯР.431200.182-15 ТУ&lt;/b&gt;&lt;p&gt;
+1554КП18 -  Четыре селектора-мультиплексора 2-1 с инверсией на выходе.&lt;p&gt;
+Изготовитель: ОАО "ИНТЕГРАЛ", г. Минск, р. Беларусь.&lt;br&gt;
+Технические условия (ТБМ): АЕЯР.431200.182-15 ТУ&lt;br&gt;
+Технические условия (не ТБМ): АЕЯР.431200.093-06 ТУ</description>
 <gates>
 <gate name="G$1" symbol="1554КП18" x="0" y="0"/>
 </gates>
@@ -1952,12 +3033,16 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="1554ЛА1" prefix="IC" uservalue="yes">
-<description>1554ЛА1ТБМ - Два логических элемента "4И-НЕ".</description>
+<deviceset name="1554ЛА1" prefix="IC">
+<description>&lt;b&gt;АЕЯР.431200.182-01 ТУ&lt;/b&gt;&lt;p&gt;
+1554ЛА1 - Два логических элемента "4И-НЕ".&lt;p&gt;
+Изготовитель: ОАО "ИНТЕГРАЛ", г. Минск, р. Беларусь.&lt;br&gt;
+Технические условия (ТБМ): АЕЯР.431200.182-01 ТУ&lt;br&gt;
+Технические условия (не ТБМ): АЕЯР.431200.093-01 ТУ</description>
 <gates>
 <gate name=".1" symbol="1554ЛА1" x="-15.24" y="0" swaplevel="1"/>
 <gate name=".2" symbol="1554ЛА1" x="0" y="0" swaplevel="1"/>
-<gate name="G$1" symbol="1554_PWR2" x="12.7" y="0"/>
+<gate name="G$1" symbol="1554_PWR5" x="12.7" y="0"/>
 </gates>
 <devices>
 <device name="ТБМ" package="401.14-5">
@@ -1981,8 +3066,12 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="1554ЛА2" prefix="IC" uservalue="yes">
-<description>1554ЛА2ТБМ - Логический элемент "8И-НЕ".</description>
+<deviceset name="1554ЛА2" prefix="IC">
+<description>&lt;b&gt;АЕЯР.431200.182-01 ТУ&lt;/b&gt;&lt;p&gt;
+1554ЛА2 - Логический элемент "8И-НЕ".&lt;p&gt;
+Изготовитель: ОАО "ИНТЕГРАЛ", г. Минск, р. Беларусь.&lt;br&gt;
+Технические условия (ТБМ): АЕЯР.431200.182-01 ТУ&lt;br&gt;
+Технические условия (не ТБМ): АЕЯР.431200.093-01 ТУ</description>
 <gates>
 <gate name="G$1" symbol="1554ЛА2" x="0" y="0"/>
 </gates>
@@ -2007,8 +3096,12 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="1554ЛА3">
-<description>1554ЛА3ТБМ - Четыре логических элемента "2И-НЕ".</description>
+<deviceset name="1554ЛА3" prefix="IC">
+<description>&lt;b&gt;АЕЯР.431200.182-07 ТУ&lt;/b&gt;&lt;p&gt;
+1554ЛА3 - Четыре логических элемента "2И-НЕ".&lt;p&gt;
+Изготовитель: ОАО "ИНТЕГРАЛ", г. Минск, р. Беларусь.&lt;br&gt;
+Технические условия (ТБМ): АЕЯР.431200.182-07 ТУ&lt;br&gt;
+Технические условия (не ТБМ): АЕЯР.431200.093-01 ТУ</description>
 <gates>
 <gate name=".1" symbol="1554ЛА3" x="-7.62" y="10.16" swaplevel="1"/>
 <gate name=".2" symbol="1554ЛА3" x="7.62" y="10.16" swaplevel="1"/>
@@ -2040,8 +3133,12 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="1554ЛА4" prefix="IC" uservalue="yes">
-<description>1554ЛА4ТБМ - Три логических элемента "3И-НЕ".</description>
+<deviceset name="1554ЛА4" prefix="IC">
+<description>&lt;b&gt;АЕЯР.431200.182-07 ТУ&lt;/b&gt;&lt;p&gt;
+1554ЛА4 - Три логических элемента "3И-НЕ".&lt;p&gt;
+Изготовитель: ОАО "ИНТЕГРАЛ", г. Минск, р. Беларусь.&lt;br&gt;
+Технические условия (ТБМ): АЕЯР.431200.182-07 ТУ&lt;br&gt;
+Технические условия (не ТБМ): АЕЯР.431200.093-01 ТУ</description>
 <gates>
 <gate name=".1" symbol="1554ЛА4" x="-12.7" y="0" swaplevel="1"/>
 <gate name=".2" symbol="1554ЛА4" x="2.54" y="0" swaplevel="1"/>
@@ -2072,8 +3169,12 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="1554ЛЕ1" prefix="IC" uservalue="yes">
-<description>1554ЛЕ1ТБМ - Четыре логических элемента "2ИЛИ-НЕ".</description>
+<deviceset name="1554ЛЕ1" prefix="IC">
+<description>&lt;b&gt;АЕЯР.431200.182-08 ТУ&lt;/b&gt;&lt;p&gt;
+1554ЛЕ1 - Четыре логических элемента "2ИЛИ-НЕ".&lt;p&gt;
+Изготовитель: ОАО "ИНТЕГРАЛ", г. Минск, р. Беларусь.&lt;br&gt;
+Технические условия (ТБМ): АЕЯР.431200.182-08 ТУ&lt;br&gt;
+Технические условия (не ТБМ): АЕЯР.431200.093-01 ТУ</description>
 <gates>
 <gate name=".1" symbol="1554ЛЕ1" x="-7.62" y="10.16" swaplevel="1"/>
 <gate name=".2" symbol="1554ЛЕ1" x="7.62" y="10.16" swaplevel="1"/>
@@ -2105,8 +3206,12 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="1554ЛИ1" prefix="IC" uservalue="yes">
-<description>1554ЛИ1ТБМ - Четыре логических элемента "2И".</description>
+<deviceset name="1554ЛИ1" prefix="IC">
+<description>&lt;b&gt;АЕЯР.431200.182-08 ТУ&lt;/b&gt;&lt;p&gt;
+1554ЛИ1 - Четыре логических элемента "2И".&lt;p&gt;
+Изготовитель: ОАО "ИНТЕГРАЛ", г. Минск, р. Беларусь.&lt;br&gt;
+Технические условия (ТБМ): АЕЯР.431200.182-08 ТУ&lt;br&gt;
+Технические условия (не ТБМ): АЕЯР.431200.093-01 ТУ</description>
 <gates>
 <gate name=".1" symbol="1554ЛИ1" x="-7.62" y="10.16" swaplevel="1"/>
 <gate name=".2" symbol="1554ЛИ1" x="7.62" y="10.16" swaplevel="1"/>
@@ -2138,26 +3243,30 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="1554ЛИ6" prefix="IC" uservalue="yes">
-<description>1554ЛИ6ТБМ - Два логических элемента "4И".</description>
+<deviceset name="1554ЛИ6" prefix="IC">
+<description>&lt;b&gt;АЕЯР.431200.182-08 ТУ&lt;/b&gt;&lt;p&gt;
+1554ЛИ6 - Два логических элемента "4И".&lt;p&gt;
+Изготовитель: ОАО "ИНТЕГРАЛ", г. Минск, р. Беларусь.&lt;br&gt;
+Технические условия (ТБМ): АЕЯР.431200.182-08 ТУ&lt;br&gt;
+Технические условия (не ТБМ): АЕЯР.431200.093-01 ТУ</description>
 <gates>
-<gate name="G$1" symbol="1554ЛИ6" x="-15.24" y="0"/>
-<gate name="G$2" symbol="1554ЛИ6" x="0" y="0"/>
-<gate name="G$3" symbol="1554_PWR2" x="12.7" y="-2.54"/>
+<gate name=".1" symbol="1554ЛИ6" x="-15.24" y="0" swaplevel="1"/>
+<gate name=".2" symbol="1554ЛИ6" x="0" y="0" swaplevel="1"/>
+<gate name="G$3" symbol="1554_PWR5" x="12.7" y="-2.54"/>
 </gates>
 <devices>
 <device name="ТБМ" package="401.14-5">
 <connects>
-<connect gate="G$1" pin="A1" pad="1"/>
-<connect gate="G$1" pin="A2" pad="2"/>
-<connect gate="G$1" pin="A3" pad="4"/>
-<connect gate="G$1" pin="A4" pad="5"/>
-<connect gate="G$1" pin="Y" pad="6"/>
-<connect gate="G$2" pin="A1" pad="9"/>
-<connect gate="G$2" pin="A2" pad="10"/>
-<connect gate="G$2" pin="A3" pad="12"/>
-<connect gate="G$2" pin="A4" pad="13"/>
-<connect gate="G$2" pin="Y" pad="8"/>
+<connect gate=".1" pin="A1" pad="1"/>
+<connect gate=".1" pin="A2" pad="2"/>
+<connect gate=".1" pin="A3" pad="4"/>
+<connect gate=".1" pin="A4" pad="5"/>
+<connect gate=".1" pin="Y" pad="6"/>
+<connect gate=".2" pin="A1" pad="9"/>
+<connect gate=".2" pin="A2" pad="10"/>
+<connect gate=".2" pin="A3" pad="12"/>
+<connect gate=".2" pin="A4" pad="13"/>
+<connect gate=".2" pin="Y" pad="8"/>
 <connect gate="G$3" pin="GND" pad="7"/>
 <connect gate="G$3" pin="VCC" pad="14"/>
 </connects>
@@ -2167,8 +3276,12 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="1554ЛИ9" prefix="IC" uservalue="yes">
-<description>1554ЛИ9ТБМ - Шесть логических повторителей.</description>
+<deviceset name="1554ЛИ9" prefix="IC">
+<description>&lt;b&gt;АЕЯР.431200.182-08 ТУ&lt;/b&gt;&lt;p&gt;
+1554ЛИ9 - Шесть логических повторителей.&lt;p&gt;
+Изготовитель: ОАО "ИНТЕГРАЛ", г. Минск, р. Беларусь.&lt;br&gt;
+Технические условия (ТБМ): АЕЯР.431200.182-08 ТУ&lt;br&gt;
+Технические условия (не ТБМ): АЕЯР.431200.093-01 ТУ</description>
 <gates>
 <gate name=".3" symbol="1554ЛИ9" x="-7.62" y="0" swaplevel="1"/>
 <gate name=".1" symbol="1554ЛИ9" x="-7.62" y="15.24" swaplevel="1"/>
@@ -2176,7 +3289,7 @@
 <gate name=".4" symbol="1554ЛИ9" x="7.62" y="0" swaplevel="1"/>
 <gate name=".2" symbol="1554ЛИ9" x="7.62" y="15.24" swaplevel="1"/>
 <gate name=".6" symbol="1554ЛИ9" x="7.62" y="-15.24" swaplevel="1"/>
-<gate name="G$7" symbol="1554_PWR5" x="0" y="-27.94"/>
+<gate name="G$7" symbol="1554_PWR2" x="0" y="-27.94"/>
 </gates>
 <devices>
 <device name="ТБМ" package="401.14-5">
@@ -2202,8 +3315,12 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="1554ЛЛ1" prefix="IC" uservalue="yes">
-<description>1554ЛЛ1ТБМ - Четыре логических элемента "2ИЛИ".</description>
+<deviceset name="1554ЛЛ1" prefix="IC">
+<description>&lt;b&gt;АЕЯР.431200.182-07 ТУ&lt;/b&gt;&lt;p&gt;
+1554ЛЛ1 - Четыре логических элемента "2ИЛИ".&lt;p&gt;
+Изготовитель: ОАО "ИНТЕГРАЛ", г. Минск, р. Беларусь.&lt;br&gt;
+Технические условия (ТБМ): АЕЯР.431200.182-07 ТУ&lt;br&gt;
+Технические условия (не ТБМ): АЕЯР.431200.093-01 ТУ</description>
 <gates>
 <gate name=".1" symbol="1554ЛЛ1" x="-7.62" y="10.16" swaplevel="1"/>
 <gate name=".2" symbol="1554ЛЛ1" x="7.62" y="10.16" swaplevel="1"/>
@@ -2235,8 +3352,12 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="1554ЛП5">
-<description>1554ЛП5ТБМ - Четыре двухвходовых логических элемента "Исключающее ИЛИ".</description>
+<deviceset name="1554ЛП5" prefix="IC">
+<description>&lt;b&gt;АЕЯР.431200.182-09 ТУ&lt;/b&gt;&lt;p&gt;
+1554ЛП5 - Четыре двухвходовых логических элемента "Исключающее ИЛИ".&lt;p&gt;
+Изготовитель: ОАО "ИНТЕГРАЛ", г. Минск, р. Беларусь.&lt;br&gt;
+Технические условия (ТБМ): АЕЯР.431200.182-09 ТУ&lt;br&gt;
+Технические условия (не ТБМ): АЕЯР.431200.093-01 ТУ</description>
 <gates>
 <gate name=".1" symbol="1554ЛП5" x="-7.62" y="10.16" swaplevel="1"/>
 <gate name=".2" symbol="1554ЛП5" x="7.62" y="10.16" swaplevel="1"/>
@@ -2268,8 +3389,12 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="1554ЛП8" prefix="IC" uservalue="yes">
-<description>1554ЛП8ТБМ - Четыре буферных элемента с тремя состояниями на выходе.</description>
+<deviceset name="1554ЛП8" prefix="IC">
+<description>&lt;b&gt;АЕЯР.431200.182-09 ТУ&lt;/b&gt;&lt;p&gt;
+1554ЛП8 - Четыре буферных элемента с тремя состояниями на выходе.&lt;p&gt;
+Изготовитель: ОАО "ИНТЕГРАЛ", г. Минск, р. Беларусь.&lt;br&gt;
+Технические условия (ТБМ): АЕЯР.431200.182-09 ТУ&lt;br&gt;
+Технические условия (не ТБМ): АЕЯР.431200.093-01 ТУ</description>
 <gates>
 <gate name=".1" symbol="1554ЛП8" x="-7.62" y="10.16" swaplevel="1"/>
 <gate name=".2" symbol="1554ЛП8" x="7.62" y="10.16" swaplevel="1"/>
@@ -2301,8 +3426,12 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="1554ЛР11" prefix="IC" uservalue="yes">
-<description>1554ЛР11ТБМ - Логические элементы "2-2И-2ИЛИ-НЕ" и "3-3И-2ИЛИ-НЕ".</description>
+<deviceset name="1554ЛР11" prefix="IC">
+<description>&lt;b&gt;АЕЯР.431200.182-01 ТУ&lt;/b&gt;&lt;p&gt;
+1554ЛР11 - Логические элементы "2-2И-2ИЛИ-НЕ" и "3-3И-2ИЛИ-НЕ".&lt;p&gt;
+Изготовитель: ОАО "ИНТЕГРАЛ", г. Минск, р. Беларусь.&lt;br&gt;
+Технические условия (ТБМ): АЕЯР.431200.182-01 ТУ&lt;br&gt;
+Технические условия (не ТБМ): АЕЯР.431200.093-01 ТУ</description>
 <gates>
 <gate name="G$1" symbol="1554ЛР11" x="0" y="0"/>
 </gates>
@@ -2330,8 +3459,12 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="1554ТЛ2" prefix="IC" uservalue="yes">
-<description>1554ТЛ2ТБМ - Шесть триггеров Шмитта-инверторов.</description>
+<deviceset name="1554ТЛ2" prefix="IC">
+<description>&lt;b&gt;АЕЯР.431200.182-04 ТУ&lt;/b&gt;&lt;p&gt;
+1554ТЛ2 - Шесть триггеров Шмитта-инверторов.&lt;p&gt;
+Изготовитель: ОАО "ИНТЕГРАЛ", г. Минск, р. Беларусь.&lt;br&gt;
+Технические условия (ТБМ): АЕЯР.431200.182-04 ТУ&lt;br&gt;
+Технические условия (не ТБМ): АЕЯР.431200.093-01 ТУ</description>
 <gates>
 <gate name=".3" symbol="1554ТЛ2" x="-7.62" y="0" swaplevel="1"/>
 <gate name=".1" symbol="1554ТЛ2" x="-7.62" y="15.24" swaplevel="1"/>
@@ -2339,7 +3472,7 @@
 <gate name=".4" symbol="1554ТЛ2" x="7.62" y="0" swaplevel="1"/>
 <gate name=".2" symbol="1554ТЛ2" x="7.62" y="15.24" swaplevel="1"/>
 <gate name=".6" symbol="1554ТЛ2" x="7.62" y="-15.24" swaplevel="1"/>
-<gate name="G$7" symbol="1554_PWR5" x="0" y="-27.94"/>
+<gate name="G$7" symbol="1554_PWR2" x="0" y="-27.94"/>
 </gates>
 <devices>
 <device name="ТБМ" package="401.14-5">
@@ -2365,8 +3498,12 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="1554АП3" prefix="IC" uservalue="yes">
-<description>1554АП3ТБМ - Два четырехканальных формирователя с тремя состояниями и инверсией на выходе.</description>
+<deviceset name="1554АП3" prefix="IC">
+<description>&lt;b&gt;АЕЯР.431200.182-05 ТУ&lt;/b&gt;&lt;p&gt;
+1554АП3 - Два четырехканальных формирователя с тремя состояниями и инверсией на выходе.&lt;p&gt;
+Изготовитель: ОАО "ИНТЕГРАЛ", г. Минск, р. Беларусь.&lt;br&gt;
+Технические условия (ТБМ): АЕЯР.431200.182-05 ТУ &lt;br&gt;
+Технические условия (не ТБМ): АЕЯР.431200.093-05 ТУ</description>
 <gates>
 <gate name=".1" symbol="1554АП3" x="0" y="12.7" swaplevel="1"/>
 <gate name=".2" symbol="1554АП3" x="0" y="-15.24" swaplevel="1"/>
@@ -2402,8 +3539,12 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="1554АП4" prefix="IC" uservalue="yes">
-<description>1554АП4ТБМ - Два четырехканальных формирователя с тремя состояниями на выходе.</description>
+<deviceset name="1554АП4" prefix="IC">
+<description>&lt;b&gt;АЕЯР.431200.182-05 ТУ&lt;/b&gt;&lt;p&gt;
+1554АП4 - Два четырехканальных формирователя с тремя состояниями на выходе.&lt;p&gt;
+Изготовитель: ОАО "ИНТЕГРАЛ", г. Минск, р. Беларусь.&lt;br&gt;
+Технические условия (ТБМ): АЕЯР.431200.182-05 ТУ &lt;br&gt;
+Технические условия (не ТБМ): АЕЯР.431200.093-05 ТУ</description>
 <gates>
 <gate name=".1" symbol="1554АП4" x="0" y="12.7" swaplevel="1"/>
 <gate name=".2" symbol="1554АП4" x="0" y="-15.24" swaplevel="1"/>
@@ -2439,34 +3580,38 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="1554АП5" prefix="IC" uservalue="yes">
-<description>1554АП5ТБМ - Два четырехканальных формирователя с тремя состояниями на выходе.</description>
+<deviceset name="1554АП5" prefix="IC">
+<description>&lt;b&gt;АЕЯР.431200.182-05 ТУ&lt;/b&gt;&lt;p&gt;
+1554АП5 - Два четырехканальных формирователя с тремя состояниями на выходе.&lt;p&gt;
+Изготовитель: ОАО "ИНТЕГРАЛ", г. Минск, р. Беларусь.&lt;br&gt;
+Технические условия (ТБМ): АЕЯР.431200.182-05 ТУ &lt;br&gt;
+Технические условия (не ТБМ): АЕЯР.431200.093-05 ТУ</description>
 <gates>
-<gate name="G$1" symbol="1554АП5" x="0" y="12.7"/>
-<gate name="G$2" symbol="1554АП5" x="0" y="-15.24"/>
+<gate name=".1" symbol="1554АП5" x="0" y="12.7" swaplevel="1"/>
+<gate name=".2" symbol="1554АП5" x="0" y="-15.24" swaplevel="1"/>
 <gate name="G$3" symbol="1554_PWR1" x="0" y="-30.48"/>
 </gates>
 <devices>
 <device name="ТБМ" package="4153.20-6">
 <connects>
-<connect gate="G$1" pin="!1Y" pad="18"/>
-<connect gate="G$1" pin="!2Y" pad="16"/>
-<connect gate="G$1" pin="!3Y" pad="14"/>
-<connect gate="G$1" pin="!4Y" pad="12"/>
-<connect gate="G$1" pin="1A" pad="2"/>
-<connect gate="G$1" pin="2A" pad="4"/>
-<connect gate="G$1" pin="3A" pad="6"/>
-<connect gate="G$1" pin="4A" pad="8"/>
-<connect gate="G$1" pin="ED" pad="1"/>
-<connect gate="G$2" pin="!1Y" pad="9"/>
-<connect gate="G$2" pin="!2Y" pad="7"/>
-<connect gate="G$2" pin="!3Y" pad="5"/>
-<connect gate="G$2" pin="!4Y" pad="3"/>
-<connect gate="G$2" pin="1A" pad="11"/>
-<connect gate="G$2" pin="2A" pad="13"/>
-<connect gate="G$2" pin="3A" pad="15"/>
-<connect gate="G$2" pin="4A" pad="17"/>
-<connect gate="G$2" pin="ED" pad="19"/>
+<connect gate=".1" pin="!1Y" pad="18"/>
+<connect gate=".1" pin="!2Y" pad="16"/>
+<connect gate=".1" pin="!3Y" pad="14"/>
+<connect gate=".1" pin="!4Y" pad="12"/>
+<connect gate=".1" pin="1A" pad="2"/>
+<connect gate=".1" pin="2A" pad="4"/>
+<connect gate=".1" pin="3A" pad="6"/>
+<connect gate=".1" pin="4A" pad="8"/>
+<connect gate=".1" pin="ED" pad="1"/>
+<connect gate=".2" pin="!1Y" pad="9"/>
+<connect gate=".2" pin="!2Y" pad="7"/>
+<connect gate=".2" pin="!3Y" pad="5"/>
+<connect gate=".2" pin="!4Y" pad="3"/>
+<connect gate=".2" pin="1A" pad="11"/>
+<connect gate=".2" pin="2A" pad="13"/>
+<connect gate=".2" pin="3A" pad="15"/>
+<connect gate=".2" pin="4A" pad="17"/>
+<connect gate=".2" pin="ED" pad="19"/>
 <connect gate="G$3" pin="GND" pad="10"/>
 <connect gate="G$3" pin="VCC" pad="20"/>
 </connects>
@@ -2476,8 +3621,12 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="1554АП6" prefix="IC" uservalue="yes">
-<description>1554АП6ТБМ - Восьмиканальный двунаправленный приемо-передатчик с тремя состояниями на выходе.</description>
+<deviceset name="1554АП6" prefix="IC">
+<description>&lt;b&gt;АЕЯР.431200.182-05 ТУ&lt;/b&gt;&lt;p&gt;
+1554АП6 - Восьмиканальный двунаправленный приемо-передатчик с тремя состояниями на выходе.&lt;p&gt;
+Изготовитель: ОАО "ИНТЕГРАЛ", г. Минск, р. Беларусь.&lt;br&gt;
+Технические условия (ТБМ): АЕЯР.431200.182-05 ТУ &lt;br&gt;
+Технические условия (не ТБМ): АЕЯР.431200.093-05 ТУ</description>
 <gates>
 <gate name="G$1" symbol="1554АП6" x="0" y="0"/>
 </gates>
@@ -2504,6 +3653,950 @@
 <connect gate="G$1" pin="GND" pad="10"/>
 <connect gate="G$1" pin="SED" pad="1"/>
 <connect gate="G$1" pin="VCC" pad="20"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="1554ЛР13" prefix="IC">
+<description>&lt;b&gt;АЕЯР.431200.182-01 ТУ&lt;/b&gt;&lt;p&gt;
+1554ЛР13 - Логический элемент "3-2-2-3И-4ИЛИ-НЕ".&lt;p&gt;
+Изготовитель: ОАО "ИНТЕГРАЛ", г. Минск, р. Беларусь.&lt;br&gt;
+Технические условия (ТБМ): АЕЯР.431200.182-01 ТУ&lt;br&gt;
+Технические условия (не ТБМ): АЕЯР.431200.093-01 ТУ</description>
+<gates>
+<gate name="G$1" symbol="1554ЛР13" x="0" y="0"/>
+</gates>
+<devices>
+<device name="ТБМ" package="401.14-5">
+<connects>
+<connect gate="G$1" pin="A1" pad="1"/>
+<connect gate="G$1" pin="A2" pad="2"/>
+<connect gate="G$1" pin="B1" pad="12"/>
+<connect gate="G$1" pin="B2" pad="3"/>
+<connect gate="G$1" pin="C1" pad="13"/>
+<connect gate="G$1" pin="C2" pad="4"/>
+<connect gate="G$1" pin="D1" pad="9"/>
+<connect gate="G$1" pin="D2" pad="5"/>
+<connect gate="G$1" pin="E1" pad="10"/>
+<connect gate="G$1" pin="F1" pad="11"/>
+<connect gate="G$1" pin="GND" pad="7"/>
+<connect gate="G$1" pin="VCC" pad="14"/>
+<connect gate="G$1" pin="Y1" pad="8"/>
+<connect gate="G$1" pin="Y2" pad="6"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="1554СП1" prefix="IC">
+<description>&lt;b&gt;АЕЯР.431200.182-02 ТУ&lt;/b&gt;&lt;p&gt;
+1554СП1 - Схема сравнения двух четырехразрядных чисел.&lt;p&gt;
+Изготовитель: ОАО "ИНТЕГРАЛ", г. Минск, р. Беларусь.&lt;br&gt;
+Технические условия (ТБМ): АЕЯР.431200.182-02 ТУ&lt;br&gt;
+Технические условия (не ТБМ): АЕЯР.431200.093-01 ТУ</description>
+<gates>
+<gate name="G$1" symbol="1554СП1" x="0" y="0"/>
+</gates>
+<devices>
+<device name="ТБМ" package="402.16-32">
+<connects>
+<connect gate="G$1" pin="&lt;" pad="2"/>
+<connect gate="G$1" pin="=" pad="3"/>
+<connect gate="G$1" pin="&gt;" pad="4"/>
+<connect gate="G$1" pin="A0" pad="10"/>
+<connect gate="G$1" pin="A1" pad="12"/>
+<connect gate="G$1" pin="A2" pad="13"/>
+<connect gate="G$1" pin="A3" pad="15"/>
+<connect gate="G$1" pin="A&lt;B" pad="7"/>
+<connect gate="G$1" pin="A=B" pad="6"/>
+<connect gate="G$1" pin="A&gt;B" pad="5"/>
+<connect gate="G$1" pin="B0" pad="9"/>
+<connect gate="G$1" pin="B1" pad="11"/>
+<connect gate="G$1" pin="B2" pad="14"/>
+<connect gate="G$1" pin="B3" pad="1"/>
+<connect gate="G$1" pin="GND" pad="8"/>
+<connect gate="G$1" pin="VCC" pad="16"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="1554ТВ9" prefix="IC">
+<description>&lt;b&gt;АЕЯР.431200.182-06 ТУ&lt;/b&gt;&lt;p&gt;
+1554ТВ9 - Два J-K триггера с управлением отрицательным фронтом по тактовому входу.&lt;p&gt;
+Изготовитель: ОАО "ИНТЕГРАЛ", г. Минск, р. Беларусь.&lt;br&gt;
+Технические условия (ТБМ): АЕЯР.431200.182-06 ТУ&lt;br&gt;
+Технические условия (не ТБМ): АЕЯР.431200.093-02 ТУ</description>
+<gates>
+<gate name=".1" symbol="1554ТВ9" x="0" y="15.24" swaplevel="1"/>
+<gate name=".2" symbol="1554ТВ9" x="0" y="-15.24" swaplevel="1"/>
+<gate name="G$1" symbol="1554_PWR1" x="0" y="-33.02"/>
+</gates>
+<devices>
+<device name="ТБМ" package="402.16-32">
+<connects>
+<connect gate=".1" pin="!Q" pad="6"/>
+<connect gate=".1" pin="CL" pad="1"/>
+<connect gate=".1" pin="J" pad="3"/>
+<connect gate=".1" pin="K" pad="2"/>
+<connect gate=".1" pin="Q" pad="5"/>
+<connect gate=".1" pin="R" pad="15"/>
+<connect gate=".1" pin="S" pad="4"/>
+<connect gate=".2" pin="!Q" pad="7"/>
+<connect gate=".2" pin="CL" pad="13"/>
+<connect gate=".2" pin="J" pad="11"/>
+<connect gate=".2" pin="K" pad="12"/>
+<connect gate=".2" pin="Q" pad="9"/>
+<connect gate=".2" pin="R" pad="14"/>
+<connect gate=".2" pin="S" pad="10"/>
+<connect gate="G$1" pin="GND" pad="8"/>
+<connect gate="G$1" pin="VCC" pad="16"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="1554ТВ15" prefix="IC">
+<description>&lt;b&gt;АЕЯР.431200.182-06 ТУ&lt;/b&gt;&lt;p&gt;
+1554ТВ15 - Два J-K триггера с управлением положительным фронтом по тактовому входу.&lt;p&gt;
+Изготовитель: ОАО "ИНТЕГРАЛ", г. Минск, р. Беларусь.&lt;br&gt;
+Технические условия (ТБМ): АЕЯР.431200.182-06 ТУ&lt;br&gt;
+Технические условия (не ТБМ): АЕЯР.431200.093-02 ТУ</description>
+<gates>
+<gate name=".1" symbol="1554ТВ15" x="0" y="15.24" swaplevel="1"/>
+<gate name=".2" symbol="1554ТВ15" x="0" y="-15.24" swaplevel="1"/>
+<gate name="G$1" symbol="1554_PWR1" x="0" y="-33.02"/>
+</gates>
+<devices>
+<device name="ТБМ" package="402.16-32">
+<connects>
+<connect gate=".1" pin="!Q" pad="7"/>
+<connect gate=".1" pin="CL" pad="4"/>
+<connect gate=".1" pin="J" pad="2"/>
+<connect gate=".1" pin="K" pad="3"/>
+<connect gate=".1" pin="Q" pad="6"/>
+<connect gate=".1" pin="R" pad="1"/>
+<connect gate=".1" pin="S" pad="5"/>
+<connect gate=".2" pin="!Q" pad="9"/>
+<connect gate=".2" pin="CL" pad="12"/>
+<connect gate=".2" pin="J" pad="14"/>
+<connect gate=".2" pin="K" pad="13"/>
+<connect gate=".2" pin="Q" pad="10"/>
+<connect gate=".2" pin="R" pad="15"/>
+<connect gate=".2" pin="S" pad="11"/>
+<connect gate="G$1" pin="GND" pad="8"/>
+<connect gate="G$1" pin="VCC" pad="16"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="1554ИД4" prefix="IC">
+<description>&lt;b&gt;АЕЯР.431200.182-10 ТУ&lt;/b&gt;&lt;p&gt;
+1554ИД4 - Сдвоенный дешифратор-демультиплексор 2 - 4.&lt;p&gt;
+Изготовитель: ОАО "ИНТЕГРАЛ", г. Минск, р. Беларусь.&lt;br&gt;
+Технические условия (ТБМ): АЕЯР.431200.182-10 ТУ &lt;br&gt;
+Технические условия (не ТБМ): АЕЯР.431200.093-07 ТУ</description>
+<gates>
+<gate name="G$1" symbol="1554ИД4" x="0" y="0"/>
+</gates>
+<devices>
+<device name="ТБМ" package="402.16-32">
+<connects>
+<connect gate="G$1" pin="1CL" pad="2"/>
+<connect gate="G$1" pin="1D" pad="1"/>
+<connect gate="G$1" pin="1Y0" pad="7"/>
+<connect gate="G$1" pin="1Y1" pad="6"/>
+<connect gate="G$1" pin="1Y2" pad="5"/>
+<connect gate="G$1" pin="1Y3" pad="4"/>
+<connect gate="G$1" pin="2CL" pad="14"/>
+<connect gate="G$1" pin="2D" pad="15"/>
+<connect gate="G$1" pin="2Y0" pad="9"/>
+<connect gate="G$1" pin="2Y1" pad="10"/>
+<connect gate="G$1" pin="2Y2" pad="11"/>
+<connect gate="G$1" pin="2Y3" pad="12"/>
+<connect gate="G$1" pin="GND" pad="8"/>
+<connect gate="G$1" pin="SE1" pad="13"/>
+<connect gate="G$1" pin="SE2" pad="3"/>
+<connect gate="G$1" pin="VCC" pad="16"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="1554ИД7" prefix="IC">
+<description>&lt;b&gt;АЕЯР.431200.182-10 ТУ&lt;/b&gt;&lt;p&gt;
+1554ИД7 - Дешифратор-демультиплексор 3 - 8 с инверсией на выходе.&lt;p&gt;
+Изготовитель: ОАО "ИНТЕГРАЛ", г. Минск, р. Беларусь.&lt;br&gt;
+Технические условия (ТБМ): АЕЯР.431200.182-10 ТУ &lt;br&gt;
+Технические условия (не ТБМ): АЕЯР.431200.093-07 ТУ</description>
+<gates>
+<gate name="G$1" symbol="1554ИД7" x="0" y="0"/>
+</gates>
+<devices>
+<device name="ТБМ" package="402.16-32">
+<connects>
+<connect gate="G$1" pin="D0" pad="1"/>
+<connect gate="G$1" pin="D1" pad="2"/>
+<connect gate="G$1" pin="D2" pad="3"/>
+<connect gate="G$1" pin="GND" pad="8"/>
+<connect gate="G$1" pin="Q0" pad="15"/>
+<connect gate="G$1" pin="Q1" pad="14"/>
+<connect gate="G$1" pin="Q2" pad="13"/>
+<connect gate="G$1" pin="Q3" pad="12"/>
+<connect gate="G$1" pin="Q4" pad="11"/>
+<connect gate="G$1" pin="Q5" pad="10"/>
+<connect gate="G$1" pin="Q6" pad="9"/>
+<connect gate="G$1" pin="Q7" pad="7"/>
+<connect gate="G$1" pin="ST1" pad="4"/>
+<connect gate="G$1" pin="ST2" pad="5"/>
+<connect gate="G$1" pin="ST3" pad="6"/>
+<connect gate="G$1" pin="VCC" pad="16"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="1554ИД14" prefix="IC">
+<description>&lt;b&gt;АЕЯР.431200.182-10 ТУ&lt;/b&gt;&lt;p&gt;
+1554ИД14 - Два дешифратора-демультиплексора 2 - 4 с инверсией на выходе.&lt;p&gt;
+Изготовитель: ОАО "ИНТЕГРАЛ", г. Минск, р. Беларусь.&lt;br&gt;
+Технические условия (ТБМ): АЕЯР.431200.182-10 ТУ &lt;br&gt;
+Технические условия (не ТБМ): АЕЯР.431200.093-07 ТУ</description>
+<gates>
+<gate name=".1" symbol="1554ИД14" x="0" y="12.7" swaplevel="1"/>
+<gate name=".2" symbol="1554ИД14" x="0" y="-10.16" swaplevel="1"/>
+<gate name="G$3" symbol="1554_PWR1" x="0" y="-25.4"/>
+</gates>
+<devices>
+<device name="ТБМ" package="402.16-32">
+<connects>
+<connect gate=".1" pin="A0" pad="2"/>
+<connect gate=".1" pin="A1" pad="3"/>
+<connect gate=".1" pin="Q0" pad="4"/>
+<connect gate=".1" pin="Q1" pad="5"/>
+<connect gate=".1" pin="Q2" pad="6"/>
+<connect gate=".1" pin="Q3" pad="7"/>
+<connect gate=".1" pin="ST" pad="1"/>
+<connect gate=".2" pin="A0" pad="14"/>
+<connect gate=".2" pin="A1" pad="13"/>
+<connect gate=".2" pin="Q0" pad="12"/>
+<connect gate=".2" pin="Q1" pad="11"/>
+<connect gate=".2" pin="Q2" pad="10"/>
+<connect gate=".2" pin="Q3" pad="9"/>
+<connect gate=".2" pin="ST" pad="15"/>
+<connect gate="G$3" pin="GND" pad="8"/>
+<connect gate="G$3" pin="VCC" pad="16"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="1554ИЕ6" prefix="IC">
+<description>&lt;b&gt;АЕЯР.431200.182-03 ТУ&lt;/b&gt;&lt;p&gt;
+1554ИЕ6 - Четырехразрядный двоично-десятичный реверсивный счетчик.&lt;p&gt;
+Изготовитель: ОАО "ИНТЕГРАЛ", г. Минск, р. Беларусь.&lt;br&gt;
+Технические условия (ТБМ): АЕЯР.431200.182-03 ТУ &lt;br&gt;
+Технические условия (не ТБМ): АЕЯР.431200.093-04 ТУ</description>
+<gates>
+<gate name="G$1" symbol="1554ИЕ6" x="0" y="0"/>
+</gates>
+<devices>
+<device name="ТБМ" package="402.16-32">
+<connects>
+<connect gate="G$1" pin="+1" pad="5"/>
+<connect gate="G$1" pin="-1" pad="4"/>
+<connect gate="G$1" pin="B0" pad="12"/>
+<connect gate="G$1" pin="C0" pad="13"/>
+<connect gate="G$1" pin="D0" pad="15"/>
+<connect gate="G$1" pin="D1" pad="1"/>
+<connect gate="G$1" pin="D2" pad="10"/>
+<connect gate="G$1" pin="D3" pad="9"/>
+<connect gate="G$1" pin="ED" pad="11"/>
+<connect gate="G$1" pin="GND" pad="8"/>
+<connect gate="G$1" pin="Q0" pad="3"/>
+<connect gate="G$1" pin="Q1" pad="2"/>
+<connect gate="G$1" pin="Q2" pad="6"/>
+<connect gate="G$1" pin="Q3" pad="7"/>
+<connect gate="G$1" pin="R" pad="14"/>
+<connect gate="G$1" pin="VCC" pad="16"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="1554ИЕ7" prefix="IC">
+<description>&lt;b&gt;АЕЯР.431200.182-03 ТУ&lt;/b&gt;&lt;p&gt;
+1554ИЕ7 - Четырехразрядный двоичный реверсивный счетчик.&lt;p&gt;
+Изготовитель: ОАО "ИНТЕГРАЛ", г. Минск, р. Беларусь.&lt;br&gt;
+Технические условия (ТБМ): АЕЯР.431200.182-03 ТУ &lt;br&gt;
+Технические условия (не ТБМ): АЕЯР.431200.093-04 ТУ</description>
+<gates>
+<gate name="G$1" symbol="1554ИЕ7" x="0" y="0"/>
+</gates>
+<devices>
+<device name="ТБМ" package="402.16-32">
+<connects>
+<connect gate="G$1" pin="+1" pad="5"/>
+<connect gate="G$1" pin="-1" pad="4"/>
+<connect gate="G$1" pin="B0" pad="12"/>
+<connect gate="G$1" pin="C0" pad="13"/>
+<connect gate="G$1" pin="D0" pad="15"/>
+<connect gate="G$1" pin="D1" pad="1"/>
+<connect gate="G$1" pin="D2" pad="10"/>
+<connect gate="G$1" pin="D3" pad="9"/>
+<connect gate="G$1" pin="ED" pad="11"/>
+<connect gate="G$1" pin="GND" pad="8"/>
+<connect gate="G$1" pin="Q0" pad="3"/>
+<connect gate="G$1" pin="Q1" pad="2"/>
+<connect gate="G$1" pin="Q2" pad="6"/>
+<connect gate="G$1" pin="Q3" pad="7"/>
+<connect gate="G$1" pin="R" pad="14"/>
+<connect gate="G$1" pin="VCC" pad="16"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="1554ИЕ10" prefix="IC">
+<description>&lt;b&gt;АЕЯР.431200.182-03 ТУ&lt;/b&gt;&lt;p&gt;
+1554ИЕ10 - Четырехразрядный двоичный счетчик с асинхронной установкой в состояние "Логический 0".&lt;p&gt;
+Изготовитель: ОАО "ИНТЕГРАЛ", г. Минск, р. Беларусь.&lt;br&gt;
+Технические условия (ТБМ): АЕЯР.431200.182-03 ТУ &lt;br&gt;
+Технические условия (не ТБМ): АЕЯР.431200.093-04 ТУ</description>
+<gates>
+<gate name="G$1" symbol="1554ИЕ10" x="0" y="0"/>
+</gates>
+<devices>
+<device name="ТБМ" package="402.16-32">
+<connects>
+<connect gate="G$1" pin="C0" pad="15"/>
+<connect gate="G$1" pin="CL" pad="2"/>
+<connect gate="G$1" pin="D0" pad="3"/>
+<connect gate="G$1" pin="D1" pad="4"/>
+<connect gate="G$1" pin="D2" pad="5"/>
+<connect gate="G$1" pin="D3" pad="6"/>
+<connect gate="G$1" pin="EC" pad="10"/>
+<connect gate="G$1" pin="ECT" pad="7"/>
+<connect gate="G$1" pin="ED" pad="9"/>
+<connect gate="G$1" pin="GND" pad="8"/>
+<connect gate="G$1" pin="Q0" pad="14"/>
+<connect gate="G$1" pin="Q1" pad="13"/>
+<connect gate="G$1" pin="Q2" pad="12"/>
+<connect gate="G$1" pin="Q3" pad="11"/>
+<connect gate="G$1" pin="R" pad="1"/>
+<connect gate="G$1" pin="VCC" pad="16"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="1554ИЕ19" prefix="IC">
+<description>&lt;b&gt;АЕЯР.431200.182-03 ТУ&lt;/b&gt;&lt;p&gt;
+1554ИЕ19 - Два четырехразрядных двоичных счетчика с индивидуальной синхронизацией и сбросом.&lt;p&gt;
+Изготовитель: ОАО "ИНТЕГРАЛ", г. Минск, р. Беларусь.&lt;br&gt;
+Технические условия (ТБМ): АЕЯР.431200.182-03 ТУ &lt;br&gt;
+Технические условия (не ТБМ): АЕЯР.431200.093-04 ТУ</description>
+<gates>
+<gate name=".1" symbol="1554ИЕ19" x="0" y="10.16" swaplevel="1"/>
+<gate name=".2" symbol="1554ИЕ19" x="0" y="-12.7" swaplevel="1"/>
+<gate name="G$1" symbol="1554_PWR1" x="0" y="-25.4"/>
+</gates>
+<devices>
+<device name="ТБМ" package="401.14-5">
+<connects>
+<connect gate=".1" pin="CL" pad="1"/>
+<connect gate=".1" pin="Q0" pad="3"/>
+<connect gate=".1" pin="Q1" pad="4"/>
+<connect gate=".1" pin="Q2" pad="5"/>
+<connect gate=".1" pin="Q3" pad="6"/>
+<connect gate=".1" pin="R" pad="2"/>
+<connect gate=".2" pin="CL" pad="13"/>
+<connect gate=".2" pin="Q0" pad="11"/>
+<connect gate=".2" pin="Q1" pad="10"/>
+<connect gate=".2" pin="Q2" pad="9"/>
+<connect gate=".2" pin="Q3" pad="8"/>
+<connect gate=".2" pin="R" pad="12"/>
+<connect gate="G$1" pin="GND" pad="7"/>
+<connect gate="G$1" pin="VCC" pad="14"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="1554ИП5" prefix="IC">
+<description>&lt;b&gt;АЕЯР.431200.182-02 ТУ&lt;/b&gt;&lt;p&gt;
+1554ИП5 - Девятиразрядная схема контроля четности.&lt;p&gt;
+Изготовитель: ОАО "ИНТЕГРАЛ", г. Минск, р. Беларусь.&lt;br&gt;
+Технические условия (ТБМ): АЕЯР.431200.182-02 ТУ &lt;br&gt;
+Технические условия (не ТБМ): АЕЯР.431200.093-04 ТУ</description>
+<gates>
+<gate name="G$1" symbol="1554ИП5" x="0" y="0"/>
+</gates>
+<devices>
+<device name="ТБМ" package="401.14-5">
+<connects>
+<connect gate="G$1" pin="A" pad="8"/>
+<connect gate="G$1" pin="B" pad="9"/>
+<connect gate="G$1" pin="C" pad="10"/>
+<connect gate="G$1" pin="D" pad="11"/>
+<connect gate="G$1" pin="E" pad="12"/>
+<connect gate="G$1" pin="EVEN" pad="6"/>
+<connect gate="G$1" pin="F" pad="13"/>
+<connect gate="G$1" pin="G" pad="1"/>
+<connect gate="G$1" pin="GND" pad="7"/>
+<connect gate="G$1" pin="H" pad="2"/>
+<connect gate="G$1" pin="I" pad="4"/>
+<connect gate="G$1" pin="ODD" pad="5"/>
+<connect gate="G$1" pin="VCC" pad="14"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="1554ИР22">
+<description>&lt;b&gt;АЕЯР.431200.182-14 ТУ&lt;/b&gt;&lt;p&gt;
+1554ИР22 - Восьмиразрядный регистр, управляемый по уровню, с параллельным вводом-выводом данных, с тремя состояниями на выходе.&lt;p&gt;
+Изготовитель: ОАО "ИНТЕГРАЛ", г. Минск, р. Беларусь.&lt;br&gt;
+Технические условия (ТБМ): АЕЯР.431200.182-14 ТУ&lt;br&gt;
+Технические условия (не ТБМ): АЕЯР.431200.093-03 ТУ</description>
+<gates>
+<gate name="G$1" symbol="1554ИР22" x="0" y="0"/>
+</gates>
+<devices>
+<device name="ТБМ" package="4153.20-6">
+<connects>
+<connect gate="G$1" pin="D0" pad="3"/>
+<connect gate="G$1" pin="D1" pad="4"/>
+<connect gate="G$1" pin="D2" pad="7"/>
+<connect gate="G$1" pin="D3" pad="8"/>
+<connect gate="G$1" pin="D4" pad="13"/>
+<connect gate="G$1" pin="D5" pad="14"/>
+<connect gate="G$1" pin="D6" pad="17"/>
+<connect gate="G$1" pin="D7" pad="18"/>
+<connect gate="G$1" pin="ED" pad="11"/>
+<connect gate="G$1" pin="EZ" pad="1"/>
+<connect gate="G$1" pin="GND" pad="10"/>
+<connect gate="G$1" pin="Q0" pad="2"/>
+<connect gate="G$1" pin="Q1" pad="5"/>
+<connect gate="G$1" pin="Q2" pad="6"/>
+<connect gate="G$1" pin="Q3" pad="9"/>
+<connect gate="G$1" pin="Q4" pad="12"/>
+<connect gate="G$1" pin="Q5" pad="15"/>
+<connect gate="G$1" pin="Q6" pad="16"/>
+<connect gate="G$1" pin="Q7" pad="19"/>
+<connect gate="G$1" pin="VCC" pad="20"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="1554ИР23" prefix="IC">
+<description>&lt;b&gt;АЕЯР.431200.182-12 ТУ&lt;/b&gt;&lt;p&gt;
+1554ИР23 - Восьмиразрядный регистр, управляемый по фронту, с параллельным вводом-выводом данных, с тремя состояниями на выходе.&lt;p&gt;
+Изготовитель: ОАО "ИНТЕГРАЛ", г. Минск, р. Беларусь.&lt;br&gt;
+Технические условия (ТБМ): АЕЯР.431200.182-12 ТУ&lt;br&gt;
+Технические условия (не ТБМ): АЕЯР.431200.093-03 ТУ</description>
+<gates>
+<gate name="G$1" symbol="1554ИР23" x="0" y="0"/>
+</gates>
+<devices>
+<device name="ТБМ" package="4153.20-6">
+<connects>
+<connect gate="G$1" pin="CL" pad="11"/>
+<connect gate="G$1" pin="D0" pad="3"/>
+<connect gate="G$1" pin="D1" pad="4"/>
+<connect gate="G$1" pin="D2" pad="7"/>
+<connect gate="G$1" pin="D3" pad="8"/>
+<connect gate="G$1" pin="D4" pad="13"/>
+<connect gate="G$1" pin="D5" pad="14"/>
+<connect gate="G$1" pin="D6" pad="17"/>
+<connect gate="G$1" pin="D7" pad="18"/>
+<connect gate="G$1" pin="EZ" pad="1"/>
+<connect gate="G$1" pin="GND" pad="10"/>
+<connect gate="G$1" pin="Q0" pad="2"/>
+<connect gate="G$1" pin="Q1" pad="5"/>
+<connect gate="G$1" pin="Q2" pad="6"/>
+<connect gate="G$1" pin="Q3" pad="9"/>
+<connect gate="G$1" pin="Q4" pad="12"/>
+<connect gate="G$1" pin="Q5" pad="15"/>
+<connect gate="G$1" pin="Q6" pad="16"/>
+<connect gate="G$1" pin="Q7" pad="19"/>
+<connect gate="G$1" pin="VCC" pad="20"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="1554ИР24" prefix="IC">
+<description>&lt;b&gt;АЕЯР.431200.182-12 ТУ&lt;/b&gt;&lt;p&gt;
+1554ИР24 - Восьмиразрядный двунаправленный сдвиговый регистр с параллельным вводом-выводом, последовательным вводом информации, асинхронным сбросом и тремя состояниями на выходе.&lt;p&gt;
+Изготовитель: ОАО "ИНТЕГРАЛ", г. Минск, р. Беларусь.&lt;br&gt;
+Технические условия (ТБМ): АЕЯР.431200.182-12 ТУ&lt;br&gt;
+Технические условия (не ТБМ): АЕЯР.431200.093-03 ТУ</description>
+<gates>
+<gate name="G$1" symbol="1554ИР24" x="0" y="0"/>
+</gates>
+<devices>
+<device name="ТБМ" package="4153.20-6">
+<connects>
+<connect gate="G$1" pin="CL" pad="12"/>
+<connect gate="G$1" pin="DL" pad="18"/>
+<connect gate="G$1" pin="DR" pad="11"/>
+<connect gate="G$1" pin="EZ1" pad="2"/>
+<connect gate="G$1" pin="EZ2" pad="3"/>
+<connect gate="G$1" pin="GND" pad="10"/>
+<connect gate="G$1" pin="I/Q0" pad="7"/>
+<connect gate="G$1" pin="I/Q1" pad="13"/>
+<connect gate="G$1" pin="I/Q2" pad="6"/>
+<connect gate="G$1" pin="I/Q3" pad="14"/>
+<connect gate="G$1" pin="I/Q4" pad="5"/>
+<connect gate="G$1" pin="I/Q5" pad="15"/>
+<connect gate="G$1" pin="I/Q6" pad="4"/>
+<connect gate="G$1" pin="I/Q7" pad="16"/>
+<connect gate="G$1" pin="Q0" pad="8"/>
+<connect gate="G$1" pin="Q7" pad="17"/>
+<connect gate="G$1" pin="R" pad="9"/>
+<connect gate="G$1" pin="SE0" pad="1"/>
+<connect gate="G$1" pin="SE1" pad="19"/>
+<connect gate="G$1" pin="VCC" pad="20"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="1554ИР35" prefix="IC">
+<description>&lt;b&gt;АЕЯР.431200.182-12 ТУ&lt;/b&gt;&lt;p&gt;
+1554ИР35 - Восьмиразрядный регистр, управляемый по фронту, с параллельным вводом-выводом данных, с входом установки.&lt;p&gt;
+Изготовитель: ОАО "ИНТЕГРАЛ", г. Минск, р. Беларусь.&lt;br&gt;
+Технические условия (ТБМ): АЕЯР.431200.182-12 ТУ&lt;br&gt;
+Технические условия (не ТБМ): АЕЯР.431200.093-03 ТУ</description>
+<gates>
+<gate name="G$1" symbol="1554ИР35" x="0" y="0"/>
+</gates>
+<devices>
+<device name="ТБМ" package="4153.20-6">
+<connects>
+<connect gate="G$1" pin="CL" pad="11"/>
+<connect gate="G$1" pin="D0" pad="3"/>
+<connect gate="G$1" pin="D1" pad="4"/>
+<connect gate="G$1" pin="D2" pad="7"/>
+<connect gate="G$1" pin="D3" pad="8"/>
+<connect gate="G$1" pin="D4" pad="13"/>
+<connect gate="G$1" pin="D5" pad="14"/>
+<connect gate="G$1" pin="D6" pad="17"/>
+<connect gate="G$1" pin="D7" pad="18"/>
+<connect gate="G$1" pin="GND" pad="10"/>
+<connect gate="G$1" pin="Q0" pad="2"/>
+<connect gate="G$1" pin="Q1" pad="5"/>
+<connect gate="G$1" pin="Q2" pad="6"/>
+<connect gate="G$1" pin="Q3" pad="9"/>
+<connect gate="G$1" pin="Q4" pad="12"/>
+<connect gate="G$1" pin="Q5" pad="15"/>
+<connect gate="G$1" pin="Q6" pad="16"/>
+<connect gate="G$1" pin="Q7" pad="19"/>
+<connect gate="G$1" pin="R" pad="1"/>
+<connect gate="G$1" pin="VCC" pad="20"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="1554ИР37" prefix="IC">
+<description>&lt;b&gt;АЕЯР.431200.182-12 ТУ&lt;/b&gt;&lt;p&gt;
+1554ИР37ТБМ - Восьмиразрядный регистр, управляемый по фронту, с параллельным вводом-выводом данных, с тремя состояниями на выходе.&lt;p&gt;
+Изготовитель: ОАО "ИНТЕГРАЛ", г. Минск, р. Беларусь.&lt;br&gt;
+Технические условия (ТБМ): АЕЯР.431200.182-12 ТУ&lt;br&gt;
+Технические условия (не ТБМ): АЕЯР.431200.093-03 ТУ</description>
+<gates>
+<gate name="G$1" symbol="1554ИР37" x="0" y="0"/>
+</gates>
+<devices>
+<device name="ТБМ" package="4153.20-6">
+<connects>
+<connect gate="G$1" pin="CL" pad="11"/>
+<connect gate="G$1" pin="D0" pad="2"/>
+<connect gate="G$1" pin="D1" pad="3"/>
+<connect gate="G$1" pin="D2" pad="4"/>
+<connect gate="G$1" pin="D3" pad="5"/>
+<connect gate="G$1" pin="D4" pad="6"/>
+<connect gate="G$1" pin="D5" pad="7"/>
+<connect gate="G$1" pin="D6" pad="8"/>
+<connect gate="G$1" pin="D7" pad="9"/>
+<connect gate="G$1" pin="EZ" pad="1"/>
+<connect gate="G$1" pin="GND" pad="10"/>
+<connect gate="G$1" pin="Q0" pad="19"/>
+<connect gate="G$1" pin="Q1" pad="18"/>
+<connect gate="G$1" pin="Q2" pad="17"/>
+<connect gate="G$1" pin="Q3" pad="16"/>
+<connect gate="G$1" pin="Q4" pad="15"/>
+<connect gate="G$1" pin="Q5" pad="14"/>
+<connect gate="G$1" pin="Q6" pad="13"/>
+<connect gate="G$1" pin="Q7" pad="12"/>
+<connect gate="G$1" pin="VCC" pad="20"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="1554ИР40" prefix="IC">
+<description>&lt;b&gt;АЕЯР.431200.182-14 ТУ&lt;/b&gt;&lt;p&gt;
+1554ИР40 - Восьмиразрядный регистр, управляемый по уровню, с параллельным вводом-выводом данных, с тремя состояниями и инверсией на выходе.&lt;p&gt;
+Изготовитель: ОАО "ИНТЕГРАЛ", г. Минск, р. Беларусь.&lt;br&gt;
+Технические условия (ТБМ): АЕЯР.431200.182-14 ТУ&lt;br&gt;
+Технические условия (не ТБМ): АЕЯР.431200.093-03 ТУ</description>
+<gates>
+<gate name="G$1" symbol="1554ИР40" x="0" y="0"/>
+</gates>
+<devices>
+<device name="ТБМ" package="4153.20-6">
+<connects>
+<connect gate="G$1" pin="D0" pad="3"/>
+<connect gate="G$1" pin="D1" pad="4"/>
+<connect gate="G$1" pin="D2" pad="7"/>
+<connect gate="G$1" pin="D3" pad="8"/>
+<connect gate="G$1" pin="D4" pad="13"/>
+<connect gate="G$1" pin="D5" pad="14"/>
+<connect gate="G$1" pin="D6" pad="17"/>
+<connect gate="G$1" pin="D7" pad="18"/>
+<connect gate="G$1" pin="ED" pad="11"/>
+<connect gate="G$1" pin="EZ" pad="1"/>
+<connect gate="G$1" pin="GND" pad="10"/>
+<connect gate="G$1" pin="Q0" pad="2"/>
+<connect gate="G$1" pin="Q1" pad="5"/>
+<connect gate="G$1" pin="Q2" pad="6"/>
+<connect gate="G$1" pin="Q3" pad="9"/>
+<connect gate="G$1" pin="Q4" pad="12"/>
+<connect gate="G$1" pin="Q5" pad="15"/>
+<connect gate="G$1" pin="Q6" pad="16"/>
+<connect gate="G$1" pin="Q7" pad="19"/>
+<connect gate="G$1" pin="VCC" pad="20"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="1554ИР41" prefix="IC">
+<description>&lt;b&gt;АЕЯР.431200.182-14 ТУ&lt;/b&gt;&lt;p&gt;
+1554ИР41 - Восьмиразрядный регистр, управляемый по фронту, с параллельным вводом-выводом данных, с тремя состояниями и инверсией на выходе.&lt;p&gt;
+Изготовитель: ОАО "ИНТЕГРАЛ", г. Минск, р. Беларусь.&lt;br&gt;
+Технические условия (ТБМ): АЕЯР.431200.182-14 ТУ&lt;br&gt;
+Технические условия (не ТБМ): АЕЯР.431200.093-03 ТУ</description>
+<gates>
+<gate name="G$1" symbol="1554ИР41" x="0" y="0"/>
+</gates>
+<devices>
+<device name="ТБМ" package="4153.20-6">
+<connects>
+<connect gate="G$1" pin="CL" pad="11"/>
+<connect gate="G$1" pin="D0" pad="3"/>
+<connect gate="G$1" pin="D1" pad="4"/>
+<connect gate="G$1" pin="D2" pad="7"/>
+<connect gate="G$1" pin="D3" pad="8"/>
+<connect gate="G$1" pin="D4" pad="13"/>
+<connect gate="G$1" pin="D5" pad="14"/>
+<connect gate="G$1" pin="D6" pad="17"/>
+<connect gate="G$1" pin="D7" pad="18"/>
+<connect gate="G$1" pin="EZ" pad="1"/>
+<connect gate="G$1" pin="GND" pad="10"/>
+<connect gate="G$1" pin="Q0" pad="2"/>
+<connect gate="G$1" pin="Q1" pad="5"/>
+<connect gate="G$1" pin="Q2" pad="6"/>
+<connect gate="G$1" pin="Q3" pad="9"/>
+<connect gate="G$1" pin="Q4" pad="12"/>
+<connect gate="G$1" pin="Q5" pad="15"/>
+<connect gate="G$1" pin="Q6" pad="16"/>
+<connect gate="G$1" pin="Q7" pad="19"/>
+<connect gate="G$1" pin="VCC" pad="20"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="1554КП2" prefix="IC">
+<description>&lt;b&gt;АЕЯР.431200.182-11 ТУ&lt;/b&gt;&lt;p&gt;
+1554КП2 - Два селектора-мультиплексора 4-1.&lt;p&gt;
+Изготовитель: ОАО "ИНТЕГРАЛ", г. Минск, р. Беларусь.&lt;br&gt;
+Технические условия (ТБМ): АЕЯР.431200.182-11 ТУ&lt;br&gt;
+Технические условия (не ТБМ): АЕЯР.431200.093-06 ТУ</description>
+<gates>
+<gate name="G$1" symbol="1554КП2" x="0" y="0"/>
+</gates>
+<devices>
+<device name="ТБМ" package="402.16-32">
+<connects>
+<connect gate="G$1" pin="1D0" pad="6"/>
+<connect gate="G$1" pin="1D1" pad="5"/>
+<connect gate="G$1" pin="1D2" pad="4"/>
+<connect gate="G$1" pin="1D3" pad="3"/>
+<connect gate="G$1" pin="1ED" pad="1"/>
+<connect gate="G$1" pin="1Y" pad="7"/>
+<connect gate="G$1" pin="2D0" pad="10"/>
+<connect gate="G$1" pin="2D1" pad="11"/>
+<connect gate="G$1" pin="2D2" pad="12"/>
+<connect gate="G$1" pin="2D3" pad="13"/>
+<connect gate="G$1" pin="2ED" pad="15"/>
+<connect gate="G$1" pin="2Y" pad="9"/>
+<connect gate="G$1" pin="GND" pad="8"/>
+<connect gate="G$1" pin="SED0" pad="14"/>
+<connect gate="G$1" pin="SED1" pad="2"/>
+<connect gate="G$1" pin="VCC" pad="16"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="1554КП7" prefix="IC">
+<description>&lt;b&gt;АЕЯР.431200.182-11 ТУ&lt;/b&gt;&lt;p&gt;
+1554КП7 - Селектор-мультиплексор 8-1 со стробированием.&lt;p&gt;
+Изготовитель: ОАО "ИНТЕГРАЛ", г. Минск, р. Беларусь.&lt;br&gt;
+Технические условия (ТБМ): АЕЯР.431200.182-11 ТУ&lt;br&gt;
+Технические условия (не ТБМ): АЕЯР.431200.093-06 ТУ</description>
+<gates>
+<gate name="G$1" symbol="1554КП7" x="0" y="0"/>
+</gates>
+<devices>
+<device name="ТБМ" package="402.16-32">
+<connects>
+<connect gate="G$1" pin="!Y" pad="6"/>
+<connect gate="G$1" pin="A0" pad="11"/>
+<connect gate="G$1" pin="A1" pad="10"/>
+<connect gate="G$1" pin="A2" pad="9"/>
+<connect gate="G$1" pin="D0" pad="4"/>
+<connect gate="G$1" pin="D1" pad="3"/>
+<connect gate="G$1" pin="D2" pad="2"/>
+<connect gate="G$1" pin="D3" pad="1"/>
+<connect gate="G$1" pin="D4" pad="15"/>
+<connect gate="G$1" pin="D5" pad="14"/>
+<connect gate="G$1" pin="D6" pad="13"/>
+<connect gate="G$1" pin="D7" pad="12"/>
+<connect gate="G$1" pin="ED" pad="7"/>
+<connect gate="G$1" pin="GND" pad="8"/>
+<connect gate="G$1" pin="VCC" pad="16"/>
+<connect gate="G$1" pin="Y" pad="5"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="1554КП11" prefix="IC">
+<description>&lt;b&gt;АЕЯР.431200.182-11 ТУ&lt;/b&gt;&lt;p&gt;
+1554КП11 - Четыре селектора-мультиплексора 2-1 с тремя состояниями на выходе.&lt;p&gt;
+Изготовитель: ОАО "ИНТЕГРАЛ", г. Минск, р. Беларусь.&lt;br&gt;
+Технические условия (ТБМ): АЕЯР.431200.182-11 ТУ&lt;br&gt;
+Технические условия (не ТБМ): АЕЯР.431200.093-06 ТУ</description>
+<gates>
+<gate name="G$1" symbol="1554КП11" x="0" y="0"/>
+</gates>
+<devices>
+<device name="ТБМ" package="402.16-32">
+<connects>
+<connect gate="G$1" pin="A0" pad="2"/>
+<connect gate="G$1" pin="A1" pad="5"/>
+<connect gate="G$1" pin="A2" pad="11"/>
+<connect gate="G$1" pin="A3" pad="14"/>
+<connect gate="G$1" pin="B0" pad="3"/>
+<connect gate="G$1" pin="B1" pad="6"/>
+<connect gate="G$1" pin="B2" pad="10"/>
+<connect gate="G$1" pin="B3" pad="13"/>
+<connect gate="G$1" pin="ED" pad="15"/>
+<connect gate="G$1" pin="GND" pad="8"/>
+<connect gate="G$1" pin="SE" pad="1"/>
+<connect gate="G$1" pin="VCC" pad="16"/>
+<connect gate="G$1" pin="Y0" pad="4"/>
+<connect gate="G$1" pin="Y1" pad="7"/>
+<connect gate="G$1" pin="Y2" pad="9"/>
+<connect gate="G$1" pin="Y3" pad="12"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="1554ЛН1" prefix="IC">
+<description>&lt;b&gt;АЕЯР.431200.182-07 ТУ&lt;/b&gt;&lt;p&gt;
+1554ЛН1 - Шесть логических элементов “НЕ”&lt;p&gt;
+Изготовитель: ОАО "ИНТЕГРАЛ", г. Минск, р. Беларусь.&lt;br&gt;
+Технические условия (ТБМ): АЕЯР.431200.182-07 ТУ&lt;br&gt;
+Технические условия (не ТБМ): АЕЯР.431200.093-01 ТУ</description>
+<gates>
+<gate name=".3" symbol="1554ЛН1" x="-7.62" y="0" swaplevel="1"/>
+<gate name=".1" symbol="1554ЛН1" x="-7.62" y="15.24" swaplevel="1"/>
+<gate name=".4" symbol="1554ЛН1" x="7.62" y="0" swaplevel="1"/>
+<gate name=".2" symbol="1554ЛН1" x="7.62" y="15.24" swaplevel="1"/>
+<gate name=".5" symbol="1554ЛН1" x="-7.62" y="-15.24" swaplevel="1"/>
+<gate name=".6" symbol="1554ЛН1" x="7.62" y="-15.24" swaplevel="1"/>
+<gate name="G$1" symbol="1554_PWR2" x="0" y="-30.48"/>
+</gates>
+<devices>
+<device name="ТБМ" package="401.14-5">
+<connects>
+<connect gate=".1" pin="A" pad="1"/>
+<connect gate=".1" pin="Y" pad="2"/>
+<connect gate=".2" pin="A" pad="3"/>
+<connect gate=".2" pin="Y" pad="4"/>
+<connect gate=".3" pin="A" pad="5"/>
+<connect gate=".3" pin="Y" pad="6"/>
+<connect gate=".4" pin="A" pad="9"/>
+<connect gate=".4" pin="Y" pad="8"/>
+<connect gate=".5" pin="A" pad="11"/>
+<connect gate=".5" pin="Y" pad="10"/>
+<connect gate=".6" pin="A" pad="13"/>
+<connect gate=".6" pin="Y" pad="12"/>
+<connect gate="G$1" pin="GND" pad="7"/>
+<connect gate="G$1" pin="VCC" pad="14"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="1554ЛИ3" prefix="IC">
+<description>&lt;b&gt;АЕЯР.431200.182-08 ТУ&lt;/b&gt;&lt;p&gt;
+1554ЛИ3 - Три логических элемента “3И”.&lt;p&gt;
+Изготовитель: ОАО "ИНТЕГРАЛ", г. Минск, р. Беларусь.&lt;br&gt;
+Технические условия (ТБМ): АЕЯР.431200.182-08 ТУ &lt;br&gt;
+Технические условия (УХЛ): АЕЯР.431200.093-01 ТУ</description>
+<gates>
+<gate name=".1" symbol="1554ЛИ3" x="-15.24" y="7.62" swaplevel="1"/>
+<gate name=".2" symbol="1554ЛИ3" x="0" y="7.62" swaplevel="1"/>
+<gate name=".3" symbol="1554ЛИ3" x="15.24" y="7.62" swaplevel="1"/>
+<gate name="G$1" symbol="1554_PWR4" x="0" y="-12.7"/>
+</gates>
+<devices>
+<device name="ТБМ" package="401.14-5">
+<connects>
+<connect gate=".1" pin="A" pad="1"/>
+<connect gate=".1" pin="B" pad="2"/>
+<connect gate=".1" pin="C" pad="13"/>
+<connect gate=".1" pin="Y" pad="12"/>
+<connect gate=".2" pin="A" pad="3"/>
+<connect gate=".2" pin="B" pad="4"/>
+<connect gate=".2" pin="C" pad="5"/>
+<connect gate=".2" pin="Y" pad="6"/>
+<connect gate=".3" pin="A" pad="9"/>
+<connect gate=".3" pin="B" pad="10"/>
+<connect gate=".3" pin="C" pad="11"/>
+<connect gate=".3" pin="Y" pad="8"/>
+<connect gate="G$1" pin="GND" pad="7"/>
+<connect gate="G$1" pin="VCC" pad="14"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="1554ТМ2" prefix="IC">
+<description>&lt;b&gt;АЕЯР.431200.182-13 ТУ&lt;/b&gt;&lt;p&gt;
+1554ТМ2 - Два D-триггера с установкой и сбросом.&lt;p&gt;
+Изготовитель: ОАО "ИНТЕГРАЛ", г. Минск, р. Беларусь.&lt;br&gt;
+Технические условия (ТБМ): АЕЯР.431200.182-13 ТУ&lt;br&gt;
+Технические условия (не ТБМ): АЕЯР.431200.093-02 ТУ</description>
+<gates>
+<gate name=".1" symbol="1554ТМ2" x="0" y="15.24" swaplevel="1"/>
+<gate name=".2" symbol="1554ТМ2" x="0" y="-17.78" swaplevel="1"/>
+<gate name="G$3" symbol="1554_PWR1" x="0" y="-35.56"/>
+</gates>
+<devices>
+<device name="ТБМ" package="401.14-5">
+<connects>
+<connect gate=".1" pin="!Q" pad="6"/>
+<connect gate=".1" pin="CL" pad="3"/>
+<connect gate=".1" pin="D" pad="2"/>
+<connect gate=".1" pin="Q" pad="5"/>
+<connect gate=".1" pin="R" pad="1"/>
+<connect gate=".1" pin="S" pad="4"/>
+<connect gate=".2" pin="!Q" pad="8"/>
+<connect gate=".2" pin="CL" pad="11"/>
+<connect gate=".2" pin="D" pad="12"/>
+<connect gate=".2" pin="Q" pad="9"/>
+<connect gate=".2" pin="R" pad="13"/>
+<connect gate=".2" pin="S" pad="10"/>
+<connect gate="G$3" pin="GND" pad="7"/>
+<connect gate="G$3" pin="VCC" pad="14"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="1554ИЕ18" prefix="IC">
+<description>&lt;b&gt;АЕЯР.431200.182-03 ТУ&lt;/b&gt;&lt;p&gt;
+1554ИЕ18 - Четырехразрядный двоичный счетчик с синхронной установкой в состояние 'Логический 0'&lt;p&gt;
+Изготовитель: ОАО "ИНТЕГРАЛ", г. Минск, р. Беларусь.&lt;br&gt;
+Технические условия (ТБМ): АЕЯР.431200.182-03 ТУ &lt;br&gt;
+Технические условия (не ТБМ): АЕЯР.431200.093-04 ТУ</description>
+<gates>
+<gate name="G$1" symbol="1554ИЕ18" x="0" y="0"/>
+</gates>
+<devices>
+<device name="ТБМ" package="402.16-32">
+<connects>
+<connect gate="G$1" pin="C0" pad="15"/>
+<connect gate="G$1" pin="CL" pad="2"/>
+<connect gate="G$1" pin="D0" pad="3"/>
+<connect gate="G$1" pin="D1" pad="4"/>
+<connect gate="G$1" pin="D2" pad="5"/>
+<connect gate="G$1" pin="D3" pad="6"/>
+<connect gate="G$1" pin="EC" pad="10"/>
+<connect gate="G$1" pin="ECT" pad="7"/>
+<connect gate="G$1" pin="ED" pad="9"/>
+<connect gate="G$1" pin="GND" pad="8"/>
+<connect gate="G$1" pin="Q0" pad="14"/>
+<connect gate="G$1" pin="Q1" pad="13"/>
+<connect gate="G$1" pin="Q2" pad="12"/>
+<connect gate="G$1" pin="Q3" pad="11"/>
+<connect gate="G$1" pin="R" pad="1"/>
+<connect gate="G$1" pin="VCC" pad="16"/>
 </connects>
 <technologies>
 <technology name=""/>

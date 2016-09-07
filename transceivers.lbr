@@ -152,42 +152,119 @@
 <smd name="7" x="2.34925" y="-6.4016" dx="0.4" dy="2.5" layer="1"/>
 </package>
 <package name="H02.8-1B">
-<wire x1="-3.25" y1="-3.25" x2="3.25" y2="-3.25" width="0.127" layer="51"/>
-<wire x1="3.25" y1="-3.25" x2="3.25" y2="3.25" width="0.127" layer="51"/>
-<wire x1="3.25" y1="3.25" x2="-3.25" y2="3.25" width="0.127" layer="51"/>
-<wire x1="-3.25" y1="3.25" x2="-3.25" y2="-3.25" width="0.127" layer="51"/>
-<smd name="1" x="-2" y="-4.75" dx="0.4" dy="2" layer="1"/>
-<smd name="2" x="-1" y="-4.75" dx="0.4" dy="2" layer="1"/>
-<smd name="9" x="0" y="-4.75" dx="0.4" dy="2" layer="1"/>
-<smd name="3" x="1" y="-4.75" dx="0.4" dy="2" layer="1"/>
-<smd name="4" x="2" y="-4.75" dx="0.4" dy="2" layer="1"/>
-<smd name="8" x="-2" y="4.75" dx="0.4" dy="2" layer="1"/>
-<smd name="7" x="-1" y="4.75" dx="0.4" dy="2" layer="1"/>
-<smd name="10" x="0" y="4.75" dx="0.4" dy="2" layer="1"/>
-<smd name="6" x="1" y="4.75" dx="0.4" dy="2" layer="1"/>
-<smd name="5" x="2" y="4.75" dx="0.4" dy="2" layer="1"/>
-<wire x1="-2.75" y1="2.25" x2="-2.25" y2="2.75" width="0.127" layer="51" curve="-90"/>
-<wire x1="2.25" y1="2.75" x2="2.75" y2="2.25" width="0.127" layer="51" curve="-90"/>
-<wire x1="2.75" y1="-2.25" x2="2.25" y2="-2.75" width="0.127" layer="51" curve="-90"/>
-<wire x1="-2.25" y1="-2.75" x2="-2.75" y2="-2.25" width="0.127" layer="51" curve="-90"/>
-<wire x1="-2.75" y1="2.25" x2="-2.75" y2="-2.25" width="0.127" layer="51"/>
-<wire x1="-2.25" y1="-2.75" x2="2.25" y2="-2.75" width="0.127" layer="51"/>
-<wire x1="2.75" y1="-2.25" x2="2.75" y2="2.25" width="0.127" layer="51"/>
-<wire x1="-2.25" y1="2.75" x2="2.25" y2="2.75" width="0.127" layer="51"/>
-<wire x1="-2.25" y1="2" x2="-2" y2="2.25" width="0.127" layer="51" curve="-90"/>
-<wire x1="2" y1="2.25" x2="2.25" y2="2" width="0.127" layer="51" curve="-90"/>
-<wire x1="2.25" y1="-2" x2="2" y2="-2.25" width="0.127" layer="51" curve="-90"/>
-<wire x1="-2" y1="-2.25" x2="-2.25" y2="-2" width="0.127" layer="51" curve="-90"/>
-<wire x1="-2.25" y1="2" x2="-2.25" y2="-2" width="0.127" layer="51"/>
-<wire x1="-2" y1="-2.25" x2="2" y2="-2.25" width="0.127" layer="51"/>
-<wire x1="2.25" y1="-2" x2="2.25" y2="2" width="0.127" layer="51"/>
-<wire x1="2" y1="2.25" x2="-2" y2="2.25" width="0.127" layer="51"/>
-<circle x="-2" y="-3" radius="0.1581125" width="0" layer="51"/>
-<wire x1="-3.25" y1="3.25" x2="3.25" y2="3.25" width="0.127" layer="21"/>
-<wire x1="3.25" y1="3.25" x2="3.25" y2="-3.25" width="0.127" layer="21"/>
-<wire x1="3.25" y1="-3.25" x2="-3.25" y2="-3.25" width="0.127" layer="21"/>
-<wire x1="-3.25" y1="-3.25" x2="-3.25" y2="3.25" width="0.127" layer="21"/>
-<circle x="-2" y="-3" radius="0.1581125" width="0" layer="21"/>
+<wire x1="-3" y1="-3.25" x2="3" y2="-3.25" width="0.127" layer="51"/>
+<wire x1="3.25" y1="-3" x2="3.25" y2="3" width="0.127" layer="51"/>
+<smd name="1" x="-2" y="-4.75" dx="0.6" dy="2" layer="1"/>
+<smd name="2" x="-1" y="-4.75" dx="0.6" dy="2" layer="1"/>
+<smd name="9" x="0" y="-4.75" dx="0.6" dy="2" layer="1"/>
+<smd name="3" x="1" y="-4.75" dx="0.6" dy="2" layer="1"/>
+<smd name="4" x="2" y="-4.75" dx="0.6" dy="2" layer="1"/>
+<smd name="8" x="-2" y="4.75" dx="0.6" dy="2" layer="1"/>
+<smd name="7" x="-1" y="4.75" dx="0.6" dy="2" layer="1"/>
+<smd name="10" x="0" y="4.75" dx="0.6" dy="2" layer="1"/>
+<smd name="6" x="1" y="4.75" dx="0.6" dy="2" layer="1"/>
+<smd name="5" x="2" y="4.75" dx="0.6" dy="2" layer="1"/>
+<wire x1="3" y1="3.25" x2="-3" y2="3.25" width="0.127" layer="51"/>
+<wire x1="-3.25" y1="3" x2="-3.25" y2="-3" width="0.127" layer="51"/>
+<wire x1="-2.75" y1="1.5" x2="-2.25" y2="2" width="0.05" layer="51" curve="-90"/>
+<wire x1="2.25" y1="2" x2="2.75" y2="1.5" width="0.05" layer="51" curve="-90"/>
+<wire x1="2.75" y1="-1.5" x2="2.25" y2="-2" width="0.05" layer="51" curve="-90"/>
+<wire x1="-2.25" y1="-2" x2="-2.75" y2="-1.5" width="0.05" layer="51" curve="-90"/>
+<wire x1="-2.75" y1="1.5" x2="-2.75" y2="-1.5" width="0.05" layer="51"/>
+<wire x1="-2.25" y1="-2" x2="2.25" y2="-2" width="0.05" layer="51"/>
+<wire x1="2.75" y1="-1.5" x2="2.75" y2="1.5" width="0.05" layer="51"/>
+<wire x1="-2.25" y1="2" x2="2.25" y2="2" width="0.05" layer="51"/>
+<wire x1="-2.5" y1="1.5" x2="-2.25" y2="1.75" width="0.05" layer="51" curve="-90"/>
+<wire x1="2.25" y1="1.75" x2="2.5" y2="1.5" width="0.05" layer="51" curve="-90"/>
+<wire x1="2.5" y1="-1.5" x2="2.25" y2="-1.75" width="0.05" layer="51" curve="-90"/>
+<wire x1="-2.25" y1="-1.75" x2="-2.5" y2="-1.5" width="0.05" layer="51" curve="-90"/>
+<wire x1="-2.5" y1="1.5" x2="-2.5" y2="-1.5" width="0.05" layer="51"/>
+<wire x1="-2.25" y1="-1.75" x2="2.25" y2="-1.75" width="0.05" layer="51"/>
+<wire x1="2.5" y1="-1.5" x2="2.5" y2="1.5" width="0.05" layer="51"/>
+<wire x1="2.25" y1="1.75" x2="-2.25" y2="1.75" width="0.05" layer="51"/>
+<circle x="-2.125" y="-1.375" radius="0.1581125" width="0" layer="51"/>
+<wire x1="3.5" y1="3.5" x2="3.5" y2="-3.5" width="0.1" layer="21"/>
+<wire x1="-3.5" y1="-3.5" x2="-3.5" y2="3.5" width="0.1" layer="21"/>
+<text x="0" y="-2.54" size="0.2" layer="51" align="center">Н02.8-1В</text>
+<text x="0" y="0.52" size="0.508" layer="25" align="center">&gt;NAME</text>
+<text x="0" y="-0.5" size="0.508" layer="27" align="center">&gt;VALUE</text>
+<polygon width="0.127" layer="51">
+<vertex x="-2.1" y="-4.55"/>
+<vertex x="-2.1" y="-3.25"/>
+<vertex x="-1.9" y="-3.25"/>
+<vertex x="-1.9" y="-4.55"/>
+</polygon>
+<polygon width="0.127" layer="51">
+<vertex x="-1.1" y="-4.55"/>
+<vertex x="-1.1" y="-3.25"/>
+<vertex x="-0.9" y="-3.25"/>
+<vertex x="-0.9" y="-4.55"/>
+</polygon>
+<polygon width="0.127" layer="51">
+<vertex x="-0.1" y="-4.55"/>
+<vertex x="-0.1" y="-3.25"/>
+<vertex x="0.1" y="-3.25"/>
+<vertex x="0.1" y="-4.55"/>
+</polygon>
+<polygon width="0.127" layer="51">
+<vertex x="0.9" y="-4.55"/>
+<vertex x="0.9" y="-3.25"/>
+<vertex x="1.1" y="-3.25"/>
+<vertex x="1.1" y="-4.55"/>
+</polygon>
+<polygon width="0.127" layer="51">
+<vertex x="1.9" y="-4.55"/>
+<vertex x="1.9" y="-3.25"/>
+<vertex x="2.1" y="-3.25"/>
+<vertex x="2.1" y="-4.55"/>
+</polygon>
+<polygon width="0.127" layer="51">
+<vertex x="-1.9" y="4.55"/>
+<vertex x="-1.9" y="3.25"/>
+<vertex x="-2.1" y="3.25"/>
+<vertex x="-2.1" y="4.55"/>
+</polygon>
+<polygon width="0.127" layer="51">
+<vertex x="-0.9" y="4.55"/>
+<vertex x="-0.9" y="3.25"/>
+<vertex x="-1.1" y="3.25"/>
+<vertex x="-1.1" y="4.55"/>
+</polygon>
+<polygon width="0.127" layer="51">
+<vertex x="-0.1" y="3.25"/>
+<vertex x="-0.1" y="4.55"/>
+<vertex x="0.1" y="4.55"/>
+<vertex x="0.1" y="3.25"/>
+</polygon>
+<polygon width="0.127" layer="51">
+<vertex x="0.9" y="3.25"/>
+<vertex x="0.9" y="4.55"/>
+<vertex x="1.1" y="4.55"/>
+<vertex x="1.1" y="3.25"/>
+</polygon>
+<polygon width="0.127" layer="51">
+<vertex x="1.9" y="3.25"/>
+<vertex x="1.9" y="4.55"/>
+<vertex x="2.1" y="4.55"/>
+<vertex x="2.1" y="3.25"/>
+</polygon>
+<wire x1="-2.25" y1="3.5" x2="-3.5" y2="3.5" width="0.1" layer="21"/>
+<wire x1="-1.75" y1="3.5" x2="-1.25" y2="3.5" width="0.1" layer="21"/>
+<wire x1="2.25" y1="3.5" x2="3.5" y2="3.5" width="0.1" layer="21"/>
+<wire x1="1.25" y1="3.5" x2="1.75" y2="3.5" width="0.1" layer="21"/>
+<wire x1="0.25" y1="3.5" x2="0.75" y2="3.5" width="0.1" layer="21"/>
+<wire x1="-0.75" y1="3.5" x2="-0.25" y2="3.5" width="0.1" layer="21"/>
+<wire x1="-1.75" y1="-3.5" x2="-1.25" y2="-3.5" width="0.1" layer="21"/>
+<wire x1="-0.75" y1="-3.5" x2="-0.25" y2="-3.5" width="0.1" layer="21"/>
+<wire x1="0.25" y1="-3.5" x2="0.75" y2="-3.5" width="0.1" layer="21"/>
+<wire x1="1.25" y1="-3.5" x2="1.75" y2="-3.5" width="0.1" layer="21"/>
+<wire x1="-2.25" y1="-3.5" x2="-3.5" y2="-3.5" width="0.1" layer="21"/>
+<wire x1="2.25" y1="-3.5" x2="3.5" y2="-3.5" width="0.1" layer="21"/>
+<circle x="-2.75" y="-4.75" radius="0.25" width="0" layer="21"/>
+<wire x1="-3.25" y1="3" x2="-3" y2="3.25" width="0.127" layer="51" curve="-90"/>
+<wire x1="3" y1="3.25" x2="3.25" y2="3" width="0.127" layer="51" curve="-90"/>
+<wire x1="3.25" y1="-3" x2="3" y2="-3.25" width="0.127" layer="51" curve="-90"/>
+<wire x1="-3" y1="-3.25" x2="-3.25" y2="-3" width="0.127" layer="51" curve="-90"/>
 </package>
 <package name="H02.16-1B">
 <wire x1="-3.25" y1="-3.25" x2="-3.25" y2="3.25" width="0.127" layer="51"/>
@@ -4155,15 +4232,16 @@
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="5559ИН13У" prefix="IC">
-<description>&lt;b&gt;5559ИН13У&lt;/b&gt; представляет собой приемопередатчик, предназначенный для построения устройств интерфейса по ГОСТ Р 52070-2003.&lt;br&gt;
+<deviceset name="5559ИН13" prefix="DD">
+<description>&lt;b&gt;АЕЯР.431230.591 ТУ&lt;/b&gt;&lt;p&gt;
+&lt;b&gt;5559ИН13У&lt;/b&gt; представляет собой приемопередатчик, предназначенный для построения устройств интерфейса по ГОСТ Р 52070-2003.&lt;br&gt;
 Производитель: ОАО «НПО «Физика».&lt;br&gt;
 Технические условия: &lt;b&gt;АЕЯР.431230.591 ТУ&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="5559ИН13У" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="Н09.28-1В">
+<device name="У" package="Н09.28-1В">
 <connects>
 <connect gate="G$1" pin="!DI" pad="8"/>
 <connect gate="G$1" pin="!DO" pad="13"/>
@@ -4200,8 +4278,9 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="5559ИН13У2" prefix="IC">
-<description>&lt;b&gt;5559ИН13У2&lt;/b&gt; представляет собой приемопередатчик, предназначенный для построения устройств интерфейса по ГОСТ Р 52070-2003.&lt;br&gt;
+<deviceset name="5559ИН13У2" prefix="DD">
+<description>&lt;b&gt;АЕЯР.431230.591 ТУ&lt;/b&gt;&lt;p&gt;
+&lt;b&gt;5559ИН13У2&lt;/b&gt; представляет собой приемопередатчик, предназначенный для построения устройств интерфейса по ГОСТ Р 52070-2003.&lt;br&gt;
 Производитель: ОАО «НПО «Физика».&lt;br&gt;
 Технические условия: &lt;b&gt;АЕЯР.431230.591 ТУ&lt;/b&gt;</description>
 <gates>
@@ -4229,9 +4308,10 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="5559ИН14У" prefix="IC">
-<description>&lt;b&gt;5559ИН11АУ&lt;/b&gt; - приемопередатчик интерфейса CAN производства АО ПКК "Миландр"&lt;br&gt;
-Технические условия: &lt;b&gt;АЕЯР.431230.652 ТУ&lt;b/&gt;</description>
+<deviceset name="5559ИН14У" prefix="DD">
+<description>&lt;b&gt;АЕЯР.431230.652 ТУ&lt;/b&gt;&lt;p&gt;
+&lt;b&gt;5559ИН11АУ&lt;/b&gt; - приемопередатчик интерфейса CAN производства АО ПКК "Миландр"&lt;br&gt;
+Технические условия: &lt;b&gt;АЕЯР.431230.652 ТУ&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="5559ИН14У" x="0" y="0"/>
 </gates>
@@ -4255,8 +4335,9 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="5559ИН19У" prefix="IC">
-<description>&lt;b&gt;5559ИН19У&lt;/b&gt; - двухканальный LVDS-приемопередатчик производства АО ПКК "Миландр".&lt;br&gt;
+<deviceset name="5559ИН19У" prefix="DD">
+<description>&lt;b&gt;АЕЯР.431230.740 ТУ&lt;/b&gt;&lt;p&gt;
+&lt;b&gt;5559ИН19У&lt;/b&gt; - двухканальный LVDS-приемопередатчик производства АО ПКК "Миландр".&lt;br&gt;
 Технические условия: &lt;b&gt;АЕЯР.431230.740 ТУ&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="5559ИН19У" x="-2.54" y="2.54"/>
@@ -4287,8 +4368,9 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="5537ВВ015" prefix="IC">
-<description>&lt;b&gt;5537ВВ015&lt;/b&gt; - 4-канальный передатчик с LVDS-интерфейсом. Скорость передачи - до 400 Мбит/с. &lt;br&gt;
+<deviceset name="5537ВВ015" prefix="DD">
+<description>&lt;b&gt;АЕНВ.431230.175 ТУ&lt;/b&gt;&lt;p&gt;
+&lt;b&gt;5537ВВ015&lt;/b&gt; - 4-канальный передатчик с LVDS-интерфейсом. Скорость передачи - до 400 Мбит/с. &lt;br&gt;
 Производитель: ОАО «НИИЭТ», г. Воронеж</description>
 <gates>
 <gate name=".1" symbol="5537ВВ015" x="-40.64" y="53.34" swaplevel="1"/>
@@ -4323,8 +4405,9 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="5537ВВ025" prefix="IC">
-<description>&lt;b&gt;5537ВВ025&lt;/b&gt; - 4-канальный приемник с LVDS-интерфейсом. Скорость передачи - до 400 Мбит/с.&lt;br&gt;
+<deviceset name="5537ВВ025" prefix="DD">
+<description>&lt;b&gt;АЕНВ.431230.176 ТУ&lt;/b&gt;&lt;p&gt;
+&lt;b&gt;5537ВВ025&lt;/b&gt; - 4-канальный приемник с LVDS-интерфейсом. Скорость передачи - до 400 Мбит/с.&lt;br&gt;
  Производитель: ОАО «НИИЭТ», г. Воронеж</description>
 <gates>
 <gate name=".1" symbol="5537ВВ025" x="0" y="0" swaplevel="1"/>
@@ -4359,7 +4442,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="1892ХД5Т" prefix="IC">
+<deviceset name="1892ХД5Т" prefix="DD">
 <description>&lt;b&gt;1892ХД5Т&lt;/b&gt; - спецстойкий малопотребляющий адаптер удаленных устройств с последовательным каналом SpaceWire с протоколом RMAP.&lt;br&gt;
 Микросхема обеспечивает подключение датчиков, преобразователей информации,&lt;br&gt;
 исполнительных устройств к высокопроизводительной помехоустойчивой сети передачи данных SpaceWire без использования дополнительных элементов.&lt;br&gt;
@@ -4488,8 +4571,9 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="5600ВВ3Т" prefix="IC">
-<description>&lt;b&gt;5600ВВ3Т&lt;/b&gt; - четырехпортовый коммутатор/концетратор сетей по протоколу IEEE 802.3/Ethernet 10/100 Мбит/с. &lt;br&gt;
+<deviceset name="5600ВВ3Т" prefix="DD">
+<description>&lt;b&gt;АЕНВ.431290.084 ТУ&lt;/b&gt;&lt;p&gt;
+&lt;b&gt;5600ВВ3Т&lt;/b&gt; - четырехпортовый коммутатор/концетратор сетей по протоколу IEEE 802.3/Ethernet 10/100 Мбит/с. &lt;br&gt;
 Производитель: АО ПКК "Миландр", г. Зеленоград, Москва. &lt;br&gt;
 Технические условия: &lt;b&gt;АЕНВ.431290.084 ТУ&lt;/b&gt;</description>
 <gates>
@@ -4637,7 +4721,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="2011ВВ014" prefix="IC">
+<deviceset name="2011ВВ014" prefix="DD">
 <description>&lt;b&gt; АЕЯР.431230.880 ТУ&lt;/b&gt;&lt;p&gt;
 2011ВВ014 - Микросборка приемопередатчика с гальванической развязкой со скоростью передачи битов данных не более 25 Мбит/c.&lt;br&gt;
 Производитель: ЗАО "ПКК "Миландр"&lt;br&gt;

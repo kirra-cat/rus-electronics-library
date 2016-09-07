@@ -400,7 +400,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </symbols>
 <devicesets>
 <deviceset name="СП3-19" prefix="R" uservalue="yes">
-<description>&lt;b&gt;ОЖО.468.134 ТУ&lt;/b&gt;&lt;p&gt;
+<description>&lt;b&gt;ОЖ0.468.134 ТУ&lt;/b&gt;&lt;p&gt;
 Резисторы переменные непроволочные подстроечные СП3-19 применяются для работы в цепях постоянного и переменного токов в непрерывных и импульсных режимах. &lt;br&gt;
 Резистор СП3-19б предназначен для монтажа на поверхность.&lt;p&gt;
 Технические условия: &lt;b&gt;ОЖО.468.372 ТУ&lt;/b&gt;  (приёмка "ОТК") и &lt;b&gt;ОЖО.468.134 ТУ&lt;/b&gt;  (приёмка "5").&lt;br&gt;

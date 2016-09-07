@@ -2726,7 +2726,7 @@
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="1554ЛН2" prefix="IC">
+<deviceset name="1554ЛН2" prefix="DD">
 <description>&lt;b&gt;АЕЯР.431200.182-17 ТУ&lt;/b&gt;&lt;p&gt;
 &lt;b&gt;1554ЛН2УБМ&lt;/b&gt; - это ИМС единичного инвертора. &lt;br&gt;
 Время задержки при питании 3,3В не более 12 нс, при 5 В - не более 9 нс.&lt;br&gt;&lt;p&gt;
@@ -2749,7 +2749,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="1554ТМ8" prefix="IC">
+<deviceset name="1554ТМ8" prefix="DD">
 <description>&lt;b&gt;АЕЯР.431200.182-13 ТУ&lt;/b&gt;&lt;p&gt;
 1554ТМ8 - Четыре D-триггера с общими входами управления и сброса.&lt;p&gt;
 Изготовитель: ОАО "ИНТЕГРАЛ", г. Минск, р. Беларусь.&lt;br&gt;
@@ -2784,7 +2784,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="1554ТМ9" prefix="IC">
+<deviceset name="1554ТМ9" prefix="DD">
 <description>&lt;b&gt;АЕЯР.431200.182-13 ТУ&lt;/b&gt;&lt;p&gt;
 1554ТМ9 - Шесть D-триггеров.&lt;p&gt;
 Изготовитель: ОАО "ИНТЕГРАЛ", г. Минск, р. Беларусь.&lt;br&gt;
@@ -2819,7 +2819,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="1554ТР2" prefix="IC">
+<deviceset name="1554ТР2" prefix="DD">
 <description>&lt;b&gt;АЕЯР.431200.182-06 ТУ&lt;/b&gt;&lt;p&gt;
 1554ТР2 - Четыре R-S триггера.&lt;p&gt;
 Изготовитель: ОАО "ИНТЕГРАЛ", г. Минск, р. Беларусь.&lt;br&gt;
@@ -2858,7 +2858,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="1554КП12" prefix="IC">
+<deviceset name="1554КП12" prefix="DD">
 <description>&lt;b&gt;АЕЯР.431200.182-15 ТУ&lt;/b&gt;&lt;p&gt;
 1554КП12 - Два селектора-мультиплексора 4-1 с тремя состояниями на выходе.&lt;p&gt;
 Изготовитель: ОАО "ИНТЕГРАЛ", г. Минск, р. Беларусь.&lt;br&gt;
@@ -2893,7 +2893,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="1554КП14" prefix="IC">
+<deviceset name="1554КП14" prefix="DD">
 <description>&lt;b&gt;АЕЯР.431200.182-15 ТУ&lt;/b&gt;&lt;p&gt;
 1554КП14 - Четыре селектора-мультиплексора 2-1 с тремя состояниями и инверсией на выходе.&lt;p&gt;
 Изготовитель: ОАО "ИНТЕГРАЛ", г. Минск, р. Беларусь.&lt;br&gt;
@@ -2928,7 +2928,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="1554КП15" prefix="IC">
+<deviceset name="1554КП15" prefix="DD">
 <description>&lt;b&gt;АЕЯР.431200.182-11 ТУ&lt;/b&gt;&lt;p&gt;
 1554КП15 - Селектор-мультиплексор 8 - 1 с тремя состояниями на выходе.&lt;p&gt;
 Изготовитель: ОАО "ИНТЕГРАЛ", г. Минск, р. Беларусь.&lt;br&gt;
@@ -2963,7 +2963,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="1554КП16" prefix="IC">
+<deviceset name="1554КП16" prefix="DD">
 <description>&lt;b&gt;АЕЯР.431200.182-15 ТУ&lt;/b&gt;&lt;p&gt;
 1554КП16 - Четыре селектора-мультиплексора 2-1.&lt;p&gt;
 Изготовитель: ОАО "ИНТЕГРАЛ", г. Минск, р. Беларусь.&lt;br&gt;
@@ -2998,7 +2998,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="1554КП18" prefix="IC">
+<deviceset name="1554КП18" prefix="DD">
 <description>&lt;b&gt;АЕЯР.431200.182-15 ТУ&lt;/b&gt;&lt;p&gt;
 1554КП18 -  Четыре селектора-мультиплексора 2-1 с инверсией на выходе.&lt;p&gt;
 Изготовитель: ОАО "ИНТЕГРАЛ", г. Минск, р. Беларусь.&lt;br&gt;
@@ -3033,7 +3033,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="1554ЛА1" prefix="IC">
+<deviceset name="1554ЛА1" prefix="DD">
 <description>&lt;b&gt;АЕЯР.431200.182-01 ТУ&lt;/b&gt;&lt;p&gt;
 1554ЛА1 - Два логических элемента "4И-НЕ".&lt;p&gt;
 Изготовитель: ОАО "ИНТЕГРАЛ", г. Минск, р. Беларусь.&lt;br&gt;
@@ -3066,7 +3066,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="1554ЛА2" prefix="IC">
+<deviceset name="1554ЛА2" prefix="DD">
 <description>&lt;b&gt;АЕЯР.431200.182-01 ТУ&lt;/b&gt;&lt;p&gt;
 1554ЛА2 - Логический элемент "8И-НЕ".&lt;p&gt;
 Изготовитель: ОАО "ИНТЕГРАЛ", г. Минск, р. Беларусь.&lt;br&gt;
@@ -3096,7 +3096,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="1554ЛА3" prefix="IC">
+<deviceset name="1554ЛА3" prefix="DD">
 <description>&lt;b&gt;АЕЯР.431200.182-07 ТУ&lt;/b&gt;&lt;p&gt;
 1554ЛА3 - Четыре логических элемента "2И-НЕ".&lt;p&gt;
 Изготовитель: ОАО "ИНТЕГРАЛ", г. Минск, р. Беларусь.&lt;br&gt;
@@ -3133,7 +3133,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="1554ЛА4" prefix="IC">
+<deviceset name="1554ЛА4" prefix="DD">
 <description>&lt;b&gt;АЕЯР.431200.182-07 ТУ&lt;/b&gt;&lt;p&gt;
 1554ЛА4 - Три логических элемента "3И-НЕ".&lt;p&gt;
 Изготовитель: ОАО "ИНТЕГРАЛ", г. Минск, р. Беларусь.&lt;br&gt;
@@ -3169,7 +3169,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="1554ЛЕ1" prefix="IC">
+<deviceset name="1554ЛЕ1" prefix="DD">
 <description>&lt;b&gt;АЕЯР.431200.182-08 ТУ&lt;/b&gt;&lt;p&gt;
 1554ЛЕ1 - Четыре логических элемента "2ИЛИ-НЕ".&lt;p&gt;
 Изготовитель: ОАО "ИНТЕГРАЛ", г. Минск, р. Беларусь.&lt;br&gt;
@@ -3206,7 +3206,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="1554ЛИ1" prefix="IC">
+<deviceset name="1554ЛИ1" prefix="DD">
 <description>&lt;b&gt;АЕЯР.431200.182-08 ТУ&lt;/b&gt;&lt;p&gt;
 1554ЛИ1 - Четыре логических элемента "2И".&lt;p&gt;
 Изготовитель: ОАО "ИНТЕГРАЛ", г. Минск, р. Беларусь.&lt;br&gt;
@@ -3243,7 +3243,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="1554ЛИ6" prefix="IC">
+<deviceset name="1554ЛИ6" prefix="DD">
 <description>&lt;b&gt;АЕЯР.431200.182-08 ТУ&lt;/b&gt;&lt;p&gt;
 1554ЛИ6 - Два логических элемента "4И".&lt;p&gt;
 Изготовитель: ОАО "ИНТЕГРАЛ", г. Минск, р. Беларусь.&lt;br&gt;
@@ -3276,7 +3276,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="1554ЛИ9" prefix="IC">
+<deviceset name="1554ЛИ9" prefix="DD">
 <description>&lt;b&gt;АЕЯР.431200.182-08 ТУ&lt;/b&gt;&lt;p&gt;
 1554ЛИ9 - Шесть логических повторителей.&lt;p&gt;
 Изготовитель: ОАО "ИНТЕГРАЛ", г. Минск, р. Беларусь.&lt;br&gt;
@@ -3315,7 +3315,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="1554ЛЛ1" prefix="IC">
+<deviceset name="1554ЛЛ1" prefix="DD">
 <description>&lt;b&gt;АЕЯР.431200.182-07 ТУ&lt;/b&gt;&lt;p&gt;
 1554ЛЛ1 - Четыре логических элемента "2ИЛИ".&lt;p&gt;
 Изготовитель: ОАО "ИНТЕГРАЛ", г. Минск, р. Беларусь.&lt;br&gt;
@@ -3352,7 +3352,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="1554ЛП5" prefix="IC">
+<deviceset name="1554ЛП5" prefix="DD">
 <description>&lt;b&gt;АЕЯР.431200.182-09 ТУ&lt;/b&gt;&lt;p&gt;
 1554ЛП5 - Четыре двухвходовых логических элемента "Исключающее ИЛИ".&lt;p&gt;
 Изготовитель: ОАО "ИНТЕГРАЛ", г. Минск, р. Беларусь.&lt;br&gt;
@@ -3389,7 +3389,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="1554ЛП8" prefix="IC">
+<deviceset name="1554ЛП8" prefix="DD">
 <description>&lt;b&gt;АЕЯР.431200.182-09 ТУ&lt;/b&gt;&lt;p&gt;
 1554ЛП8 - Четыре буферных элемента с тремя состояниями на выходе.&lt;p&gt;
 Изготовитель: ОАО "ИНТЕГРАЛ", г. Минск, р. Беларусь.&lt;br&gt;
@@ -3426,7 +3426,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="1554ЛР11" prefix="IC">
+<deviceset name="1554ЛР11" prefix="DD">
 <description>&lt;b&gt;АЕЯР.431200.182-01 ТУ&lt;/b&gt;&lt;p&gt;
 1554ЛР11 - Логические элементы "2-2И-2ИЛИ-НЕ" и "3-3И-2ИЛИ-НЕ".&lt;p&gt;
 Изготовитель: ОАО "ИНТЕГРАЛ", г. Минск, р. Беларусь.&lt;br&gt;
@@ -3459,7 +3459,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="1554ТЛ2" prefix="IC">
+<deviceset name="1554ТЛ2" prefix="DD">
 <description>&lt;b&gt;АЕЯР.431200.182-04 ТУ&lt;/b&gt;&lt;p&gt;
 1554ТЛ2 - Шесть триггеров Шмитта-инверторов.&lt;p&gt;
 Изготовитель: ОАО "ИНТЕГРАЛ", г. Минск, р. Беларусь.&lt;br&gt;
@@ -3498,7 +3498,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="1554АП3" prefix="IC">
+<deviceset name="1554АП3" prefix="DD">
 <description>&lt;b&gt;АЕЯР.431200.182-05 ТУ&lt;/b&gt;&lt;p&gt;
 1554АП3 - Два четырехканальных формирователя с тремя состояниями и инверсией на выходе.&lt;p&gt;
 Изготовитель: ОАО "ИНТЕГРАЛ", г. Минск, р. Беларусь.&lt;br&gt;
@@ -3539,7 +3539,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="1554АП4" prefix="IC">
+<deviceset name="1554АП4" prefix="DD">
 <description>&lt;b&gt;АЕЯР.431200.182-05 ТУ&lt;/b&gt;&lt;p&gt;
 1554АП4 - Два четырехканальных формирователя с тремя состояниями на выходе.&lt;p&gt;
 Изготовитель: ОАО "ИНТЕГРАЛ", г. Минск, р. Беларусь.&lt;br&gt;
@@ -3580,7 +3580,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="1554АП5" prefix="IC">
+<deviceset name="1554АП5" prefix="DD">
 <description>&lt;b&gt;АЕЯР.431200.182-05 ТУ&lt;/b&gt;&lt;p&gt;
 1554АП5 - Два четырехканальных формирователя с тремя состояниями на выходе.&lt;p&gt;
 Изготовитель: ОАО "ИНТЕГРАЛ", г. Минск, р. Беларусь.&lt;br&gt;
@@ -3621,7 +3621,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="1554АП6" prefix="IC">
+<deviceset name="1554АП6" prefix="DD">
 <description>&lt;b&gt;АЕЯР.431200.182-05 ТУ&lt;/b&gt;&lt;p&gt;
 1554АП6 - Восьмиканальный двунаправленный приемо-передатчик с тремя состояниями на выходе.&lt;p&gt;
 Изготовитель: ОАО "ИНТЕГРАЛ", г. Минск, р. Беларусь.&lt;br&gt;
@@ -3660,7 +3660,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="1554ЛР13" prefix="IC">
+<deviceset name="1554ЛР13" prefix="DD">
 <description>&lt;b&gt;АЕЯР.431200.182-01 ТУ&lt;/b&gt;&lt;p&gt;
 1554ЛР13 - Логический элемент "3-2-2-3И-4ИЛИ-НЕ".&lt;p&gt;
 Изготовитель: ОАО "ИНТЕГРАЛ", г. Минск, р. Беларусь.&lt;br&gt;
@@ -3693,7 +3693,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="1554СП1" prefix="IC">
+<deviceset name="1554СП1" prefix="DD">
 <description>&lt;b&gt;АЕЯР.431200.182-02 ТУ&lt;/b&gt;&lt;p&gt;
 1554СП1 - Схема сравнения двух четырехразрядных чисел.&lt;p&gt;
 Изготовитель: ОАО "ИНТЕГРАЛ", г. Минск, р. Беларусь.&lt;br&gt;
@@ -3728,7 +3728,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="1554ТВ9" prefix="IC">
+<deviceset name="1554ТВ9" prefix="DD">
 <description>&lt;b&gt;АЕЯР.431200.182-06 ТУ&lt;/b&gt;&lt;p&gt;
 1554ТВ9 - Два J-K триггера с управлением отрицательным фронтом по тактовому входу.&lt;p&gt;
 Изготовитель: ОАО "ИНТЕГРАЛ", г. Минск, р. Беларусь.&lt;br&gt;
@@ -3765,7 +3765,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="1554ТВ15" prefix="IC">
+<deviceset name="1554ТВ15" prefix="DD">
 <description>&lt;b&gt;АЕЯР.431200.182-06 ТУ&lt;/b&gt;&lt;p&gt;
 1554ТВ15 - Два J-K триггера с управлением положительным фронтом по тактовому входу.&lt;p&gt;
 Изготовитель: ОАО "ИНТЕГРАЛ", г. Минск, р. Беларусь.&lt;br&gt;
@@ -3802,7 +3802,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="1554ИД4" prefix="IC">
+<deviceset name="1554ИД4" prefix="DD">
 <description>&lt;b&gt;АЕЯР.431200.182-10 ТУ&lt;/b&gt;&lt;p&gt;
 1554ИД4 - Сдвоенный дешифратор-демультиплексор 2 - 4.&lt;p&gt;
 Изготовитель: ОАО "ИНТЕГРАЛ", г. Минск, р. Беларусь.&lt;br&gt;
@@ -3837,7 +3837,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="1554ИД7" prefix="IC">
+<deviceset name="1554ИД7" prefix="DD">
 <description>&lt;b&gt;АЕЯР.431200.182-10 ТУ&lt;/b&gt;&lt;p&gt;
 1554ИД7 - Дешифратор-демультиплексор 3 - 8 с инверсией на выходе.&lt;p&gt;
 Изготовитель: ОАО "ИНТЕГРАЛ", г. Минск, р. Беларусь.&lt;br&gt;
@@ -3872,7 +3872,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="1554ИД14" prefix="IC">
+<deviceset name="1554ИД14" prefix="DD">
 <description>&lt;b&gt;АЕЯР.431200.182-10 ТУ&lt;/b&gt;&lt;p&gt;
 1554ИД14 - Два дешифратора-демультиплексора 2 - 4 с инверсией на выходе.&lt;p&gt;
 Изготовитель: ОАО "ИНТЕГРАЛ", г. Минск, р. Беларусь.&lt;br&gt;
@@ -3909,7 +3909,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="1554ИЕ6" prefix="IC">
+<deviceset name="1554ИЕ6" prefix="DD">
 <description>&lt;b&gt;АЕЯР.431200.182-03 ТУ&lt;/b&gt;&lt;p&gt;
 1554ИЕ6 - Четырехразрядный двоично-десятичный реверсивный счетчик.&lt;p&gt;
 Изготовитель: ОАО "ИНТЕГРАЛ", г. Минск, р. Беларусь.&lt;br&gt;
@@ -3944,7 +3944,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="1554ИЕ7" prefix="IC">
+<deviceset name="1554ИЕ7" prefix="DD">
 <description>&lt;b&gt;АЕЯР.431200.182-03 ТУ&lt;/b&gt;&lt;p&gt;
 1554ИЕ7 - Четырехразрядный двоичный реверсивный счетчик.&lt;p&gt;
 Изготовитель: ОАО "ИНТЕГРАЛ", г. Минск, р. Беларусь.&lt;br&gt;
@@ -3979,7 +3979,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="1554ИЕ10" prefix="IC">
+<deviceset name="1554ИЕ10" prefix="DD">
 <description>&lt;b&gt;АЕЯР.431200.182-03 ТУ&lt;/b&gt;&lt;p&gt;
 1554ИЕ10 - Четырехразрядный двоичный счетчик с асинхронной установкой в состояние "Логический 0".&lt;p&gt;
 Изготовитель: ОАО "ИНТЕГРАЛ", г. Минск, р. Беларусь.&lt;br&gt;
@@ -4014,7 +4014,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="1554ИЕ19" prefix="IC">
+<deviceset name="1554ИЕ19" prefix="DD">
 <description>&lt;b&gt;АЕЯР.431200.182-03 ТУ&lt;/b&gt;&lt;p&gt;
 1554ИЕ19 - Два четырехразрядных двоичных счетчика с индивидуальной синхронизацией и сбросом.&lt;p&gt;
 Изготовитель: ОАО "ИНТЕГРАЛ", г. Минск, р. Беларусь.&lt;br&gt;
@@ -4049,7 +4049,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="1554ИП5" prefix="IC">
+<deviceset name="1554ИП5" prefix="DD">
 <description>&lt;b&gt;АЕЯР.431200.182-02 ТУ&lt;/b&gt;&lt;p&gt;
 1554ИП5 - Девятиразрядная схема контроля четности.&lt;p&gt;
 Изготовитель: ОАО "ИНТЕГРАЛ", г. Минск, р. Беларусь.&lt;br&gt;
@@ -4120,7 +4120,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="1554ИР23" prefix="IC">
+<deviceset name="1554ИР23" prefix="DD">
 <description>&lt;b&gt;АЕЯР.431200.182-12 ТУ&lt;/b&gt;&lt;p&gt;
 1554ИР23 - Восьмиразрядный регистр, управляемый по фронту, с параллельным вводом-выводом данных, с тремя состояниями на выходе.&lt;p&gt;
 Изготовитель: ОАО "ИНТЕГРАЛ", г. Минск, р. Беларусь.&lt;br&gt;
@@ -4159,7 +4159,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="1554ИР24" prefix="IC">
+<deviceset name="1554ИР24" prefix="DD">
 <description>&lt;b&gt;АЕЯР.431200.182-12 ТУ&lt;/b&gt;&lt;p&gt;
 1554ИР24 - Восьмиразрядный двунаправленный сдвиговый регистр с параллельным вводом-выводом, последовательным вводом информации, асинхронным сбросом и тремя состояниями на выходе.&lt;p&gt;
 Изготовитель: ОАО "ИНТЕГРАЛ", г. Минск, р. Беларусь.&lt;br&gt;
@@ -4198,7 +4198,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="1554ИР35" prefix="IC">
+<deviceset name="1554ИР35" prefix="DD">
 <description>&lt;b&gt;АЕЯР.431200.182-12 ТУ&lt;/b&gt;&lt;p&gt;
 1554ИР35 - Восьмиразрядный регистр, управляемый по фронту, с параллельным вводом-выводом данных, с входом установки.&lt;p&gt;
 Изготовитель: ОАО "ИНТЕГРАЛ", г. Минск, р. Беларусь.&lt;br&gt;
@@ -4237,7 +4237,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="1554ИР37" prefix="IC">
+<deviceset name="1554ИР37" prefix="DD">
 <description>&lt;b&gt;АЕЯР.431200.182-12 ТУ&lt;/b&gt;&lt;p&gt;
 1554ИР37ТБМ - Восьмиразрядный регистр, управляемый по фронту, с параллельным вводом-выводом данных, с тремя состояниями на выходе.&lt;p&gt;
 Изготовитель: ОАО "ИНТЕГРАЛ", г. Минск, р. Беларусь.&lt;br&gt;
@@ -4276,7 +4276,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="1554ИР40" prefix="IC">
+<deviceset name="1554ИР40" prefix="DD">
 <description>&lt;b&gt;АЕЯР.431200.182-14 ТУ&lt;/b&gt;&lt;p&gt;
 1554ИР40 - Восьмиразрядный регистр, управляемый по уровню, с параллельным вводом-выводом данных, с тремя состояниями и инверсией на выходе.&lt;p&gt;
 Изготовитель: ОАО "ИНТЕГРАЛ", г. Минск, р. Беларусь.&lt;br&gt;
@@ -4315,7 +4315,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="1554ИР41" prefix="IC">
+<deviceset name="1554ИР41" prefix="DD">
 <description>&lt;b&gt;АЕЯР.431200.182-14 ТУ&lt;/b&gt;&lt;p&gt;
 1554ИР41 - Восьмиразрядный регистр, управляемый по фронту, с параллельным вводом-выводом данных, с тремя состояниями и инверсией на выходе.&lt;p&gt;
 Изготовитель: ОАО "ИНТЕГРАЛ", г. Минск, р. Беларусь.&lt;br&gt;
@@ -4354,7 +4354,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="1554КП2" prefix="IC">
+<deviceset name="1554КП2" prefix="DD">
 <description>&lt;b&gt;АЕЯР.431200.182-11 ТУ&lt;/b&gt;&lt;p&gt;
 1554КП2 - Два селектора-мультиплексора 4-1.&lt;p&gt;
 Изготовитель: ОАО "ИНТЕГРАЛ", г. Минск, р. Беларусь.&lt;br&gt;
@@ -4389,7 +4389,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="1554КП7" prefix="IC">
+<deviceset name="1554КП7" prefix="DD">
 <description>&lt;b&gt;АЕЯР.431200.182-11 ТУ&lt;/b&gt;&lt;p&gt;
 1554КП7 - Селектор-мультиплексор 8-1 со стробированием.&lt;p&gt;
 Изготовитель: ОАО "ИНТЕГРАЛ", г. Минск, р. Беларусь.&lt;br&gt;
@@ -4424,7 +4424,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="1554КП11" prefix="IC">
+<deviceset name="1554КП11" prefix="DD">
 <description>&lt;b&gt;АЕЯР.431200.182-11 ТУ&lt;/b&gt;&lt;p&gt;
 1554КП11 - Четыре селектора-мультиплексора 2-1 с тремя состояниями на выходе.&lt;p&gt;
 Изготовитель: ОАО "ИНТЕГРАЛ", г. Минск, р. Беларусь.&lt;br&gt;
@@ -4459,7 +4459,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="1554ЛН1" prefix="IC">
+<deviceset name="1554ЛН1" prefix="DD">
 <description>&lt;b&gt;АЕЯР.431200.182-07 ТУ&lt;/b&gt;&lt;p&gt;
 1554ЛН1 - Шесть логических элементов “НЕ”&lt;p&gt;
 Изготовитель: ОАО "ИНТЕГРАЛ", г. Минск, р. Беларусь.&lt;br&gt;
@@ -4498,7 +4498,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="1554ЛИ3" prefix="IC">
+<deviceset name="1554ЛИ3" prefix="DD">
 <description>&lt;b&gt;АЕЯР.431200.182-08 ТУ&lt;/b&gt;&lt;p&gt;
 1554ЛИ3 - Три логических элемента “3И”.&lt;p&gt;
 Изготовитель: ОАО "ИНТЕГРАЛ", г. Минск, р. Беларусь.&lt;br&gt;
@@ -4534,7 +4534,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="1554ТМ2" prefix="IC">
+<deviceset name="1554ТМ2" prefix="DD">
 <description>&lt;b&gt;АЕЯР.431200.182-13 ТУ&lt;/b&gt;&lt;p&gt;
 1554ТМ2 - Два D-триггера с установкой и сбросом.&lt;p&gt;
 Изготовитель: ОАО "ИНТЕГРАЛ", г. Минск, р. Беларусь.&lt;br&gt;
@@ -4569,7 +4569,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="1554ИЕ18" prefix="IC">
+<deviceset name="1554ИЕ18" prefix="DD">
 <description>&lt;b&gt;АЕЯР.431200.182-03 ТУ&lt;/b&gt;&lt;p&gt;
 1554ИЕ18 - Четырехразрядный двоичный счетчик с синхронной установкой в состояние 'Логический 0'&lt;p&gt;
 Изготовитель: ОАО "ИНТЕГРАЛ", г. Минск, р. Беларусь.&lt;br&gt;

@@ -1059,7 +1059,7 @@
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="5584АП3" prefix="IC">
+<deviceset name="5584АП3" prefix="DD">
 <description>&lt;b&gt;АЕЯР.431200.209 ТУ&lt;/b&gt;&lt;p&gt;
 5584АП3У, 5584АП3АУ - два четырехканальных формирователя с тремя состояниями и инверсией на выходе.</description>
 <gates>
@@ -1124,7 +1124,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="5584АП5" prefix="IC">
+<deviceset name="5584АП5" prefix="DD">
 <description>&lt;b&gt;АЕЯР.431200.209 ТУ&lt;/b&gt;&lt;p&gt;
 5584АП5У, 5584АП5АУ - два четырехканальных формирователя с тремя состояниями на выходе.</description>
 <gates>
@@ -1189,7 +1189,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="5584АП6" prefix="IC">
+<deviceset name="5584АП6" prefix="DD">
 <description>&lt;b&gt;АЕЯР.431200.209 ТУ&lt;/b&gt;&lt;p&gt;
 5584АП6У, 5584АП6АУ - Восьмиканальный двунаправленный приемопередатчик с тремя состояниями на выходе.</description>
 <gates>
@@ -1252,7 +1252,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="5584АП7" prefix="IC">
+<deviceset name="5584АП7" prefix="DD">
 <description>&lt;b&gt;АЕЯР.431200.209 ТУ&lt;/b&gt;&lt;p&gt;
 5584АП7У, 5584АП7АУ - Восьмиканальный двунаправленный приемопередатчик со схемой удержания информации на входе и тремя состояниями на выходе.</description>
 <gates>
@@ -1315,7 +1315,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="5584ИД7" prefix="IC">
+<deviceset name="5584ИД7" prefix="DD">
 <description>&lt;b&gt;АЕЯР.431200.209 ТУ&lt;/b&gt;&lt;p&gt;
 5584ИД7У, 5584ИД7АУ- Дешифратор-демультиплексор 3–8 с инверсией на выходе.</description>
 <gates>
@@ -1370,7 +1370,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="5584ИД14" prefix="IC">
+<deviceset name="5584ИД14" prefix="DD">
 <description>&lt;b&gt;АЕЯР.431200.209 ТУ&lt;/b&gt;&lt;p&gt;
 5584ИД14У, 5584ИД14АУ- Два дешифратора-демультиплексора 2–4 с инверсией на выходе.</description>
 <gates>
@@ -1427,7 +1427,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="5584ИЕ7" prefix="IC">
+<deviceset name="5584ИЕ7" prefix="DD">
 <description>&lt;b&gt;АЕЯР.431200.209 ТУ&lt;/b&gt;&lt;p&gt;
 5584ИЕ7У, 5584ИЕ7АУ - Четырехразрядный двоичный реверсивный счетчик.</description>
 <gates>
@@ -1482,7 +1482,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="5584ИЕ10" prefix="IC">
+<deviceset name="5584ИЕ10" prefix="DD">
 <description>&lt;b&gt;АЕЯР.431200.209 ТУ&lt;/b&gt;&lt;p&gt;
 5584ИЕ10У, 5584ИЕ10АУ - Четырехразрядный двоичный счетчик с асинхронной установкой в состояние "Логический 0".</description>
 <gates>
@@ -1537,7 +1537,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="5584ИР8" prefix="IC">
+<deviceset name="5584ИР8" prefix="DD">
 <description>&lt;b&gt;АЕЯР.431200.209 ТУ&lt;/b&gt;&lt;p&gt;
 5584ИР8У, 5584ИР8АУ - Восьмиразрядный сдвиговый регистр с последовательным вводом, параллельным выводом данных и асинхронным сбросом.</description>
 <gates>
@@ -1592,7 +1592,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="5584ИР22" prefix="IC">
+<deviceset name="5584ИР22" prefix="DD">
 <description>&lt;b&gt;АЕЯР.431200.209 ТУ&lt;/b&gt;&lt;p&gt;
 5584ИР22У, 5584ИР22АУ - Восьмиразрядный регистр, управляемый по уровню, с параллельным вводом-выводом данных, с тремя состояниями на выходе.</description>
 <gates>
@@ -1655,7 +1655,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="5584ИР23" prefix="IC">
+<deviceset name="5584ИР23" prefix="DD">
 <description>&lt;b&gt;АЕЯР.431200.209 ТУ&lt;/b&gt;&lt;p&gt;
 5584ИР23У, 5584ИР23АУ - Восьмиразрядный регистр, управляемый по фронту, с параллельным вводом-выводом данных, с тремя состояниями на выходе.</description>
 <gates>
@@ -1718,7 +1718,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="5584ИР33" prefix="IC">
+<deviceset name="5584ИР33" prefix="DD">
 <description>&lt;b&gt;АЕЯР.431200.209 ТУ&lt;/b&gt;&lt;p&gt;
 5584ИР33У, 5584ИР33АУ - Восьмиразрядный регистр, управляемый по уровню с параллельным вводом-выводом данных, с тремя состояниями.</description>
 <gates>
@@ -1781,7 +1781,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="5584ИР35" prefix="IC">
+<deviceset name="5584ИР35" prefix="DD">
 <description>&lt;b&gt;АЕЯР.431200.209 ТУ&lt;/b&gt;&lt;p&gt;
 5584ИР35У, 5584ИР35АУ - Восьмиразрядный регистр, управляемый по фронту, с параллельным вводом-выводом данных, с входом установки.</description>
 <gates>
@@ -1844,7 +1844,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="5584КП11" prefix="IC">
+<deviceset name="5584КП11" prefix="DD">
 <description>&lt;b&gt;АЕЯР.431200.209 ТУ&lt;/b&gt;&lt;p&gt;
 5584КП11У, 5584КП11АУ - Четыре селектора-мультиплексора 2-1 с тремя состояниями на выходе.</description>
 <gates>
@@ -1899,7 +1899,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="5584ЛА3" prefix="IC">
+<deviceset name="5584ЛА3" prefix="DD">
 <description>&lt;b&gt;АЕЯР.431200.209 ТУ&lt;/b&gt;&lt;p&gt;
 5584ЛА3У, 5584ЛА3АУ - Четыре логических элемента 2И-НЕ</description>
 <gates>
@@ -1954,7 +1954,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="5584ЛЕ1" prefix="IC">
+<deviceset name="5584ЛЕ1" prefix="DD">
 <description>&lt;b&gt;АЕЯР.431200.209 ТУ&lt;/b&gt;&lt;p&gt;
 5584ЛЕ1У, 5584ЛЕ1АУ - Четыре логических элемента 2ИЛИ-НЕ.</description>
 <gates>
@@ -2009,7 +2009,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="5584ЛИ1" prefix="IC">
+<deviceset name="5584ЛИ1" prefix="DD">
 <description>&lt;b&gt;АЕЯР.431200.209 ТУ&lt;/b&gt;&lt;p&gt;
 5584ЛИ1У, 5584ЛИ1АУ - Четыре логических элемента 2И.</description>
 <gates>
@@ -2064,7 +2064,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="5584ЛЛ1" prefix="IC">
+<deviceset name="5584ЛЛ1" prefix="DD">
 <description>&lt;b&gt;АЕЯР.431200.209 ТУ&lt;/b&gt;&lt;p&gt;
 5584ЛЛ1У, 5584ЛЛ1АУ - Четыре логических элемента 2ИЛИ.</description>
 <gates>
@@ -2119,7 +2119,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="5584ЛН1" prefix="IC">
+<deviceset name="5584ЛН1" prefix="DD">
 <description>&lt;b&gt;АЕЯР.431200.209 ТУ&lt;/b&gt;&lt;p&gt;
 5584ЛН1У, 5584ЛН1АУ - Шесть логических элементов НЕ.</description>
 <gates>
@@ -2176,7 +2176,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="5584ЛП5" prefix="IC">
+<deviceset name="5584ЛП5" prefix="DD">
 <description>&lt;b&gt;АЕЯР.431200.209 ТУ&lt;/b&gt;&lt;p&gt;
 5584ЛП5У, 5584ЛП5АУ - Четыре двухвходовых логических элемента Исключающее ИЛИ.</description>
 <gates>
@@ -2231,7 +2231,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="5584ТЛ2" prefix="IC">
+<deviceset name="5584ТЛ2" prefix="DD">
 <description>&lt;b&gt;АЕЯР.431200.209 ТУ&lt;/b&gt;&lt;p&gt;
 5584ТЛ2У, 5584ТЛ2АУ - Шесть триггеров Шмитта-инверторов.</description>
 <gates>
@@ -2288,7 +2288,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="5584ТМ2" prefix="IC">
+<deviceset name="5584ТМ2" prefix="DD">
 <description>&lt;b&gt;АЕЯР.431200.209 ТУ&lt;/b&gt;&lt;p&gt;
 5584ТМ2У, 5584ТМ2АУ - Два D-триггера с установкой и сбросом.</description>
 <gates>
@@ -2341,7 +2341,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="5584ТМ9" prefix="IC">
+<deviceset name="5584ТМ9" prefix="DD">
 <description>&lt;b&gt;АЕЯР.431200.209 ТУ&lt;/b&gt;&lt;p&gt;
 5584ТМ9У, 5584ТМ9АУ - Шесть D-триггеров.</description>
 <gates>

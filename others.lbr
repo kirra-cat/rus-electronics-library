@@ -1142,8 +1142,9 @@
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="249ЛП8" prefix="IC">
-<description>&lt;b&gt;АДБК. 431270.030 ТУ&lt;/b&gt;&lt;p&gt;&lt;b&gt;249ЛП8&lt;/b&gt; - двухканальный сверхбыстродействующий инвертор (более 10Мб/с)&lt;br&gt;
+<deviceset name="249ЛП8" prefix="DA">
+<description>&lt;b&gt;АДБК. 431270.030 ТУ&lt;/b&gt;&lt;p&gt;
+&lt;b&gt;249ЛП8&lt;/b&gt; - двухканальный сверхбыстродействующий инвертор (более 10Мб/с)&lt;br&gt;
 с открытым коллектором в 16-выводном металлокерамическом корпусе 402.16-23.01&lt;br&gt;
 с напряженим изоляции 1500 В&lt;p&gt;
 Производитель: ОАО "Протон", г. Орёл.&lt;br&gt;
@@ -1172,7 +1173,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="ГК109С" prefix="Z">
+<deviceset name="ГК109С" prefix="G">
 <description>&lt;b&gt;АФТП.433520.008 ТУ&lt;/b&gt;&lt;p&gt;
 &lt;b&gt;ГК109&lt;/b&gt; - генератор кварцевый однократно программированный ГК109-С&lt;br&gt;
 Диапозон частот: от 1 до 125 МГц.&lt;br&gt;

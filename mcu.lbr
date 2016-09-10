@@ -16941,7 +16941,7 @@ shrink quad flat pack, square&lt;br&gt;
 <gate name="G$1" symbol="1986ВЕ1Т" x="0" y="0"/>
 </gates>
 <devices>
-<device name="1986ВЕ1Т" package="4229.132-3">
+<device name="" package="4229.132-3">
 <connects>
 <connect gate="G$1" pin="!RESET" pad="55"/>
 <connect gate="G$1" pin="A00" pad="127"/>
@@ -17394,7 +17394,7 @@ shrink quad flat pack, square&lt;br&gt;
 <gate name="G$1" symbol="К1921ВК01Т" x="0" y="0"/>
 </gates>
 <devices>
-<device name="QFP208L" package="QFP208L">
+<device name="(QFP208L)" package="QFP208L">
 <connects>
 <connect gate="G$1" pin="A00" pad="23"/>
 <connect gate="G$1" pin="A01" pad="24"/>
@@ -17609,7 +17609,7 @@ shrink quad flat pack, square&lt;br&gt;
 <technology name=""/>
 </technologies>
 </device>
-<device name="4250.208-1" package="4250.208-1">
+<device name="(4250.208-1)" package="4250.208-1">
 <connects>
 <connect gate="G$1" pin="A00" pad="23"/>
 <connect gate="G$1" pin="A01" pad="24"/>
@@ -17826,7 +17826,7 @@ shrink quad flat pack, square&lt;br&gt;
 </device>
 </devices>
 </deviceset>
-<deviceset name="1986ВЕ92У" prefix="DD">
+<deviceset name="1986ВЕ92" prefix="DD">
 <description>&lt;b&gt;АЕЯР.431290.711 ТУ&lt;/b&gt;&lt;p&gt;
 &lt;b&gt;1986ВЕ92У/К1986ВЕ92QI&lt;/b&gt; - это 32-разрядный микроконтроллер на ядре Cortex-M3 с тактовой частотой до 80 МГц.&lt;br&gt;
 Содержит 128 Кбайт Flash памяти программ и 32 Кбайта ОЗУ.&lt;br&gt;
@@ -17836,7 +17836,7 @@ shrink quad flat pack, square&lt;br&gt;
 <gate name="G$1" symbol="1986ВЕ92У" x="0" y="0"/>
 </gates>
 <devices>
-<device name="1986ВЕ92У" package="Н18.64-1В">
+<device name="У" package="Н18.64-1В">
 <connects>
 <connect gate="G$1" pin="!RESET" pad="10"/>
 <connect gate="G$1" pin="A00" pad="55"/>
@@ -17907,7 +17907,7 @@ shrink quad flat pack, square&lt;br&gt;
 <technology name=""/>
 </technologies>
 </device>
-<device name="К1986ВЕ92QI" package="LQFP64">
+<device name="QI" package="LQFP64">
 <connects>
 <connect gate="G$1" pin="!RESET" pad="18"/>
 <connect gate="G$1" pin="A00" pad="63"/>
@@ -18341,7 +18341,7 @@ shrink quad flat pack, square&lt;br&gt;
 </device>
 </devices>
 </deviceset>
-<deviceset name="1986ВЕ4У" prefix="DD">
+<deviceset name="1986ВЕ4" prefix="DD">
 <description>&lt;b&gt;АЕЯР.431280.912 ТУ &lt;/b&gt;&lt;p&gt;
 &lt;b&gt;1986ВЕ4У &lt;/b&gt; - 32-разрядный RISC-микроконтроллер с 8-канальным 24-разрядным ∑Δ АЦП с ядром Cortex-M0, работающтй на частоте 36 МГц.&lt;br&gt;
 Производитель: ЗАО "ПКК Миландр", г. Зеленоград, Москва.  &lt;br&gt;
@@ -18350,7 +18350,7 @@ shrink quad flat pack, square&lt;br&gt;
 <gate name="G$1" symbol="1986ВЕ4У" x="0" y="0"/>
 </gates>
 <devices>
-<device name="1986ВЕ4У1" package="5153.64-1">
+<device name="У1" package="5153.64-1">
 <connects>
 <connect gate="G$1" pin="AGND" pad="55"/>
 <connect gate="G$1" pin="AUCC" pad="9"/>
@@ -18421,7 +18421,7 @@ shrink quad flat pack, square&lt;br&gt;
 <technology name=""/>
 </technologies>
 </device>
-<device name="1986ВЕ4У" package="Н18.64-1В">
+<device name="У" package="Н18.64-1В">
 <connects>
 <connect gate="G$1" pin="AGND" pad="55"/>
 <connect gate="G$1" pin="AUCC" pad="9"/>

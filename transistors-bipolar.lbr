@@ -1,0 +1,2024 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="7.5.0">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="11" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="3" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="no" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+</layers>
+<library>
+<packages>
+<package name="КТ-46А">
+<wire x1="-1.5" y1="-0.7" x2="1.5" y2="-0.7" width="0.1" layer="51"/>
+<wire x1="1.5" y1="-0.7" x2="1.5" y2="0.7" width="0.1" layer="51"/>
+<wire x1="1.5" y1="0.7" x2="-1.5" y2="0.7" width="0.1" layer="51"/>
+<wire x1="-1.5" y1="0.7" x2="-1.5" y2="-0.7" width="0.1" layer="51"/>
+<wire x1="-1.35" y1="0.55" x2="-1.35" y2="-0.55" width="0.05" layer="51"/>
+<wire x1="-1.35" y1="-0.55" x2="1.35" y2="-0.55" width="0.05" layer="51"/>
+<wire x1="1.35" y1="-0.55" x2="1.35" y2="0.55" width="0.05" layer="51"/>
+<wire x1="1.35" y1="0.55" x2="-1.35" y2="0.55" width="0.05" layer="51"/>
+<wire x1="-1.5" y1="0.7" x2="-1.35" y2="0.55" width="0.05" layer="51"/>
+<wire x1="-1.5" y1="-0.7" x2="-1.35" y2="-0.55" width="0.05" layer="51"/>
+<wire x1="1.5" y1="-0.7" x2="1.35" y2="-0.55" width="0.05" layer="51"/>
+<wire x1="1.5" y1="0.7" x2="1.35" y2="0.55" width="0.05" layer="51"/>
+<text x="0.7" y="-0.3" size="0.2" layer="51" align="center">КТ-46А</text>
+<smd name="COLLECTOR" x="0" y="1.4" dx="0.6" dy="0.8" layer="1"/>
+<polygon width="0.05" layer="51">
+<vertex x="-0.2" y="0.7"/>
+<vertex x="-0.2" y="1.3"/>
+<vertex x="0.2" y="1.3"/>
+<vertex x="0.2" y="0.7"/>
+</polygon>
+<smd name="BASE" x="-0.95" y="-1.4" dx="0.6" dy="0.8" layer="1" rot="R180"/>
+<polygon width="0.05" layer="51">
+<vertex x="-0.75" y="-0.7"/>
+<vertex x="-0.75" y="-1.3"/>
+<vertex x="-1.15" y="-1.3"/>
+<vertex x="-1.15" y="-0.7"/>
+</polygon>
+<smd name="EMITTER" x="0.95" y="-1.4" dx="0.6" dy="0.8" layer="1" rot="R180"/>
+<polygon width="0.05" layer="51">
+<vertex x="1.15" y="-0.7"/>
+<vertex x="1.15" y="-1.3"/>
+<vertex x="0.75" y="-1.3"/>
+<vertex x="0.75" y="-0.7"/>
+</polygon>
+<wire x1="-0.45" y1="1" x2="-1.7" y2="1" width="0.1" layer="21"/>
+<wire x1="-1.7" y1="1" x2="-1.7" y2="-1" width="0.1" layer="21"/>
+<wire x1="-1.7" y1="-1" x2="-1.4" y2="-1" width="0.1" layer="21"/>
+<wire x1="0.45" y1="1" x2="1.7" y2="1" width="0.1" layer="21"/>
+<wire x1="1.7" y1="1" x2="1.7" y2="-1" width="0.1" layer="21"/>
+<wire x1="1.7" y1="-1" x2="1.4" y2="-1" width="0.1" layer="21"/>
+<wire x1="-0.5" y1="-1" x2="0.5" y2="-1" width="0.1" layer="21"/>
+<text x="-2.25" y="0" size="0.508" layer="25" rot="R90" align="center">&gt;NAME</text>
+<text x="2.25" y="0" size="0.508" layer="27" rot="R90" align="center">&gt;VALUE</text>
+</package>
+<package name="КТ-48">
+<wire x1="-1.5" y1="-0.7" x2="1.5" y2="-0.7" width="0.1" layer="51"/>
+<wire x1="1.5" y1="-0.7" x2="1.5" y2="0.7" width="0.1" layer="51"/>
+<wire x1="1.5" y1="0.7" x2="-1.5" y2="0.7" width="0.1" layer="51"/>
+<wire x1="-1.5" y1="0.7" x2="-1.5" y2="-0.7" width="0.1" layer="51"/>
+<smd name="1" x="-0.85" y="-1.25" dx="0.8" dy="0.65" layer="1"/>
+<smd name="2" x="0.85" y="-1.25" dx="0.5" dy="0.65" layer="1"/>
+<smd name="3" x="0.85" y="1.25" dx="0.5" dy="0.65" layer="1" rot="R180"/>
+<smd name="4" x="-0.85" y="1.25" dx="0.5" dy="0.65" layer="1" rot="R180"/>
+<wire x1="-1.35" y1="0.55" x2="1.35" y2="0.55" width="0.05" layer="51"/>
+<wire x1="1.35" y1="0.55" x2="1.35" y2="-0.55" width="0.05" layer="51"/>
+<wire x1="1.35" y1="-0.55" x2="-1.35" y2="-0.55" width="0.05" layer="51"/>
+<wire x1="-1.35" y1="-0.55" x2="-1.35" y2="0.55" width="0.05" layer="51"/>
+<wire x1="-1.5" y1="0.7" x2="-1.35" y2="0.55" width="0.05" layer="51"/>
+<wire x1="1.35" y1="-0.55" x2="1.5" y2="-0.7" width="0.05" layer="51"/>
+<wire x1="1.5" y1="0.7" x2="1.35" y2="0.55" width="0.05" layer="51"/>
+<wire x1="-1.35" y1="-0.55" x2="-1.5" y2="-0.7" width="0.05" layer="51"/>
+<polygon width="0.1" layer="51">
+<vertex x="-1" y="0.7"/>
+<vertex x="-1" y="1.3"/>
+<vertex x="-0.7" y="1.3"/>
+<vertex x="-0.7" y="0.7"/>
+</polygon>
+<polygon width="0.1" layer="51">
+<vertex x="-1.15" y="-0.7"/>
+<vertex x="-1.15" y="-1.3"/>
+<vertex x="-0.55" y="-1.3"/>
+<vertex x="-0.55" y="-0.7"/>
+</polygon>
+<polygon width="0.1" layer="51">
+<vertex x="0.7" y="0.7"/>
+<vertex x="0.7" y="1.3"/>
+<vertex x="1" y="1.3"/>
+<vertex x="1" y="0.7"/>
+</polygon>
+<polygon width="0.1" layer="51">
+<vertex x="0.7" y="-1.3"/>
+<vertex x="0.7" y="-0.7"/>
+<vertex x="1" y="-0.7"/>
+<vertex x="1" y="-1.3"/>
+</polygon>
+<text x="0.85" y="-0.35" size="0.2" layer="51" align="center">КТ-48</text>
+<text x="-2.25" y="0" size="0.508" layer="25" rot="R90" align="center">&gt;NAME</text>
+<text x="2.25" y="0" size="0.508" layer="27" rot="R90" align="center">&gt;VALUE</text>
+<wire x1="-1.25" y1="1" x2="-1.8" y2="1" width="0.1" layer="21"/>
+<wire x1="-1.8" y1="1" x2="-1.8" y2="-1" width="0.1" layer="21"/>
+<wire x1="-1.8" y1="-1" x2="-1.4" y2="-1" width="0.1" layer="21"/>
+<wire x1="-0.45" y1="1" x2="0.45" y2="1" width="0.1" layer="21"/>
+<wire x1="1.25" y1="1" x2="1.8" y2="1" width="0.1" layer="21"/>
+<wire x1="1.8" y1="1" x2="1.8" y2="-1" width="0.1" layer="21"/>
+<wire x1="1.8" y1="-1" x2="1.25" y2="-1" width="0.1" layer="21"/>
+<wire x1="0.45" y1="-1" x2="-0.3" y2="-1" width="0.1" layer="21"/>
+</package>
+<package name="КТ-83">
+<wire x1="-10.3" y1="-3.3" x2="-4.7" y2="-3.3" width="0.1" layer="51"/>
+<wire x1="-4.7" y1="-3.3" x2="-4.3" y2="-3.3" width="0.1" layer="51"/>
+<wire x1="-2.7" y1="-3.3" x2="2.7" y2="-3.3" width="0.1" layer="51"/>
+<wire x1="4.3" y1="-3.3" x2="4.7" y2="-3.3" width="0.1" layer="51"/>
+<wire x1="4.7" y1="-3.3" x2="10.3" y2="-3.3" width="0.1" layer="51"/>
+<wire x1="10.3" y1="-3.3" x2="10.3" y2="-1.5" width="0.1" layer="51"/>
+<wire x1="10.3" y1="1.5" x2="10.3" y2="3.3" width="0.1" layer="51"/>
+<wire x1="10.3" y1="3.3" x2="4.7" y2="3.3" width="0.1" layer="51"/>
+<wire x1="4.7" y1="3.3" x2="4.3" y2="3.3" width="0.1" layer="51"/>
+<wire x1="2.7" y1="3.3" x2="-2.7" y2="3.3" width="0.1" layer="51"/>
+<wire x1="-2.7" y1="3.3" x2="-4.3" y2="3.3" width="0.1" layer="51"/>
+<wire x1="-4.3" y1="3.3" x2="-4.7" y2="3.3" width="0.1" layer="51"/>
+<wire x1="-4.7" y1="3.3" x2="-10.3" y2="3.3" width="0.1" layer="51"/>
+<wire x1="7.5" y1="-1.5" x2="7.5" y2="1.5" width="0.1" layer="51" curve="-180"/>
+<wire x1="7.5" y1="1.5" x2="10.3" y2="1.5" width="0.1" layer="51"/>
+<wire x1="7.5" y1="-1.5" x2="10.3" y2="-1.5" width="0.1" layer="51"/>
+<wire x1="-10.3" y1="3.3" x2="-10.3" y2="1.5" width="0.1" layer="51"/>
+<wire x1="-10.3" y1="-1.5" x2="-10.3" y2="-3.3" width="0.1" layer="51"/>
+<wire x1="-7.5" y1="1.5" x2="-7.5" y2="-1.5" width="0.1" layer="51" curve="-180"/>
+<wire x1="-7.5" y1="-1.5" x2="-10.3" y2="-1.5" width="0.1" layer="51"/>
+<wire x1="-7.5" y1="1.5" x2="-10.3" y2="1.5" width="0.1" layer="51"/>
+<wire x1="4.3" y1="3.3" x2="4.3" y2="-3.3" width="0.1" layer="51"/>
+<wire x1="-4.3" y1="-3.3" x2="-4.3" y2="3.3" width="0.1" layer="51"/>
+<wire x1="-4.7" y1="3.3" x2="-4.7" y2="-3.3" width="0.1" layer="51"/>
+<wire x1="4.7" y1="-3.3" x2="4.7" y2="3.3" width="0.1" layer="51"/>
+<smd name="E@1" x="-3.5" y="-4.6" dx="2.6" dy="2" layer="1" rot="R90"/>
+<smd name="E@4" x="-3.5" y="4.6" dx="2.6" dy="2" layer="1" rot="R90"/>
+<smd name="E@3" x="3.5" y="4.6" dx="2.6" dy="2" layer="1" rot="R90"/>
+<smd name="E@2" x="3.5" y="-4.6" dx="2.6" dy="2" layer="1" rot="R90"/>
+<smd name="B" x="0" y="-4.6" dx="2.6" dy="3.6" layer="1" rot="R90"/>
+<smd name="C" x="0" y="4.6" dx="2.6" dy="3.6" layer="1" rot="R90"/>
+<wire x1="-4.3" y1="3.3" x2="-4.3" y2="5.5" width="0.1" layer="51"/>
+<wire x1="-4.3" y1="5.5" x2="-2.7" y2="5.5" width="0.1" layer="51"/>
+<wire x1="-2.7" y1="5.5" x2="-2.7" y2="3.3" width="0.1" layer="51"/>
+<polygon width="0.1" layer="51">
+<vertex x="-4.3" y="5.5"/>
+<vertex x="-4.3" y="3.3"/>
+<vertex x="-2.7" y="3.3"/>
+<vertex x="-2.7" y="5.5"/>
+</polygon>
+<wire x1="-2.7" y1="-5.5" x2="-4.3" y2="-5.5" width="0.1" layer="51"/>
+<wire x1="-4.3" y1="-5.5" x2="-4.3" y2="-3.3" width="0.1" layer="51"/>
+<wire x1="-4.3" y1="-3.3" x2="-2.7" y2="-3.3" width="0.1" layer="51"/>
+<wire x1="-2.7" y1="-3.3" x2="-2.7" y2="-5.5" width="0.1" layer="51"/>
+<polygon width="0.1" layer="51">
+<vertex x="-4.3" y="-3.3"/>
+<vertex x="-4.3" y="-5.5"/>
+<vertex x="-2.7" y="-5.5"/>
+<vertex x="-2.7" y="-3.3"/>
+</polygon>
+<wire x1="4.3" y1="3.3" x2="2.7" y2="3.3" width="0.1" layer="51"/>
+<wire x1="2.7" y1="3.3" x2="2.7" y2="5.5" width="0.1" layer="51"/>
+<wire x1="2.7" y1="5.5" x2="4.3" y2="5.5" width="0.1" layer="51"/>
+<wire x1="4.3" y1="5.5" x2="4.3" y2="3.3" width="0.1" layer="51"/>
+<polygon width="0.1" layer="51">
+<vertex x="2.7" y="5.5"/>
+<vertex x="2.7" y="3.3"/>
+<vertex x="4.3" y="3.3"/>
+<vertex x="4.3" y="5.5"/>
+</polygon>
+<wire x1="4.3" y1="-5.5" x2="2.7" y2="-5.5" width="0.1" layer="51"/>
+<wire x1="2.7" y1="-5.5" x2="2.7" y2="-3.3" width="0.1" layer="51"/>
+<wire x1="2.7" y1="-3.3" x2="4.3" y2="-3.3" width="0.1" layer="51"/>
+<wire x1="4.3" y1="-3.3" x2="4.3" y2="-5.5" width="0.1" layer="51"/>
+<polygon width="0.1" layer="51">
+<vertex x="2.7" y="-3.3"/>
+<vertex x="2.7" y="-5.5"/>
+<vertex x="4.3" y="-5.5"/>
+<vertex x="4.3" y="-3.3"/>
+</polygon>
+<wire x1="0" y1="-5.5" x2="-1.6" y2="-5.5" width="0.1" layer="51"/>
+<wire x1="-1.6" y1="-5.5" x2="-1.6" y2="-3.3" width="0.1" layer="51"/>
+<wire x1="-1.6" y1="-3.3" x2="0" y2="-3.3" width="0.1" layer="51"/>
+<wire x1="0" y1="-3.3" x2="0" y2="-5.5" width="0.1" layer="51"/>
+<polygon width="0.1" layer="51">
+<vertex x="-1.6" y="-3.3"/>
+<vertex x="-1.6" y="-5.5"/>
+<vertex x="1.6" y="-5.5"/>
+<vertex x="1.6" y="-3.3"/>
+</polygon>
+<wire x1="0" y1="3.3" x2="-1.6" y2="3.3" width="0.1" layer="51"/>
+<polygon width="0.1" layer="51">
+<vertex x="-1.6" y="3.3"/>
+<vertex x="-1.6" y="4.2"/>
+<vertex x="0" y="5.5"/>
+<vertex x="1.6" y="5.5"/>
+<vertex x="1.6" y="3.3"/>
+</polygon>
+<wire x1="-4.6" y1="3.8" x2="-10.8" y2="3.8" width="0.1" layer="21"/>
+<wire x1="-10.8" y1="3.8" x2="-10.8" y2="-3.8" width="0.1" layer="21"/>
+<wire x1="-10.8" y1="-3.8" x2="-4.6" y2="-3.8" width="0.1" layer="21"/>
+<wire x1="4.6" y1="3.8" x2="10.8" y2="3.8" width="0.1" layer="21"/>
+<wire x1="10.8" y1="3.8" x2="10.8" y2="-3.8" width="0.1" layer="21"/>
+<wire x1="4.6" y1="-3.8" x2="10.8" y2="-3.8" width="0.1" layer="21"/>
+<hole x="-7.5" y="0" drill="3"/>
+<hole x="7.5" y="0" drill="3"/>
+<text x="9.8" y="-2.4" size="0.2" layer="51" rot="R90" align="center">КТ-83</text>
+<text x="0" y="1.016" size="0.508" layer="25" align="center">&gt;NAME</text>
+<text x="0" y="-1.016" size="0.508" layer="27" align="center">&gt;VALUE</text>
+</package>
+</packages>
+<symbols>
+<symbol name="NPN">
+<wire x1="2.54" y1="2.54" x2="0.508" y2="1.524" width="0.1524" layer="94"/>
+<wire x1="1.778" y1="-1.524" x2="2.54" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="-2.54" x2="1.27" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="1.27" y1="-2.54" x2="1.778" y2="-1.524" width="0.1524" layer="94"/>
+<wire x1="1.54" y1="-2.04" x2="0.308" y2="-1.424" width="0.1524" layer="94"/>
+<wire x1="1.524" y1="-2.413" x2="2.286" y2="-2.413" width="0.254" layer="94"/>
+<wire x1="2.286" y1="-2.413" x2="1.778" y2="-1.778" width="0.254" layer="94"/>
+<wire x1="1.778" y1="-1.778" x2="1.524" y2="-2.286" width="0.254" layer="94"/>
+<wire x1="1.524" y1="-2.286" x2="1.905" y2="-2.286" width="0.254" layer="94"/>
+<wire x1="1.905" y1="-2.286" x2="1.778" y2="-2.032" width="0.254" layer="94"/>
+<rectangle x1="-0.254" y1="-2.54" x2="0.508" y2="2.54" layer="94"/>
+<pin name="B" x="-2.54" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
+<pin name="E" x="2.54" y="-5.08" visible="off" length="short" direction="pas" swaplevel="3" rot="R90"/>
+<pin name="C" x="2.54" y="5.08" visible="off" length="short" direction="pas" swaplevel="2" rot="R270"/>
+<circle x="1.27" y="0" radius="3.175" width="0.1524" layer="94"/>
+<text x="9.398" y="-1.27" size="1.27" layer="96" align="center">&gt;VALUE</text>
+<text x="9.398" y="1.27" size="1.27" layer="95" align="center">&gt;NAME</text>
+</symbol>
+<symbol name="PNP">
+<wire x1="2.086" y1="1.678" x2="1.578" y2="2.594" width="0.1524" layer="94"/>
+<wire x1="1.578" y1="2.594" x2="0.516" y2="1.478" width="0.1524" layer="94"/>
+<wire x1="0.516" y1="1.478" x2="2.086" y2="1.678" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="2.54" x2="1.808" y2="2.124" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="-2.54" x2="0.508" y2="-1.524" width="0.1524" layer="94"/>
+<wire x1="1.905" y1="1.778" x2="1.524" y2="2.413" width="0.254" layer="94"/>
+<wire x1="1.524" y1="2.413" x2="0.762" y2="1.651" width="0.254" layer="94"/>
+<wire x1="0.762" y1="1.651" x2="1.778" y2="1.778" width="0.254" layer="94"/>
+<wire x1="1.778" y1="1.778" x2="1.524" y2="2.159" width="0.254" layer="94"/>
+<wire x1="1.524" y1="2.159" x2="1.143" y2="1.905" width="0.254" layer="94"/>
+<wire x1="1.143" y1="1.905" x2="1.524" y2="1.905" width="0.254" layer="94"/>
+<rectangle x1="-0.254" y1="-2.54" x2="0.508" y2="2.54" layer="94"/>
+<pin name="B" x="-2.54" y="0" visible="off" length="short" direction="pas"/>
+<pin name="E" x="2.54" y="5.08" visible="off" length="short" direction="pas" rot="R270"/>
+<pin name="C" x="2.54" y="-5.08" visible="off" length="short" direction="pas" rot="R90"/>
+<circle x="1.27" y="0" radius="3.175" width="0.1524" layer="94"/>
+<text x="9.398" y="-1.27" size="1.27" layer="96" align="center">&gt;VALUE</text>
+<text x="9.398" y="1.27" size="1.27" layer="95" align="center">&gt;NAME</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="2Т3129" prefix="VT">
+<description>&lt;b&gt;аА0.339.568 ТУ&lt;/b&gt;&lt;p&gt;
+2Т3129 - Транзисторы кремниевые эпитаксиально-планарные структуры p-n-p универсальные.&lt;br&gt;
+Предназначены для применения в низкочастотных усилителях, генераторах, импульсных устройствах герметизированной аппаратуры. &lt;br&gt;
+Выпускаются в пластмассовом корпусе с жесткими выводами.&lt;br&gt;
+&lt;table width="1059" cellpadding="0" cellspacing="0" border="1"&gt;
+	&lt;tr&gt;
+		&lt;td rowspan="3" style="border: 1.00pt solid #adc3d5; padding: 0.05cm"&gt;
+			&lt;p align="center"&gt;Тип&lt;br/&gt;
+транзистора&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td rowspan="3" style="border-top: 1.00pt solid #adc3d5; border-bottom: 1.00pt solid #adc3d5; border-left: none; border-right: 1.00pt solid #adc3d5; padding-top: 0.05cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;Структура&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td colspan="6" style="border-top: 1.00pt solid #adc3d5; border-bottom: 1.00pt solid #adc3d5; border-left: none; border-right: 1.00pt solid #adc3d5; padding-top: 0.05cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;Предельные значения параметров при Тп=25&amp;deg;С&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td colspan="8" style="border-top: 1.00pt solid #adc3d5; border-bottom: 1.00pt solid #adc3d5; border-left: none; border-right: 1.00pt solid #adc3d5; padding-top: 0.05cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;Значения параметров при Тп=25&amp;deg;С&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td rowspan="2" style="border-top: 1.00pt solid #adc3d5; border-bottom: 1.00pt solid #adc3d5; border-left: none; border-right: 1.00pt solid #adc3d5; padding-top: 0.05cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;Т&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td style="border-top: none; border-bottom: 1.00pt solid #adc3d5; border-left: none; border-right: 1.00pt solid #adc3d5; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;IК&lt;br/&gt;
+max&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border-top: none; border-bottom: 1.00pt solid #adc3d5; border-left: none; border-right: 1.00pt solid #adc3d5; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;IК. И.&lt;br/&gt;
+max&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border-top: none; border-bottom: 1.00pt solid #adc3d5; border-left: none; border-right: 1.00pt solid #adc3d5; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;UКЭR max&lt;br/&gt;
+(UКЭ0 max)&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border-top: none; border-bottom: 1.00pt solid #adc3d5; border-left: none; border-right: 1.00pt solid #adc3d5; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;UКБ0 max&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border-top: none; border-bottom: 1.00pt solid #adc3d5; border-left: none; border-right: 1.00pt solid #adc3d5; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;UЭБ0 max&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border-top: none; border-bottom: 1.00pt solid #adc3d5; border-left: none; border-right: 1.00pt solid #adc3d5; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;РК&amp;nbsp;&lt;span lang="en-US"&gt;max&lt;br/&gt;
+(&lt;/span&gt;РК&lt;span lang="en-US"&gt;.
+			&lt;/span&gt;И&lt;span lang="en-US"&gt;.&lt;/span&gt;&amp;nbsp;&lt;span lang="en-US"&gt;max)&lt;/span&gt;&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border-top: none; border-bottom: 1.00pt solid #adc3d5; border-left: none; border-right: 1.00pt solid #adc3d5; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;h21Э,&lt;br/&gt;
+(h21э)&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border-top: none; border-bottom: 1.00pt solid #adc3d5; border-left: none; border-right: 1.00pt solid #adc3d5; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;UКБ&lt;br/&gt;
+(UКЭ)&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border-top: none; border-bottom: 1.00pt solid #adc3d5; border-left: none; border-right: 1.00pt solid #adc3d5; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;IЭ&lt;br/&gt;
+(IК)&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border-top: none; border-bottom: 1.00pt solid #adc3d5; border-left: none; border-right: 1.00pt solid #adc3d5; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;UКЭ&lt;br/&gt;
+нас.&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border-top: none; border-bottom: 1.00pt solid #adc3d5; border-left: none; border-right: 1.00pt solid #adc3d5; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;IКБО&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border-top: none; border-bottom: 1.00pt solid #adc3d5; border-left: none; border-right: 1.00pt solid #adc3d5; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;fгp.&lt;br/&gt;
+(f h21)&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border-top: none; border-bottom: 1.00pt solid #adc3d5; border-left: none; border-right: 1.00pt solid #adc3d5; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;КШ&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border-top: none; border-bottom: 1.00pt solid #adc3d5; border-left: none; border-right: 1.00pt solid #adc3d5; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;СК&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td style="border-top: none; border-bottom: 1.00pt solid #adc3d5; border-left: none; border-right: 1.00pt solid #adc3d5; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;мА&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border-top: none; border-bottom: 1.00pt solid #adc3d5; border-left: none; border-right: 1.00pt solid #adc3d5; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;мА&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border-top: none; border-bottom: 1.00pt solid #adc3d5; border-left: none; border-right: 1.00pt solid #adc3d5; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;В&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border-top: none; border-bottom: 1.00pt solid #adc3d5; border-left: none; border-right: 1.00pt solid #adc3d5; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;В&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border-top: none; border-bottom: 1.00pt solid #adc3d5; border-left: none; border-right: 1.00pt solid #adc3d5; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;В&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border-top: none; border-bottom: 1.00pt solid #adc3d5; border-left: none; border-right: 1.00pt solid #adc3d5; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;мВт&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border-top: none; border-bottom: 1.00pt solid #adc3d5; border-left: none; border-right: 1.00pt solid #adc3d5; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;&lt;br/&gt;
+
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border-top: none; border-bottom: 1.00pt solid #adc3d5; border-left: none; border-right: 1.00pt solid #adc3d5; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;В&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border-top: none; border-bottom: 1.00pt solid #adc3d5; border-left: none; border-right: 1.00pt solid #adc3d5; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;мА&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border-top: none; border-bottom: 1.00pt solid #adc3d5; border-left: none; border-right: 1.00pt solid #adc3d5; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;В&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border-top: none; border-bottom: 1.00pt solid #adc3d5; border-left: none; border-right: 1.00pt solid #adc3d5; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;мкА&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border-top: none; border-bottom: 1.00pt solid #adc3d5; border-left: none; border-right: 1.00pt solid #adc3d5; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;МГц&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border-top: none; border-bottom: 1.00pt solid #adc3d5; border-left: none; border-right: 1.00pt solid #adc3d5; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;дБ&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border-top: none; border-bottom: 1.00pt solid #adc3d5; border-left: none; border-right: 1.00pt solid #adc3d5; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;пФ&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border-top: none; border-bottom: 1.00pt solid #adc3d5; border-left: none; border-right: 1.00pt solid #adc3d5; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;&amp;deg;С&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td style="border-top: none; border-bottom: 1.00pt solid #adc3d5; border-left: 1.00pt solid #adc3d5; border-right: 1.00pt solid #adc3d5; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0.05cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;2Т3129А9&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border-top: none; border-bottom: 1.00pt solid #adc3d5; border-left: none; border-right: 1.00pt solid #adc3d5; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;p-n-p&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border-top: none; border-bottom: 1.00pt solid #adc3d5; border-left: none; border-right: 1.00pt solid #adc3d5; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;100&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border-top: none; border-bottom: 1.00pt solid #adc3d5; border-left: none; border-right: 1.00pt solid #adc3d5; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;200&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border-top: none; border-bottom: 1.00pt solid #adc3d5; border-left: none; border-right: 1.00pt solid #adc3d5; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;40&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border-top: none; border-bottom: 1.00pt solid #adc3d5; border-left: none; border-right: 1.00pt solid #adc3d5; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;50&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border-top: none; border-bottom: 1.00pt solid #adc3d5; border-left: none; border-right: 1.00pt solid #adc3d5; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;5&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border-top: none; border-bottom: 1.00pt solid #adc3d5; border-left: none; border-right: 1.00pt solid #adc3d5; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;200&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border-top: none; border-bottom: 1.00pt solid #adc3d5; border-left: none; border-right: 1.00pt solid #adc3d5; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;30...120&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border-top: none; border-bottom: 1.00pt solid #adc3d5; border-left: none; border-right: 1.00pt solid #adc3d5; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;5&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border-top: none; border-bottom: 1.00pt solid #adc3d5; border-left: none; border-right: 1.00pt solid #adc3d5; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;2&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border-top: none; border-bottom: 1.00pt solid #adc3d5; border-left: none; border-right: 1.00pt solid #adc3d5; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;0,2&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border-top: none; border-bottom: 1.00pt solid #adc3d5; border-left: none; border-right: 1.00pt solid #adc3d5; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;1&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border-top: none; border-bottom: 1.00pt solid #adc3d5; border-left: none; border-right: 1.00pt solid #adc3d5; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;200&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border-top: none; border-bottom: 1.00pt solid #adc3d5; border-left: none; border-right: 1.00pt solid #adc3d5; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;-&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border-top: none; border-bottom: 1.00pt solid #adc3d5; border-left: none; border-right: 1.00pt solid #adc3d5; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;5&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border-top: none; border-bottom: 1.00pt solid #adc3d5; border-left: none; border-right: 1.00pt solid #adc3d5; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;-60&amp;hellip;+125&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td style="border-top: none; border-bottom: 1.00pt solid #adc3d5; border-left: 1.00pt solid #adc3d5; border-right: 1.00pt solid #adc3d5; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0.05cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;2Т3129Б9&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border-top: none; border-bottom: 1.00pt solid #adc3d5; border-left: none; border-right: 1.00pt solid #adc3d5; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;p-n-p&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border-top: none; border-bottom: 1.00pt solid #adc3d5; border-left: none; border-right: 1.00pt solid #adc3d5; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;100&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border-top: none; border-bottom: 1.00pt solid #adc3d5; border-left: none; border-right: 1.00pt solid #adc3d5; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;200&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border-top: none; border-bottom: 1.00pt solid #adc3d5; border-left: none; border-right: 1.00pt solid #adc3d5; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;40&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border-top: none; border-bottom: 1.00pt solid #adc3d5; border-left: none; border-right: 1.00pt solid #adc3d5; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;50&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border-top: none; border-bottom: 1.00pt solid #adc3d5; border-left: none; border-right: 1.00pt solid #adc3d5; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;5&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border-top: none; border-bottom: 1.00pt solid #adc3d5; border-left: none; border-right: 1.00pt solid #adc3d5; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;200&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border-top: none; border-bottom: 1.00pt solid #adc3d5; border-left: none; border-right: 1.00pt solid #adc3d5; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;80...250&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border-top: none; border-bottom: 1.00pt solid #adc3d5; border-left: none; border-right: 1.00pt solid #adc3d5; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;5&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border-top: none; border-bottom: 1.00pt solid #adc3d5; border-left: none; border-right: 1.00pt solid #adc3d5; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;2&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border-top: none; border-bottom: 1.00pt solid #adc3d5; border-left: none; border-right: 1.00pt solid #adc3d5; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;0,2&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border-top: none; border-bottom: 1.00pt solid #adc3d5; border-left: none; border-right: 1.00pt solid #adc3d5; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;1&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border-top: none; border-bottom: 1.00pt solid #adc3d5; border-left: none; border-right: 1.00pt solid #adc3d5; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;200&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border-top: none; border-bottom: 1.00pt solid #adc3d5; border-left: none; border-right: 1.00pt solid #adc3d5; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;-&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border-top: none; border-bottom: 1.00pt solid #adc3d5; border-left: none; border-right: 1.00pt solid #adc3d5; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;5&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border-top: none; border-bottom: 1.00pt solid #adc3d5; border-left: none; border-right: 1.00pt solid #adc3d5; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;-60&amp;hellip;+125&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td style="border-top: none; border-bottom: 1.00pt solid #adc3d5; border-left: 1.00pt solid #adc3d5; border-right: 1.00pt solid #adc3d5; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0.05cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;2Т3129В9&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border-top: none; border-bottom: 1.00pt solid #adc3d5; border-left: none; border-right: 1.00pt solid #adc3d5; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;p-n-p&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border-top: none; border-bottom: 1.00pt solid #adc3d5; border-left: none; border-right: 1.00pt solid #adc3d5; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;100&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border-top: none; border-bottom: 1.00pt solid #adc3d5; border-left: none; border-right: 1.00pt solid #adc3d5; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;200&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border-top: none; border-bottom: 1.00pt solid #adc3d5; border-left: none; border-right: 1.00pt solid #adc3d5; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;20&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border-top: none; border-bottom: 1.00pt solid #adc3d5; border-left: none; border-right: 1.00pt solid #adc3d5; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;30&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border-top: none; border-bottom: 1.00pt solid #adc3d5; border-left: none; border-right: 1.00pt solid #adc3d5; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;5&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border-top: none; border-bottom: 1.00pt solid #adc3d5; border-left: none; border-right: 1.00pt solid #adc3d5; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;200&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border-top: none; border-bottom: 1.00pt solid #adc3d5; border-left: none; border-right: 1.00pt solid #adc3d5; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;80...250&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border-top: none; border-bottom: 1.00pt solid #adc3d5; border-left: none; border-right: 1.00pt solid #adc3d5; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;5&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border-top: none; border-bottom: 1.00pt solid #adc3d5; border-left: none; border-right: 1.00pt solid #adc3d5; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;2&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border-top: none; border-bottom: 1.00pt solid #adc3d5; border-left: none; border-right: 1.00pt solid #adc3d5; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;0,2&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border-top: none; border-bottom: 1.00pt solid #adc3d5; border-left: none; border-right: 1.00pt solid #adc3d5; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;1&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border-top: none; border-bottom: 1.00pt solid #adc3d5; border-left: none; border-right: 1.00pt solid #adc3d5; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;200&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border-top: none; border-bottom: 1.00pt solid #adc3d5; border-left: none; border-right: 1.00pt solid #adc3d5; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;-&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border-top: none; border-bottom: 1.00pt solid #adc3d5; border-left: none; border-right: 1.00pt solid #adc3d5; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;5&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border-top: none; border-bottom: 1.00pt solid #adc3d5; border-left: none; border-right: 1.00pt solid #adc3d5; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;-60&amp;hellip;+125&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td style="border-top: none; border-bottom: 1.00pt solid #adc3d5; border-left: 1.00pt solid #adc3d5; border-right: 1.00pt solid #adc3d5; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0.05cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;2Т3129Г9&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border-top: none; border-bottom: 1.00pt solid #adc3d5; border-left: none; border-right: 1.00pt solid #adc3d5; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;p-n-p&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border-top: none; border-bottom: 1.00pt solid #adc3d5; border-left: none; border-right: 1.00pt solid #adc3d5; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;100&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border-top: none; border-bottom: 1.00pt solid #adc3d5; border-left: none; border-right: 1.00pt solid #adc3d5; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;200&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border-top: none; border-bottom: 1.00pt solid #adc3d5; border-left: none; border-right: 1.00pt solid #adc3d5; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;20&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border-top: none; border-bottom: 1.00pt solid #adc3d5; border-left: none; border-right: 1.00pt solid #adc3d5; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;30&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border-top: none; border-bottom: 1.00pt solid #adc3d5; border-left: none; border-right: 1.00pt solid #adc3d5; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;5&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border-top: none; border-bottom: 1.00pt solid #adc3d5; border-left: none; border-right: 1.00pt solid #adc3d5; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;200&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border-top: none; border-bottom: 1.00pt solid #adc3d5; border-left: none; border-right: 1.00pt solid #adc3d5; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;200...500&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border-top: none; border-bottom: 1.00pt solid #adc3d5; border-left: none; border-right: 1.00pt solid #adc3d5; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;5&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border-top: none; border-bottom: 1.00pt solid #adc3d5; border-left: none; border-right: 1.00pt solid #adc3d5; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;2&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border-top: none; border-bottom: 1.00pt solid #adc3d5; border-left: none; border-right: 1.00pt solid #adc3d5; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;0,2&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border-top: none; border-bottom: 1.00pt solid #adc3d5; border-left: none; border-right: 1.00pt solid #adc3d5; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;1&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border-top: none; border-bottom: 1.00pt solid #adc3d5; border-left: none; border-right: 1.00pt solid #adc3d5; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;200&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border-top: none; border-bottom: 1.00pt solid #adc3d5; border-left: none; border-right: 1.00pt solid #adc3d5; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;-&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border-top: none; border-bottom: 1.00pt solid #adc3d5; border-left: none; border-right: 1.00pt solid #adc3d5; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;5&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border-top: none; border-bottom: 1.00pt solid #adc3d5; border-left: none; border-right: 1.00pt solid #adc3d5; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;-60&amp;hellip;+125&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td style="border-top: none; border-bottom: 1.00pt solid #adc3d5; border-left: 1.00pt solid #adc3d5; border-right: 1.00pt solid #adc3d5; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0.05cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;2Т3129Д9&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border-top: none; border-bottom: 1.00pt solid #adc3d5; border-left: none; border-right: 1.00pt solid #adc3d5; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;p-n-p&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border-top: none; border-bottom: 1.00pt solid #adc3d5; border-left: none; border-right: 1.00pt solid #adc3d5; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;100&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border-top: none; border-bottom: 1.00pt solid #adc3d5; border-left: none; border-right: 1.00pt solid #adc3d5; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;200&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border-top: none; border-bottom: 1.00pt solid #adc3d5; border-left: none; border-right: 1.00pt solid #adc3d5; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;20&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border-top: none; border-bottom: 1.00pt solid #adc3d5; border-left: none; border-right: 1.00pt solid #adc3d5; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;20&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border-top: none; border-bottom: 1.00pt solid #adc3d5; border-left: none; border-right: 1.00pt solid #adc3d5; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;5&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border-top: none; border-bottom: 1.00pt solid #adc3d5; border-left: none; border-right: 1.00pt solid #adc3d5; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;200&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border-top: none; border-bottom: 1.00pt solid #adc3d5; border-left: none; border-right: 1.00pt solid #adc3d5; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;200...500&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border-top: none; border-bottom: 1.00pt solid #adc3d5; border-left: none; border-right: 1.00pt solid #adc3d5; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;5&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border-top: none; border-bottom: 1.00pt solid #adc3d5; border-left: none; border-right: 1.00pt solid #adc3d5; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;2&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border-top: none; border-bottom: 1.00pt solid #adc3d5; border-left: none; border-right: 1.00pt solid #adc3d5; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;0,2&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border-top: none; border-bottom: 1.00pt solid #adc3d5; border-left: none; border-right: 1.00pt solid #adc3d5; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;1&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border-top: none; border-bottom: 1.00pt solid #adc3d5; border-left: none; border-right: 1.00pt solid #adc3d5; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;200&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border-top: none; border-bottom: 1.00pt solid #adc3d5; border-left: none; border-right: 1.00pt solid #adc3d5; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;-&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border-top: none; border-bottom: 1.00pt solid #adc3d5; border-left: none; border-right: 1.00pt solid #adc3d5; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;5&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border-top: none; border-bottom: 1.00pt solid #adc3d5; border-left: none; border-right: 1.00pt solid #adc3d5; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;-60&amp;hellip;+125&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;</description>
+<gates>
+<gate name="G$1" symbol="PNP" x="0" y="0"/>
+</gates>
+<devices>
+<device name="А-9" package="КТ-46А">
+<connects>
+<connect gate="G$1" pin="B" pad="BASE"/>
+<connect gate="G$1" pin="C" pad="COLLECTOR"/>
+<connect gate="G$1" pin="E" pad="EMITTER"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="Б-9" package="КТ-46А">
+<connects>
+<connect gate="G$1" pin="B" pad="BASE"/>
+<connect gate="G$1" pin="C" pad="COLLECTOR"/>
+<connect gate="G$1" pin="E" pad="EMITTER"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="В-9" package="КТ-46А">
+<connects>
+<connect gate="G$1" pin="B" pad="BASE"/>
+<connect gate="G$1" pin="C" pad="COLLECTOR"/>
+<connect gate="G$1" pin="E" pad="EMITTER"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="Г-9" package="КТ-46А">
+<connects>
+<connect gate="G$1" pin="B" pad="BASE"/>
+<connect gate="G$1" pin="C" pad="COLLECTOR"/>
+<connect gate="G$1" pin="E" pad="EMITTER"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="Д-9" package="КТ-46А">
+<connects>
+<connect gate="G$1" pin="B" pad="BASE"/>
+<connect gate="G$1" pin="C" pad="COLLECTOR"/>
+<connect gate="G$1" pin="E" pad="EMITTER"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="2Т3130" prefix="VT">
+<description>&lt;b&gt;аА0.339.569 ТУ&lt;/b&gt;&lt;p&gt;
+2Т3130 - транзисторы кремниевые эпитаксиально-планарные структуры n-p-n усилительные.&lt;br&gt;
+Предназначены для применения во входных каскадах малошумящих низкочастотных усилителей,&lt;br&gt;
+ в высокочастотных усилителях, генераторах, стабилизаторах напряжения герметизированной аппаратуры. &lt;br&gt;
+Выпускаются в пластмассовом корпусе с жесткими выводами. &lt;br&gt;
+&lt;table width="1059" cellpadding="0" cellspacing="0" border="1"&gt;
+	&lt;tr&gt;
+		&lt;td rowspan="3" style="border: 1.00pt solid #adc3d5; padding: 0.05cm"&gt;
+			&lt;p align="center"&gt;Тип&lt;br/&gt;
+транзистора&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td rowspan="3" style="border-top: 1.00pt solid #adc3d5; border-bottom: 1.00pt solid #adc3d5; border-left: none; border-right: 1.00pt solid #adc3d5; padding-top: 0.05cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;Структура&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td colspan="6" style="border-top: 1.00pt solid #adc3d5; border-bottom: 1.00pt solid #adc3d5; border-left: none; border-right: 1.00pt solid #adc3d5; padding-top: 0.05cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;Предельные значения параметров при Тп=25&amp;deg;С&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td colspan="7" style="border-top: 1.00pt solid #adc3d5; border-bottom: 1.00pt solid #adc3d5; border-left: none; border-right: 1.00pt solid #adc3d5; padding-top: 0.05cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;Значения параметров при Тп=25&amp;deg;С&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td rowspan="2" style="border-top: 1.00pt solid #adc3d5; border-bottom: 1.00pt solid #adc3d5; border-left: none; border-right: 1.00pt solid #adc3d5; padding-top: 0.05cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;TП&lt;br/&gt;
+max&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td rowspan="2" style="border-top: 1.00pt solid #adc3d5; border-bottom: 1.00pt solid #adc3d5; border-left: none; border-right: 1.00pt solid #adc3d5; padding-top: 0.05cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;Т&lt;br/&gt;
+max&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td style="border-top: none; border-bottom: 1.00pt solid #adc3d5; border-left: none; border-right: 1.00pt solid #adc3d5; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;IК&lt;br/&gt;
+max&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border-top: none; border-bottom: 1.00pt solid #adc3d5; border-left: none; border-right: 1.00pt solid #adc3d5; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;IК. И.&lt;br/&gt;
+max&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border-top: none; border-bottom: 1.00pt solid #adc3d5; border-left: none; border-right: 1.00pt solid #adc3d5; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;UКЭR max&lt;br/&gt;
+(UКЭ0 max)&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border-top: none; border-bottom: 1.00pt solid #adc3d5; border-left: none; border-right: 1.00pt solid #adc3d5; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;UКБ0 max&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border-top: none; border-bottom: 1.00pt solid #adc3d5; border-left: none; border-right: 1.00pt solid #adc3d5; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;UЭБ0 max&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border-top: none; border-bottom: 1.00pt solid #adc3d5; border-left: none; border-right: 1.00pt solid #adc3d5; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;РК&amp;nbsp;&lt;span lang="en-US"&gt;max&lt;br/&gt;
+(&lt;/span&gt;РК&lt;span lang="en-US"&gt;.
+			&lt;/span&gt;И&lt;span lang="en-US"&gt;.&lt;/span&gt;&amp;nbsp;&lt;span lang="en-US"&gt;max)&lt;/span&gt;&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border-top: none; border-bottom: 1.00pt solid #adc3d5; border-left: none; border-right: 1.00pt solid #adc3d5; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;h21Э,&lt;br/&gt;
+(h21э)&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border-top: none; border-bottom: 1.00pt solid #adc3d5; border-left: none; border-right: 1.00pt solid #adc3d5; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;UКЭ&lt;br/&gt;
+нас.&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border-top: none; border-bottom: 1.00pt solid #adc3d5; border-left: none; border-right: 1.00pt solid #adc3d5; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;IКБО&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border-top: none; border-bottom: 1.00pt solid #adc3d5; border-left: none; border-right: 1.00pt solid #adc3d5; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;f гp.&lt;br/&gt;
+(f h21)&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border-top: none; border-bottom: 1.00pt solid #adc3d5; border-left: none; border-right: 1.00pt solid #adc3d5; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;КШ&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border-top: none; border-bottom: 1.00pt solid #adc3d5; border-left: none; border-right: 1.00pt solid #adc3d5; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;СК&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border-top: none; border-bottom: 1.00pt solid #adc3d5; border-left: none; border-right: 1.00pt solid #adc3d5; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;СЭ&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td style="border-top: none; border-bottom: 1.00pt solid #adc3d5; border-left: none; border-right: 1.00pt solid #adc3d5; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;мА&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border-top: none; border-bottom: 1.00pt solid #adc3d5; border-left: none; border-right: 1.00pt solid #adc3d5; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;мА&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border-top: none; border-bottom: 1.00pt solid #adc3d5; border-left: none; border-right: 1.00pt solid #adc3d5; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;В&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border-top: none; border-bottom: 1.00pt solid #adc3d5; border-left: none; border-right: 1.00pt solid #adc3d5; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;В&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border-top: none; border-bottom: 1.00pt solid #adc3d5; border-left: none; border-right: 1.00pt solid #adc3d5; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;В&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border-top: none; border-bottom: 1.00pt solid #adc3d5; border-left: none; border-right: 1.00pt solid #adc3d5; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;мВт&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border-top: none; border-bottom: 1.00pt solid #adc3d5; border-left: none; border-right: 1.00pt solid #adc3d5; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;&lt;br/&gt;
+
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border-top: none; border-bottom: 1.00pt solid #adc3d5; border-left: none; border-right: 1.00pt solid #adc3d5; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;В&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border-top: none; border-bottom: 1.00pt solid #adc3d5; border-left: none; border-right: 1.00pt solid #adc3d5; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;мкА&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border-top: none; border-bottom: 1.00pt solid #adc3d5; border-left: none; border-right: 1.00pt solid #adc3d5; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;МГц&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border-top: none; border-bottom: 1.00pt solid #adc3d5; border-left: none; border-right: 1.00pt solid #adc3d5; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;дБ&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border-top: none; border-bottom: 1.00pt solid #adc3d5; border-left: none; border-right: 1.00pt solid #adc3d5; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;пФ&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border-top: none; border-bottom: 1.00pt solid #adc3d5; border-left: none; border-right: 1.00pt solid #adc3d5; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;пФ&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border-top: none; border-bottom: 1.00pt solid #adc3d5; border-left: none; border-right: 1.00pt solid #adc3d5; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;&amp;deg;С&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border-top: none; border-bottom: 1.00pt solid #adc3d5; border-left: none; border-right: 1.00pt solid #adc3d5; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;&amp;deg;С&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td style="border-top: none; border-bottom: 1.00pt solid #adc3d5; border-left: 1.00pt solid #adc3d5; border-right: 1.00pt solid #adc3d5; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0.05cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;2Т3130А9&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border-top: none; border-bottom: 1.00pt solid #adc3d5; border-left: none; border-right: 1.00pt solid #adc3d5; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;n-p-n&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border-top: none; border-bottom: 1.00pt solid #adc3d5; border-left: none; border-right: 1.00pt solid #adc3d5; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;100&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border-top: none; border-bottom: 1.00pt solid #adc3d5; border-left: none; border-right: 1.00pt solid #adc3d5; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;-&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border-top: none; border-bottom: 1.00pt solid #adc3d5; border-left: none; border-right: 1.00pt solid #adc3d5; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;40&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border-top: none; border-bottom: 1.00pt solid #adc3d5; border-left: none; border-right: 1.00pt solid #adc3d5; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;50&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border-top: none; border-bottom: 1.00pt solid #adc3d5; border-left: none; border-right: 1.00pt solid #adc3d5; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;5&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border-top: none; border-bottom: 1.00pt solid #adc3d5; border-left: none; border-right: 1.00pt solid #adc3d5; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;200&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border-top: none; border-bottom: 1.00pt solid #adc3d5; border-left: none; border-right: 1.00pt solid #adc3d5; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;100&amp;hellip;250&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border-top: none; border-bottom: 1.00pt solid #adc3d5; border-left: none; border-right: 1.00pt solid #adc3d5; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;0,2&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border-top: none; border-bottom: 1.00pt solid #adc3d5; border-left: none; border-right: 1.00pt solid #adc3d5; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;0,1&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border-top: none; border-bottom: 1.00pt solid #adc3d5; border-left: none; border-right: 1.00pt solid #adc3d5; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;150&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border-top: none; border-bottom: 1.00pt solid #adc3d5; border-left: none; border-right: 1.00pt solid #adc3d5; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;10&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border-top: none; border-bottom: 1.00pt solid #adc3d5; border-left: none; border-right: 1.00pt solid #adc3d5; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;12&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border-top: none; border-bottom: 1.00pt solid #adc3d5; border-left: none; border-right: 1.00pt solid #adc3d5; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;-&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border-top: none; border-bottom: 1.00pt solid #adc3d5; border-left: none; border-right: 1.00pt solid #adc3d5; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;125&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border-top: none; border-bottom: 1.00pt solid #adc3d5; border-left: none; border-right: 1.00pt solid #adc3d5; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;-60&amp;hellip;+85&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td style="border-top: none; border-bottom: 1.00pt solid #adc3d5; border-left: 1.00pt solid #adc3d5; border-right: 1.00pt solid #adc3d5; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0.05cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;2Т3130Б9&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border-top: none; border-bottom: 1.00pt solid #adc3d5; border-left: none; border-right: 1.00pt solid #adc3d5; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;n-p-n&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border-top: none; border-bottom: 1.00pt solid #adc3d5; border-left: none; border-right: 1.00pt solid #adc3d5; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;100&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border-top: none; border-bottom: 1.00pt solid #adc3d5; border-left: none; border-right: 1.00pt solid #adc3d5; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;-&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border-top: none; border-bottom: 1.00pt solid #adc3d5; border-left: none; border-right: 1.00pt solid #adc3d5; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;40&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border-top: none; border-bottom: 1.00pt solid #adc3d5; border-left: none; border-right: 1.00pt solid #adc3d5; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;50&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border-top: none; border-bottom: 1.00pt solid #adc3d5; border-left: none; border-right: 1.00pt solid #adc3d5; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;5&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border-top: none; border-bottom: 1.00pt solid #adc3d5; border-left: none; border-right: 1.00pt solid #adc3d5; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;200&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border-top: none; border-bottom: 1.00pt solid #adc3d5; border-left: none; border-right: 1.00pt solid #adc3d5; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;200...500&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border-top: none; border-bottom: 1.00pt solid #adc3d5; border-left: none; border-right: 1.00pt solid #adc3d5; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;0,2&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border-top: none; border-bottom: 1.00pt solid #adc3d5; border-left: none; border-right: 1.00pt solid #adc3d5; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;0,1&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border-top: none; border-bottom: 1.00pt solid #adc3d5; border-left: none; border-right: 1.00pt solid #adc3d5; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;150&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border-top: none; border-bottom: 1.00pt solid #adc3d5; border-left: none; border-right: 1.00pt solid #adc3d5; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;10&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border-top: none; border-bottom: 1.00pt solid #adc3d5; border-left: none; border-right: 1.00pt solid #adc3d5; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;12&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border-top: none; border-bottom: 1.00pt solid #adc3d5; border-left: none; border-right: 1.00pt solid #adc3d5; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;-&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border-top: none; border-bottom: 1.00pt solid #adc3d5; border-left: none; border-right: 1.00pt solid #adc3d5; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;125&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border-top: none; border-bottom: 1.00pt solid #adc3d5; border-left: none; border-right: 1.00pt solid #adc3d5; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;-60&amp;hellip;+85&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td style="border-top: none; border-bottom: 1.00pt solid #adc3d5; border-left: 1.00pt solid #adc3d5; border-right: 1.00pt solid #adc3d5; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0.05cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;2Т3130В9&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border-top: none; border-bottom: 1.00pt solid #adc3d5; border-left: none; border-right: 1.00pt solid #adc3d5; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;n-p-n&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border-top: none; border-bottom: 1.00pt solid #adc3d5; border-left: none; border-right: 1.00pt solid #adc3d5; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;100&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border-top: none; border-bottom: 1.00pt solid #adc3d5; border-left: none; border-right: 1.00pt solid #adc3d5; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;-&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border-top: none; border-bottom: 1.00pt solid #adc3d5; border-left: none; border-right: 1.00pt solid #adc3d5; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;20&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border-top: none; border-bottom: 1.00pt solid #adc3d5; border-left: none; border-right: 1.00pt solid #adc3d5; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;30&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border-top: none; border-bottom: 1.00pt solid #adc3d5; border-left: none; border-right: 1.00pt solid #adc3d5; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;5&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border-top: none; border-bottom: 1.00pt solid #adc3d5; border-left: none; border-right: 1.00pt solid #adc3d5; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;200&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border-top: none; border-bottom: 1.00pt solid #adc3d5; border-left: none; border-right: 1.00pt solid #adc3d5; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;200...500&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border-top: none; border-bottom: 1.00pt solid #adc3d5; border-left: none; border-right: 1.00pt solid #adc3d5; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;0,2&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border-top: none; border-bottom: 1.00pt solid #adc3d5; border-left: none; border-right: 1.00pt solid #adc3d5; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;0,1&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border-top: none; border-bottom: 1.00pt solid #adc3d5; border-left: none; border-right: 1.00pt solid #adc3d5; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;150&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border-top: none; border-bottom: 1.00pt solid #adc3d5; border-left: none; border-right: 1.00pt solid #adc3d5; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;10&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border-top: none; border-bottom: 1.00pt solid #adc3d5; border-left: none; border-right: 1.00pt solid #adc3d5; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;12&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border-top: none; border-bottom: 1.00pt solid #adc3d5; border-left: none; border-right: 1.00pt solid #adc3d5; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;-&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border-top: none; border-bottom: 1.00pt solid #adc3d5; border-left: none; border-right: 1.00pt solid #adc3d5; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;125&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border-top: none; border-bottom: 1.00pt solid #adc3d5; border-left: none; border-right: 1.00pt solid #adc3d5; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;-60&amp;hellip;+85&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td style="border-top: none; border-bottom: 1.00pt solid #adc3d5; border-left: 1.00pt solid #adc3d5; border-right: 1.00pt solid #adc3d5; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0.05cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;2Т3130Г9&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border-top: none; border-bottom: 1.00pt solid #adc3d5; border-left: none; border-right: 1.00pt solid #adc3d5; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;n-p-n&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border-top: none; border-bottom: 1.00pt solid #adc3d5; border-left: none; border-right: 1.00pt solid #adc3d5; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;100&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border-top: none; border-bottom: 1.00pt solid #adc3d5; border-left: none; border-right: 1.00pt solid #adc3d5; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;-&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border-top: none; border-bottom: 1.00pt solid #adc3d5; border-left: none; border-right: 1.00pt solid #adc3d5; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;15&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border-top: none; border-bottom: 1.00pt solid #adc3d5; border-left: none; border-right: 1.00pt solid #adc3d5; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;20&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border-top: none; border-bottom: 1.00pt solid #adc3d5; border-left: none; border-right: 1.00pt solid #adc3d5; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;5&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border-top: none; border-bottom: 1.00pt solid #adc3d5; border-left: none; border-right: 1.00pt solid #adc3d5; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;200&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border-top: none; border-bottom: 1.00pt solid #adc3d5; border-left: none; border-right: 1.00pt solid #adc3d5; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;400...1000&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border-top: none; border-bottom: 1.00pt solid #adc3d5; border-left: none; border-right: 1.00pt solid #adc3d5; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;0,2&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border-top: none; border-bottom: 1.00pt solid #adc3d5; border-left: none; border-right: 1.00pt solid #adc3d5; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;0,1&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border-top: none; border-bottom: 1.00pt solid #adc3d5; border-left: none; border-right: 1.00pt solid #adc3d5; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;300&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border-top: none; border-bottom: 1.00pt solid #adc3d5; border-left: none; border-right: 1.00pt solid #adc3d5; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;10&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border-top: none; border-bottom: 1.00pt solid #adc3d5; border-left: none; border-right: 1.00pt solid #adc3d5; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;12&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border-top: none; border-bottom: 1.00pt solid #adc3d5; border-left: none; border-right: 1.00pt solid #adc3d5; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;-&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border-top: none; border-bottom: 1.00pt solid #adc3d5; border-left: none; border-right: 1.00pt solid #adc3d5; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;125&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border-top: none; border-bottom: 1.00pt solid #adc3d5; border-left: none; border-right: 1.00pt solid #adc3d5; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;-60&amp;hellip;+85&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td style="border-top: none; border-bottom: 1.00pt solid #adc3d5; border-left: 1.00pt solid #adc3d5; border-right: 1.00pt solid #adc3d5; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0.05cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;2Т3130Д9&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border-top: none; border-bottom: 1.00pt solid #adc3d5; border-left: none; border-right: 1.00pt solid #adc3d5; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;n-p-n&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border-top: none; border-bottom: 1.00pt solid #adc3d5; border-left: none; border-right: 1.00pt solid #adc3d5; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;100&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border-top: none; border-bottom: 1.00pt solid #adc3d5; border-left: none; border-right: 1.00pt solid #adc3d5; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;-&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border-top: none; border-bottom: 1.00pt solid #adc3d5; border-left: none; border-right: 1.00pt solid #adc3d5; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;20&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border-top: none; border-bottom: 1.00pt solid #adc3d5; border-left: none; border-right: 1.00pt solid #adc3d5; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;30&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border-top: none; border-bottom: 1.00pt solid #adc3d5; border-left: none; border-right: 1.00pt solid #adc3d5; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;5&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border-top: none; border-bottom: 1.00pt solid #adc3d5; border-left: none; border-right: 1.00pt solid #adc3d5; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;200&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border-top: none; border-bottom: 1.00pt solid #adc3d5; border-left: none; border-right: 1.00pt solid #adc3d5; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;200...500&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border-top: none; border-bottom: 1.00pt solid #adc3d5; border-left: none; border-right: 1.00pt solid #adc3d5; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;0,2&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border-top: none; border-bottom: 1.00pt solid #adc3d5; border-left: none; border-right: 1.00pt solid #adc3d5; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;0,1&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border-top: none; border-bottom: 1.00pt solid #adc3d5; border-left: none; border-right: 1.00pt solid #adc3d5; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;150&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border-top: none; border-bottom: 1.00pt solid #adc3d5; border-left: none; border-right: 1.00pt solid #adc3d5; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;4&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border-top: none; border-bottom: 1.00pt solid #adc3d5; border-left: none; border-right: 1.00pt solid #adc3d5; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;12&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border-top: none; border-bottom: 1.00pt solid #adc3d5; border-left: none; border-right: 1.00pt solid #adc3d5; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;-&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border-top: none; border-bottom: 1.00pt solid #adc3d5; border-left: none; border-right: 1.00pt solid #adc3d5; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;125&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border-top: none; border-bottom: 1.00pt solid #adc3d5; border-left: none; border-right: 1.00pt solid #adc3d5; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;-60&amp;hellip;+85&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td style="border-top: none; border-bottom: 1.00pt solid #adc3d5; border-left: 1.00pt solid #adc3d5; border-right: 1.00pt solid #adc3d5; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0.05cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;2Т3130Е9&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border-top: none; border-bottom: 1.00pt solid #adc3d5; border-left: none; border-right: 1.00pt solid #adc3d5; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;n-p-n&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border-top: none; border-bottom: 1.00pt solid #adc3d5; border-left: none; border-right: 1.00pt solid #adc3d5; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;100&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border-top: none; border-bottom: 1.00pt solid #adc3d5; border-left: none; border-right: 1.00pt solid #adc3d5; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;-&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border-top: none; border-bottom: 1.00pt solid #adc3d5; border-left: none; border-right: 1.00pt solid #adc3d5; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;15&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border-top: none; border-bottom: 1.00pt solid #adc3d5; border-left: none; border-right: 1.00pt solid #adc3d5; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;20&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border-top: none; border-bottom: 1.00pt solid #adc3d5; border-left: none; border-right: 1.00pt solid #adc3d5; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;5&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border-top: none; border-bottom: 1.00pt solid #adc3d5; border-left: none; border-right: 1.00pt solid #adc3d5; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;200&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border-top: none; border-bottom: 1.00pt solid #adc3d5; border-left: none; border-right: 1.00pt solid #adc3d5; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;400...1000&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border-top: none; border-bottom: 1.00pt solid #adc3d5; border-left: none; border-right: 1.00pt solid #adc3d5; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;0,2&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border-top: none; border-bottom: 1.00pt solid #adc3d5; border-left: none; border-right: 1.00pt solid #adc3d5; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;0,1&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border-top: none; border-bottom: 1.00pt solid #adc3d5; border-left: none; border-right: 1.00pt solid #adc3d5; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;300&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border-top: none; border-bottom: 1.00pt solid #adc3d5; border-left: none; border-right: 1.00pt solid #adc3d5; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;4&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border-top: none; border-bottom: 1.00pt solid #adc3d5; border-left: none; border-right: 1.00pt solid #adc3d5; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;12&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border-top: none; border-bottom: 1.00pt solid #adc3d5; border-left: none; border-right: 1.00pt solid #adc3d5; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;-&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border-top: none; border-bottom: 1.00pt solid #adc3d5; border-left: none; border-right: 1.00pt solid #adc3d5; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;125&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border-top: none; border-bottom: 1.00pt solid #adc3d5; border-left: none; border-right: 1.00pt solid #adc3d5; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;-60&amp;hellip;+85&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;</description>
+<gates>
+<gate name="G$1" symbol="NPN" x="0" y="0"/>
+</gates>
+<devices>
+<device name="А-9" package="КТ-46А">
+<connects>
+<connect gate="G$1" pin="B" pad="BASE"/>
+<connect gate="G$1" pin="C" pad="COLLECTOR"/>
+<connect gate="G$1" pin="E" pad="EMITTER"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="Б-9" package="КТ-46А">
+<connects>
+<connect gate="G$1" pin="B" pad="BASE"/>
+<connect gate="G$1" pin="C" pad="COLLECTOR"/>
+<connect gate="G$1" pin="E" pad="EMITTER"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="В-9" package="КТ-46А">
+<connects>
+<connect gate="G$1" pin="B" pad="BASE"/>
+<connect gate="G$1" pin="C" pad="COLLECTOR"/>
+<connect gate="G$1" pin="E" pad="EMITTER"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="Г-9" package="КТ-46А">
+<connects>
+<connect gate="G$1" pin="B" pad="BASE"/>
+<connect gate="G$1" pin="C" pad="COLLECTOR"/>
+<connect gate="G$1" pin="E" pad="EMITTER"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="Д-9" package="КТ-46А">
+<connects>
+<connect gate="G$1" pin="B" pad="BASE"/>
+<connect gate="G$1" pin="C" pad="COLLECTOR"/>
+<connect gate="G$1" pin="E" pad="EMITTER"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="Е-9" package="КТ-46А">
+<connects>
+<connect gate="G$1" pin="B" pad="BASE"/>
+<connect gate="G$1" pin="C" pad="COLLECTOR"/>
+<connect gate="G$1" pin="E" pad="EMITTER"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="2T3187" prefix="VT">
+<description>&lt;b&gt;АЕЯР.432150.117 ТУ&lt;/b&gt;&lt;p&gt;
+&lt;b&gt;Электрические параметры транзистора в нормальных климатических условиях&lt;/b&gt;
+&lt;table width="100%" cellpadding="4" cellspacing="0" style="page-break-before: always" border="1"&gt;
+	&lt;col width="64*"&gt;
+	&lt;col width="64*"&gt;
+	&lt;col width="64*"&gt;
+	&lt;col width="64*"&gt;
+	&lt;tr valign="top"&gt;
+		&lt;td rowspan="2" width="25%" style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0.1cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;Наименование параметра, единица измерения (режим
+			измерения)&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td rowspan="2" width="25%" style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0.1cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;Буквенное обозначение&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td colspan="2" width="50%" style="border: 1px solid #000000; padding: 0.1cm"&gt;
+			&lt;p align="center"&gt;Значение параметра&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr valign="top"&gt;
+		&lt;td width="25%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;не менее&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="25%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0.1cm"&gt;
+			&lt;p align="center"&gt;не более&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr valign="top"&gt;
+		&lt;td width="25%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;Обратный ток коллектора (Uкб=10 В), нА 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="25%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;Iкбо&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="25%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;-&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="25%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0.1cm"&gt;
+			&lt;p lang="en-US" align="center"&gt;100&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr valign="top"&gt;
+		&lt;td width="25%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;Статический коэффициент передачи тока  (Uкб=10
+			В, Iэ=14 мА)&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="25%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;h21э&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="25%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p lang="en-US" align="center"&gt;40&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="25%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0.1cm"&gt;
+			&lt;p lang="en-US" align="center"&gt;-&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr valign="top"&gt;
+		&lt;td width="25%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;Граничная частота коэффициента передачи тока,
+			ГГц  (Uкб=10 В, Iэ=14 мА, f=300 МГц)&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="25%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;fгр&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="25%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p lang="en-US" align="center"&gt;4,6&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="25%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0.1cm"&gt;
+			&lt;p lang="en-US" align="center"&gt;-&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr valign="top"&gt;
+		&lt;td width="25%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;Коэффициент усиления по мощности, дБ  (Uкэ=10 В,
+			Iэ=14 мА, f=800 МГц)&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="25%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;Kур&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="25%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p lang="en-US" align="center"&gt;12&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="25%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0.1cm"&gt;
+			&lt;p lang="en-US" align="center"&gt;-&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr valign="top"&gt;
+		&lt;td width="25%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;Коэффициент шума, дБ  (Uкэ=10 В, Iэ=4 мА, f=800
+			ГГц)&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="25%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;Kш&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="25%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p lang="en-US" align="center"&gt;-&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="25%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0.1cm"&gt;
+			&lt;p lang="en-US" align="center"&gt;2&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr valign="top"&gt;
+		&lt;td width="25%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;Ёмкость коллекторного перехода, пФ  (Uкб=10 В,
+			f=1 МГц)&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="25%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;Ск&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="25%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p lang="en-US" align="center"&gt;-&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="25%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0.1cm"&gt;
+			&lt;p lang="en-US" align="center"&gt;1&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;&lt;p&gt;
+Производитель: ОАО «ОКБ-Планета», г. Великий Новгород</description>
+<gates>
+<gate name="G$1" symbol="NPN" x="0" y="0"/>
+</gates>
+<devices>
+<device name="A91" package="КТ-46А">
+<connects>
+<connect gate="G$1" pin="B" pad="BASE"/>
+<connect gate="G$1" pin="C" pad="COLLECTOR"/>
+<connect gate="G$1" pin="E" pad="EMITTER"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="2Т3202" prefix="VT">
+<description>&lt;b&gt;АЕЯР.432150.482 ТУ&lt;/b&gt;&lt;p&gt;
+2Т3202 - кремниевый биполярный n-р-n малошумящий СВЧ транзистор&lt;br&gt;
+&lt;table width="972" cellpadding="4" cellspacing="0" style="page-break-before: auto" border="1"&gt;
+	&lt;col width="414"&gt;
+	&lt;col width="267"&gt;
+	&lt;col width="266"&gt;
+	&lt;tr valign="top"&gt;
+		&lt;td rowspan="2" width="414" style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0.1cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;Наименование параметра, единица измерения (режим
+			измерения)&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td colspan="2" width="540" style="border: 1px solid #000000; padding: 0.1cm"&gt;
+			&lt;p align="center"&gt;Значение параметра&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr valign="top"&gt;
+		&lt;td width="267" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;2Т3202А9&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="266" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0.1cm"&gt;
+			&lt;p&gt;2Т3202Б9&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr valign="top"&gt;
+		&lt;td width="414" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;Обратный ток коллектора (UКБ=8 В), нА 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="267" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p lang="en-US" align="center"&gt;0,5&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="266" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0.1cm"&gt;
+			&lt;p align="center"&gt;0,5&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr valign="top"&gt;
+		&lt;td width="414" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;Статический коэффициент передачи тока (Uкб=5 В,
+			Iэ=15 мА)&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="267" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;60..250&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="266" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0.1cm"&gt;
+			&lt;p align="center"&gt;60..250&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr valign="top"&gt;
+		&lt;td width="414" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;Граничная частота коэффициента передачи тока,
+			ГГц (Uкб=8 В, Iэ=15 мА, f=300 МГц)&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="267" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;7,5&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="266" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0.1cm"&gt;
+			&lt;p align="center"&gt;6,0&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr valign="top"&gt;
+		&lt;td width="414" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;Максимальный коэффициент усиления по мощности,
+			дБ (Uкэ=8 В, Iэ=15 мА) на частоте:&lt;/p&gt;
+			&lt;p align="center"&gt;f=1 ГГц&lt;/p&gt;
+			&lt;p align="center"&gt;f=2 ГГц&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="267" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p lang="en-US" align="center"&gt;&lt;br/&gt;
+
+			&lt;/p&gt;
+			&lt;p lang="en-US" align="center"&gt;&lt;br/&gt;
+
+			&lt;/p&gt;
+			&lt;p align="center"&gt;15&lt;/p&gt;
+			&lt;p align="center"&gt;10,7&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="266" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0.1cm"&gt;
+			&lt;p lang="en-US" align="center"&gt;&lt;br/&gt;
+
+			&lt;/p&gt;
+			&lt;p lang="en-US" align="center"&gt;&lt;br/&gt;
+
+			&lt;/p&gt;
+			&lt;p align="center"&gt;13,5&lt;/p&gt;
+			&lt;p align="center"&gt;9&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr valign="top"&gt;
+		&lt;td width="414" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;Минимальный коэффициент шума, дБ (Uкэ=8 В, Iэ=5
+			мА) на частоте:&lt;/p&gt;
+			&lt;p align="center"&gt;f=1 ГГц&lt;/p&gt;
+			&lt;p align="center"&gt;f=2 ГГц&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="267" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p lang="en-US" align="center"&gt;&lt;br/&gt;
+
+			&lt;/p&gt;
+			&lt;p lang="en-US" align="center"&gt;&lt;br/&gt;
+
+			&lt;/p&gt;
+			&lt;p align="center"&gt;1,8&lt;/p&gt;
+			&lt;p align="center"&gt;2,2&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="266" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0.1cm"&gt;
+			&lt;p lang="en-US" align="center"&gt;&lt;br/&gt;
+
+			&lt;/p&gt;
+			&lt;p lang="en-US" align="center"&gt;&lt;br/&gt;
+
+			&lt;/p&gt;
+			&lt;p align="center"&gt;2&lt;/p&gt;
+			&lt;p align="center"&gt;3&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr valign="top"&gt;
+		&lt;td width="414" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;Максимально допустимое напряжение питания, В 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="267" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;8&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="266" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0.1cm"&gt;
+			&lt;p align="center"&gt;8&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr valign="top"&gt;
+		&lt;td width="414" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;Максимально допустимое постоянное напряжение
+			коллектор-база, В 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="267" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;15&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="266" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0.1cm"&gt;
+			&lt;p align="center"&gt;15&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr valign="top"&gt;
+		&lt;td width="414" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;Максимально допустимый постоянный ток
+			коллектора, мА: 
+			&lt;/p&gt;
+			&lt;p align="center"&gt;при tокр=125 &amp;deg;С&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="267" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;100&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="266" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0.1cm"&gt;
+			&lt;p align="center"&gt;100&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr valign="top"&gt;
+		&lt;td width="414" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;Максимально допустимое постоянное напряжение
+			коллектор-эмиттер, В&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="267" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;10&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="266" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0.1cm"&gt;
+			&lt;p align="center"&gt;10&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr valign="top"&gt;
+		&lt;td width="414" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;Максимально допустимая постоянная  рассеиваемая
+			мощность  коллектора, мВт:&lt;/p&gt;
+			&lt;p align="center"&gt;при tокр=125 &amp;deg;С&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="267" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;300&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="266" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0.1cm"&gt;
+			&lt;p align="center"&gt;300&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr valign="top"&gt;
+		&lt;td width="414" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;Максимально допустимая температура перехода, &amp;deg;С&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="267" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;150&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="266" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0.1cm"&gt;
+			&lt;p align="center"&gt;150&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr valign="top"&gt;
+		&lt;td width="414" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center" style="font-weight: normal"&gt;Максимально
+			допустимое постоянное напряжение эмиттер-база, В&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="267" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;1&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="266" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0.1cm"&gt;
+			&lt;p align="center"&gt;1&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;&lt;p&gt;
+Производитель: ОАО «ОКБ-Планета», г. Великий Новгород</description>
+<gates>
+<gate name="G$1" symbol="NPN" x="0" y="0"/>
+</gates>
+<devices>
+<device name="А9" package="КТ-48">
+<connects>
+<connect gate="G$1" pin="B" pad="4"/>
+<connect gate="G$1" pin="C" pad="1"/>
+<connect gate="G$1" pin="E" pad="2 3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="Б9" package="КТ-48">
+<connects>
+<connect gate="G$1" pin="B" pad="4"/>
+<connect gate="G$1" pin="C" pad="1"/>
+<connect gate="G$1" pin="E" pad="2 3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="2T9175" prefix="VT">
+<description>&lt;b&gt;АЕЯР.432150.125 ТУ&lt;/b&gt;&lt;p&gt;
+2T9175 - кремниевый мощный биполярный СВЧ транзистор&lt;br&gt;
+&lt;table width="100%" cellpadding="4" cellspacing="0" border="1"&gt;
+	&lt;col width="37*"&gt;
+	&lt;col width="37*"&gt;
+	&lt;col width="37*"&gt;
+	&lt;col width="37*"&gt;
+	&lt;col width="37*"&gt;
+	&lt;col width="37*"&gt;
+	&lt;col width="37*"&gt;
+	&lt;tr valign="top"&gt;
+		&lt;td rowspan="2" width="14%" style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0.1cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;Обозначение&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td colspan="5" width="71%" style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0.1cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;Основные параметры&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td rowspan="2" width="14%" style="border: 1px solid #000000; padding: 0.1cm"&gt;
+			&lt;p align="center"&gt;Корпус&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr valign="top"&gt;
+		&lt;td width="14%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;Диапазон частот, МГц&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="14%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;Рвых, Вт&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="14%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;&lt;strong&gt;&lt;span style="font-weight: normal"&gt;Кур(&lt;/span&gt;&lt;/strong&gt;&lt;strong&gt;&lt;span lang="en-US"&gt;&lt;span style="font-weight: normal"&gt;min&lt;/span&gt;&lt;/span&gt;&lt;/strong&gt;&lt;strong&gt;&lt;span style="font-weight: normal"&gt;)&lt;/span&gt;&lt;/strong&gt;&lt;strong&gt;&lt;span lang="en-US"&gt;&lt;span style="font-weight: normal"&gt;,
+			раз&lt;/span&gt;&lt;/span&gt;&lt;/strong&gt;&lt;span style="font-weight: normal"&gt; &lt;/span&gt;
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="14%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;КПД (min), %&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="14%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;Uпит,В&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr valign="top"&gt;
+		&lt;td width="14%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;2Т9175А&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="14%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;200-512&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="14%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;0,5&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="14%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;10&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="14%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;55&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="14%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;7,5&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="14%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0.1cm"&gt;
+			&lt;p align="center"&gt;КТ-83&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr valign="top"&gt;
+		&lt;td width="14%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;2Т9175Б&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="14%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;200-512&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="14%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;2&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="14%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;6&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="14%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;55&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="14%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;7,5&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="14%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0.1cm"&gt;
+			&lt;p align="center"&gt;КТ-83&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr valign="top"&gt;
+		&lt;td width="14%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;2Т9175В&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="14%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;200-512&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="14%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;5&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="14%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;4&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="14%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;55&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="14%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;7,5&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="14%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0.1cm"&gt;
+			&lt;p align="center"&gt;КТ-83&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;</description>
+<gates>
+<gate name="G$1" symbol="NPN" x="0" y="0"/>
+</gates>
+<devices>
+<device name="А" package="КТ-83">
+<connects>
+<connect gate="G$1" pin="B" pad="B"/>
+<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="G$1" pin="E" pad="E@1 E@2 E@3 E@4"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="Б" package="КТ-83">
+<connects>
+<connect gate="G$1" pin="B" pad="B"/>
+<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="G$1" pin="E" pad="E@1 E@2 E@3 E@4"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="В" package="КТ-83">
+<connects>
+<connect gate="G$1" pin="B" pad="B"/>
+<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="G$1" pin="E" pad="E@1 E@2 E@3 E@4"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="2Т368" prefix="VT">
+<description>&lt;b&gt;АЕЯР.432140.380 ТУ&lt;/b&gt;&lt;p&gt;
+2Т368А9, 2Т368Б9 - Кремниевые планарно–эпитаксиальные n–p–n – транзисторы в миниатюрном пластмассовом корпусе КТ-46,&lt;br&gt;
+предназначенные для работы в усилительных устройствах.&lt;p&gt;
+Условная маркировка:&lt;br&gt;
+2Т368А9 – одна белая точка&lt;br&gt;
+2Т368Б9 – две белые точки&lt;p&gt;
+&lt;p align="center" style="margin-bottom: 0cm; line-height: 100%"&gt;&lt;table dir="ltr" align="left" width="654" cellpadding="0" cellspacing="0" border="1"&gt;
+	&lt;tbody&gt;
+		&lt;tr valign="top"&gt;
+			&lt;td rowspan="2" width="469" style="border: 1.00pt solid #181717; padding: 0.05cm"&gt;
+				&lt;p align="center"&gt;Наименование параметра, единица измерения,
+				режим измерения&lt;/p&gt;
+			&lt;/td&gt;
+			&lt;td colspan="2" width="185" style="border-top: 1.00pt solid #181717; border-bottom: 1.00pt solid #181717; border-left: none; border-right: 1.00pt solid #181717; padding-top: 0.05cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+				&lt;p align="center"&gt;Норма&lt;/p&gt;
+			&lt;/td&gt;
+		&lt;/tr&gt;
+	&lt;/tbody&gt;
+	&lt;tbody&gt;
+		&lt;tr&gt;
+			&lt;td width="93" style="border-top: none; border-bottom: 1.00pt solid #181717; border-left: none; border-right: 1.00pt solid #181717; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+				&lt;p align="center"&gt;не менее&lt;/p&gt;
+			&lt;/td&gt;
+			&lt;td width="93" style="border-top: none; border-bottom: 1.00pt solid #181717; border-left: none; border-right: 1.00pt solid #181717; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+				&lt;p align="center"&gt;не более&lt;/p&gt;
+			&lt;/td&gt;
+		&lt;/tr&gt;
+	&lt;/tbody&gt;
+	&lt;tbody&gt;
+		&lt;tr valign="top"&gt;
+			&lt;td width="469" style="border-top: none; border-bottom: 1.00pt solid #181717; border-left: 1.00pt solid #181717; border-right: 1.00pt solid #181717; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0.05cm; padding-right: 0.05cm"&gt;
+				&lt;p align="center"&gt;Обратный ток эмиттера, мкА&lt;/p&gt;
+				&lt;p align="center"&gt;(UЭБ = 4 В)&lt;/p&gt;
+			&lt;/td&gt;
+			&lt;td width="93" style="border-top: none; border-bottom: 1.00pt solid #181717; border-left: none; border-right: 1.00pt solid #181717; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+				&lt;p align="center"&gt;&amp;ndash;&lt;/p&gt;
+			&lt;/td&gt;
+			&lt;td width="93" style="border-top: none; border-bottom: 1.00pt solid #181717; border-left: none; border-right: 1.00pt solid #181717; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+				&lt;p align="center"&gt;1&lt;/p&gt;
+			&lt;/td&gt;
+		&lt;/tr&gt;
+	&lt;/tbody&gt;
+	&lt;tbody&gt;
+		&lt;tr valign="top"&gt;
+			&lt;td width="469" style="border-top: none; border-bottom: 1.00pt solid #181717; border-left: 1.00pt solid #181717; border-right: 1.00pt solid #181717; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0.05cm; padding-right: 0.05cm"&gt;
+				&lt;p align="center"&gt;Обратный ток коллектора, мкА&lt;/p&gt;
+				&lt;p align="center"&gt;(UКБ = 15 В)&lt;/p&gt;
+				&lt;p align="center"&gt;Статический коэффициент передачи тока в&lt;/p&gt;
+			&lt;/td&gt;
+			&lt;td width="93" style="border-top: none; border-bottom: 1.00pt solid #181717; border-left: none; border-right: 1.00pt solid #181717; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+				&lt;p align="center"&gt;&amp;ndash;&lt;/p&gt;
+			&lt;/td&gt;
+			&lt;td width="93" style="border-top: none; border-bottom: 1.00pt solid #181717; border-left: none; border-right: 1.00pt solid #181717; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+				&lt;p align="center"&gt;0 , 5&lt;/p&gt;
+			&lt;/td&gt;
+		&lt;/tr&gt;
+	&lt;/tbody&gt;
+	&lt;tbody&gt;
+		&lt;tr valign="top"&gt;
+			&lt;td width="469" style="border-top: none; border-bottom: none; border-left: 1.00pt solid #181717; border-right: 1.00pt solid #181717; padding: 0cm 0.05cm"&gt;
+				&lt;p align="center"&gt;схеме с общим эмиттером&lt;/p&gt;
+			&lt;/td&gt;
+			&lt;td width="93" style="border-top: none; border-bottom: none; border-left: none; border-right: 1.00pt solid #181717; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+				&lt;p align="center"&gt;&amp;nbsp;&lt;/p&gt;
+			&lt;/td&gt;
+			&lt;td width="93" style="border-top: none; border-bottom: none; border-left: none; border-right: 1.00pt solid #181717; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+				&lt;p align="center"&gt;&amp;nbsp;&lt;/p&gt;
+			&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td width="469" valign="top" style="border-top: none; border-bottom: 1.00pt solid #181717; border-left: 1.00pt solid #181717; border-right: 1.00pt solid #181717; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0.05cm; padding-right: 0.05cm"&gt;
+				&lt;p align="center"&gt;(UКБ = 1 В, IЭ = 10 мА&lt;/p&gt;
+			&lt;/td&gt;
+			&lt;td width="93" valign="bottom" style="border-top: none; border-bottom: 1.00pt solid #181717; border-left: none; border-right: 1.00pt solid #181717; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+				&lt;p align="center"&gt;50&lt;/p&gt;
+			&lt;/td&gt;
+			&lt;td width="93" valign="bottom" style="border-top: none; border-bottom: 1.00pt solid #181717; border-left: none; border-right: 1.00pt solid #181717; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+				&lt;p align="center"&gt;300&lt;/p&gt;
+			&lt;/td&gt;
+		&lt;/tr&gt;
+	&lt;/tbody&gt;
+	&lt;tbody&gt;
+		&lt;tr valign="top"&gt;
+			&lt;td width="469" style="border-top: none; border-bottom: none; border-left: 1.00pt solid #181717; border-right: 1.00pt solid #181717; padding: 0cm 0.05cm"&gt;
+				&lt;p align="center"&gt;Модуль коэффициента передачи тока на высокой
+				частоте&lt;/p&gt;
+			&lt;/td&gt;
+			&lt;td width="93" style="border-top: none; border-bottom: none; border-left: none; border-right: 1.00pt solid #181717; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+				&lt;p align="center"&gt;&amp;nbsp;&lt;/p&gt;
+			&lt;/td&gt;
+			&lt;td width="93" style="border-top: none; border-bottom: none; border-left: none; border-right: 1.00pt solid #181717; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+				&lt;p align="center"&gt;&amp;nbsp;&lt;/p&gt;
+			&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td width="469" valign="top" style="border-top: none; border-bottom: 1.00pt solid #181717; border-left: 1.00pt solid #181717; border-right: 1.00pt solid #181717; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0.05cm; padding-right: 0.05cm"&gt;
+				&lt;p align="center"&gt;(UКБ = 5 В, IЭ = 10 мА, &amp;fnof; = 10&lt;sup&gt;8&lt;/sup&gt;
+				Гц)&lt;/p&gt;
+			&lt;/td&gt;
+			&lt;td width="93" valign="bottom" style="border-top: none; border-bottom: 1.00pt solid #181717; border-left: none; border-right: 1.00pt solid #181717; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+				&lt;p align="center"&gt;9&lt;/p&gt;
+			&lt;/td&gt;
+			&lt;td width="93" valign="bottom" style="border-top: none; border-bottom: 1.00pt solid #181717; border-left: none; border-right: 1.00pt solid #181717; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+				&lt;p align="center"&gt;&amp;ndash;&lt;/p&gt;
+			&lt;/td&gt;
+		&lt;/tr&gt;
+	&lt;/tbody&gt;
+	&lt;tbody&gt;
+		&lt;tr valign="top"&gt;
+			&lt;td width="469" style="border-top: none; border-bottom: none; border-left: 1.00pt solid #181717; border-right: 1.00pt solid #181717; padding: 0cm 0.05cm"&gt;
+				&lt;p align="center"&gt;Постоянная времени цепи обратной связи на
+				высокой частоте, нс&lt;/p&gt;
+			&lt;/td&gt;
+			&lt;td width="93" style="border-top: none; border-bottom: none; border-left: none; border-right: 1.00pt solid #181717; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+				&lt;p align="center"&gt;&amp;nbsp;&lt;/p&gt;
+			&lt;/td&gt;
+			&lt;td width="93" style="border-top: none; border-bottom: none; border-left: none; border-right: 1.00pt solid #181717; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+				&lt;p align="center"&gt;&amp;nbsp;&lt;/p&gt;
+			&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td width="469" valign="top" style="border-top: none; border-bottom: 1.00pt solid #181717; border-left: 1.00pt solid #181717; border-right: 1.00pt solid #181717; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0.05cm; padding-right: 0.05cm"&gt;
+				&lt;p align="center"&gt;(UКБ = 5 В, IЭ = 10 мА, &amp;fnof; = 3&amp;middot;10&lt;sup&gt;7&lt;/sup&gt;
+				Гц)&lt;/p&gt;
+			&lt;/td&gt;
+			&lt;td width="93" valign="bottom" style="border-top: none; border-bottom: 1.00pt solid #181717; border-left: none; border-right: 1.00pt solid #181717; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+				&lt;p align="center"&gt;&amp;ndash;&lt;/p&gt;
+			&lt;/td&gt;
+			&lt;td width="93" valign="bottom" style="border-top: none; border-bottom: 1.00pt solid #181717; border-left: none; border-right: 1.00pt solid #181717; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+				&lt;p align="center"&gt;15&lt;/p&gt;
+			&lt;/td&gt;
+		&lt;/tr&gt;
+	&lt;/tbody&gt;
+	&lt;tbody&gt;
+		&lt;tr valign="top"&gt;
+			&lt;td width="469" style="border-top: none; border-bottom: none; border-left: 1.00pt solid #181717; border-right: 1.00pt solid #181717; padding: 0cm 0.05cm"&gt;
+				&lt;p align="center"&gt;Входное сопротивление в схеме с общей базой в
+				режиме малого сигнала, Ом&lt;/p&gt;
+			&lt;/td&gt;
+			&lt;td width="93" style="border-top: none; border-bottom: none; border-left: none; border-right: 1.00pt solid #181717; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+				&lt;p align="center"&gt;&amp;nbsp;&lt;/p&gt;
+			&lt;/td&gt;
+			&lt;td width="93" style="border-top: none; border-bottom: none; border-left: none; border-right: 1.00pt solid #181717; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+				&lt;p align="center"&gt;&amp;nbsp;&lt;/p&gt;
+			&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td width="469" valign="bottom" style="border-top: none; border-bottom: 1.00pt solid #181717; border-left: 1.00pt solid #181717; border-right: 1.00pt solid #181717; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0.05cm; padding-right: 0.05cm"&gt;
+				&lt;p align="center"&gt;(UКБ = 5 В, IЭ = 10 мА, &amp;fnof; = 10&lt;sup&gt;3 &lt;/sup&gt;Гц)&lt;/p&gt;
+			&lt;/td&gt;
+			&lt;td width="93" valign="top" style="border-top: none; border-bottom: 1.00pt solid #181717; border-left: none; border-right: 1.00pt solid #181717; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+				&lt;p align="center"&gt;&amp;ndash;&lt;/p&gt;
+			&lt;/td&gt;
+			&lt;td width="93" valign="top" style="border-top: none; border-bottom: 1.00pt solid #181717; border-left: none; border-right: 1.00pt solid #181717; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+				&lt;p align="center"&gt;6&lt;/p&gt;
+			&lt;/td&gt;
+		&lt;/tr&gt;
+	&lt;/tbody&gt;
+	&lt;tbody&gt;
+		&lt;tr&gt;
+			&lt;td width="469" valign="top" style="border-top: none; border-bottom: 1.00pt solid #181717; border-left: 1.00pt solid #181717; border-right: 1.00pt solid #181717; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0.05cm; padding-right: 0.05cm"&gt;
+				&lt;p align="center"&gt;Граничное напряжение, В&lt;/p&gt;
+				&lt;p align="center"&gt;(IК = 10 мА)&lt;/p&gt;
+			&lt;/td&gt;
+			&lt;td width="93" style="border-top: none; border-bottom: 1.00pt solid #181717; border-left: none; border-right: 1.00pt solid #181717; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+				&lt;p align="center"&gt;15&lt;/p&gt;
+			&lt;/td&gt;
+			&lt;td width="93" style="border-top: none; border-bottom: 1.00pt solid #181717; border-left: none; border-right: 1.00pt solid #181717; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+				&lt;p align="center"&gt;&amp;ndash;&lt;/p&gt;
+			&lt;/td&gt;
+		&lt;/tr&gt;
+	&lt;/tbody&gt;
+	&lt;tbody&gt;
+		&lt;tr&gt;
+			&lt;td width="469" valign="top" style="border-top: none; border-bottom: 1.00pt solid #181717; border-left: 1.00pt solid #181717; border-right: 1.00pt solid #181717; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0.05cm; padding-right: 0.05cm"&gt;
+				&lt;p align="center"&gt;Емкость коллекторного перехода, пФ&lt;/p&gt;
+				&lt;p align="center"&gt;(UКБ = 5 В, &amp;fnof; = 10&lt;sup&gt;7&lt;/sup&gt; Гц)&lt;/p&gt;
+			&lt;/td&gt;
+			&lt;td width="93" style="border-top: none; border-bottom: 1.00pt solid #181717; border-left: none; border-right: 1.00pt solid #181717; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+				&lt;p align="center"&gt;&amp;ndash;&lt;/p&gt;
+			&lt;/td&gt;
+			&lt;td width="93" style="border-top: none; border-bottom: 1.00pt solid #181717; border-left: none; border-right: 1.00pt solid #181717; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+				&lt;p align="center"&gt;1 , 7&lt;/p&gt;
+			&lt;/td&gt;
+		&lt;/tr&gt;
+	&lt;/tbody&gt;
+	&lt;tbody&gt;
+		&lt;tr&gt;
+			&lt;td width="469" valign="top" style="border-top: none; border-bottom: 1.00pt solid #181717; border-left: 1.00pt solid #181717; border-right: 1.00pt solid #181717; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0.05cm; padding-right: 0.05cm"&gt;
+				&lt;p align="center"&gt;Емкость эмиттерного перехода, пФ&lt;/p&gt;
+				&lt;p align="center"&gt;(UЭБ = 1 В, &amp;fnof; = 10&lt;sup&gt;7&lt;/sup&gt; Гц)&lt;/p&gt;
+			&lt;/td&gt;
+			&lt;td width="93" style="border-top: none; border-bottom: 1.00pt solid #181717; border-left: none; border-right: 1.00pt solid #181717; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+				&lt;p align="center"&gt;&amp;ndash;&lt;/p&gt;
+			&lt;/td&gt;
+			&lt;td width="93" style="border-top: none; border-bottom: 1.00pt solid #181717; border-left: none; border-right: 1.00pt solid #181717; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+				&lt;p align="center"&gt;3&lt;/p&gt;
+			&lt;/td&gt;
+		&lt;/tr&gt;
+	&lt;/tbody&gt;
+	&lt;tbody&gt;
+		&lt;tr&gt;
+			&lt;td width="469" valign="top" style="border-top: none; border-bottom: 1.00pt solid #181717; border-left: 1.00pt solid #181717; border-right: 1.00pt solid #181717; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0.05cm; padding-right: 0.05cm"&gt;
+				&lt;p align="center"&gt;Коэффициент шума*, дБ&lt;/p&gt;
+				&lt;p align="center"&gt;(U = 5 В, I = 10 мА, &amp;fnof; = 6&amp;middot;10&lt;sup&gt;7
+				&lt;/sup&gt;Гц, R = 50 Ом )&lt;/p&gt;
+			&lt;/td&gt;
+			&lt;td width="93" style="border-top: none; border-bottom: 1.00pt solid #181717; border-left: none; border-right: 1.00pt solid #181717; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+				&lt;p align="center"&gt;&amp;ndash;&lt;/p&gt;
+			&lt;/td&gt;
+			&lt;td width="93" style="border-top: none; border-bottom: 1.00pt solid #181717; border-left: none; border-right: 1.00pt solid #181717; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+				&lt;p align="center"&gt;3 , 3&lt;/p&gt;
+			&lt;/td&gt;
+		&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;&lt;br/&gt;</description>
+<gates>
+<gate name="G$1" symbol="NPN" x="0" y="0"/>
+</gates>
+<devices>
+<device name="А9" package="КТ-46А">
+<connects>
+<connect gate="G$1" pin="B" pad="BASE"/>
+<connect gate="G$1" pin="C" pad="COLLECTOR"/>
+<connect gate="G$1" pin="E" pad="EMITTER"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="Б9" package="КТ-46А">
+<connects>
+<connect gate="G$1" pin="B" pad="BASE"/>
+<connect gate="G$1" pin="C" pad="COLLECTOR"/>
+<connect gate="G$1" pin="E" pad="EMITTER"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+</eagle>

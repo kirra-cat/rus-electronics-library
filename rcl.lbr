@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.6.0">
+<eagle version="7.5.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="down"/>
 </settings>
-<grid distance="0.025" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -22,7 +22,7 @@
 <layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
 <layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
@@ -335,6 +335,57 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 <rectangle x1="-1.0668" y1="-0.6985" x2="-0.4168" y2="0.7015" layer="51"/>
 <rectangle x1="-0.1999" y1="-0.5001" x2="0.1999" y2="0.5001" layer="35"/>
 </package>
+<package name="МДГ1">
+<circle x="0" y="0" radius="2.5" width="0.1" layer="51"/>
+<wire x1="-2.4" y1="0.7" x2="2.4" y2="0.7" width="0.1" layer="51"/>
+<wire x1="-2.4" y1="-0.7" x2="2.4" y2="-0.7" width="0.1" layer="51"/>
+<smd name="1" x="0" y="2" dx="1.4" dy="2.5" layer="1" rot="R180"/>
+<smd name="2" x="0" y="-2" dx="1.4" dy="2.5" layer="1" rot="R180"/>
+<text x="0" y="0" size="0.508" layer="27" align="center">&gt;VALUE</text>
+<wire x1="-1.1" y1="2.5" x2="-1.1" y2="3.6" width="0.1" layer="21"/>
+<wire x1="-1.1" y1="3.6" x2="1.1" y2="3.6" width="0.1" layer="21"/>
+<wire x1="1.1" y1="3.6" x2="1.1" y2="2.5" width="0.1" layer="21"/>
+<wire x1="-1.1" y1="-3.6" x2="-1.1" y2="-2.5" width="0.1" layer="21"/>
+<wire x1="-1.1" y1="-3.6" x2="1.1" y2="-3.6" width="0.1" layer="21"/>
+<wire x1="1.1" y1="-3.6" x2="1.1" y2="-2.5" width="0.1" layer="21"/>
+<wire x1="-1.1" y1="2.5" x2="-1.1" y2="-2.5" width="0.1" layer="21" curve="132.501011"/>
+<wire x1="1.1" y1="-2.5" x2="1.1" y2="2.5" width="0.1" layer="21" curve="132.501011"/>
+<text x="3.3" y="-0.1" size="0.508" layer="25" rot="R90" align="center">&gt;NAME</text>
+</package>
+<package name="МДГ2">
+<text x="0" y="0" size="0.508" layer="27" align="center">&gt;VALUE</text>
+<text x="3.9" y="0" size="0.508" layer="25" rot="R90" align="center">&gt;NAME</text>
+<circle x="0" y="0" radius="3" width="0.1" layer="51"/>
+<wire x1="-2.8" y1="1" x2="2.8" y2="1" width="0.1" layer="51"/>
+<wire x1="2.8" y1="-1" x2="-2.8" y2="-1" width="0.1" layer="51"/>
+<smd name="2" x="0" y="-2.4" dx="2" dy="2.8" layer="1"/>
+<smd name="1" x="0" y="2.4" dx="2" dy="2.8" layer="1"/>
+<wire x1="-1.4" y1="3" x2="-1.4" y2="4.2" width="0.1" layer="21"/>
+<wire x1="-1.4" y1="4.2" x2="1.4" y2="4.2" width="0.1" layer="21"/>
+<wire x1="1.4" y1="4.2" x2="1.4" y2="3" width="0.1" layer="21"/>
+<wire x1="-1.4" y1="-3" x2="-1.4" y2="-4.2" width="0.1" layer="21"/>
+<wire x1="-1.4" y1="-4.2" x2="1.4" y2="-4.2" width="0.1" layer="21"/>
+<wire x1="1.4" y1="-3" x2="1.4" y2="-4.2" width="0.1" layer="21"/>
+<wire x1="-1.4" y1="3" x2="-1.4" y2="-3" width="0.1" layer="21" curve="129.966213"/>
+<wire x1="1.4" y1="-3" x2="1.4" y2="3" width="0.1" layer="21" curve="129.966213"/>
+</package>
+<package name="МДГ3">
+<text x="0" y="0" size="0.508" layer="27" align="center">&gt;VALUE</text>
+<text x="5.9" y="0" size="0.508" layer="25" rot="R90" align="center">&gt;NAME</text>
+<circle x="0" y="0" radius="4.75" width="0.1" layer="51"/>
+<wire x1="4.6" y1="1.1" x2="-4.6" y2="1.1" width="0.1" layer="51"/>
+<wire x1="-4.6" y1="-1.2" x2="4.6" y2="-1.2" width="0.1" layer="51"/>
+<smd name="1" x="0" y="3.5" dx="2.2" dy="4.75" layer="1"/>
+<smd name="2" x="0" y="-3.6" dx="2.2" dy="4.75" layer="1" rot="R180"/>
+<wire x1="-1.7" y1="5" x2="-1.7" y2="6.4" width="0.1" layer="21"/>
+<wire x1="-1.7" y1="6.4" x2="1.7" y2="6.4" width="0.1" layer="21"/>
+<wire x1="1.7" y1="6.4" x2="1.7" y2="5" width="0.1" layer="21"/>
+<wire x1="-1.7" y1="-5" x2="-1.7" y2="-6.4" width="0.1" layer="21"/>
+<wire x1="1.7" y1="-5" x2="1.7" y2="-6.4" width="0.1" layer="21"/>
+<wire x1="-1.7" y1="-6.4" x2="1.7" y2="-6.4" width="0.1" layer="21"/>
+<wire x1="-1.7" y1="-5" x2="-1.7" y2="5" width="0.1" layer="21" curve="-142.443934"/>
+<wire x1="1.7" y1="5" x2="1.7" y2="-5" width="0.1" layer="21" curve="-142.443934"/>
+</package>
 </packages>
 <symbols>
 <symbol name="CPOL">
@@ -401,6 +452,26 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 <wire x1="0" y1="2.54" x2="0" y2="1.016" width="0.1524" layer="94"/>
 <wire x1="0" y1="1.016" x2="0.254" y2="2.286" width="0.1524" layer="94"/>
 <wire x1="-0.254" y1="2.286" x2="0" y2="1.016" width="0.1524" layer="94"/>
+</symbol>
+<symbol name="THROTTLE">
+<wire x1="-2.54" y1="0.635" x2="-1.27" y2="1.905" width="0.254" layer="94" curve="-90"/>
+<text x="0" y="4.445" size="1.27" layer="95" rot="R180" align="center">&gt;NAME</text>
+<text x="0" y="-1.524" size="1.27" layer="96" rot="R180" align="center">&gt;VALUE</text>
+<pin name="2" x="7.62" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="1" x="-7.62" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
+<wire x1="-5.08" y1="0.635" x2="-3.81" y2="1.905" width="0.254" layer="94" curve="-90"/>
+<wire x1="-2.54" y1="0.635" x2="-3.81" y2="1.905" width="0.254" layer="94" curve="90"/>
+<wire x1="0" y1="0.635" x2="-1.27" y2="1.905" width="0.254" layer="94" curve="90"/>
+<wire x1="0" y1="0.635" x2="1.27" y2="1.905" width="0.254" layer="94" curve="-90"/>
+<wire x1="-2.54" y1="0.635" x2="-2.54" y2="0" width="0.254" layer="94"/>
+<wire x1="2.54" y1="0.635" x2="1.27" y2="1.905" width="0.254" layer="94" curve="90"/>
+<wire x1="2.54" y1="0.635" x2="3.81" y2="1.905" width="0.254" layer="94" curve="-90"/>
+<wire x1="5.08" y1="0.635" x2="3.81" y2="1.905" width="0.254" layer="94" curve="90"/>
+<wire x1="-5.08" y1="0.635" x2="-5.08" y2="0" width="0.254" layer="94"/>
+<wire x1="0" y1="0.635" x2="0" y2="0" width="0.254" layer="94"/>
+<wire x1="2.54" y1="0.635" x2="2.54" y2="0" width="0.254" layer="94"/>
+<wire x1="5.08" y1="0.635" x2="5.08" y2="0" width="0.254" layer="94"/>
+<wire x1="-4.445" y1="2.54" x2="4.445" y2="2.54" width="0.508" layer="94"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -1298,6 +1369,2456 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </technologies>
 </device>
 <device name="&quot;В&quot;-3225М" package="C1206">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="МДГ1" prefix="L">
+<description>&lt;b&gt;КВШУ.670114.001 ТУ&lt;/b&gt;&lt;p&gt;
+&lt;table width="643" cellpadding="3" cellspacing="0" style="page-break-before: always" border="1"&gt;
+	&lt;col width="111"&gt;
+	&lt;col width="116"&gt;
+	&lt;col width="117"&gt;
+	&lt;col width="148"&gt;
+	&lt;col width="119"&gt;
+	&lt;tr&gt;
+		&lt;th rowspan="2" width="111" style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p align="center"&gt;&lt;b&gt;Обозначение&lt;br/&gt;
+типономинала&lt;br/&gt;
+микродросселя&lt;br/&gt;
+МДГ1&lt;/b&gt;&lt;/p&gt;
+		&lt;/th&gt;
+		&lt;th colspan="4" width="517" style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p align="center"&gt;&lt;b&gt;Наименование параметра, условное обозначение,
+			единица измерения,&lt;br/&gt;
+(режим измерения)&lt;/b&gt;&lt;/p&gt;
+		&lt;/th&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;th width="116" style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p align="center"&gt;&lt;b&gt;Индуктивность&lt;br/&gt;
+обмотки, L, нГн,&lt;br/&gt;
+(10
+			кГц, 2 Вск)&lt;/b&gt;&lt;/p&gt;
+		&lt;/th&gt;
+		&lt;th width="117" style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p align="center"&gt;&lt;b&gt;Добротность, Q**,&lt;br/&gt;
+&amp;nbsp;(от 10 до 100
+			МГц)&lt;br/&gt;
+не менее&lt;/b&gt;&lt;/p&gt;
+		&lt;/th&gt;
+		&lt;th width="148" style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p align="center"&gt;&lt;b&gt;Сопротивление обмотки&lt;br/&gt;
+постоянному току,
+			Rобм.,&lt;br/&gt;
+Ом, не более *&lt;/b&gt;&lt;/p&gt;
+		&lt;/th&gt;
+		&lt;th width="119" style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p align="center"&gt;&lt;b&gt;Максимальный&lt;br/&gt;
+рабочий ток,&lt;br/&gt;
+I раб.,
+			мА*&lt;/b&gt;&lt;/p&gt;
+		&lt;/th&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td width="111" style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p align="center"&gt;МДГ1-4,7&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="116" style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p align="center"&gt;4,7&amp;plusmn;10 %&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="117" style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p align="center"&gt;15&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="148" style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p align="center"&gt;0,02&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="119" style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p align="center"&gt;5 000&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td width="111" style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p align="center"&gt;МДГ1-10&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="116" style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p align="center"&gt;10 &amp;plusmn;10 %&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="117" style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p align="center"&gt;15&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="148" style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p align="center"&gt;0,02&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="119" style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p align="center"&gt;5 000&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td width="111" style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p align="center"&gt;МДГ1-12&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="116" style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p align="center"&gt;12 &amp;plusmn;10 %&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="117" style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p align="center"&gt;15&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="148" style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p align="center"&gt;0,02&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="119" style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p align="center"&gt;4 900&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td width="111" style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p align="center"&gt;МДГ1-22&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="116" style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p align="center"&gt;22 &amp;plusmn;10 %&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="117" style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p align="center"&gt;15&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="148" style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p align="center"&gt;0,02&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="119" style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p align="center"&gt;4 900&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td width="111" style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p align="center"&gt;МДГ1-39&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="116" style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p align="center"&gt;39 &amp;plusmn;10 %&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="117" style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p align="center"&gt;15&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="148" style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p align="center"&gt;0,02&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="119" style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p align="center"&gt;4 900&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td width="111" style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p align="center"&gt;МДГ1-47&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="116" style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p align="center"&gt;47 &amp;plusmn;10 %&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="117" style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p align="center"&gt;15&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="148" style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p align="center"&gt;0,02&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="119" style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p align="center"&gt;3900&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td width="111" style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p align="center"&gt;МДГ1-56&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="116" style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p align="center"&gt;56 &amp;plusmn;10 %&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="117" style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p align="center"&gt;15&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="148" style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p align="center"&gt;0,02&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="119" style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p align="center"&gt;3900&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td width="111" style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p align="center"&gt;МДГ1-68&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="116" style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p align="center"&gt;68 &amp;plusmn;10 %&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="117" style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p align="center"&gt;15&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="148" style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p align="center"&gt;0,03&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="119" style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p align="center"&gt;2400&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td width="111" style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p align="center"&gt;МДГ1-82&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="116" style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p align="center"&gt;82 &amp;plusmn;10 %&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="117" style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p align="center"&gt;15&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="148" style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p align="center"&gt;0,03&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="119" style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p align="center"&gt;2400&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td width="111" style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p align="center"&gt;МДГ1-100&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="116" style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p align="center"&gt;100 &amp;plusmn;10 %&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="117" style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p align="center"&gt;15&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="148" style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p align="center"&gt;0,03&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="119" style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p align="center"&gt;1900&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td width="111" style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p align="center"&gt;МДГ1-120&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="116" style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p align="center"&gt;120 &amp;plusmn;10 %&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="117" style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p align="center"&gt;15&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="148" style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p align="center"&gt;0,05&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="119" style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p align="center"&gt;1900&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td width="111" style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p align="center"&gt;МДГ1-150&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="116" style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p align="center"&gt;150 &amp;plusmn;10 %&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="117" style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p align="center"&gt;15&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="148" style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p align="center"&gt;0,06&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="119" style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p align="center"&gt;1900&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td width="111" style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p align="center"&gt;МДГ1-180&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="116" style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p align="center"&gt;180 &amp;plusmn;10 %&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="117" style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p align="center"&gt;15&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="148" style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p align="center"&gt;0,08&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="119" style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p align="center"&gt;1900&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td width="111" style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p align="center"&gt;МДГ1-220&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="116" style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p align="center"&gt;220 &amp;plusmn;10 %&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="117" style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p align="center"&gt;15&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="148" style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p align="center"&gt;0,09&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="119" style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p align="center"&gt;1900&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td width="111" style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p align="center"&gt;МДГ1-270&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="116" style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p align="center"&gt;270 &amp;plusmn;10 %&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="117" style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p align="center"&gt;15&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="148" style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p align="center"&gt;0,09&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="119" style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p align="center"&gt;1900&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td width="111" style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p align="center"&gt;МДГ1-330&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="116" style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p align="center"&gt;330 &amp;plusmn;10 %&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="117" style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p align="center"&gt;15&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="148" style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p align="center"&gt;0,10&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="119" style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p align="center"&gt;1900&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td width="111" style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p align="center"&gt;МДГ1-390&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="116" style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p align="center"&gt;390 &amp;plusmn;10 %&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="117" style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p align="center"&gt;15&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="148" style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p align="center"&gt;0,10&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="119" style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p align="center"&gt;1900&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td width="111" style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p align="center"&gt;МДГ1-470&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="116" style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p align="center"&gt;470&amp;plusmn;10 %&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="117" style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p align="center"&gt;15&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="148" style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p align="center"&gt;0,15&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="119" style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p align="center"&gt;1500&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td width="111" style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p align="center"&gt;МДГ1-560&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="116" style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p align="center"&gt;560&amp;plusmn;10 %&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="117" style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p align="center"&gt;15&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="148" style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p align="center"&gt;0,15&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="119" style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p align="center"&gt;1500&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td width="111" style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p align="center"&gt;МДГ1-680&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="116" style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p align="center"&gt;680&amp;plusmn;10 %&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="117" style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p align="center"&gt;15&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="148" style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p align="center"&gt;0,15&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="119" style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p align="center"&gt;1500&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td width="111" style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p align="center"&gt;МДГ1-820&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="116" style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p align="center"&gt;820&amp;plusmn;10 %&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="117" style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p align="center"&gt;15&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="148" style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p align="center"&gt;0,20&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="119" style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p align="center"&gt;1500&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td width="111" style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p align="center"&gt;МДГ1-1000&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="116" style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p align="center"&gt;1 000&amp;plusmn;10 %&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="117" style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p align="center"&gt;15&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="148" style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p align="center"&gt;0,20&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="119" style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p align="center"&gt;1500&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td width="111" style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p align="center"&gt;МДГ1-1200&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="116" style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p align="center"&gt;1 200&amp;plusmn;10 %&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="117" style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p align="center"&gt;15&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="148" style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p align="center"&gt;0,25&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="119" style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p align="center"&gt;1000&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td width="111" style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p align="center"&gt;МДГ1-1500&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="116" style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p align="center"&gt;1 500&amp;plusmn;10 %&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="117" style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p align="center"&gt;15&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="148" style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p align="center"&gt;0,35&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="119" style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p align="center"&gt;1000&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;p align="left" style="margin-bottom: 0cm; line-height: 100%"&gt;*Справочные
+данные.&lt;br/&gt;
+** Добротность Q измеряется на фиксированной частоте из
+заданного диапазона&lt;/p&gt;
+&lt;table width="100%" cellpadding="4" cellspacing="0" border="1"&gt;
+	&lt;col width="51*"&gt;
+	&lt;col width="51*"&gt;
+	&lt;col width="51*"&gt;
+	&lt;col width="51*"&gt;
+	&lt;col width="51*"&gt;
+	&lt;tr&gt;
+		&lt;td rowspan="2" width="20%" style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0.1cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;&lt;b&gt;Типоразмер дросселя&lt;/b&gt;&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td colspan="3" width="60%" style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0.1cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;&lt;b&gt;Рамеры&lt;/b&gt;&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td rowspan="2" width="20%" style="border: 1px solid #000000; padding: 0.1cm"&gt;
+			&lt;p align="center"&gt;&lt;b&gt;Масса, г&lt;/b&gt;&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td width="20%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;&lt;b&gt;Диаметр, мм&lt;/b&gt;&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="20%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;&lt;b&gt;Высота, мм&lt;/b&gt;&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="20%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;&lt;b&gt;Расстояние между контактами, мм&lt;/b&gt;&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td width="20%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;МДГ1&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="20%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;5&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="20%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;4,8&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="20%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;1,4&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="20%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0.1cm"&gt;
+			&lt;p align="center"&gt;1,5&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td width="20%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;МДГ2&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="20%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;6&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="20%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;6&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="20%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;2,0&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="20%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0.1cm"&gt;
+			&lt;p align="center"&gt;2,0&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td width="20%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;МДГ3&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="20%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;9,5&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="20%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;6,3&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="20%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;2,2&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="20%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0.1cm"&gt;
+			&lt;p align="center"&gt;2,5&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;p&gt;
+Производитель: ОАО МСТАТОР&lt;br&gt;
+174400, Новгородская обл., г.Боровичи, ул. А.Невского, 10</description>
+<gates>
+<gate name="G$1" symbol="THROTTLE" x="0" y="0"/>
+</gates>
+<devices>
+<device name="-4,7нГн" package="МДГ1">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-10нГн" package="МДГ1">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-12нГн" package="МДГ1">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-22нГн" package="МДГ1">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-39нГн" package="МДГ1">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-47нГн" package="МДГ1">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-56нГн" package="МДГ1">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-68нГн" package="МДГ1">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-82нГн" package="МДГ1">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-100нГн" package="МДГ1">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-120нГн" package="МДГ1">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-150нГн" package="МДГ1">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-180нГн" package="МДГ1">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-220нГн" package="МДГ1">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-270нГн" package="МДГ1">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-330нГн" package="МДГ1">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-390нГн" package="МДГ1">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-470нГн" package="МДГ1">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-560нГн" package="МДГ1">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-680нГн" package="МДГ1">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-820нГн" package="МДГ1">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-1000нГн" package="МДГ1">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-1200нГн" package="МДГ1">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-1500нГн" package="МДГ1">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="МДГ2" prefix="L">
+<description>&lt;b&gt;КВШУ.670114.001 ТУ&lt;/b&gt;&lt;p&gt;
+&lt;table width="643" cellpadding="3" cellspacing="0" style="page-break-before: always" border="1"&gt;
+	&lt;col width="112"&gt;
+	&lt;col width="117"&gt;
+	&lt;col width="116"&gt;
+	&lt;col width="148"&gt;
+	&lt;col width="119"&gt;
+	&lt;tr&gt;
+		&lt;th rowspan="2" width="112" style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p&gt;Обозначение&lt;br/&gt;
+типономинала&lt;br/&gt;
+микродросселя&lt;br/&gt;
+&amp;nbsp;МДГ2&lt;/p&gt;
+		&lt;/th&gt;
+		&lt;th colspan="4" width="517" style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p&gt;Наименование параметра, условное обозначение, единица
+			измерения,&lt;br/&gt;
+(режим измерения)&lt;/p&gt;
+		&lt;/th&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;th width="117" style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p&gt;Индуктивность&lt;br/&gt;
+обмотки, L, нГн,&lt;br/&gt;
+(10 кГц, 2 Вск)&lt;/p&gt;
+		&lt;/th&gt;
+		&lt;th width="116" style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p&gt;Добротность, Q**,&lt;br/&gt;
+&amp;nbsp;(от 10 до 100 МГц)&lt;br/&gt;
+не менее&lt;/p&gt;
+		&lt;/th&gt;
+		&lt;th width="148" style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p&gt;Сопротивление обмотки&lt;br/&gt;
+постоянному току, Rобм.,&lt;br/&gt;
+Ом, не
+			более *&lt;/p&gt;
+		&lt;/th&gt;
+		&lt;th width="119" style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p&gt;Максимальный&lt;br/&gt;
+рабочий ток,&lt;br/&gt;
+I раб., мА*&lt;/p&gt;
+		&lt;/th&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td width="112" style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p&gt;МДГ2-5,6&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="117" style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p&gt;5,6 &amp;plusmn;10 %&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="116" style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p&gt;12&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="148" style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p&gt;0,01&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="119" style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p&gt;5 000&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td width="112" style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p&gt;МДГ2-12&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="117" style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p&gt;12 &amp;plusmn;10 %&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="116" style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p&gt;12&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="148" style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p&gt;0,01&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="119" style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p&gt;5 000&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td width="112" style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p&gt;МДГ2-15&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="117" style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p&gt;15 &amp;plusmn;10 %&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="116" style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p&gt;12&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="148" style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p&gt;0,01&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="119" style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p&gt;5000&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td width="112" style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p&gt;МДГ2-22&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="117" style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p&gt;22 &amp;plusmn;10 %&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="116" style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p&gt;12&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="148" style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p&gt;0,01&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="119" style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p&gt;5000&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td width="112" style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p&gt;МДГ2-39&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="117" style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p&gt;39 &amp;plusmn;10 %&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="116" style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p&gt;12&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="148" style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p&gt;0,02&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="119" style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p&gt;4900&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td width="112" style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p&gt;МДГ2-47&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="117" style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p&gt;47 &amp;plusmn;10 %&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="116" style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p&gt;12&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="148" style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p&gt;0,03&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="119" style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p&gt;4900&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td width="112" style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p&gt;МДГ2-56&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="117" style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p&gt;56 &amp;plusmn;10 %&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="116" style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p&gt;12&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="148" style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p&gt;0,03&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="119" style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p&gt;3100&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td width="112" style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p&gt;МДГ2-68&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="117" style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p&gt;68 &amp;plusmn;10 %&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="116" style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p&gt;12&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="148" style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p&gt;0,04&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="119" style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p&gt;3100&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td width="112" style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p&gt;МДГ2-82&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="117" style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p&gt;82 &amp;plusmn;10 %&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="116" style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p&gt;12&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="148" style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p&gt;0,05&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="119" style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p&gt;2400&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td width="112" style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p&gt;МДГ2-100&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="117" style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p&gt;100 &amp;plusmn;10 %&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="116" style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p&gt;12&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="148" style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p&gt;0,05&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="119" style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p&gt;2400&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td width="112" style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p&gt;МДГ2-120&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="117" style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p&gt;120 &amp;plusmn;10 %&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="116" style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p&gt;12&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="148" style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p&gt;0,05&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="119" style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p&gt;2400&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td width="112" style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p&gt;МДГ2-150&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="117" style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p&gt;150 &amp;plusmn;10 %&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="116" style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p&gt;12&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="148" style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p&gt;0,05&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="119" style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p&gt;2400&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td width="112" style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p&gt;МДГ2-180&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="117" style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p&gt;180 &amp;plusmn;10 %&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="116" style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p&gt;12&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="148" style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p&gt;0,06&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="119" style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p&gt;2400&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td width="112" style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p&gt;МДГ2-220&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="117" style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p&gt;220 &amp;plusmn;10 %&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="116" style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p&gt;12&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="148" style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p&gt;0,08&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="119" style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p&gt;1900&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td width="112" style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p&gt;МДГ2-270&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="117" style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p&gt;270 &amp;plusmn;10 %&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="116" style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p&gt;12&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="148" style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p&gt;0,12&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="119" style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p&gt;1900&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td width="112" style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p&gt;МДГ2-330&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="117" style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p&gt;330 &amp;plusmn;10 %&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="116" style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p&gt;12&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="148" style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p&gt;0,12&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="119" style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p&gt;1900&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td width="112" style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p&gt;МДГ2-390&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="117" style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p&gt;390 &amp;plusmn;10 %&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="116" style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p&gt;12&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="148" style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p&gt;0,15&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="119" style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p&gt;1900&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td width="112" style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p&gt;МДГ2-470&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="117" style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p&gt;470 &amp;plusmn;10 %&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="116" style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p&gt;12&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="148" style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p&gt;0,15&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="119" style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p&gt;1900&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td width="112" style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p&gt;МДГ2-560&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="117" style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p&gt;560 &amp;plusmn;10 %&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="116" style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p&gt;12&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="148" style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p&gt;0,15&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="119" style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p&gt;1900&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td width="112" style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p&gt;МДГ2-680&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="117" style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p&gt;680 &amp;plusmn;10 %&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="116" style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p&gt;12&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="148" style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p&gt;0,18&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="119" style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p&gt;1900&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td width="112" style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p&gt;МДГ2-820&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="117" style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p&gt;820 &amp;plusmn;10 %&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="116" style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p&gt;12&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="148" style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p&gt;0,20&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="119" style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p&gt;1500&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td width="112" style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p&gt;МДГ2-1000&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="117" style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p&gt;1000 &amp;plusmn;10%&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="116" style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p&gt;12&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="148" style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p&gt;0,30&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="119" style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p&gt;1500&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td width="112" style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p&gt;МДГ2-1200&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="117" style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p&gt;1200 &amp;plusmn;10%&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="116" style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p&gt;12&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="148" style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p&gt;0,30&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="119" style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p&gt;1500&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td width="112" style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p&gt;МДГ2-1500&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="117" style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p&gt;1500 &amp;plusmn;10 %&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="116" style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p&gt;12&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="148" style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p&gt;0,35&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="119" style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p&gt;1500&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td width="112" style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p&gt;МДГ2-2200&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="117" style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p&gt;2200&amp;plusmn;10 %&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="116" style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p&gt;12&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="148" style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p&gt;0,40&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="119" style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p&gt;4300&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;p style="margin-bottom: 0cm; line-height: 100%"&gt;&lt;br/&gt;
+
+&lt;/p&gt;
+&lt;p align="left" style="margin-bottom: 0cm; line-height: 100%"&gt;*Справочные
+данные.&lt;br/&gt;
+** Добротность Q измеряется на фиксированной частоте из
+заданного диапазона&lt;/p&gt;
+&lt;table width="100%" cellpadding="4" cellspacing="0" border="1"&gt;
+	&lt;col width="51*"&gt;
+	&lt;col width="51*"&gt;
+	&lt;col width="51*"&gt;
+	&lt;col width="51*"&gt;
+	&lt;col width="51*"&gt;
+	&lt;tr&gt;
+		&lt;td rowspan="2" width="20%" style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0.1cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;&lt;b&gt;Типоразмер дросселя&lt;/b&gt;&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td colspan="3" width="60%" style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0.1cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;&lt;b&gt;Рамеры&lt;/b&gt;&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td rowspan="2" width="20%" style="border: 1px solid #000000; padding: 0.1cm"&gt;
+			&lt;p align="center"&gt;&lt;b&gt;Масса, г&lt;/b&gt;&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td width="20%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;&lt;b&gt;Диаметр, мм&lt;/b&gt;&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="20%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;&lt;b&gt;Высота, мм&lt;/b&gt;&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="20%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;&lt;b&gt;Расстояние между контактами, мм&lt;/b&gt;&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td width="20%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;МДГ1&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="20%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;5&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="20%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;4,8&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="20%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;1,4&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="20%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0.1cm"&gt;
+			&lt;p align="center"&gt;1,5&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td width="20%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;МДГ2&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="20%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;6&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="20%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;6&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="20%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;2,0&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="20%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0.1cm"&gt;
+			&lt;p align="center"&gt;2,0&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td width="20%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;МДГ3&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="20%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;9,5&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="20%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;6,3&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="20%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;2,2&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="20%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0.1cm"&gt;
+			&lt;p align="center"&gt;2,5&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;p&gt;
+Производитель: ОАО МСТАТОР&lt;br&gt;
+174400, Новгородская обл., г.Боровичи, ул. А.Невского, 10</description>
+<gates>
+<gate name="G$1" symbol="THROTTLE" x="0" y="0"/>
+</gates>
+<devices>
+<device name="-5,6нГн" package="МДГ2">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-12нГн" package="МДГ2">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-15нГн" package="МДГ2">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-22нГн" package="МДГ2">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-39нГн" package="МДГ2">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-47нГн" package="МДГ2">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-56нГн" package="МДГ2">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-68нГн" package="МДГ2">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-82нГн" package="МДГ2">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-100нГн" package="МДГ2">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-120нГн" package="МДГ2">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-150нГн" package="МДГ2">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-180нГн" package="МДГ2">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-220нГн" package="МДГ2">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-270нГн" package="МДГ2">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-330нГн" package="МДГ2">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-390нГн" package="МДГ2">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-470нГн" package="МДГ2">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-560нГн" package="МДГ2">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-680нГн" package="МДГ2">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-820нГн" package="МДГ2">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-1000нГн" package="МДГ2">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-1200нГн" package="МДГ2">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-1500нГн" package="МДГ2">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-2200нГн" package="МДГ2">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="МДГ3" prefix="L">
+<description>&lt;b&gt;КВШУ.670114.001 ТУ&lt;/b&gt;&lt;p&gt;
+&lt;table cellpadding="2" cellspacing="2" style="page-break-before: always" border="1"&gt;
+	&lt;tr&gt;
+		&lt;th rowspan="2" style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p align="center"&gt;Обозначение&lt;br/&gt;
+типономинала&lt;br/&gt;
+микродросселя&lt;br/&gt;
+МДГ3&lt;/p&gt;
+		&lt;/th&gt;
+		&lt;th colspan="4" style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p align="center"&gt;Наименование параметра, условное обозначение,
+			единица измерения,&lt;br/&gt;
+(режим измерения)&lt;/p&gt;
+		&lt;/th&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;th style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p align="center"&gt;Индуктивность&lt;br/&gt;
+обмотки, L, нГн,&lt;br/&gt;
+(10
+			кГц, 2 Вск)&lt;/p&gt;
+		&lt;/th&gt;
+		&lt;th style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p align="center"&gt;Добротность, Q**,&lt;br/&gt;
+&amp;nbsp;(от 10 до 100
+			МГц)&lt;br/&gt;
+не менее&lt;/p&gt;
+		&lt;/th&gt;
+		&lt;th style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p align="center"&gt;Сопротивление обмотки&lt;br/&gt;
+постоянному току,
+			Rобм.,&lt;br/&gt;
+Ом, не более *&lt;/p&gt;
+		&lt;/th&gt;
+		&lt;th style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p align="center"&gt;Максимальный&lt;br/&gt;
+рабочий ток,&lt;br/&gt;
+I раб., мА*&lt;/p&gt;
+		&lt;/th&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p align="center"&gt;МДГ3-6,8&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p align="center"&gt;6,8 &amp;plusmn; 10 %&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p align="center"&gt;19&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p align="center"&gt;0,01&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p align="center"&gt;5000&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p align="center"&gt;МДГ3-10&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p align="center"&gt;10 &amp;plusmn; 10 %&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p align="center"&gt;19&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p align="center"&gt;0,01&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p align="center"&gt;5000&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p align="center"&gt;МДГ3-18&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p align="center"&gt;18 &amp;plusmn; 10 %&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p align="center"&gt;19&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p align="center"&gt;0,01&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p align="center"&gt;5000&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p align="center"&gt;МДГ3-22&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p align="center"&gt;22 &amp;plusmn; 10 %&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p align="center"&gt;19&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p align="center"&gt;0,01&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p align="center"&gt;5000&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p align="center"&gt;МДГ3-39&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p align="center"&gt;39 &amp;plusmn; 10 %&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p align="center"&gt;19&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p align="center"&gt;0,02&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p align="center"&gt;4900&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p align="center"&gt;МДГ3-56&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p align="center"&gt;56 &amp;plusmn; 10 %&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p align="center"&gt;19&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p align="center"&gt;0,03&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p align="center"&gt;4900&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p align="center"&gt;МДГ3-68&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p align="center"&gt;68 &amp;plusmn; 10 %&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p align="center"&gt;19&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p align="center"&gt;0,04&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p align="center"&gt;3100&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p align="center"&gt;МДГ3-82&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p align="center"&gt;82 &amp;plusmn; 10 %&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p align="center"&gt;19&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p align="center"&gt;0,05&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p align="center"&gt;3100&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p align="center"&gt;МДГ3-100&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p align="center"&gt;100 &amp;plusmn; 10 %&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p align="center"&gt;19&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p align="center"&gt;0,05&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p align="center"&gt;2400&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p align="center"&gt;МДГ3-120&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p align="center"&gt;120 &amp;plusmn; 10 %&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p align="center"&gt;19&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p align="center"&gt;0,05&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p align="center"&gt;2400&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p align="center"&gt;МДГ3-150&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p align="center"&gt;150 &amp;plusmn; 10 %&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p align="center"&gt;19&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p align="center"&gt;0,05&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p align="center"&gt;2400&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p align="center"&gt;МДГ3-180&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p align="center"&gt;180 &amp;plusmn; 10 %&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p align="center"&gt;19&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p align="center"&gt;0,06&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p align="center"&gt;2400&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p align="center"&gt;МДГ3-220&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p align="center"&gt;220 &amp;plusmn; 10 %&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p align="center"&gt;19&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p align="center"&gt;0,10&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p align="center"&gt;1900&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p align="center"&gt;МДГ3-270&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p align="center"&gt;270 &amp;plusmn; 10 %&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p align="center"&gt;19&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p align="center"&gt;0,12&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p align="center"&gt;1900&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p align="center"&gt;МДГ3-330&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p align="center"&gt;330 &amp;plusmn; 10 %&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p align="center"&gt;19&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p align="center"&gt;0,12&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p align="center"&gt;1900&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p align="center"&gt;МДГ3-390&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p align="center"&gt;390 &amp;plusmn; 10 %&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p align="center"&gt;19&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p align="center"&gt;0,15&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p align="center"&gt;1900&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p align="center"&gt;МДГ3-470&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p align="center"&gt;470 &amp;plusmn; 10 %&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p align="center"&gt;19&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p align="center"&gt;0,20&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p align="center"&gt;1900&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p align="center"&gt;МДГ3-560&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p align="center"&gt;560 &amp;plusmn; 10 %&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p align="center"&gt;19&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p align="center"&gt;0,20&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p align="center"&gt;1900&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p align="center"&gt;МДГ3-680&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p align="center"&gt;680 &amp;plusmn; 10 %&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p align="center"&gt;19&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p align="center"&gt;0,25&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p align="center"&gt;1900&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p align="center"&gt;МДГ3-820&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p align="center"&gt;820 &amp;plusmn; 10 %&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p align="center"&gt;19&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p align="center"&gt;0,30&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p align="center"&gt;1500&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p align="center"&gt;МДГ3-1000&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p align="center"&gt;1000 &amp;plusmn; 10 %&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p align="center"&gt;19&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p align="center"&gt;0,30&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p align="center"&gt;1500&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p align="center"&gt;МДГ3-1200&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p align="center"&gt;1200 &amp;plusmn; 10 %&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p align="center"&gt;19&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p align="center"&gt;0,35&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p align="center"&gt;1500&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p align="center"&gt;МДГ3-1500&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p align="center"&gt;1500 &amp;plusmn; 10 %&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p align="center"&gt;19&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p align="center"&gt;0,40&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p align="center"&gt;1500&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p align="center"&gt;МДГ3-3900&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p align="center"&gt;3900&amp;nbsp;&amp;plusmn; 10 %&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p align="center"&gt;19&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p align="center"&gt;0,40&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p align="center"&gt;5000&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p align="center"&gt;МДГ3-4700&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p align="center"&gt;4700&amp;nbsp;&amp;plusmn; 10 %&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p align="center"&gt;19&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p align="center"&gt;0,40&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p align="center"&gt;5000&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p align="center"&gt;МДГ3-5600&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p align="center"&gt;5600 &amp;plusmn; 10 %&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p align="center"&gt;19&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p align="center"&gt;0,40&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p align="center"&gt;5000&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p align="center"&gt;МДГ3-6000&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p align="center"&gt;6000 &amp;plusmn; 10%&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p align="center"&gt;19&lt;br/&gt;
+(от 60 до 100 МГц)&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p align="center"&gt;0,40&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p align="center"&gt;5000&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p align="center"&gt;МДГ3-6800&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p align="center"&gt;6800 &amp;plusmn; 10%&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p align="center"&gt;19&lt;br/&gt;
+(от 60 до 100 МГц)&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p align="center"&gt;0,40&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p align="center"&gt;5000&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p align="center"&gt;МДГ3-10000&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p align="center"&gt;10000&amp;nbsp;&amp;plusmn; 10 %&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p align="center"&gt;19&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p align="center"&gt;0,40&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td style="border: 1px solid #cccccc; padding: 0.08cm"&gt;
+			&lt;p align="center"&gt;5000&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;p style="margin-bottom: 0cm; line-height: 100%"&gt;&lt;br/&gt;
+
+&lt;/p&gt;
+&lt;p align="left" style="margin-bottom: 0cm; line-height: 100%"&gt;*Справочные
+данные.&lt;br/&gt;
+** Добротность Q измеряется на фиксированной частоте из
+заданного диапазона&lt;/p&gt;
+&lt;table width="100%" cellpadding="4" cellspacing="0" border="1"&gt;
+	&lt;col width="51*"&gt;
+	&lt;col width="51*"&gt;
+	&lt;col width="51*"&gt;
+	&lt;col width="51*"&gt;
+	&lt;col width="51*"&gt;
+	&lt;tr&gt;
+		&lt;td rowspan="2" width="20%" style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0.1cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;&lt;b&gt;Типоразмер дросселя&lt;/b&gt;&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td colspan="3" width="60%" style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0.1cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;&lt;b&gt;Рамеры&lt;/b&gt;&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td rowspan="2" width="20%" style="border: 1px solid #000000; padding: 0.1cm"&gt;
+			&lt;p align="center"&gt;&lt;b&gt;Масса, г&lt;/b&gt;&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td width="20%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;&lt;b&gt;Диаметр, мм&lt;/b&gt;&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="20%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;&lt;b&gt;Высота, мм&lt;/b&gt;&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="20%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;&lt;b&gt;Расстояние между контактами, мм&lt;/b&gt;&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td width="20%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;МДГ1&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="20%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;5&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="20%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;4,8&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="20%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;1,4&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="20%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0.1cm"&gt;
+			&lt;p align="center"&gt;1,5&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td width="20%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;МДГ2&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="20%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;6&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="20%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;6&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="20%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;2,0&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="20%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0.1cm"&gt;
+			&lt;p align="center"&gt;2,0&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td width="20%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;МДГ3&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="20%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;9,5&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="20%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;6,3&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="20%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;2,2&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="20%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0.1cm"&gt;
+			&lt;p align="center"&gt;2,5&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;p&gt;
+Производитель: ОАО МСТАТОР&lt;br&gt;
+174400, Новгородская обл., г.Боровичи, ул. А.Невского, 10</description>
+<gates>
+<gate name="G$1" symbol="THROTTLE" x="0" y="0"/>
+</gates>
+<devices>
+<device name="-6,8нГн" package="МДГ3">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-10нГн" package="МДГ3">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-18нГн" package="МДГ3">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-22нГн" package="МДГ3">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-39нГн" package="МДГ3">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-56нГн" package="МДГ3">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-68нГн" package="МДГ3">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-82нГн" package="МДГ3">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-100нГн" package="МДГ3">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-120нГн" package="МДГ3">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-150нГн" package="МДГ3">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-180нГн" package="МДГ3">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-220нГн" package="МДГ3">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-270нГн" package="МДГ3">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-330нГн" package="МДГ3">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-390нГн" package="МДГ3">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-470нГн" package="МДГ3">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-560нГн" package="МДГ3">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-680нГн" package="МДГ3">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-820нГн" package="МДГ3">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-1000нГн" package="МДГ3">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-1200нГн" package="МДГ3">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-1500нГн" package="МДГ3">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-3900нГн" package="МДГ3">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-4700нГн" package="МДГ3">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-5600нГн" package="МДГ3">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-6000нГн" package="МДГ3">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-6800нГн" package="МДГ3">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-10000нГн" package="МДГ3">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>

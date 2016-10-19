@@ -22,7 +22,7 @@
 <layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
 <layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
@@ -38,7 +38,7 @@
 <layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
-<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
@@ -449,6 +449,78 @@
 <wire x1="3.25" y1="-3" x2="3" y2="-3.25" width="0.127" layer="51" curve="-90"/>
 <wire x1="-3" y1="-3.25" x2="-3.25" y2="-3" width="0.127" layer="51" curve="-90"/>
 </package>
+<package name="КТ-28А-2.02">
+<smd name="4" x="0" y="7.1" dx="10.8" dy="14.15" layer="1"/>
+<wire x1="-5.4" y1="14.2" x2="-5.4" y2="7.4" width="0.1" layer="51"/>
+<wire x1="-5.4" y1="7.4" x2="-5.4" y2="-4.3" width="0.1" layer="51"/>
+<wire x1="-5.4" y1="-4.3" x2="-0.7" y2="-4.3" width="0.1" layer="51"/>
+<wire x1="-0.7" y1="-4.3" x2="-0.5" y2="-4.3" width="0.1" layer="51"/>
+<wire x1="-0.5" y1="-4.3" x2="0.5" y2="-4.3" width="0.1" layer="51"/>
+<wire x1="0.5" y1="-4.3" x2="0.7" y2="-4.3" width="0.1" layer="51"/>
+<wire x1="0.7" y1="-4.3" x2="5.4" y2="-4.3" width="0.1" layer="51"/>
+<wire x1="5.4" y1="-4.3" x2="5.4" y2="7.4" width="0.1" layer="51"/>
+<wire x1="5.4" y1="7.4" x2="5.4" y2="14.2" width="0.1" layer="51"/>
+<wire x1="5.4" y1="14.2" x2="-5.4" y2="14.2" width="0.1" layer="51"/>
+<wire x1="-5.4" y1="7.4" x2="5.4" y2="7.4" width="0.1" layer="51"/>
+<wire x1="-4" y1="5" x2="-3" y2="6" width="0.1" layer="51" curve="-90"/>
+<wire x1="3" y1="6" x2="4" y2="5" width="0.1" layer="51" curve="-90"/>
+<wire x1="-3" y1="-2.5" x2="-4" y2="-1.5" width="0.1" layer="51" curve="-90"/>
+<wire x1="4" y1="-1.5" x2="3" y2="-2.5" width="0.1" layer="51" curve="-90"/>
+<wire x1="-3" y1="-2.5" x2="3" y2="-2.5" width="0.1" layer="51"/>
+<wire x1="4" y1="-1.5" x2="4" y2="5" width="0.1" layer="51"/>
+<wire x1="3" y1="6" x2="-3" y2="6" width="0.1" layer="51"/>
+<wire x1="-4" y1="5" x2="-4" y2="-1.5" width="0.1" layer="51"/>
+<wire x1="-3" y1="-2" x2="-3.5" y2="-1.5" width="0.1" layer="51" curve="-90"/>
+<wire x1="-3.5" y1="5" x2="-3.5" y2="-1.5" width="0.1" layer="51"/>
+<wire x1="-3" y1="-2" x2="3" y2="-2" width="0.1" layer="51"/>
+<wire x1="3.5" y1="-1.5" x2="3" y2="-2" width="0.1" layer="51" curve="-90"/>
+<wire x1="3.5" y1="-1.5" x2="3.5" y2="5" width="0.1" layer="51"/>
+<wire x1="3" y1="5.5" x2="3.5" y2="5" width="0.1" layer="51" curve="-90"/>
+<wire x1="3" y1="5.5" x2="-3" y2="5.5" width="0.1" layer="51"/>
+<wire x1="-3.5" y1="5" x2="-3" y2="5.5" width="0.1" layer="51" curve="-90"/>
+<hole x="0" y="11.4" drill="3.6"/>
+<wire x1="-0.5" y1="-4.3" x2="-0.5" y2="-7.4" width="0.1" layer="51"/>
+<wire x1="-0.5" y1="-7.4" x2="-0.5" y2="-7.8" width="0.1" layer="51"/>
+<wire x1="-0.5" y1="-7.8" x2="-0.5" y2="-11.3" width="0.1" layer="51"/>
+<wire x1="-0.5" y1="-11.3" x2="0.5" y2="-11.3" width="0.1" layer="51"/>
+<wire x1="0.5" y1="-11.3" x2="0.5" y2="-7.8" width="0.1" layer="51"/>
+<wire x1="0.5" y1="-7.8" x2="0.5" y2="-7.4" width="0.1" layer="51"/>
+<wire x1="0.5" y1="-7.4" x2="0.5" y2="-4.3" width="0.1" layer="51"/>
+<wire x1="3.24" y1="-4.3" x2="3.24" y2="-6.7" width="0.1" layer="51"/>
+<wire x1="1.84" y1="-4.3" x2="1.84" y2="-6.7" width="0.1" layer="51"/>
+<wire x1="2.04" y1="-6.7" x2="2.04" y2="-7.4" width="0.1" layer="51"/>
+<wire x1="2.04" y1="-7.4" x2="2.04" y2="-7.8" width="0.1" layer="51"/>
+<wire x1="2.04" y1="-7.8" x2="2.04" y2="-11.3" width="0.1" layer="51"/>
+<wire x1="2.04" y1="-11.3" x2="3.04" y2="-11.3" width="0.1" layer="51"/>
+<wire x1="3.04" y1="-11.3" x2="3.04" y2="-7.8" width="0.1" layer="51"/>
+<wire x1="3.04" y1="-7.8" x2="3.04" y2="-7.4" width="0.1" layer="51"/>
+<wire x1="3.04" y1="-7.4" x2="3.04" y2="-6.7" width="0.1" layer="51"/>
+<wire x1="-1.84" y1="-4.3" x2="-1.84" y2="-6.7" width="0.1" layer="51"/>
+<wire x1="-3.24" y1="-4.3" x2="-3.24" y2="-6.7" width="0.1" layer="51"/>
+<wire x1="-3.04" y1="-6.7" x2="-3.04" y2="-7.4" width="0.1" layer="51"/>
+<wire x1="-3.04" y1="-7.4" x2="-3.04" y2="-7.8" width="0.1" layer="51"/>
+<wire x1="-3.04" y1="-7.8" x2="-3.04" y2="-11.3" width="0.1" layer="51"/>
+<wire x1="-3.04" y1="-11.3" x2="-2.04" y2="-11.3" width="0.1" layer="51"/>
+<wire x1="-2.04" y1="-11.3" x2="-2.04" y2="-7.8" width="0.1" layer="51"/>
+<wire x1="-2.04" y1="-7.8" x2="-2.04" y2="-7.4" width="0.1" layer="51"/>
+<wire x1="-2.04" y1="-7.4" x2="-2.04" y2="-6.7" width="0.1" layer="51"/>
+<wire x1="-1.84" y1="-6.7" x2="-2.04" y2="-6.7" width="0.1" layer="51"/>
+<wire x1="-3.04" y1="-6.7" x2="-3.24" y2="-6.7" width="0.1" layer="51"/>
+<wire x1="2.04" y1="-6.7" x2="1.84" y2="-6.7" width="0.1" layer="51"/>
+<wire x1="3.24" y1="-6.7" x2="3.04" y2="-6.7" width="0.1" layer="51"/>
+<smd name="2" x="0" y="-10.5" dx="1.5" dy="5" layer="1"/>
+<smd name="1" x="-2.54" y="-10.5" dx="1.5" dy="5" layer="1"/>
+<smd name="3" x="2.54" y="-10.5" dx="1.5" dy="5" layer="1"/>
+<text x="4.4" y="-4" size="0.2" layer="51" align="center">КТ-28А-2.01</text>
+<wire x1="-3.04" y1="-7.4" x2="-2.04" y2="-7.4" width="0.1" layer="51"/>
+<wire x1="-3.04" y1="-7.8" x2="-2.04" y2="-7.8" width="0.1" layer="51"/>
+<wire x1="-0.5" y1="-7.8" x2="0.5" y2="-7.8" width="0.1" layer="51"/>
+<wire x1="2.04" y1="-7.8" x2="3.04" y2="-7.8" width="0.1" layer="51"/>
+<wire x1="-0.5" y1="-7.4" x2="0.5" y2="-7.4" width="0.1" layer="51"/>
+<wire x1="2.04" y1="-7.4" x2="3.04" y2="-7.4" width="0.1" layer="51"/>
+<text x="0" y="2.286" size="0.508" layer="25" align="center">&gt;NAME</text>
+<text x="0" y="0.762" size="0.508" layer="27" align="center">&gt;VALUE</text>
+</package>
 </packages>
 <symbols>
 <symbol name="VOLTAGE_REGULATOR">
@@ -519,6 +591,25 @@
 <wire x1="-7.62" y1="0" x2="0" y2="0" width="0.254" layer="94"/>
 <text x="0" y="10.16" size="1.27" layer="95" align="center">&gt;NAME</text>
 <text x="0" y="7.62" size="1.27" layer="96" align="center">&gt;VALUE</text>
+</symbol>
+<symbol name="VOLTAGE_REGULATOR_2GND">
+<pin name="IN" x="-12.7" y="2.54" length="short" direction="pwr"/>
+<pin name="OUT" x="12.7" y="2.54" length="short" direction="pwr" rot="R180"/>
+<pin name="GND@2" x="12.7" y="-2.54" length="short" direction="pwr" rot="R180"/>
+<text x="0" y="7.62" size="1.27" layer="96" align="center">&gt;VALUE</text>
+<text x="0" y="10.16" size="1.27" layer="95" align="center">&gt;NAME</text>
+<wire x1="-10.16" y1="5.08" x2="-2.54" y2="5.08" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="5.08" x2="-2.54" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-5.08" x2="2.54" y2="5.08" width="0.254" layer="94"/>
+<wire x1="2.54" y1="5.08" x2="10.16" y2="5.08" width="0.254" layer="94"/>
+<wire x1="10.16" y1="5.08" x2="10.16" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="5.08" x2="-10.16" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="5.08" x2="2.54" y2="5.08" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-5.08" x2="-2.54" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-5.08" x2="2.54" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-5.08" x2="10.16" y2="-5.08" width="0.254" layer="94"/>
+<text x="0" y="2.54" size="1.524" layer="94" align="center">STU</text>
+<pin name="GND@1" x="-12.7" y="-2.54" length="short" direction="pwr"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -1266,6 +1357,174 @@
 <connect gate="G$1" pin="A" pad="2"/>
 <connect gate="G$1" pin="CNTRL" pad="3"/>
 <connect gate="G$1" pin="K" pad="1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="1303ЕН" prefix="DA">
+<description>&lt;b&gt;АЕЯР.431420.638 ТУ&lt;/b&gt;&lt;p&gt;
+&lt;p align="left" style="margin-bottom: 0cm; line-height: 100%"&gt;&amp;bull;
+Минимальное падение напряжения &amp;le; 0,6 В&lt;/p&gt;
+&lt;p align="left" style="margin-bottom: 0cm; line-height: 100%"&gt;&amp;bull;
+Входное напряжение до 16 В&lt;/p&gt;
+&lt;p align="left" style="margin-bottom: 0cm; line-height: 100%"&gt;&amp;bull;
+Выходной ток 5 А&lt;/p&gt;
+&lt;p align="left" style="margin-bottom: 0cm; line-height: 100%"&gt;&amp;bull;
+Диапазон рабочих температур минус 60&amp;deg;С &amp;hellip; +125&amp;deg;С&lt;/p&gt;
+&lt;p align="left" style="margin-bottom: 0cm; line-height: 100%"&gt;&amp;bull;
+Металлокерамический корпус КТ-28А-2.02&lt;/p&gt;
+&lt;p align="left" style="margin-bottom: 0cm; line-height: 100%"&gt;&lt;br/&gt;
+&lt;table width="100%" cellpadding="4" cellspacing="0" border="1"&gt;
+	&lt;col width="51*"&gt;
+	&lt;col width="51*"&gt;
+	&lt;col width="51*"&gt;
+	&lt;col width="51*"&gt;
+	&lt;col width="51*"&gt;
+	&lt;tr&gt;
+		&lt;td colspan="5" width="100%" style="border: 1px solid #000000; padding: 0.1cm"&gt;
+			&lt;p align="center"&gt;Основные параметры&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td width="20%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;Тип&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="20%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;Входное напряжение, В&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="20%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;Выходное напряжение, В&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="20%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;Выходной ток, А&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="20%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0.1cm"&gt;
+			&lt;p align="center"&gt;Код маркировки&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td width="20%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;1303ЕН1.5П&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="20%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;2,5-16&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="20%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;1,47-1,53&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td rowspan="5" width="20%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;0,01-5&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="20%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0.1cm"&gt;
+			&lt;p align="center"&gt;ЕН1.5&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td width="20%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;1303ЕН1.8П&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="20%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;2,5-16&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="20%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;1,75-1,85&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="20%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0.1cm"&gt;
+			&lt;p align="center"&gt;ЕН1.8&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td width="20%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;1303ЕН2.5П&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="20%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;3,2-16&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="20%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;2,43-2,57&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="20%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0.1cm"&gt;
+			&lt;p align="center"&gt;ЕН2.5&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td width="20%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;1303ЕН3.3П&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="20%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;4-16&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="20%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;3,2-3,3&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="20%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0.1cm"&gt;
+			&lt;p align="center"&gt;ЕН3.3&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td width="20%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;1303ЕН5П&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="20%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;5,8-16&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="20%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;4,85-5,15&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="20%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0.1cm"&gt;
+			&lt;p align="center"&gt;ЕН5&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;p&gt;
+Производитель: АО "НПП "ЭлТом"&lt;br&gt;
+140070, Московская область, Люберецкий район, пос. Томилино, ул. Гаршина, д.11</description>
+<gates>
+<gate name="G$1" symbol="VOLTAGE_REGULATOR_2GND" x="0" y="0"/>
+</gates>
+<devices>
+<device name="1.8П" package="КТ-28А-2.02">
+<connects>
+<connect gate="G$1" pin="GND@1" pad="2"/>
+<connect gate="G$1" pin="GND@2" pad="4"/>
+<connect gate="G$1" pin="IN" pad="1"/>
+<connect gate="G$1" pin="OUT" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="2.5П" package="КТ-28А-2.02">
+<connects>
+<connect gate="G$1" pin="GND@1" pad="2"/>
+<connect gate="G$1" pin="GND@2" pad="4"/>
+<connect gate="G$1" pin="IN" pad="1"/>
+<connect gate="G$1" pin="OUT" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="3.3П" package="КТ-28А-2.02">
+<connects>
+<connect gate="G$1" pin="GND@1" pad="2"/>
+<connect gate="G$1" pin="GND@2" pad="4"/>
+<connect gate="G$1" pin="IN" pad="1"/>
+<connect gate="G$1" pin="OUT" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="5П" package="КТ-28А-2.02">
+<connects>
+<connect gate="G$1" pin="GND@1" pad="2"/>
+<connect gate="G$1" pin="GND@2" pad="4"/>
+<connect gate="G$1" pin="IN" pad="1"/>
+<connect gate="G$1" pin="OUT" pad="3"/>
 </connects>
 <technologies>
 <technology name=""/>

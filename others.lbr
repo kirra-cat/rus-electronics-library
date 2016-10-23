@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -816,53 +816,53 @@
 <wire x1="-5.08" y1="-7.62" x2="7.62" y2="-7.62" width="0.254" layer="94"/>
 <wire x1="7.62" y1="-7.62" x2="7.62" y2="10.16" width="0.254" layer="94"/>
 <circle x="6.985" y="-5.0546" radius="0.254" width="0" layer="94"/>
-<text x="-2.54" y="12.954" size="1.778" layer="95">&gt;NAME</text>
-<text x="-2.54" y="10.5156" size="1.778" layer="96">&gt;VALUE</text>
+<text x="0" y="15.24" size="1.27" layer="95" align="center">&gt;NAME</text>
+<text x="0" y="12.7" size="1.27" layer="96" align="center">&gt;VALUE</text>
 </symbol>
 <symbol name="ГК109С">
-<pin name="OUT" x="-15.24" y="5.08" length="middle" direction="out"/>
-<pin name="TS" x="-15.24" y="-2.54" length="middle" direction="in"/>
-<wire x1="-10.16" y1="7.62" x2="-10.16" y2="-5.08" width="0.254" layer="94"/>
-<wire x1="-10.16" y1="-5.08" x2="-2.54" y2="-5.08" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="-5.08" x2="2.54" y2="-5.08" width="0.254" layer="94"/>
-<wire x1="2.54" y1="-5.08" x2="10.16" y2="-5.08" width="0.254" layer="94"/>
-<wire x1="10.16" y1="-5.08" x2="10.16" y2="7.62" width="0.254" layer="94"/>
+<pin name="OUT" x="-12.7" y="5.08" length="short" direction="out"/>
+<pin name="TS" x="-12.7" y="0" length="short" direction="in"/>
+<wire x1="-10.16" y1="7.62" x2="-10.16" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-2.54" x2="-2.54" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-2.54" x2="2.54" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-2.54" x2="10.16" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-2.54" x2="10.16" y2="7.62" width="0.254" layer="94"/>
 <wire x1="10.16" y1="7.62" x2="2.54" y2="7.62" width="0.254" layer="94"/>
 <wire x1="2.54" y1="7.62" x2="-2.54" y2="7.62" width="0.254" layer="94"/>
 <wire x1="-2.54" y1="7.62" x2="-10.16" y2="7.62" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="7.62" x2="-2.54" y2="-5.08" width="0.254" layer="94"/>
-<wire x1="2.54" y1="7.62" x2="2.54" y2="-5.08" width="0.254" layer="94"/>
-<text x="-0.762" y="2.54" size="2.54" layer="94" font="vector">G</text>
-<pin name="VCC" x="15.24" y="5.08" length="middle" direction="pwr" rot="R180"/>
-<pin name="GND" x="15.24" y="-2.54" length="middle" direction="pwr" rot="R180"/>
-<text x="-4.572" y="8.382" size="1.778" layer="95">&gt;NAME</text>
-<text x="-4.826" y="-7.62" size="1.778" layer="96">&gt;VALUE</text>
+<wire x1="-2.54" y1="7.62" x2="-2.54" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="2.54" y1="7.62" x2="2.54" y2="-2.54" width="0.254" layer="94"/>
+<text x="0" y="2.54" size="2.54" layer="94" align="center">G</text>
+<pin name="VCC" x="12.7" y="5.08" length="short" direction="pwr" rot="R180"/>
+<pin name="GND" x="12.7" y="0" length="short" direction="pwr" rot="R180"/>
+<text x="0" y="12.7" size="1.27" layer="95" align="center">&gt;NAME</text>
+<text x="0" y="10.16" size="1.27" layer="96" align="center">&gt;VALUE</text>
 </symbol>
 <symbol name="КМН2ВXX">
-<pin name="IN+" x="-17.78" y="7.62" length="middle" direction="pwr"/>
-<pin name="IN-" x="-17.78" y="2.54" length="middle" direction="pwr"/>
-<pin name="EN" x="-17.78" y="-5.08" length="middle" direction="in"/>
+<pin name="IN+" x="-15.24" y="7.62" length="short" direction="pwr"/>
+<pin name="IN-" x="-15.24" y="2.54" length="short" direction="pwr"/>
+<pin name="EN" x="-15.24" y="-5.08" length="short" direction="in"/>
 <wire x1="-12.7" y1="10.16" x2="-12.7" y2="0" width="0.254" layer="94"/>
 <wire x1="-12.7" y1="0" x2="-12.7" y2="-10.16" width="0.254" layer="94"/>
 <wire x1="-12.7" y1="-10.16" x2="-2.54" y2="-10.16" width="0.254" layer="94"/>
 <wire x1="-2.54" y1="-10.16" x2="2.54" y2="-10.16" width="0.254" layer="94"/>
 <wire x1="2.54" y1="-10.16" x2="12.7" y2="-10.16" width="0.254" layer="94"/>
 <wire x1="-2.54" y1="10.16" x2="-2.54" y2="0" width="0.254" layer="94"/>
-<text x="1.27" y="-5.588" size="2.54" layer="94" rot="R90">DC-DC</text>
+<text x="0" y="0" size="2.54" layer="94" rot="R90" align="center">DC-DC</text>
 <wire x1="-2.54" y1="0" x2="-2.54" y2="-10.16" width="0.254" layer="94"/>
 <wire x1="2.54" y1="10.16" x2="2.54" y2="0" width="0.254" layer="94"/>
 <wire x1="2.54" y1="0" x2="2.54" y2="-10.16" width="0.254" layer="94"/>
 <wire x1="12.7" y1="-10.16" x2="12.7" y2="0" width="0.254" layer="94"/>
 <wire x1="12.7" y1="0" x2="12.7" y2="10.16" width="0.254" layer="94"/>
 <wire x1="12.7" y1="10.16" x2="-12.7" y2="10.16" width="0.254" layer="94"/>
-<pin name="OUT+" x="17.78" y="7.62" length="middle" direction="pwr" rot="R180"/>
-<pin name="OUT-" x="17.78" y="2.54" length="middle" direction="pwr" rot="R180"/>
+<pin name="OUT+" x="15.24" y="7.62" length="short" direction="pwr" rot="R180"/>
+<pin name="OUT-" x="15.24" y="2.54" length="short" direction="pwr" rot="R180"/>
 <wire x1="-12.7" y1="0" x2="-2.54" y2="0" width="0.254" layer="94"/>
 <wire x1="2.54" y1="0" x2="12.7" y2="0" width="0.254" layer="94"/>
-<pin name="NC@1" x="17.78" y="-2.54" length="middle" direction="nc" rot="R180"/>
-<pin name="NC@2" x="17.78" y="-7.62" length="middle" direction="nc" rot="R180"/>
-<text x="-5.08" y="13.462" size="1.778" layer="95">&gt;NAME</text>
-<text x="-5.08" y="10.922" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="NC@1" x="15.24" y="-2.54" length="short" direction="nc" rot="R180"/>
+<pin name="NC@2" x="15.24" y="-7.62" length="short" direction="nc" rot="R180"/>
+<text x="0" y="15.24" size="1.27" layer="95" align="center">&gt;NAME</text>
+<text x="0" y="12.7" size="1.27" layer="96" align="center">&gt;VALUE</text>
 </symbol>
 <symbol name="ТИЛ-6В">
 <wire x1="-2.54" y1="10.16" x2="-2.54" y2="7.62" width="0.254" layer="94" curve="-180"/>
@@ -891,8 +891,8 @@
 <pin name="5" x="7.62" y="-10.16" visible="pad" length="middle" rot="R180"/>
 <circle x="3.048" y="11.176" radius="0.567959375" width="0" layer="94"/>
 <circle x="-3.048" y="11.176" radius="0.567959375" width="0" layer="94"/>
-<text x="-2.54" y="15.24" size="1.778" layer="95">&gt;NAME</text>
-<text x="-2.54" y="12.7" size="1.778" layer="96">&gt;VALUE</text>
+<text x="0" y="15.24" size="1.27" layer="95" align="center">&gt;NAME</text>
+<text x="0" y="12.7" size="1.27" layer="96" align="center">&gt;VALUE</text>
 </symbol>
 <symbol name="НР1-4Р">
 <pin name="R1" x="-7.62" y="12.7" length="short" direction="pas"/>
@@ -912,9 +912,9 @@
 <wire x1="2.54" y1="-12.7" x2="5.08" y2="-12.7" width="0.254" layer="94"/>
 <wire x1="5.08" y1="-12.7" x2="5.08" y2="15.24" width="0.254" layer="94"/>
 <wire x1="2.54" y1="-12.7" x2="2.54" y2="15.24" width="0.254" layer="94"/>
-<text x="4.318" y="-2.286" size="1.27" layer="94" font="vector" rot="R90">R-Matrix</text>
-<text x="-5.08" y="20.32" size="1.778" layer="95">&gt;NAME</text>
-<text x="-5.08" y="17.78" size="1.778" layer="96">&gt;VALUE</text>
+<text x="4.318" y="-2.286" size="1.27" layer="94" rot="R90">R-Matrix</text>
+<text x="0" y="20.32" size="1.27" layer="95" align="center">&gt;NAME</text>
+<text x="0" y="17.78" size="1.27" layer="96" align="center">&gt;VALUE</text>
 </symbol>
 <symbol name="ТрС-ЛС1(6)">
 <pin name="1" x="-12.7" y="12.7" visible="pad" length="short"/>
@@ -1025,8 +1025,8 @@
 <wire x1="10.16" y1="15.24" x2="10.16" y2="-15.24" width="0.1524" layer="94"/>
 <wire x1="10.16" y1="-15.24" x2="-10.16" y2="-15.24" width="0.1524" layer="94"/>
 <wire x1="-10.16" y1="-15.24" x2="-10.16" y2="15.24" width="0.1524" layer="94"/>
-<text x="-5.08" y="19.05" size="1.778" layer="95">&gt;NAME</text>
-<text x="-5.08" y="16.51" size="1.778" layer="96">&gt;VALUE</text>
+<text x="0" y="20.32" size="1.27" layer="95" align="center">&gt;NAME</text>
+<text x="0" y="17.78" size="1.27" layer="96" align="center">&gt;VALUE</text>
 </symbol>
 <symbol name="ТрС-ЛС2(5)">
 <pin name="1" x="-12.7" y="12.7" visible="pad" length="short"/>
@@ -1091,8 +1091,6 @@
 <wire x1="10.16" y1="15.24" x2="10.16" y2="-15.24" width="0.1524" layer="94"/>
 <wire x1="10.16" y1="-15.24" x2="-10.16" y2="-15.24" width="0.1524" layer="94"/>
 <wire x1="-10.16" y1="-15.24" x2="-10.16" y2="15.24" width="0.1524" layer="94"/>
-<text x="-5.08" y="19.05" size="1.778" layer="95">&gt;NAME</text>
-<text x="-5.08" y="16.51" size="1.778" layer="96">&gt;VALUE</text>
 <wire x1="-2.54" y1="11.43" x2="-2.54" y2="10.16" width="0.1524" layer="94" curve="180"/>
 <wire x1="-2.54" y1="12.7" x2="-2.54" y2="11.43" width="0.1524" layer="94" curve="180"/>
 <wire x1="-2.54" y1="10.16" x2="-2.54" y2="8.89" width="0.1524" layer="94" curve="180"/>
@@ -1139,6 +1137,8 @@
 <wire x1="-2.54" y1="12.7" x2="1.27" y2="12.7" width="0.1524" layer="94"/>
 <wire x1="5.08" y1="2.54" x2="10.16" y2="2.54" width="0.1524" layer="94"/>
 <wire x1="-10.16" y1="7.62" x2="-7.62" y2="7.62" width="0.1524" layer="94"/>
+<text x="0" y="20.32" size="1.27" layer="95" align="center">&gt;NAME</text>
+<text x="0" y="17.78" size="1.27" layer="96" align="center">&gt;VALUE</text>
 </symbol>
 </symbols>
 <devicesets>

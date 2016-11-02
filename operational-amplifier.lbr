@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.5.0">
+<eagle version="7.7.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -5188,7 +5188,7 @@
 </deviceset>
 <deviceset name="1432УД15" prefix="DA">
 <description>&lt;b&gt;АЕЯР.431100.280-11 ТУ&lt;/b&gt;&lt;p&gt;
-1432УД15 – малопотребляющий операцион-ный усилитель, обеспечивающий широкую полосу пропускания и высокую скорость нарастания, устойчиво работающий с коэф-фициентами усиления вплоть до Ку=+1. &lt;p&gt;
+1432УД15 – малопотребляющий операционный усилитель, обеспечивающий широкую полосу пропускания и высокую скорость нарастания, устойчиво работающий с коэф-фициентами усиления вплоть до Ку=+1. &lt;p&gt;
 Достоинства:&lt;br&gt;
 ► Время установления 13 нс&lt;br&gt;
 ► Выходной ток 83 мА&lt;br&gt;
@@ -6630,6 +6630,37 @@
 <connect gate="G$1" pin="+VCC" pad="7"/>
 <connect gate="G$1" pin="-VCC" pad="4"/>
 <connect gate="G$1" pin="EN" pad="8"/>
+<connect gate="G$1" pin="IN+" pad="3"/>
+<connect gate="G$1" pin="IN-" pad="2"/>
+<connect gate="G$1" pin="OUT1" pad="1"/>
+<connect gate="G$1" pin="OUT2" pad="6"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="1432УД17" prefix="DA">
+<description>&lt;b&gt;АЕЯР.431100.280-15ТУ&lt;/b&gt;&lt;p&gt;
+1432УД17У - широкополосный операционный усилитель с обратной связью по напряжению. &lt;br&gt;
+Предназначены для применения в приемных трактах устройств связи  и  РЛС, &lt;br&gt; 
+в  системах  автоматического контроля  и  регулирования,  в  системах обработки   аналоговых   и   аналого-цифровых сигналов.&lt;p&gt;
+Достоинства:&lt;br&gt;
+► Полоса пропускания 320 МГц&lt;br&gt;
+► Максимальная скорость нарастания выходного сигнала 1000 В/мкс&lt;br&gt;
+► Ток потребления 19 мА&lt;br&gt;
+► Время установления 15 нс
+&lt;p&gt;
+Производитель: ОАО «НПП «ПУЛЬСАР», г. Москва.</description>
+<gates>
+<gate name="G$1" symbol="OPERATIONAL-AMPLIFIER-DUAL" x="0" y="0"/>
+</gates>
+<devices>
+<device name="У" package="H02.8-1B">
+<connects>
+<connect gate="G$1" pin="+VCC" pad="7"/>
+<connect gate="G$1" pin="-VCC" pad="4"/>
 <connect gate="G$1" pin="IN+" pad="3"/>
 <connect gate="G$1" pin="IN-" pad="2"/>
 <connect gate="G$1" pin="OUT1" pad="1"/>

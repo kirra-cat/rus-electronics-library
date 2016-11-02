@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.7.0">
+<eagle version="7.5.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -938,6 +938,22 @@
 <text x="-2.54" y="5.08" size="1.5" layer="97" align="center">+Vcc</text>
 <pin name="EN" x="-10.16" y="0" visible="pad" length="short" direction="in"/>
 <text x="-5.08" y="0" size="1.5" layer="97" align="center">EN</text>
+</symbol>
+<symbol name="OPERATIONAL-AMPLIFIER-SIMPLE-PD">
+<pin name="IN-" x="-7.62" y="-5.08" visible="pad" length="short" direction="in" function="dot"/>
+<pin name="IN+" x="-7.62" y="5.08" visible="pad" length="short" direction="in"/>
+<wire x1="-5.08" y1="7.62" x2="-5.08" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-7.62" x2="10.16" y2="0" width="0.254" layer="94"/>
+<wire x1="10.16" y1="0" x2="-5.08" y2="7.62" width="0.254" layer="94"/>
+<pin name="EN" x="-7.62" y="0" visible="pad" length="short" direction="in"/>
+<pin name="OUT" x="12.7" y="0" visible="pad" length="short" direction="out" rot="R180"/>
+<pin name="+VCC" x="0" y="7.62" visible="pad" length="short" direction="pwr" rot="R270"/>
+<pin name="-VCC" x="0" y="-7.62" visible="pad" length="short" direction="pwr" rot="R90"/>
+<text x="10.16" y="-5.08" size="1.27" layer="95" align="center">&gt;NAME</text>
+<text x="10.16" y="-7.62" size="1.27" layer="96" align="center">&gt;VALUE</text>
+<text x="0" y="4.064" size="0.762" layer="94" align="center">+Vcc</text>
+<text x="0" y="-3.81" size="0.762" layer="94" align="center">-Vcc</text>
+<text x="-4.064" y="0" size="0.762" layer="94" rot="R180" align="center">EN</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -6665,6 +6681,962 @@
 <connect gate="G$1" pin="IN-" pad="2"/>
 <connect gate="G$1" pin="OUT1" pad="1"/>
 <connect gate="G$1" pin="OUT2" pad="6"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="1432УД21" prefix="DA">
+<description>&lt;b&gt;АЕЯР.431100.280-13ТУ&lt;/b&gt;&lt;p&gt;
+1432УД21АУ,1432УД21БУ – двухканальный широкополосный операционный усилитель с обратной связью по напряжению с rail-to-rail диапазонам входных и выходных напряжений во всем диапазоне напряжения питания. &lt;p&gt;
+Достоинства:&lt;br&gt;
+► Полоса пропускания 120 МГц&lt;br&gt;
+► Максимальная скорость нарастания выходного сигнала 120 В/мкс&lt;br&gt;
+► Ток потребления 6,4 мА&lt;br&gt;
+► Диапазон рабочих температур -60…+85 °С&lt;br&gt;
+&lt;table width="746" cellpadding="0" cellspacing="0" border="1"&gt;
+	&lt;tr valign="top"&gt;
+		&lt;td colspan="2" width="387" style="border-top: 1.00pt solid #000000; border-bottom: 1.00pt solid #000000; border-left: 1.00pt solid #000000; border-right: none; padding-top: 0.05cm; padding-bottom: 0.05cm; padding-left: 0.05cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;Основные электрические параметры, T=25 &amp;deg;C,
+			Rн=1 кОм 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td colspan="6" width="359" style="border-top: 1.00pt solid #000000; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0.05cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;&amp;nbsp;&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td rowspan="5" width="293" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: 1.00pt solid #000000; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0.05cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;Параметр, единица измерения 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td rowspan="5" width="95" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;Условия 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td colspan="6" width="359" valign="top" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;Норма параметра 
+			&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td colspan="6" width="359" valign="top" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;Номинальное значение напряжения питания 
+			&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td colspan="4" width="236" valign="top" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;при&amp;nbsp; однополярном&amp;nbsp; 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td colspan="2" width="123" valign="top" style="border-top: 1.00pt solid #000000; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0.05cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;при&amp;nbsp; двухполярном&amp;nbsp; 
+			&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td colspan="2" width="123" valign="top" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;Uп=3В 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td colspan="2" width="113" valign="top" style="border-top: 1.00pt solid #000000; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0.05cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;Uп=5В 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td colspan="2" width="123" valign="top" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;Uп=&amp;plusmn;5В 
+			&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td width="66" valign="top" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;не&amp;nbsp; менее 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="57" valign="top" style="border-top: 1.00pt solid #000000; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0.05cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;не более 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="57" valign="top" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;не&amp;nbsp; менее 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="57" valign="top" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;не&amp;nbsp; более 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="66" valign="top" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;не&amp;nbsp; менее 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="57" valign="top" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;не&amp;nbsp; более 
+			&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td width="293" valign="top" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: 1.00pt solid #000000; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0.05cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;Максимальное выходное напряжение, В 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="95" valign="top" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;Uвх=Uп 
+			&lt;/p&gt;
+			&lt;p align="center"&gt;&amp;nbsp;&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="66" valign="top" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;от 0,1 до 2,9 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="57" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;- 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="57" valign="top" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;от 0,1 до 4,9 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="57" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;- 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="66" valign="top" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;от -4,8 
+			&lt;/p&gt;
+			&lt;p align="center"&gt;до 4,8 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="57" valign="top" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;- 
+			&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr valign="top"&gt;
+		&lt;td width="293" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: 1.00pt solid #000000; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0.05cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;Напряжение смещения нуля, мВ 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="95" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;Uвх=0 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="66" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;&amp;nbsp;&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="57" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;9,0 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="57" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;&amp;nbsp;&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="57" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;9,0 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="66" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;&amp;nbsp;&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="57" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;9,8 
+			&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr valign="top"&gt;
+		&lt;td width="293" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: 1.00pt solid #000000; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0.05cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;Ток потребления, мА 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="95" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;Uвх=0 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="66" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;&amp;nbsp;&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="57" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;6,4 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="57" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;&amp;nbsp;&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="57" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;6,4 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="66" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;&amp;nbsp;&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="57" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;7,0 
+			&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr valign="top"&gt;
+		&lt;td width="293" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: 1.00pt solid #000000; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0.05cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;Средний входной ток, мкА 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="95" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;Uвх=0 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="66" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;&amp;nbsp;&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="57" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;3,2 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="57" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;&amp;nbsp;&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="57" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;3,2 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="66" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;&amp;nbsp;&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="57" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;3,2 
+			&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr valign="top"&gt;
+		&lt;td width="293" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: 1.00pt solid #000000; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0.05cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;Разность входных токов, мкА 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="95" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;Uвх=0 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="66" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;&amp;nbsp;&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="57" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;0,6 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="57" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;&amp;nbsp;&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="57" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;0,5 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="66" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;&amp;nbsp;&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="57" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;0,6 
+			&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr valign="top"&gt;
+		&lt;td width="293" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: 1.00pt solid #000000; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0.05cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;Коэффициент усиления напряжения, В/мВ 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="95" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;Uвых=2 В 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="66" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;30 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="57" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;&amp;nbsp;&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="57" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;30 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="57" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;&amp;nbsp;&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="66" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;30 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="57" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;&amp;nbsp;&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td width="293" valign="top" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: 1.00pt solid #000000; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0.05cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;Коэффициент ослабления синфазных&amp;nbsp; входных
+			напряжений, дБ 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="95" valign="top" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;&amp;nbsp;&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="66" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;68 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="57" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;&amp;nbsp;&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="57" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;66 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="57" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;&amp;nbsp;&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="66" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;66 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="57" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;&amp;nbsp;&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td width="293" valign="top" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: 1.00pt solid #000000; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0.05cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;Верхняя граничная частота полосы&amp;nbsp;
+			пропускания (-3дБ), МГц 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="95" valign="top" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;Uвых=0,5 В 
+			&lt;/p&gt;
+			&lt;p align="center"&gt;Rн=0,1 кОм 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="66" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;120 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="57" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;&amp;nbsp;&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="57" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;125 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="57" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;&amp;nbsp;&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="66" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;125 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="57" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;&amp;nbsp;&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td width="293" valign="top" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: 1.00pt solid #000000; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0.05cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;Максимальная скорость нарастания&amp;nbsp; выходного
+			напряжения, В/мкс 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="95" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;Uвых=2 В 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="66" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;120 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="57" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;&amp;nbsp;&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="57" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;130 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="57" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;&amp;nbsp;&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="66" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;145 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="57" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;&amp;nbsp;&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td width="293" valign="top" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: 1.00pt solid #000000; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0.05cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;Время установления выходного&amp;nbsp; напряжения
+			(до уровня 0,1%), нс 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="95" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;Uвых=2 В 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="66" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;&amp;nbsp;&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="57" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;45 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="57" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;&amp;nbsp;&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="57" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;39 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="66" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;&amp;nbsp;&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="57" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;32 
+			&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;p&gt;
+Производитель: ОАО «НПП «ПУЛЬСАР», г. Москва.</description>
+<gates>
+<gate name="G$1" symbol="OPERATIONAL-AMPLIFIER-SIMPLE" x="0" y="12.7"/>
+<gate name="G$2" symbol="OPERATIONAL-AMPLIFIER-SIMPLE" x="0" y="-10.16"/>
+<gate name="G$3" symbol="POWER_2" x="0" y="-10.16"/>
+</gates>
+<devices>
+<device name="АУ" package="H02.8-1B">
+<connects>
+<connect gate="G$1" pin="!IN" pad="2"/>
+<connect gate="G$1" pin="IN" pad="3"/>
+<connect gate="G$1" pin="OUT" pad="1"/>
+<connect gate="G$2" pin="!IN" pad="6"/>
+<connect gate="G$2" pin="IN" pad="5"/>
+<connect gate="G$2" pin="OUT" pad="7"/>
+<connect gate="G$3" pin="+VCC" pad="8"/>
+<connect gate="G$3" pin="-VCC" pad="4"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="БУ" package="H02.8-1B">
+<connects>
+<connect gate="G$1" pin="!IN" pad="2"/>
+<connect gate="G$1" pin="IN" pad="3"/>
+<connect gate="G$1" pin="OUT" pad="1"/>
+<connect gate="G$2" pin="!IN" pad="6"/>
+<connect gate="G$2" pin="IN" pad="5"/>
+<connect gate="G$2" pin="OUT" pad="7"/>
+<connect gate="G$3" pin="+VCC" pad="8"/>
+<connect gate="G$3" pin="-VCC" pad="4"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="1432УД20" prefix="DA">
+<description>&lt;b&gt;АЕЯР.431100.280-13ТУ&lt;/b&gt;&lt;p&gt;
+1432УД20АУ, 1432УД20БУ – широкополосные операционные усилители с обратной связью по напряжению с rail-to-rail диапазонам входных и выходных напряжений во всем диапазоне напряжения питания с функцией выключено.&lt;p&gt;
+Достоинства:&lt;br&gt;
+► Полоса пропускания 120 МГц&lt;br&gt;
+► Максимальная скорость нарастания выходного сигнала 120 В/мкс&lt;br&gt;
+► Ток потребления 7 мА&lt;br&gt;
+► Диапазон рабочих температур -60…+85 °С&lt;br&gt;
+&lt;table width="756" cellpadding="0" cellspacing="0" border="1"&gt;
+	&lt;tr valign="top"&gt;
+		&lt;td colspan="2" width="387" style="border-top: 1.00pt solid #000000; border-bottom: 1.00pt solid #000000; border-left: 1.00pt solid #000000; border-right: none; padding-top: 0.05cm; padding-bottom: 0.05cm; padding-left: 0.05cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;Основные электрические параметры, T=25 &amp;deg;C,
+			Rн=1 кОм 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td colspan="6" width="369" style="border-top: 1.00pt solid #000000; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0.05cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;&amp;nbsp;&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td rowspan="5" width="293" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: 1.00pt solid #000000; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0.05cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;Параметр, единица измерения 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td rowspan="5" width="95" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;Условия 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td colspan="6" width="369" valign="top" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;Норма параметра 
+			&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td colspan="6" width="369" valign="top" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;Номинальное значение напряжения питания 
+			&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td colspan="4" width="246" valign="top" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;при&amp;nbsp; однополярном&amp;nbsp; 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td colspan="2" width="123" valign="top" style="border-top: 1.00pt solid #000000; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0.05cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;при&amp;nbsp; двухполярном&amp;nbsp; 
+			&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td colspan="2" width="123" valign="top" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;Uп=3В 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td colspan="2" width="123" valign="top" style="border-top: 1.00pt solid #000000; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0.05cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;Uп=5В 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td colspan="2" width="123" valign="top" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;Uп=&amp;plusmn;5В 
+			&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td width="66" valign="top" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;не&amp;nbsp; менее 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="57" valign="top" style="border-top: 1.00pt solid #000000; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0.05cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;не более 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="66" valign="top" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;не&amp;nbsp; менее 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="57" valign="top" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;не&amp;nbsp; более 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="66" valign="top" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;не&amp;nbsp; менее 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="57" valign="top" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;не&amp;nbsp; более 
+			&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td width="293" valign="top" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: 1.00pt solid #000000; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0.05cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;Максимальное выходное напряжение, В 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="95" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;Uвх=Uп 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="66" valign="top" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;от 0,45 
+			&lt;/p&gt;
+			&lt;p align="center"&gt;до 2,7 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="57" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;- 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="66" valign="top" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;от 0,35 до 4,75 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="57" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;- 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="66" valign="top" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;от -4,45 
+			&lt;/p&gt;
+			&lt;p align="center"&gt;до 4,6 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="57" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;- 
+			&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr valign="top"&gt;
+		&lt;td width="293" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: 1.00pt solid #000000; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0.05cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;Напряжение смещения нуля, мВ 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="95" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;Uвх=0 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="66" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;- 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="57" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;7 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="66" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;- 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="57" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;7 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="66" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;- 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="57" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;7 
+			&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr valign="top"&gt;
+		&lt;td width="293" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: 1.00pt solid #000000; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0.05cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;Ток потребления, мА 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="95" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;Uвх=0 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="66" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;- 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="57" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;5,6 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="66" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;- 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="57" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;5,8 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="66" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;- 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="57" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;6,5 
+			&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td width="293" valign="top" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: 1.00pt solid #000000; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0.05cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;Ток потребления в состояние&amp;nbsp;&amp;nbsp;
+			&amp;laquo;выключено&amp;raquo; , мА 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="95" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;Uвх=0 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="66" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;- 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="57" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;1,5 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="66" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;- 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="57" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;1,7 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="66" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;- 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="57" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;2,2 
+			&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr valign="top"&gt;
+		&lt;td width="293" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: 1.00pt solid #000000; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0.05cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;Средний входной ток, мкА 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="95" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;Uвх=0 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="66" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;- 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="57" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;3,2 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="66" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;- 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="57" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;3,2 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="66" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;- 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="57" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;3,2 
+			&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr valign="top"&gt;
+		&lt;td width="293" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: 1.00pt solid #000000; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0.05cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;Разность входных токов, мкА 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="95" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;Uвх=0 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="66" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;- 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="57" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;0,6 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="66" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;- 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="57" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;0,5 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="66" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;- 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="57" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;0,6 
+			&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr valign="top"&gt;
+		&lt;td width="293" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: 1.00pt solid #000000; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0.05cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;Коэффициент усиления напряжения, В/мВ 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="95" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;Uвых=2В 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="66" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;18 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="57" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;- 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="66" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;20 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="57" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;- 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="66" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;30 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="57" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;- 
+			&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td width="293" valign="top" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: 1.00pt solid #000000; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0.05cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;Коэффициент ослабления синфазных&amp;nbsp; входных
+			напряжений, дБ 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="95" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;&amp;nbsp;&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="66" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;72 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="57" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;- 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="66" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;74 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="57" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;- 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="66" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;72 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="57" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;- 
+			&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td width="293" valign="top" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: 1.00pt solid #000000; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0.05cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;Верхняя граничная частота полосы&amp;nbsp;
+			пропускания (-3дБ), МГц 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="95" valign="top" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;Uвых=0,5В Rн=0,1 кОм 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="66" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;120 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="57" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;- 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="66" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;130 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="57" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;- 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="66" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;140 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="57" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;- 
+			&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td width="293" valign="top" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: 1.00pt solid #000000; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0.05cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;Максимальная скорость нарастания&amp;nbsp; выходного
+			напряжения, В/мкс 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="95" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;Uвых=2 В 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="66" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;120 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="57" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;- 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="66" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;130 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="57" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;- 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="66" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;140 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="57" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;&amp;nbsp;&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td width="293" valign="top" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: 1.00pt solid #000000; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0.05cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;Время установления выходного&amp;nbsp; напряжения
+			(до уровня 0,1%), нс 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="95" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;Uвых=2 В 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="66" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;- 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="57" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;40 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="66" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;- 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="57" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;35 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="66" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;- 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="57" style="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: 1.00pt solid #000000; padding-top: 0cm; padding-bottom: 0.05cm; padding-left: 0cm; padding-right: 0.05cm"&gt;
+			&lt;p align="center"&gt;30 
+			&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;p&gt;
+Производитель: ОАО «НПП «ПУЛЬСАР», г. Москва.</description>
+<gates>
+<gate name="G$1" symbol="OPERATIONAL-AMPLIFIER-SIMPLE-PD" x="0" y="0"/>
+</gates>
+<devices>
+<device name="АУ" package="H02.8-1B">
+<connects>
+<connect gate="G$1" pin="+VCC" pad="7"/>
+<connect gate="G$1" pin="-VCC" pad="4"/>
+<connect gate="G$1" pin="EN" pad="8"/>
+<connect gate="G$1" pin="IN+" pad="3"/>
+<connect gate="G$1" pin="IN-" pad="2"/>
+<connect gate="G$1" pin="OUT" pad="6"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="БУ" package="H02.8-1B">
+<connects>
+<connect gate="G$1" pin="+VCC" pad="7"/>
+<connect gate="G$1" pin="-VCC" pad="4"/>
+<connect gate="G$1" pin="EN" pad="8"/>
+<connect gate="G$1" pin="IN+" pad="3"/>
+<connect gate="G$1" pin="IN-" pad="2"/>
+<connect gate="G$1" pin="OUT" pad="6"/>
 </connects>
 <technologies>
 <technology name=""/>

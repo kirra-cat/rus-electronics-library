@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.5.0">
+<eagle version="7.7.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -4401,7 +4401,7 @@
 &lt;p&gt;
 Производитель: ОАО «НПП «ПУЛЬСАР», г. Москва.</description>
 <gates>
-<gate name="G$1" symbol="OPERATIONAL-AMPLIFIER-SIMPLE" x="0" y="0"/>
+<gate name="G$1" symbol="OPERATIONAL-AMPLIFIER-SIMPLE" x="0" y="0" swaplevel="1"/>
 <gate name="G$2" symbol="POWER_2" x="0" y="0"/>
 </gates>
 <devices>
@@ -7637,6 +7637,45 @@
 <connect gate="G$1" pin="IN+" pad="3"/>
 <connect gate="G$1" pin="IN-" pad="2"/>
 <connect gate="G$1" pin="OUT" pad="6"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="К1464УД1" prefix="DA">
+<gates>
+<gate name=".1" symbol="OPERATIONAL-AMPLIFIER-SIMPLE" x="2.54" y="10.16"/>
+<gate name=".2" symbol="OPERATIONAL-AMPLIFIER-SIMPLE" x="2.54" y="-10.16"/>
+<gate name="G$1" symbol="POWER_2" x="2.54" y="-10.16"/>
+</gates>
+<devices>
+<device name="Р1" package="2101.8-7">
+<connects>
+<connect gate=".1" pin="!IN" pad="2"/>
+<connect gate=".1" pin="IN" pad="3"/>
+<connect gate=".1" pin="OUT" pad="1"/>
+<connect gate=".2" pin="!IN" pad="6"/>
+<connect gate=".2" pin="IN" pad="5"/>
+<connect gate=".2" pin="OUT" pad="7"/>
+<connect gate="G$1" pin="+VCC" pad="8"/>
+<connect gate="G$1" pin="-VCC" pad="4"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="Т1" package="H02.8-1B">
+<connects>
+<connect gate=".1" pin="!IN" pad="2"/>
+<connect gate=".1" pin="IN" pad="3"/>
+<connect gate=".1" pin="OUT" pad="1"/>
+<connect gate=".2" pin="!IN" pad="6"/>
+<connect gate=".2" pin="IN" pad="5"/>
+<connect gate=".2" pin="OUT" pad="7"/>
+<connect gate="G$1" pin="+VCC" pad="8"/>
+<connect gate="G$1" pin="-VCC" pad="4"/>
 </connects>
 <technologies>
 <technology name=""/>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.5.0">
+<eagle version="7.7.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -48,7 +48,7 @@
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
-<layer number="93" name="Pins" color="2" fill="1" visible="no" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
@@ -429,6 +429,89 @@
 <text x="-3" y="0" size="0.508" layer="25" rot="R90" align="center">&gt;NAME</text>
 <text x="3" y="0" size="0.508" layer="27" rot="R90" align="center">&gt;VALUE</text>
 </package>
+<package name="МК5205.8-2">
+<wire x1="3" y1="-3" x2="3" y2="3" width="0.1" layer="51"/>
+<wire x1="3" y1="3" x2="2.28125" y2="3" width="0.1" layer="51"/>
+<wire x1="1.53125" y1="3" x2="1" y2="3" width="0.1" layer="51"/>
+<wire x1="0.25" y1="3" x2="-0.25" y2="3" width="0.1" layer="51"/>
+<wire x1="-1" y1="3" x2="-1.53125" y2="3" width="0.1" layer="51"/>
+<wire x1="-2.28125" y1="3" x2="-3" y2="3" width="0.1" layer="51"/>
+<wire x1="-3" y1="3" x2="-3" y2="-3" width="0.1" layer="51"/>
+<wire x1="-3" y1="-3" x2="-2.3125" y2="-3" width="0.1" layer="51"/>
+<wire x1="-1.5625" y1="-3" x2="-1" y2="-3" width="0.1" layer="51"/>
+<wire x1="-0.25" y1="-3" x2="0.25" y2="-3" width="0.1" layer="51"/>
+<wire x1="1" y1="-3" x2="1.53125" y2="-3" width="0.1" layer="51"/>
+<wire x1="2.28125" y1="-3" x2="3" y2="-3" width="0.1" layer="51"/>
+<wire x1="2.625" y1="-2.625" x2="2.625" y2="2.625" width="0.1" layer="51"/>
+<wire x1="2.625" y1="2.625" x2="-2.625" y2="2.625" width="0.1" layer="51"/>
+<wire x1="-2.625" y1="2.625" x2="-2.625" y2="-2.625" width="0.1" layer="51"/>
+<wire x1="-2.625" y1="-2.625" x2="2.625" y2="-2.625" width="0.1" layer="51"/>
+<wire x1="-2.5" y1="-2.25" x2="-2.5" y2="2.25" width="0.05" layer="51"/>
+<wire x1="-2.5" y1="2.25" x2="-2.25" y2="2.5" width="0.05" layer="51" curve="-90"/>
+<wire x1="2.25" y1="2.5" x2="-2.25" y2="2.5" width="0.05" layer="51"/>
+<wire x1="2.25" y1="2.5" x2="2.5" y2="2.25" width="0.05" layer="51" curve="-90"/>
+<wire x1="2.5" y1="-2.25" x2="2.5" y2="2.25" width="0.05" layer="51"/>
+<wire x1="-2.25" y1="-2.5" x2="2.25" y2="-2.5" width="0.05" layer="51"/>
+<wire x1="2.5" y1="-2.25" x2="2.25" y2="-2.5" width="0.05" layer="51" curve="-90"/>
+<wire x1="-2.25" y1="-2.5" x2="-2.5" y2="-2.25" width="0.05" layer="51" curve="-90"/>
+<smd name="2" x="-0.635" y="-2.75" dx="2.3" dy="0.8" layer="1" rot="R90"/>
+<smd name="3" x="0.635" y="-2.75" dx="2.3" dy="1.1" layer="1" rot="R90"/>
+<smd name="4" x="1.905" y="-2.75" dx="2.3" dy="0.8" layer="1" rot="R90"/>
+<smd name="1" x="-1.905" y="-2.75" dx="2.3" dy="1.1" layer="1" rot="R90"/>
+<smd name="8" x="-1.905" y="2.75" dx="2.3" dy="0.8" layer="1" rot="R270"/>
+<smd name="7" x="-0.635" y="2.75" dx="2.3" dy="0.8" layer="1" rot="R270"/>
+<smd name="6" x="0.635" y="2.75" dx="2.3" dy="0.8" layer="1" rot="R270"/>
+<smd name="5" x="1.905" y="2.75" dx="2.3" dy="0.8" layer="1" rot="R270"/>
+<polygon width="0.05" layer="51">
+<vertex x="-1.5" y="-2"/>
+<vertex x="-1.75" y="-1.5"/>
+<vertex x="-1.25" y="-1.5"/>
+</polygon>
+<wire x1="-1" y1="-3" x2="-0.25" y2="-3" width="0.1" layer="51" curve="-180"/>
+<wire x1="-2.3125" y1="-3" x2="-1.5625" y2="-3" width="0.1" layer="51" curve="-180"/>
+<wire x1="0.25" y1="-3" x2="1" y2="-3" width="0.1" layer="51" curve="-180"/>
+<wire x1="1.53125" y1="-3" x2="2.28125" y2="-3" width="0.1" layer="51" curve="-180"/>
+<wire x1="2.28125" y1="3" x2="1.53125" y2="3" width="0.1" layer="51" curve="-180"/>
+<wire x1="1" y1="3" x2="0.25" y2="3" width="0.1" layer="51" curve="-180"/>
+<wire x1="-0.25" y1="3" x2="-1" y2="3" width="0.1" layer="51" curve="-180"/>
+<wire x1="-1.53125" y1="3" x2="-2.28125" y2="3" width="0.1" layer="51" curve="-180"/>
+<text x="0" y="0.508" size="0.508" layer="25" rot="R180" align="center">&gt;NAME</text>
+<text x="0" y="-0.508" size="0.508" layer="27" rot="R180" align="center">&gt;VALUE</text>
+<text x="2.286" y="0" size="0.254" layer="51" rot="R90" align="center">MK 5205.8-2</text>
+</package>
+<package name="4320.8-А">
+<description>Российский аналог корпуса SO-8</description>
+<wire x1="-2.9" y1="3.9" x2="2.9" y2="3.9" width="0.1998" layer="39"/>
+<wire x1="2.9" y1="3.9" x2="2.9" y2="-3.9" width="0.1998" layer="39"/>
+<wire x1="2.9" y1="-3.9" x2="-2.9" y2="-3.9" width="0.1998" layer="39"/>
+<wire x1="-2.9" y1="-3.9" x2="-2.9" y2="3.9" width="0.1998" layer="39"/>
+<wire x1="2.4" y1="1.9" x2="2.4" y2="-1.4" width="0.2032" layer="51"/>
+<wire x1="2.4" y1="-1.4" x2="2.4" y2="-1.9" width="0.2032" layer="51"/>
+<wire x1="2.4" y1="-1.9" x2="-2.4" y2="-1.9" width="0.2032" layer="51"/>
+<wire x1="-2.4" y1="-1.9" x2="-2.4" y2="-1.4" width="0.2032" layer="51"/>
+<wire x1="-2.4" y1="-1.4" x2="-2.4" y2="1.9" width="0.2032" layer="51"/>
+<wire x1="-2.4" y1="1.9" x2="2.4" y2="1.9" width="0.2032" layer="51"/>
+<wire x1="2.4" y1="-1.4" x2="-2.4" y2="-1.4" width="0.2032" layer="51"/>
+<smd name="2" x="-0.635" y="-2.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="7" x="-0.635" y="2.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="1" x="-1.905" y="-2.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="3" x="0.635" y="-2.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="4" x="1.905" y="-2.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="8" x="-1.905" y="2.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="6" x="0.635" y="2.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="5" x="1.905" y="2.6" dx="0.6" dy="2.2" layer="1"/>
+<text x="0" y="0.635" size="0.508" layer="25" rot="R180" align="center">&gt;NAME</text>
+<text x="0" y="-0.635" size="0.508" layer="27" rot="R180" align="center">&gt;VALUE</text>
+<rectangle x1="-2.1501" y1="-3.1001" x2="-1.6599" y2="-2" layer="51"/>
+<rectangle x1="-0.8801" y1="-3.1001" x2="-0.3899" y2="-2" layer="51"/>
+<rectangle x1="0.3899" y1="-3.1001" x2="0.8801" y2="-2" layer="51"/>
+<rectangle x1="1.6599" y1="-3.1001" x2="2.1501" y2="-2" layer="51"/>
+<rectangle x1="1.6599" y1="2" x2="2.1501" y2="3.1001" layer="51"/>
+<rectangle x1="0.3899" y1="2" x2="0.8801" y2="3.1001" layer="51"/>
+<rectangle x1="-0.8801" y1="2" x2="-0.3899" y2="3.1001" layer="51"/>
+<rectangle x1="-2.1501" y1="2" x2="-1.6599" y2="3.1001" layer="51"/>
+<circle x="-1.905" y="-0.9525" radius="0.22450625" width="0" layer="21"/>
+</package>
 </packages>
 <symbols>
 <symbol name="N-MOSFET">
@@ -506,6 +589,111 @@
 </polygon>
 <text x="9.398" y="-1.27" size="1.27" layer="96" align="center">&gt;VALUE</text>
 <text x="9.398" y="1.27" size="1.27" layer="95" align="center">&gt;NAME</text>
+</symbol>
+<symbol name="P-MOSFET_8PIN">
+<wire x1="0" y1="0.762" x2="0" y2="2.54" width="0.1524" layer="94"/>
+<pin name="S" x="-7.62" y="2.54" visible="pad" length="short" direction="pas"/>
+<pin name="G" x="-7.62" y="-2.54" visible="pad" length="short" direction="pas"/>
+<pin name="D@0" x="7.62" y="-2.54" visible="pad" length="short" direction="pas" rot="R180"/>
+<polygon width="0.1524" layer="94">
+<vertex x="0" y="2.54"/>
+<vertex x="-0.762" y="1.524"/>
+<vertex x="0.762" y="1.524"/>
+</polygon>
+<circle x="0" y="1.27" radius="3.175" width="0.1524" layer="94"/>
+<rectangle x1="-0.3048" y1="-2.6162" x2="0.3048" y2="2.6162" layer="94" rot="R90"/>
+<rectangle x1="-2.0574" y1="0.1016" x2="-1.7526" y2="1.3716" layer="94" rot="R90"/>
+<rectangle x1="-0.1524" y1="-0.0254" x2="0.1524" y2="1.4986" layer="94" rot="R90"/>
+<wire x1="-1.905" y1="0.762" x2="-1.905" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="-1.905" y1="2.54" x2="-1.905" y2="3.4925" width="0.1524" layer="94"/>
+<circle x="-1.905" y="2.54" radius="0.3592" width="0" layer="94"/>
+<wire x1="0" y1="2.54" x2="1.905" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="1.905" y1="2.54" x2="1.905" y2="0.762" width="0.1524" layer="94"/>
+<rectangle x1="1.7526" y1="0.127" x2="2.0574" y2="1.397" layer="94" rot="R90"/>
+<circle x="1.905" y="2.54" radius="0.3592" width="0" layer="94"/>
+<wire x1="1.905" y1="2.54" x2="1.905" y2="3.4925" width="0.1524" layer="94"/>
+<wire x1="-1.905" y1="3.4925" x2="-0.508" y2="3.4925" width="0.1524" layer="94"/>
+<wire x1="-0.508" y1="3.4925" x2="1.905" y2="3.4925" width="0.1524" layer="94"/>
+<wire x1="-0.508" y1="3.4925" x2="-0.508" y2="2.9845" width="0.1524" layer="94"/>
+<wire x1="-0.508" y1="2.9845" x2="-0.254" y2="2.7305" width="0.1524" layer="94"/>
+<wire x1="-0.762" y1="4.2545" x2="-0.508" y2="4.0005" width="0.1524" layer="94"/>
+<wire x1="-0.508" y1="4.0005" x2="-0.508" y2="3.4925" width="0.1524" layer="94"/>
+<polygon width="0.1524" layer="94">
+<vertex x="-0.508" y="3.4925"/>
+<vertex x="0.254" y="2.9845"/>
+<vertex x="0.254" y="4.0005"/>
+</polygon>
+<text x="0" y="7.62" size="1.27" layer="96" rot="R180" align="center">&gt;VALUE</text>
+<text x="0" y="10.16" size="1.27" layer="95" rot="R180" align="center">&gt;NAME</text>
+<pin name="D@1" x="7.62" y="2.54" visible="pad" length="short" direction="pas" rot="R180"/>
+<wire x1="3.81" y1="2.54" x2="3.81" y2="-2.54" width="0.1524" layer="94"/>
+<circle x="3.81" y="2.54" radius="0.3592" width="0" layer="94"/>
+<wire x1="5.08" y1="2.54" x2="3.81" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="3.81" y1="2.54" x2="1.905" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="3.81" y1="-2.54" x2="5.08" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="0" x2="-2.54" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="-5.08" y1="5.08" x2="5.08" y2="5.08" width="0.254" layer="94"/>
+<wire x1="5.08" y1="5.08" x2="5.08" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-5.08" x2="-5.08" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-5.08" x2="-5.08" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-2.54" x2="-5.08" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="2.54" x2="-5.08" y2="5.08" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="2.54" x2="-1.905" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="-5.08" y1="-2.54" x2="-2.54" y2="-2.54" width="0.1524" layer="94"/>
+</symbol>
+<symbol name="N-MOSFET_8PIN">
+<wire x1="0" y1="0.762" x2="0" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="0" y1="2.54" x2="-1.905" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="-1.905" y1="2.54" x2="-1.905" y2="0.762" width="0.1524" layer="94"/>
+<wire x1="1.905" y1="3.4925" x2="0.508" y2="3.4925" width="0.1524" layer="94"/>
+<wire x1="0.508" y1="3.4925" x2="-1.905" y2="3.4925" width="0.1524" layer="94"/>
+<wire x1="-1.905" y1="2.54" x2="-1.905" y2="3.4925" width="0.1524" layer="94"/>
+<wire x1="1.905" y1="0.762" x2="1.905" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="1.905" y1="2.54" x2="1.905" y2="3.4925" width="0.1524" layer="94"/>
+<wire x1="0.762" y1="4.2545" x2="0.508" y2="4.0005" width="0.1524" layer="94"/>
+<wire x1="0.508" y1="4.0005" x2="0.508" y2="3.4925" width="0.1524" layer="94"/>
+<wire x1="0.508" y1="3.4925" x2="0.508" y2="2.9845" width="0.1524" layer="94"/>
+<wire x1="0.508" y1="2.9845" x2="0.254" y2="2.7305" width="0.1524" layer="94"/>
+<circle x="-1.905" y="2.54" radius="0.3592" width="0" layer="94"/>
+<circle x="1.905" y="2.54" radius="0.3592" width="0" layer="94"/>
+<pin name="S" x="-7.62" y="2.54" visible="pad" length="short" direction="pas"/>
+<pin name="G" x="-7.62" y="-2.54" visible="pad" length="short" direction="pas"/>
+<pin name="D@1" x="7.62" y="-2.54" visible="pad" length="short" direction="pas" rot="R180"/>
+<polygon width="0.1524" layer="94">
+<vertex x="0.508" y="3.4925"/>
+<vertex x="-0.254" y="2.9845"/>
+<vertex x="-0.254" y="4.0005"/>
+</polygon>
+<polygon width="0.1524" layer="94">
+<vertex x="0" y="1.016"/>
+<vertex x="0.762" y="2.032"/>
+<vertex x="-0.762" y="2.032"/>
+</polygon>
+<circle x="0" y="1.27" radius="3.175" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="2.54" x2="-1.905" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="2.54" x2="1.905" y2="2.54" width="0.1524" layer="94"/>
+<rectangle x1="1.7526" y1="0.1016" x2="2.0574" y2="1.3716" layer="94" rot="R90"/>
+<rectangle x1="-0.3048" y1="-2.6162" x2="0.3048" y2="2.6162" layer="94" rot="R90"/>
+<rectangle x1="-2.0574" y1="0.127" x2="-1.7526" y2="1.397" layer="94" rot="R90"/>
+<rectangle x1="-0.1524" y1="-0.0254" x2="0.1524" y2="1.4986" layer="94" rot="R90"/>
+<pin name="D@0" x="7.62" y="2.54" visible="pad" length="short" direction="pas" rot="R180"/>
+<text x="0" y="7.62" size="1.27" layer="96" rot="R180" align="center">&gt;VALUE</text>
+<text x="0" y="10.16" size="1.27" layer="95" rot="R180" align="center">&gt;NAME</text>
+<wire x1="3.81" y1="2.54" x2="3.81" y2="-2.54" width="0.1524" layer="94"/>
+<circle x="3.81" y="2.54" radius="0.3592" width="0" layer="94"/>
+<wire x1="5.08" y1="2.54" x2="3.81" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="3.81" y1="-2.54" x2="5.08" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="-5.08" y1="5.08" x2="5.08" y2="5.08" width="0.254" layer="94"/>
+<wire x1="5.08" y1="5.08" x2="5.08" y2="2.54" width="0.254" layer="94"/>
+<wire x1="5.08" y1="2.54" x2="5.08" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-5.08" x2="-5.08" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-5.08" x2="-5.08" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-2.54" x2="-5.08" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="2.54" x2="-5.08" y2="5.08" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="0" x2="-2.54" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="-5.08" y1="2.54" x2="-2.54" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="-5.08" y1="-2.54" x2="-2.54" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="2.54" x2="5.08" y2="2.54" width="0.1524" layer="94"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -2477,6 +2665,1174 @@
 <connect gate="G$1" pin="D" pad="DRAIN"/>
 <connect gate="G$1" pin="G" pad="GATE"/>
 <connect gate="G$1" pin="S" pad="SOURCE"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="2ПЕ102" prefix="VT">
+<description>&lt;b&gt;АЕЯР.432140.686 ТУ&lt;/b&gt;&lt;p&gt;
+Транзисторная сборка с 2 Р-MOSFET
+&lt;table width="100%" cellpadding="4" cellspacing="0" style="page-break-before: always" border="1"&gt;
+	&lt;col width="37*"&gt;
+	&lt;col width="37*"&gt;
+	&lt;col width="37*"&gt;
+	&lt;col width="37*"&gt;
+	&lt;col width="37*"&gt;
+	&lt;col width="37*"&gt;
+	&lt;col width="37*"&gt;
+	&lt;tr&gt;
+		&lt;td width="14%" style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0.1cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;&lt;b&gt;Тип&lt;/b&gt;&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="14%" style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0.1cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p lang="en-US" align="center"&gt;&lt;b&gt;U&lt;sub&gt;&lt;span lang="ru-RU"&gt;СИ &lt;/span&gt;&lt;/sub&gt;&lt;sub&gt;max&lt;/sub&gt;,
+			&lt;span lang="ru-RU"&gt;В&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="14%" style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0.1cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p lang="en-US" align="center"&gt;&lt;b&gt;I&lt;sub&gt;&lt;span lang="ru-RU"&gt;С &lt;/span&gt;&lt;/sub&gt;&lt;sub&gt;max&lt;/sub&gt;,
+			&lt;span lang="ru-RU"&gt;А&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="14%" style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0.1cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p lang="en-US" align="center"&gt;&lt;b&gt;R&lt;sub&gt;&lt;span lang="ru-RU"&gt;СИ
+			откр&lt;/span&gt;&lt;/sub&gt;, &lt;span lang="ru-RU"&gt;Ом&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="14%" style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0.1cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p lang="en-US" align="center"&gt;&lt;b&gt;U&lt;sub&gt;&lt;span lang="ru-RU"&gt;ПОР&lt;/span&gt;&lt;/sub&gt;,
+			&lt;span lang="ru-RU"&gt;В&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="14%" style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0.1cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;&lt;b&gt;Структура&lt;/b&gt;&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="14%" style="border: 1px solid #000000; padding: 0.1cm"&gt;
+			&lt;p lang="en-US" align="center"&gt;&lt;b&gt;P&lt;sub&gt;max&lt;/sub&gt;, &lt;span lang="ru-RU"&gt;Вт&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td width="14%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;2П7241ГС9 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="14%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;-20 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="14%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;-4,7 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="14%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;0,030 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td rowspan="4" width="14%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;|-1,0| &amp;divide; |-2,5| 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td rowspan="4" width="14%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;Р&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td rowspan="10" width="14%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0.1cm"&gt;
+			&lt;p lang="en-US" align="center"&gt;2&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td width="14%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;2П7241АС9 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="14%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;-30 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="14%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;-8&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="14%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;0,035 
+			&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td width="14%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;2П7241БС9 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="14%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;-60 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="14%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;-3,5 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="14%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;0,250 
+			&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td width="14%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;2П7241ВС9 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="14%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;-100 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="14%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;-1,5 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="14%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;0,500 
+			&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td width="14%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;2П7240ГС9 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="14%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;20 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="14%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;8,7 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="14%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;0,022 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td rowspan="4" width="14%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;1,5 &amp;divide; 2,5&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td rowspan="4" width="14%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p lang="en-US" align="center"&gt;N&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td width="14%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;2П7240АС9 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="14%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;30 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="14%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;10 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="14%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;0,020 
+			&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td width="14%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;2П7240БС9 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="14%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;60 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="14%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;5 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="14%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;0,060 
+			&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td width="14%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;2П7240ВС9 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="14%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;100 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="14%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;3,5 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="14%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;0,085 
+			&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td width="14%" bgcolor="#00cc33" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;2ПЕ102АС9 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="14%" bgcolor="#00cc33" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;-100 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="14%" bgcolor="#00cc33" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;-1,5 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="14%" bgcolor="#00cc33" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;0,48 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="14%" bgcolor="#00cc33" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;|-2,5| &amp;divide; |-5,0| 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="14%" bgcolor="#00cc33" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p lang="en-US" align="center"&gt;P&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td width="14%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;2ПЕ101АС9 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="14%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;100 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="14%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;2,1 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="14%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;0,21 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="14%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;1,5 &amp;divide; 6,0 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="14%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p lang="en-US" align="center"&gt;N&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;p&gt;
+Производитель: АО "ВЗПП" г. Воронеж</description>
+<gates>
+<gate name=".1" symbol="P-MOSFET_8PIN" x="-2.54" y="12.7" swaplevel="1"/>
+<gate name=".2" symbol="P-MOSFET_8PIN" x="-2.54" y="-10.16" swaplevel="1"/>
+</gates>
+<devices>
+<device name="АС9" package="МК5205.8-2">
+<connects>
+<connect gate=".1" pin="D@0" pad="5"/>
+<connect gate=".1" pin="D@1" pad="6"/>
+<connect gate=".1" pin="G" pad="2"/>
+<connect gate=".1" pin="S" pad="1"/>
+<connect gate=".2" pin="D@0" pad="7"/>
+<connect gate=".2" pin="D@1" pad="8"/>
+<connect gate=".2" pin="G" pad="4"/>
+<connect gate=".2" pin="S" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="2ПЕ101" prefix="VT">
+<description>&lt;b&gt;АЕЯР.432140.686 ТУ&lt;/b&gt;&lt;p&gt;
+Транзисторная сборка с 2 N-MOSFET
+&lt;table width="100%" cellpadding="4" cellspacing="0" style="page-break-before: always" border="1"&gt;
+	&lt;col width="37*"&gt;
+	&lt;col width="37*"&gt;
+	&lt;col width="37*"&gt;
+	&lt;col width="37*"&gt;
+	&lt;col width="37*"&gt;
+	&lt;col width="37*"&gt;
+	&lt;col width="37*"&gt;
+	&lt;tr&gt;
+		&lt;td width="14%" style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0.1cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;&lt;b&gt;Тип&lt;/b&gt;&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="14%" style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0.1cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p lang="en-US" align="center"&gt;&lt;b&gt;U&lt;sub&gt;&lt;span lang="ru-RU"&gt;СИ &lt;/span&gt;&lt;/sub&gt;&lt;sub&gt;max&lt;/sub&gt;,
+			&lt;span lang="ru-RU"&gt;В&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="14%" style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0.1cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p lang="en-US" align="center"&gt;&lt;b&gt;I&lt;sub&gt;&lt;span lang="ru-RU"&gt;С &lt;/span&gt;&lt;/sub&gt;&lt;sub&gt;max&lt;/sub&gt;,
+			&lt;span lang="ru-RU"&gt;А&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="14%" style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0.1cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p lang="en-US" align="center"&gt;&lt;b&gt;R&lt;sub&gt;&lt;span lang="ru-RU"&gt;СИ
+			откр&lt;/span&gt;&lt;/sub&gt;, &lt;span lang="ru-RU"&gt;Ом&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="14%" style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0.1cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p lang="en-US" align="center"&gt;&lt;b&gt;U&lt;sub&gt;&lt;span lang="ru-RU"&gt;ПОР&lt;/span&gt;&lt;/sub&gt;,
+			&lt;span lang="ru-RU"&gt;В&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="14%" style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0.1cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;&lt;b&gt;Структура&lt;/b&gt;&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="14%" style="border: 1px solid #000000; padding: 0.1cm"&gt;
+			&lt;p lang="en-US" align="center"&gt;&lt;b&gt;P&lt;sub&gt;max&lt;/sub&gt;, &lt;span lang="ru-RU"&gt;Вт&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td width="14%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;2П7241ГС9 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="14%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;-20 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="14%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;-4,7 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="14%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;0,030 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td rowspan="4" width="14%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;|-1,0| &amp;divide; |-2,5| 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td rowspan="4" width="14%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;Р&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td rowspan="10" width="14%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0.1cm"&gt;
+			&lt;p lang="en-US" align="center"&gt;2&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td width="14%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;2П7241АС9 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="14%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;-30 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="14%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;-8&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="14%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;0,035 
+			&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td width="14%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;2П7241БС9 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="14%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;-60 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="14%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;-3,5 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="14%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;0,250 
+			&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td width="14%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;2П7241ВС9 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="14%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;-100 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="14%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;-1,5 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="14%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;0,500 
+			&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td width="14%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;2П7240ГС9 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="14%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;20 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="14%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;8,7 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="14%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;0,022 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td rowspan="4" width="14%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;1,5 &amp;divide; 2,5&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td rowspan="4" width="14%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p lang="en-US" align="center"&gt;N&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td width="14%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;2П7240АС9 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="14%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;30 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="14%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;10 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="14%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;0,020 
+			&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td width="14%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;2П7240БС9 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="14%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;60 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="14%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;5 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="14%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;0,060 
+			&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td width="14%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;2П7240ВС9 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="14%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;100 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="14%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;3,5 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="14%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;0,085 
+			&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td width="14%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;2ПЕ102АС9 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="14%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;-100 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="14%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;-1,5 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="14%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;0,48 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="14%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;|-2,5| &amp;divide; |-5,0| 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="14%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p lang="en-US" align="center"&gt;P&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td width="14%" bgcolor="#00cc33" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;2ПЕ101АС9 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="14%" bgcolor="#00cc33" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;100 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="14%" bgcolor="#00cc33" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;2,1 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="14%" bgcolor="#00cc33" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;0,21 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="14%" bgcolor="#00cc33" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;1,5 &amp;divide; 6,0 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="14%" bgcolor="#00cc33" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p lang="en-US" align="center"&gt;N&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;p&gt;
+Производитель: АО "ВЗПП" г. Воронеж</description>
+<gates>
+<gate name=".1" symbol="N-MOSFET_8PIN" x="0" y="10.16" swaplevel="1"/>
+<gate name=".2" symbol="N-MOSFET_8PIN" x="0" y="-10.16" swaplevel="1"/>
+</gates>
+<devices>
+<device name="АС9" package="МК5205.8-2">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="2П7241" prefix="VT">
+<description>&lt;b&gt;АЕЯР.432140.605 ТУ&lt;/b&gt;&lt;p&gt;
+Транзисторная сборка с 2 P-MOSFET&lt;br&gt;
+&lt;table width="100%" cellpadding="4" cellspacing="0" style="page-break-before: always" border="1"&gt;
+	&lt;col width="37*"&gt;
+	&lt;col width="37*"&gt;
+	&lt;col width="37*"&gt;
+	&lt;col width="37*"&gt;
+	&lt;col width="37*"&gt;
+	&lt;col width="37*"&gt;
+	&lt;col width="37*"&gt;
+	&lt;tr&gt;
+		&lt;td width="14%" style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0.1cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;&lt;b&gt;Тип&lt;/b&gt;&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="14%" style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0.1cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p lang="en-US" align="center"&gt;&lt;b&gt;U&lt;sub&gt;&lt;span lang="ru-RU"&gt;СИ &lt;/span&gt;&lt;/sub&gt;&lt;sub&gt;max&lt;/sub&gt;,
+			&lt;span lang="ru-RU"&gt;В&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="14%" style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0.1cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p lang="en-US" align="center"&gt;&lt;b&gt;I&lt;sub&gt;&lt;span lang="ru-RU"&gt;С &lt;/span&gt;&lt;/sub&gt;&lt;sub&gt;max&lt;/sub&gt;,
+			&lt;span lang="ru-RU"&gt;А&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="14%" style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0.1cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p lang="en-US" align="center"&gt;&lt;b&gt;R&lt;sub&gt;&lt;span lang="ru-RU"&gt;СИ
+			откр&lt;/span&gt;&lt;/sub&gt;, &lt;span lang="ru-RU"&gt;Ом&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="14%" style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0.1cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p lang="en-US" align="center"&gt;&lt;b&gt;U&lt;sub&gt;&lt;span lang="ru-RU"&gt;ПОР&lt;/span&gt;&lt;/sub&gt;,
+			&lt;span lang="ru-RU"&gt;В&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="14%" style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0.1cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;&lt;b&gt;Структура&lt;/b&gt;&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="14%" style="border: 1px solid #000000; padding: 0.1cm"&gt;
+			&lt;p lang="en-US" align="center"&gt;&lt;b&gt;P&lt;sub&gt;max&lt;/sub&gt;, &lt;span lang="ru-RU"&gt;Вт&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td width="14%" bgcolor="#00ffff" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;2П7241ГС9 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="14%" bgcolor="#00ffff" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;-20 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="14%" bgcolor="#00ffff" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;-4,7 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="14%" bgcolor="#00ffff" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;0,030 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td rowspan="4" width="14%" bgcolor="#00ffff" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;|-1,0| &amp;divide; |-2,5| 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td rowspan="4" width="14%" bgcolor="#00ffff" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;Р&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td rowspan="10" width="14%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0.1cm"&gt;
+			&lt;p lang="en-US" align="center"&gt;2&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td width="14%" bgcolor="#00ffff" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;2П7241АС9 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="14%" bgcolor="#00ffff" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;-30 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="14%" bgcolor="#00ffff" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;-8&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="14%" bgcolor="#00ffff" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;0,035 
+			&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td width="14%" bgcolor="#00ffff" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;2П7241БС9 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="14%" bgcolor="#00ffff" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;-60 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="14%" bgcolor="#00ffff" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;-3,5 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="14%" bgcolor="#00ffff" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;0,250 
+			&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td width="14%" bgcolor="#00ffff" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;2П7241ВС9 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="14%" bgcolor="#00ffff" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;-100 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="14%" bgcolor="#00ffff" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;-1,5 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="14%" bgcolor="#00ffff" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;0,500 
+			&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td width="14%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;2П7240ГС9 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="14%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;20 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="14%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;8,7 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="14%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;0,022 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td rowspan="4" width="14%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;1,5 &amp;divide; 2,5&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td rowspan="4" width="14%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p lang="en-US" align="center"&gt;N&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td width="14%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;2П7240АС9 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="14%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;30 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="14%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;10 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="14%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;0,020 
+			&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td width="14%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;2П7240БС9 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="14%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;60 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="14%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;5 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="14%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;0,060 
+			&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td width="14%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;2П7240ВС9 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="14%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;100 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="14%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;3,5 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="14%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;0,085 
+			&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td width="14%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;2ПЕ102АС9 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="14%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;-100 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="14%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;-1,5 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="14%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;0,48 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="14%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;|-2,5| &amp;divide; |-5,0| 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="14%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p lang="en-US" align="center"&gt;P&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td width="14%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;2ПЕ101АС9 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="14%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;100 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="14%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;2,1 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="14%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;0,21 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="14%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;1,5 &amp;divide; 6,0 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="14%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p lang="en-US" align="center"&gt;N&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;p&gt;
+Производитель: АО "ВЗПП" г. Воронеж</description>
+<gates>
+<gate name=".1" symbol="P-MOSFET_8PIN" x="0" y="10.16" swaplevel="1"/>
+<gate name=".2" symbol="P-MOSFET_8PIN" x="0" y="-10.16" swaplevel="1"/>
+</gates>
+<devices>
+<device name="ГС9" package="4320.8-А">
+<connects>
+<connect gate=".1" pin="D@0" pad="5"/>
+<connect gate=".1" pin="D@1" pad="6"/>
+<connect gate=".1" pin="G" pad="2"/>
+<connect gate=".1" pin="S" pad="1"/>
+<connect gate=".2" pin="D@0" pad="7"/>
+<connect gate=".2" pin="D@1" pad="8"/>
+<connect gate=".2" pin="G" pad="4"/>
+<connect gate=".2" pin="S" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="АС9" package="4320.8-А">
+<connects>
+<connect gate=".1" pin="D@0" pad="5"/>
+<connect gate=".1" pin="D@1" pad="6"/>
+<connect gate=".1" pin="G" pad="2"/>
+<connect gate=".1" pin="S" pad="1"/>
+<connect gate=".2" pin="D@0" pad="7"/>
+<connect gate=".2" pin="D@1" pad="8"/>
+<connect gate=".2" pin="G" pad="4"/>
+<connect gate=".2" pin="S" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="БС9" package="4320.8-А">
+<connects>
+<connect gate=".1" pin="D@0" pad="5"/>
+<connect gate=".1" pin="D@1" pad="6"/>
+<connect gate=".1" pin="G" pad="2"/>
+<connect gate=".1" pin="S" pad="1"/>
+<connect gate=".2" pin="D@0" pad="7"/>
+<connect gate=".2" pin="D@1" pad="8"/>
+<connect gate=".2" pin="G" pad="4"/>
+<connect gate=".2" pin="S" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="ВС9" package="4320.8-А">
+<connects>
+<connect gate=".1" pin="D@0" pad="5"/>
+<connect gate=".1" pin="D@1" pad="6"/>
+<connect gate=".1" pin="G" pad="2"/>
+<connect gate=".1" pin="S" pad="1"/>
+<connect gate=".2" pin="D@0" pad="7"/>
+<connect gate=".2" pin="D@1" pad="8"/>
+<connect gate=".2" pin="G" pad="4"/>
+<connect gate=".2" pin="S" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="2П7240" prefix="VT">
+<description>&lt;b&gt;АЕЯР.432140.605 ТУ&lt;/b&gt;&lt;p&gt;
+Транзисторная сборка с 2 N-MOSFET&lt;br&gt;
+&lt;table width="100%" cellpadding="4" cellspacing="0" style="page-break-before: always" border="1"&gt;
+	&lt;col width="37*"&gt;
+	&lt;col width="37*"&gt;
+	&lt;col width="37*"&gt;
+	&lt;col width="37*"&gt;
+	&lt;col width="37*"&gt;
+	&lt;col width="37*"&gt;
+	&lt;col width="37*"&gt;
+	&lt;tr&gt;
+		&lt;td width="14%" style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0.1cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;&lt;b&gt;Тип&lt;/b&gt;&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="14%" style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0.1cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p lang="en-US" align="center"&gt;&lt;b&gt;U&lt;sub&gt;&lt;span lang="ru-RU"&gt;СИ &lt;/span&gt;&lt;/sub&gt;&lt;sub&gt;max&lt;/sub&gt;,
+			&lt;span lang="ru-RU"&gt;В&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="14%" style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0.1cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p lang="en-US" align="center"&gt;&lt;b&gt;I&lt;sub&gt;&lt;span lang="ru-RU"&gt;С &lt;/span&gt;&lt;/sub&gt;&lt;sub&gt;max&lt;/sub&gt;,
+			&lt;span lang="ru-RU"&gt;А&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="14%" style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0.1cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p lang="en-US" align="center"&gt;&lt;b&gt;R&lt;sub&gt;&lt;span lang="ru-RU"&gt;СИ
+			откр&lt;/span&gt;&lt;/sub&gt;, &lt;span lang="ru-RU"&gt;Ом&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="14%" style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0.1cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p lang="en-US" align="center"&gt;&lt;b&gt;U&lt;sub&gt;&lt;span lang="ru-RU"&gt;ПОР&lt;/span&gt;&lt;/sub&gt;,
+			&lt;span lang="ru-RU"&gt;В&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="14%" style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0.1cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;&lt;b&gt;Структура&lt;/b&gt;&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="14%" style="border: 1px solid #000000; padding: 0.1cm"&gt;
+			&lt;p lang="en-US" align="center"&gt;&lt;b&gt;P&lt;sub&gt;max&lt;/sub&gt;, &lt;span lang="ru-RU"&gt;Вт&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td width="14%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;2П7241ГС9 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="14%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;-20 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="14%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;-4,7 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="14%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;0,030 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td rowspan="4" width="14%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;|-1,0| &amp;divide; |-2,5| 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td rowspan="4" width="14%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;Р&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td rowspan="10" width="14%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0.1cm"&gt;
+			&lt;p lang="en-US" align="center"&gt;2&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td width="14%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;2П7241АС9 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="14%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;-30 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="14%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;-8&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="14%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;0,035 
+			&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td width="14%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;2П7241БС9 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="14%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;-60 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="14%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;-3,5 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="14%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;0,250 
+			&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td width="14%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;2П7241ВС9 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="14%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;-100 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="14%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;-1,5 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="14%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;0,500 
+			&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td width="14%" bgcolor="#cc66ff" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;2П7240ГС9 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="14%" bgcolor="#cc66ff" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;20 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="14%" bgcolor="#cc66ff" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;8,7 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="14%" bgcolor="#cc66ff" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;0,022 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td rowspan="4" width="14%" bgcolor="#cc66ff" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;1,5 &amp;divide; 2,5&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td rowspan="4" width="14%" bgcolor="#cc66ff" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p lang="en-US" align="center"&gt;N&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td width="14%" bgcolor="#cc66ff" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;2П7240АС9 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="14%" bgcolor="#cc66ff" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;30 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="14%" bgcolor="#cc66ff" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;10 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="14%" bgcolor="#cc66ff" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;0,020 
+			&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td width="14%" bgcolor="#cc66ff" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;2П7240БС9 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="14%" bgcolor="#cc66ff" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;60 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="14%" bgcolor="#cc66ff" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;5 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="14%" bgcolor="#cc66ff" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;0,060 
+			&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td width="14%" bgcolor="#cc66ff" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;2П7240ВС9 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="14%" bgcolor="#cc66ff" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;100 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="14%" bgcolor="#cc66ff" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;3,5 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="14%" bgcolor="#cc66ff" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;0,085 
+			&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td width="14%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;2ПЕ102АС9 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="14%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;-100 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="14%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;-1,5 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="14%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;0,48 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="14%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;|-2,5| &amp;divide; |-5,0| 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="14%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p lang="en-US" align="center"&gt;P&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td width="14%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;2ПЕ101АС9 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="14%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;100 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="14%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;2,1 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="14%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;0,21 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="14%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p align="center"&gt;1,5 &amp;divide; 6,0 
+			&lt;/p&gt;
+		&lt;/td&gt;
+		&lt;td width="14%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"&gt;
+			&lt;p lang="en-US" align="center"&gt;N&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;p&gt;
+Производитель: АО "ВЗПП" г. Воронеж</description>
+<gates>
+<gate name=".1" symbol="N-MOSFET_8PIN" x="0" y="10.16" swaplevel="1"/>
+<gate name=".2" symbol="N-MOSFET_8PIN" x="0" y="-10.16" swaplevel="1"/>
+</gates>
+<devices>
+<device name="ГС9" package="4320.8-А">
+<connects>
+<connect gate=".1" pin="D@0" pad="5"/>
+<connect gate=".1" pin="D@1" pad="6"/>
+<connect gate=".1" pin="G" pad="2"/>
+<connect gate=".1" pin="S" pad="1"/>
+<connect gate=".2" pin="D@0" pad="7"/>
+<connect gate=".2" pin="D@1" pad="8"/>
+<connect gate=".2" pin="G" pad="4"/>
+<connect gate=".2" pin="S" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="АС9" package="4320.8-А">
+<connects>
+<connect gate=".1" pin="D@0" pad="5"/>
+<connect gate=".1" pin="D@1" pad="6"/>
+<connect gate=".1" pin="G" pad="2"/>
+<connect gate=".1" pin="S" pad="1"/>
+<connect gate=".2" pin="D@0" pad="7"/>
+<connect gate=".2" pin="D@1" pad="8"/>
+<connect gate=".2" pin="G" pad="4"/>
+<connect gate=".2" pin="S" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="БС9" package="4320.8-А">
+<connects>
+<connect gate=".1" pin="D@0" pad="5"/>
+<connect gate=".1" pin="D@1" pad="6"/>
+<connect gate=".1" pin="G" pad="2"/>
+<connect gate=".1" pin="S" pad="1"/>
+<connect gate=".2" pin="D@0" pad="7"/>
+<connect gate=".2" pin="D@1" pad="8"/>
+<connect gate=".2" pin="G" pad="4"/>
+<connect gate=".2" pin="S" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="ВС9" package="4320.8-А">
+<connects>
+<connect gate=".1" pin="D@0" pad="5"/>
+<connect gate=".1" pin="D@1" pad="6"/>
+<connect gate=".1" pin="G" pad="2"/>
+<connect gate=".1" pin="S" pad="1"/>
+<connect gate=".2" pin="D@0" pad="7"/>
+<connect gate=".2" pin="D@1" pad="8"/>
+<connect gate=".2" pin="G" pad="4"/>
+<connect gate=".2" pin="S" pad="3"/>
 </connects>
 <technologies>
 <technology name=""/>
